@@ -1,0 +1,225 @@
+/* ===============================
+   Flatpickr Calendar Custom Styles
+   =============================== */
+
+.flatpickr-calendar {
+    font-family: inherit;
+    border-radius: 8px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    width: auto !important;
+    height: auto !important;
+    padding: 10px !important;
+}
+
+.flatpickr-calendar .flatpickr-innerContainer {
+    padding: 10px;
+}
+
+.flatpickr-calendar .flatpickr-day {
+    font-size: 16px;
+    /* padding: 10px 0; */
+    height: 40px; /* Adjusted day height */
+    line-height: 40px; /* Adjusted line-height to center numbers */
+    margin: 2px;
+    border-radius: 6px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.flatpickr-calendar .flatpickr-day.today {
+    border-color: #007bff;
+    color: #007bff;
+    background-color: #e9f5ff;
+}
+
+.flatpickr-calendar .flatpickr-day:hover,
+.flatpickr-calendar .flatpickr-day.selected {
+    background: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.flatpickr-calendar .flatpickr-day.startRange,
+.flatpickr-calendar .flatpickr-day.endRange {
+    background: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.flatpickr-calendar .flatpickr-day.inRange {
+    background: #e9f5ff;
+    border-color: transparent;
+}
+
+.flatpickr-calendar .flatpickr-months {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.flatpickr-calendar .flatpickr-prev-month,
+.flatpickr-calendar .flatpickr-next-month {
+    color: #555;
+}
+
+/* ===============================
+   Flatpickr Calendar Header Container
+   =============================== */
+.flatpickr-current-month {
+    /* *** THIS IS THE CRITICAL FIX: Make the parent a flex container *** */
+    display: flex;
+    align-items: center; /* Vertically center the month and year selectors */
+    justify-content: flex-start; /* Push content to the left */
+    width: 100%;
+    padding: 0 10px; /* Add padding to space out from navigation arrows */
+    box-sizing: border-box; 
+}
+
+/* ===============================
+   Flatpickr Calendar Header Container (No change from last response, kept for context)
+   =============================== */
+.flatpickr-current-month {
+    /* *** THIS IS THE CRITICAL FIX: Make the parent a flex container *** */
+    display: flex;
+    align-items: center; /* Vertically center the month and year selectors */
+    justify-content: flex-start; /* Push content to the left */
+    width: 100%;
+    padding: 0 10px; /* Add padding to space out from navigation arrows */
+    box-sizing: border-box; 
+}
+
+/* ===============================
+   Year and Month Selector Styling
+   =============================== */
+.flatpickr-current-month .flatpickr-monthDropdown-months,
+.flatpickr-current-month .flatpickr-year-select, 
+.flatpickr-current-month .numInput.cur-year {
+    width: auto !important; 
+    font-size: 16px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 5px; 
+}
+
+/* *** NEW FIX: Restore the default dropdown arrow for the year selector *** */
+.flatpickr-current-month .flatpickr-year-select {
+    /* Reset properties that hide the native dropdown arrow */
+    -webkit-appearance: menulist-button !important; /* For Chrome/Safari */
+    -moz-appearance: menulist-button !important;    /* For Firefox */
+    appearance: menulist-button !important;         /* Standard */
+    
+    /* Ensure no theme-specific background is covering the arrow */
+    background: transparent !important; 
+    
+    /* Adjust padding to ensure the arrow has space */
+    padding-right: 20px !important; 
+}
+
+.flatpickr-current-month .numInputWrapper {
+    width: auto !important; 
+    padding-left: 0; 
+}
+
+.flatpickr-current-month .numInput.cur-year {
+    text-align: center;
+}
+
+/* ===============================
+   Time Picker Styles
+   =============================== */
+.flatpickr-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #eee; /* Added border-top */
+    /* padding: 10px; */
+    gap: 10px; /* Increased gap between elements */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px; /* Added padding-top for better spacing */
+    padding-bottom: 10px; /* Added padding-bottom for better spacing */
+}
+
+.flatpickr-time .numInputWrapper .arrowUp,
+.flatpickr-time .numInputWrapper .arrowDown {
+    position: absolute;
+    right: 0;
+    width: 25%;
+    height: 50%;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    line-height: 22px; 
+    padding-left: 7%; 
+}
+
+.flatpickr-time .numInputWrapper .arrowUp {
+    top: 0;
+    /* ADDED: Border-bottom to separate the arrows */
+    border-bottom: 1px solid #ccc; 
+}
+
+.flatpickr-time .numInputWrapper .arrowDown {
+    bottom: 0;
+}
+
+.flatpickr-time input.flatpickr-hour,
+.flatpickr-time input.flatpickr-minute {
+    width: calc(100% - 20px); /* ADJUSTED: Decreased width to prevent overlap */
+    height: 44px;
+    font-size: 18px;
+    text-align: center;
+    border: none; /* IMPORTANT: Removed border from input to avoid doubling up */
+    border-radius: 6px;
+    box-shadow: none;
+    -moz-appearance: textfield;
+}
+
+.flatpickr-time input.flatpickr-hour::-webkit-inner-spin-button,
+.flatpickr-time input.flatpickr-hour::-webkit-outer-spin-button,
+.flatpickr-time input.flatpickr-minute::-webkit-inner-spin-button,
+.flatpickr-time input.flatpickr-minute::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.flatpickr-time .flatpickr-am-pm {
+    width: 60px;
+    height: 44px;
+    font-size: 16px;
+    /* border-radius: 6px;
+    border: 1px solid #ccc; */
+    cursor: pointer;
+    text-align: center;
+    line-height: 44px;
+    background: #fff;
+    transition: background 0.2s ease, border 0.2s ease;
+}
+
+.flatpickr-time .flatpickr-am-pm:hover {
+    background: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+/* ===============================
+   Apply Button Styles
+   =============================== */
+.ph_flatpickr_apply_button {
+    display: block;
+    padding: 8px 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    width: 100%; /* Ensures the button fills the container */
+}
+/* Year Selector */
+.flatpickr-year-select {
+    margin-left: 10px;
+}

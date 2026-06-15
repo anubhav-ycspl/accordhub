@@ -1,0 +1,415 @@
+/*Settings page*/ 
+.ph_availability_table, .ph_availability_table td, .ph_availability_table th {
+	border: 1px solid #dfdfdf;
+	background: #fff;
+}
+.ph_rule_table, .ph_rule_table td, .ph_rule_table th {
+	border: 1px solid #dfdfdf;
+	background: #fff;
+}
+
+.ph_availability_table, .ph_rule_table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table.ph_rule_table td:last-child{
+    border-right: 1px solid #dfdfdf !important;
+}
+
+/*Setting page*/
+.retuned{
+	background: khaki;
+}
+.ph_asset_rule_table th{
+	padding: 15px;
+}
+.ph_asset_rule_table {
+    border-collapse: collapse;
+    width: 95%;
+    background: #fff;
+}
+.ph_asset_rule_table, .ph_asset_rule_table th, .ph_asset_rule_table td {
+    border: 1px solid #dfdfdf;
+}
+
+
+
+/* Admin Bookings report page (html-ph-booking-admin-reports-list-filters.php)*/
+div.ph-list-filter-wraper{
+	/* width: 100%; */
+	margin-top:4px;
+	float: left;
+}
+div.ph-list-bulkaction-wraper{
+	/* width: 18%; */
+	/* float: left; */
+	margin-top:5px;
+}
+div.ph-list-pagination-wraper{
+	float: right;
+}
+div.ph-filter-item{
+	float: left;
+	margin-right:4px;
+}
+.ph_filter_start{
+	width: 100px;
+}
+.ph_booking_status, .ph_filter_product_ids, .ph_filter_from, .ph_filter_end_from, .ph_filter_to, .ph_filter_end_to, .btn_filter{
+	min-height: 30px !important;
+	margin-bottom: 5px;
+	vertical-align: top;
+	max-width: 150px !important;
+}
+.ph_filter_name{
+	margin:4px 2px 0px 6px;
+}
+
+
+
+/*Product page rules*/
+.ph_booking_pricing_rule_type, .ph_booking_availability_type{
+	max-width: 150px !important;
+}
+table.ph_pricing_table td, table.ph_availability_table td{
+	padding: 4px!important;
+	text-align: center;
+}
+.pricing_by_date, .pricing_by_month, .pricing_by_week_days, .pricing_by_time,
+.availability_by_date, .availability_by_month, .availability_by_week_days, .availability_by_time,
+.availability_by_date_range_and_time{
+	text-align: center;
+}
+.pricing_by_date select, .pricing_by_month select, .pricing_by_week_days select, .pricing_by_time select,
+.availability_by_date select, .availability_by_month select, .availability_by_week_days select, .availability_by_time select,
+.availability_by_date_range_and_time select,
+ph_booking_rule_cost_per_unit, ph_booking_is_bookable{
+	float: none !important;
+}
+.pricing_date_picker, .availability_date_picker{
+	text-align: center!important;
+}
+
+.ph-availability-section{
+	margin: 10px;
+}
+
+.restrict-start-day-label{
+	float: left;
+	overflow: hidden;
+	margin: auto;
+	padding: 2px 5px; 
+}
+
+table.ph_availability_table {
+	margin: 5px;
+	width: 99%!important;
+}
+tr.rule td {
+	padding: 5px;
+	/*text-align: center;*/
+	vertical-align: middle;
+}
+.sort{
+	cursor: move;
+	font-size: 15px;
+	text-align: center;
+	vertical-align: middle;
+}
+table.ph_availability_table .ui-sortable:not(.ui-sortable-disabled) td.sort::before {
+	content: '\f333';
+	font-family: Dashicons;
+	text-align: center;
+	line-height: 1;
+	color: #999;
+	display: block;
+	width: 17px;
+	float: left;
+	height: 100%;
+}
+
+.ph_availability_table td {
+	border-right: 1px solid #dfdfdf;
+	border-bottom: 1px solid #dfdfdf;
+	border-top: 0;
+	background: #fff;
+	cursor: default;
+}
+.availability_date_picker{
+	width: 100px;
+}
+select#_phive_first_availability_type {
+	margin: 0px 5px 0px 0px;
+}
+
+table.ph_availability_table tr:last-child td {
+	border-bottom: 0;
+}
+
+table.ph_availability_table tr.current td{
+	background-color: #fefbcc;
+}
+table.ph_availability_table td:last-child {
+	border-right: 1px solid #dfdfdf !important;
+}
+
+table.ph_availability_table th.sort {
+	width: 17px;
+	padding: 0 4px;
+}
+table.ph_availability_table th {
+	padding: 10px;
+	white-space: normal!important; 
+}
+a.close {
+	text-decoration: none;
+	color: #d4d4d4;
+}
+.remove:hover{
+	cursor: pointer;
+	background: #f00;
+	color: #fff!important;
+}
+.remove{
+	text-align: center;
+}
+
+span.label{
+	margin: 0px 5px;
+	/*float: left;*/
+}
+.woocommerce_options_panel input, .woocommerce_options_panel select, .woocommerce_options_panel textarea, .woocommerce_options_panel number{
+	margin: 0px 5px;
+}
+
+.first-availablity-wraper{
+	overflow: hidden;
+	min-height: 115px;
+
+}
+
+/******* Product page Pricing rules ******/
+/********** Input fields Booking Costs ***********/
+.ph_base_cost,.ph_cost_per_block{
+	min-width:50px !important;
+	padding: 8px 5px !important;
+}
+.ph-calendar-month{
+	width:auto !important;
+}
+#booking_availability .woocommerce-help-tip, #booking_options .woocommerce-help-tip{
+
+	font-size: 1.4em !important;
+}
+.persons-wraper input[type="number"], .persons-wraper input[type="text"]{
+	min-width: auto !important;
+}
+
+#booking-list-table-form #current-page-selector{
+	max-width: 35px !important;
+}
+
+#bulk-action-selector-top, #bulk-action-selector-bottom{
+	max-width: 125px !important;	
+}
+
+.ph-list-filter-wraper .ph_filter_to, .ph-list-filter-wraper .ph_filter_from,
+.ph-list-filter-wraper .ph_filter_end_to, .ph-list-filter-wraper .ph_filter_end_from,  #ph_booking_status
+{
+	max-width: 100px !important;	
+}
+
+.ph_filter_product_ids{
+	min-width: 150px !important;
+}
+
+.ph-list-pagination-wraper .pagination-links a.button{
+	min-width: 25px;
+}
+
+#booking-list-table-form .tablenav .displaying-num {
+    margin-right: 0px !important;
+}
+
+.ph-setting-tabs a{
+	margin-top:1%;
+}
+
+.all_addon_container div a img
+{
+	height: 100%;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.all_addon_container div a
+{
+	display: block;
+	text-decoration: none;
+	color: #334862;
+}
+
+.all_addon_container div a:hover
+{
+	outline-width: 0;
+}
+
+.all_addon_container div a p
+{
+	display: inline-block;
+	background-color: #fff;
+	padding: 0.8em 0.5em;
+	margin:0;
+	padding-top: 0.5em;
+	min-height: 37px;
+}
+
+.all_addon_container div
+{
+	display: inline-block;
+	width: 20%;
+	margin: 1%;
+	text-align: center;
+	vertical-align: middle;
+	box-shadow: 0 30px 40px 0 rgba(0,0,0,.2);
+	background-color: #fff;
+	transition-property: transform, box-shadow, background-color, color, opacity, -webkit-transform;
+    transition-duration: 0.3s, 0.3s, 0.3s, 0.3s, 0.3s, 0.3s;
+    transition-timing-function: ease, ease, ease, ease, ease, ease;
+    transition-delay: 0s, 0s, 0s, 0s, 0s, 0s;
+}
+
+.all_addon_container div:hover
+{
+	box-shadow: 0 1px 3px -2px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+}
+
+
+/* Add media queries for smaller screens */
+@media only screen and (max-width: 992px)
+{
+	.all_addon_container div{width: 46%;}
+}
+
+@media screen and (max-width: 420px) {
+	.all_addon_container div
+	{
+		width: 100%;
+		margin: 1% 0%;
+	}
+}
+
+@media screen and (max-width: 290px) {
+	.all_addon_container div
+	{
+		width: 100%;
+		margin: 1% 0%;
+	}
+}
+
+
+h2.nav-tab-wrapper.ph-setting-tabs {
+    display: flex;
+}
+
+/* Outlook Integration Settings */
+
+.ph-outlook-form-element-wrapper {
+	display: flex;
+	gap: 1rem;
+}
+
+.outlook-wrapper input[type="text"],
+.outlook-wrapper input[type="password"] {
+    width: 50%;
+}
+
+#google_calendar_id,
+#google_cal_event_filter,
+.outlook-wrapper #outlook_calendar_id, 
+.outlook-wrapper #outlook_event_filter{
+    width: 50%;
+}
+
+.ph-outlook-redirect-uri-wrapper {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.ph-outlook-redirect-uri-wrapper .ph-copied-text {
+	font-size: 12px;
+	color: green;
+	margin-left: 8px;
+}
+
+.ph-outlook-redirect-uri-wrapper .ph-copy-outlook-redirect-url {
+	cursor: pointer;
+}
+
+/* API Manager - Start */
+.ph_api_key_activation_steps {
+
+	list-style: disc !important;
+	margin-left: 30px;
+}
+/* API Manager - End */
+
+/* PH Bookings RC Banner Styles - Start */
+.ph-bookings-rc-banner-cell {
+    padding: 0;
+}
+
+.ph-bookings-rc-banner {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #fff 80%, #e4f2ff 100%);
+    border: 1px solid #d0e4f7;
+    border-left: 6px solid #0073aa;
+    border-radius: 3px;
+    margin: 20px 0 16px 0;
+    padding: 18px 22px 18px 18px;
+    box-shadow: 0 1px 2px rgba(0,24,74,.03);
+}
+
+.ph-bookings-rc-icon {
+    flex: 0 0 auto;
+    margin-right: 16px;
+    display: block;
+}
+
+.ph-bookings-rc-content {
+    flex: 1 1 auto;
+}
+
+.ph-bookings-rc-title-row {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 12px;
+}
+
+.ph-bookings-rc-title {
+    font-weight: 600;
+    color: #0073aa;
+    font-size: 15px;
+}
+
+.ph-bookings-rc-subtitle {
+    color: #2c3338;
+    font-size: 13px;
+    margin-left: 8px;
+}
+
+.ph-bookings-rc-paragraph {
+    font-size: 13px;
+    color: #4b5563;
+    margin-bottom: 10px;
+}
+
+.ph-bookings-rc-note {
+    font-size: 13px;
+    color: #4b5563;
+}
+/* PH Bookings RC Banner Styles - End */

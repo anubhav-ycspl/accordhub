@@ -1,0 +1,3671 @@
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: fi\n"
+"Language-Team: Finnish\n"
+"Last-Translator: PluginHive\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2025-06-19 11:38+0000\n"
+"POT-Creation-Date: 2023-02-16 08:05+0000\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Bookings and Appointments For WooCommerce Premium\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Generator: Loco\n"
+"X-Loco-Version: 2.8.0; wp-6.8.1; php-8.3.6\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: includes/templates/emails/ph-booking-payment-for-customer-plain.php:48
+#: includes/templates/emails/ph-customer-booking-confirmed-plain.php:47
+msgid ""
+"\n"
+" Please click below link to proceed with the payment \n"
+""
+msgstr "Klikkaa alla olevaa linkkiä jatkaaksesi maksua"
+
+#: includes/templates/emails/ph-booking-payment-for-customer-plain.php:37
+msgid ""
+"\n"
+" Thanks for placing your booking."
+msgstr "Kiitos, että teit varauksesi."
+
+#: includes/templates/emails/ph-booking-payment-for-customer-plain.php:38
+msgid ""
+"\n"
+" We request you to go through the booking details attached in this email. \n"
+""
+msgstr "Pyydämme teitä tutustumaan tämän sähköpostin liitteenä oleviin varaustietoihin."
+
+#: includes/templates/emails/ph-customer-booking-confirmed-plain.php:37
+#, php-format
+msgid ""
+"\n"
+" Your booking at %s is approved. \n"
+""
+msgstr "Varauksesi osoitteessa %s on hyväksytty."
+
+#: includes/templates/emails/ph-customer-booking-reminder-plain.php:37
+#, php-format
+msgid ""
+"\n"
+"I request you to check the bookings details for your appointment with %s.\n"
+""
+msgstr "Pyydän sinua tarkistamaan varaustiedot tapaamistasi varten %s:n kanssa."
+
+#: includes/templates/emails/ph-customer-booking-followup-plain.php:36
+#, php-format
+msgid ""
+"\n"
+"Thank you for booking with %s.<br>Hope you enjoyed our services.\n"
+""
+msgstr "Kiitos, että varaat palvelun %s.<br>Toivottavasti pidit palveluistamme."
+
+#: includes/templates/emails/ph-admin-booking-waiting-for-approval-plain.php:38
+#, php-format
+msgid ""
+"\n"
+"You have received an order #%s. The order is waiting for approval. The order is as follows"
+msgstr "Olet saanut tilauksen #%s. Tilaus odottaa hyväksyntää."
+
+#: includes/templates/emails/ph-customer-booking-cancelled-plain.php:37
+#, php-format
+msgid ""
+"\n"
+"Your booking at %s has been marked as %s.\n"
+""
+msgstr "Varauksesi osoitteesta %s on merkitty nimellä %s."
+
+#: includes/templates/emails/ph-customer-booking-requires-confirmation-plain.php:37
+#, php-format
+msgid ""
+"\n"
+"Your Booking request at %s is awaiting approval.\n"
+""
+msgstr "Varauspyyntösi osoitteessa %s odottaa hyväksyntää."
+
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:864
+msgid " "
+msgstr " "
+
+#: includes/class-ph-booking-google-calendar.php:373
+msgid " (Attention: Time is required for this event)"
+msgstr "Huomio: Tapahtuma vaatii ennakkoon varatun ajan."
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:188
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:83
+msgid " before the booking starts"
+msgstr "ennen varauksen alkamista"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:408
+msgid "%d Booking staus(s) changed to Paid"
+msgstr "%d Varaustila (t) vaihdetaan Paideksi"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:436
+msgid "%d Booking staus(s) changed to Un-Paid"
+msgstr "%d Varaustila (t) muutettiin Un-Paideksi"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:343
+msgid "%d item(s) Booking Confirmed"
+msgstr "%d tuotetta varaus vahvistettu"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:236
+msgid "%d item(s) canceled"
+msgstr "%d tuotetta peruutettu"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:182
+msgid "%d item(s) deleted"
+msgstr "%d tuotetta poistettu"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:458
+msgid "%d items(s) Re-synced with Google Calender"
+msgstr "%d tuotetta synkronoitu uudelleen Google Calenterin kanssa"
+
+#: includes/class-ph-booking-cart-decorator.php:417
+#: includes/class-ph-booking-cart-decorator.php:424
+#, php-format
+msgid "%s has been added to your cart."
+msgstr "%s on lisätty ostoskoriin."
+
+#: includes/frondend/class-ph-booking-calendar-strategy.php:578
+#, php-format
+msgid "(%s left)"
+msgstr "(%s jäljellä)"
+
+#: includes/class-ph-booking-google-calendar.php:350
+msgid "(Attention: Time is required for this event)"
+msgstr "(Huom: Tämä tapahtuma vaatii aikaa)"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:247
+#: includes/admin/views/html-ph-booking-product-admin-options.php:252
+msgid "(s)"
+msgstr "(s)"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:166
+msgid "*Time range can not be used in booking search when timezone conversion is enabled."
+msgstr "*Aikaväliä ei voi käyttää varaushaussa, kun aikavyöhykkeen muuntaminen on käytössä."
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:54
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:125
+msgid "1. All dates are available by default. Create rules to set the time period when you are not available to take bookings."
+msgstr "1. Kaikki päivämäärät ovat saatavana oletuksena. Luo säännöt asettaaksesi ajanjakson, jolloin et ole valmis varaamaan."
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:56
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:127
+msgid "2. Mark all the dates/blocks as unavailable and then set the time period when you are available for bookings."
+msgstr "2. Merkitse kaikki päivämäärät / lohkot pois päältä ja aseta sitten ajanjakso, jolloin olet käytettävissä varauksille."
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:74
+msgid "<br><span style='float:left;'><i>Fixed Blocks : Customers can book one block at a time.<br>Enable Range : Customers can book multiple blocks by choosing a start and an end.</i></span>"
+msgstr "<br><span style='float:left;'><i> Kiinteät lohkot: Asiakkaat voivat varata yhden lohkon kerrallaan.<br>Enable Range: Asiakkaat voivat varata useita lohkoja valitsemalla aloituksen ja lopun.</i></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:28
+msgid "<h4><b>Single Resource</b> - Customers can choose One Resource from a Drop Down containing all the resources. </h4><h4><b>Multiple Resources</b> - Customers can select Multiple Resource while booking.</h4>"
+msgstr "<h4> <b> Yksi resurssi </b> - Asiakkaat voivat valita yhden resurssin avattavasta valikosta, joka sisältää kaikki resurssit. </h4><h4> <b> Useita resursseja </b> - Asiakkaat voivat valita useita resursseja varauksen yhteydessä. </h4>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:196
+msgid "<span style='padding-left:2%; font-size:12px;'><i>Check this box if the booking requires admin approval/confirmation.</i></span>"
+msgstr "<span style='padding-left: 2%; font-size: 12px; '><i>Valitse tämä valintaruutu, jos varaus vaatii järjestelmänvalvojan hyväksyntää / vahvistusta.</i></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:81
+msgid "<span style='padding-left:2%;'><i>Allow multiple bookings for the same block until the specified number is reached.</i></span>"
+msgstr "<span style='padding-left: 2%;'> <i> Salli useita varauksia samalle lohkolle, kunnes määritetty määrä on saavutettu. </i> </span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:137
+msgid "<span style='padding-left:2%;'><i>Auto-Select Minimum Booking Slots.</i></span>"
+msgstr "<span style='padding-left: 2%;'> <i> Valitse automaattisesti valitut vähimmäispaikat. </i> </span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:202
+msgid "<span style='padding-left:2%;'><i>Enable this option to offer bookings on a per night basis. For Eg : Accommodations. The customer can choose a check in and check out date.</i></span>"
+msgstr "<span style='padding-left: 2%;'><i> Ota tämä vaihtoehto käyttöön tarjotaksesi varauksia yötä kohti. Esimerkiksi: Majoitukset. Asiakas voi valita sisään- ja uloskirjautumispäivän. </i></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:281
+msgid "<span style='padding-left:2%;'><i>Enabling this option will allow customers to book timeslots across days. For Eg : 9.00 Am , 1st May to 6.00 Pm 2nd May.</i></span>"
+msgstr "<span style = 'padding-left: 2%;'> <i> Tämän vaihtoehdon ottaminen käyttöön antaa asiakkaille mahdollisuuden varata aikavälejä päivien yli. Esimerkiksi: 9.00 am, 1. toukokuuta - 6.00 Pm 2. toukokuuta. </i> </span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:295
+msgid "<span style='padding-left:2%;'><i>Enabling this option will display both the Booking Slot Start Time as well as End Time on the calendar.</i></span>"
+msgstr "<span style = 'padding-left: 2%;'> <i> Tämän vaihtoehdon ottaminen käyttöön näyttää sekä varauspaikan aloitusajan että lopetusajan kalenterissa. </i> </span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:109
+msgid "<span style='padding-left:2%;'><i>Enabling this will show the Fully Booked Indicator for bookings slots which is fully booked.</i><span>"
+msgstr "<span-tyyli='padding-vasen:2%;'><i> Tämän avulla voit näyttää täysin varatun lähtö- ja saapumisaikojen varausindikaattorin. </i><span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:88
+msgid "<span style='padding-left:2%;'><i>Enabling this will show the number of places left for bookings per block.</i><span>"
+msgstr "<span style='padding-left: 2%;'> <i> Tämän käyttöönotto näyttää varaamiseen jäävien paikkojen määrän lohkoa kohti. </i> <span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:209
+msgid "<span style='padding-left:2%;'><i>Hide checkout date on admin calendar and google calendar for per night bookings.</i></span>"
+msgstr "<span style='padding-left:2%;'><i>Piilota kassapäivä järjestelmänvalvojan kalenterissa ja Google-kalenterissa yökohtaisten varausten osalta.</i></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:146
+msgid "<span style='padding-left:2%;'><i>Set the maximum period the customer can input. Leave blank for unlimited.</i></span>"
+msgstr "<span style='padding-left: 2%;'> <i> Aseta enimmäisaika, jonka asiakas voi syöttää. Jätä tyhjäksi rajoittamaton. </i> </span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:131
+msgid "<span style='padding-left:2%;'><i>Set the minimum booking period the customer can select.</i></span>"
+msgstr "<span style='padding-left: 2%;'> <i> Aseta vähimmäisvarausaika, jonka asiakas voi valita. </i> </span>"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:484
+msgid "<strong>Direct Booking:</strong> Display booking details directly without a calendar for modifications."
+msgstr "<vahva>suora varaus: </vahva> Näytä varaustiedot suoraan ilman kalenteria muutoksia varten."
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:482
+msgid "<strong>Flexible Booking:</strong> Display booking details along with a calendar for editing and modifying."
+msgstr "<vahva>Yhteensopiva varaus: </vahva> Näytä varaustiedot sekä kalenteri muokkausta ja muokkaamista varten."
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:286
+msgid "Across Days Cost Calculation"
+msgstr "Päivien kustannuslaskelma"
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:108
+#: includes/admin/views/html-ph-booking-settings-assets.php:124
+#: includes/admin/views/html-ph-booking-settings-assets.php:173
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:79
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:87
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:181
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:101
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:108
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:151
+msgid "Add"
+msgstr "Lisätä"
+
+#: includes/class-ph-booking-google-calendar.php:1176
+msgid "Add as an event in google calendar"
+msgstr "Lisää tapahtumaksi google-kalenteriin"
+
+#: includes/admin/class-ph-booking-admin-pages.php:48
+#: includes/admin/class-ph-booking-admin-pages.php:81
+#: includes/admin/views/html-ph-booking-admin-order-calender.php:24
+#: includes/admin/views/html-ph-booking-admin-order-calender.php:112
+#: includes/admin/views/html-calendar-month.php:2
+#: includes/admin/views/html-ph-booking-admin-order.php:7
+#: includes/admin/views/html-calendar-day.php:2
+msgid "Add Booking"
+msgstr "Lisää varaus"
+
+#: includes/frondend/class-ph-icalendar-extension.php:283
+msgid "Add Bookings to iCalendar"
+msgstr "Lisää varaukset iCalendariin"
+
+#: includes/frondend/class-ph-icalendar-extension.php:107
+#: includes/frondend/class-ph-icalendar-extension.php:254
+msgid "Add bookings to iCalendar"
+msgstr "Lisää varaukset iCalendariin"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:274
+msgid "Add Customer as Event Attendee"
+msgstr "Lisää asiakas tapahtuman osallistujaksi"
+
+#: includes/admin/class-ph-booking-admin-pages.php:38
+msgid "Add Product"
+msgstr "Lisää tuote"
+
+#: includes/admin/class-ph-booking-admin-pages.php:141
+msgid "Add-Ons"
+msgstr "Lisäosat"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:268
+#: includes/emails/class-ph-booking-payment-for-customer.php:255
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:320
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:290
+#: includes/emails/class-ph-wc-email-booking-reminder.php:269
+#: includes/emails/class-ph-wc-email-booking-followup.php:267
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:307
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:225
+msgid "Additional content"
+msgstr "Lisäsisältö"
+
+#: includes/admin/class-ph-booking-export-bookings.php:143
+#: includes/admin/class-ph-booking-export-bookings.php:638
+msgid "Additional Notes"
+msgstr "Lisämerkinnät"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:251
+msgid "After Booking"
+msgstr "Varauksen jälkeen"
+
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:13
+msgid "All"
+msgstr "Kaikki"
+
+#: includes/admin/class-ph-booking-admin-pages.php:28
+#: includes/admin/class-ph-booking-admin-pages.php:80
+msgid "All Bookings"
+msgstr "Kaikki varaukset"
+
+#: includes/admin/views/html-calendar-day.php:78
+msgid "All Day"
+msgstr "Koko päivä"
+
+#: includes/admin/views/html-calendar-month.php:92
+#: includes/admin/views/html-calendar-day.php:39
+msgid "All Status"
+msgstr "Kaikki Statu"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:35
+msgid "All the costs will be multiplied by the number of participants"
+msgstr "Kaikki kustannukset kerrotaan osallistujien lukumäärällä"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:176
+msgid "Allow Cancellation"
+msgstr "Salli peruutus"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:75
+msgid "Allow customers to book until"
+msgstr "Anna asiakkaiden varata"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:341
+msgid "Allow customers to choose a month from a drop down to navigate to that month directly."
+msgstr "Salli asiakkaiden valita avattavasta kuukaudesta navigoidaksesi kyseiseen kuukauteen suoraan."
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:100
+msgid "Allow start booking only with selected days"
+msgstr "Salli aloittaa varaus vain valittuina päivinä"
+
+#: ph-bookings-appointments-woocommerce-premium.php:534
+#: ph-bookings-appointments-woocommerce-premium.php:637
+msgid "am"
+msgstr "am"
+
+#: ph-bookings-appointments-woocommerce-premium.php:783
+msgid "and"
+msgstr "ja"
+
+#: includes/admin/class-ph-booking-export-bookings.php:128
+#: includes/admin/class-ph-booking-export-bookings.php:131
+msgid "Applicable for bookings made after updating to plugin version 2.3.0"
+msgstr "Koskee varauksia, jotka on tehty laajennuksen versioon 2.3.0 päivityksen jälkeen"
+
+#: ph-bookings-appointments-woocommerce-premium.php:747
+#: includes/class-ph-booking-checkout-decorator.php:861
+#: includes/addons/ph_bookings_month_picker.php:101
+msgid "Apr"
+msgstr "huhtikuu"
+
+#: ph-bookings-appointments-woocommerce-premium.php:733
+#: includes/class-ph-booking-checkout-decorator.php:849
+#: includes/addons/ph_bookings_month_picker.php:87
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:62
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:129
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:68
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:120
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:38
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:77
+msgid "April"
+msgstr "huhtikuu"
+
+#: ph-bookings-appointments-woocommerce-premium.php:763
+msgid "are not available."
+msgstr "eivät ole saatavilla."
+
+#: includes/admin/class-ph-booking-order-manager.php:513
+msgid "Are you sure to cancel booking?"
+msgstr "Haluatko varmasti perua varauksen?"
+
+#: includes/class-ph-booking-checkout-decorator.php:700
+#: includes/class-ph-booking-checkout-decorator.php:768
+#: includes/class-ph-booking-checkout-decorator.php:823
+#: includes/class-ph-booking-google-calendar.php:694
+#: includes/class-ph-booking-google-calendar.php:872
+#: includes/class-ph-booking-google-calendar.php:876
+#: includes/class-ph-booking-google-calendar.php:1672
+#: includes/class-ph-booking-google-calendar.php:1842
+#: includes/class-ph-booking-cart-decorator.php:820
+#: includes/class-ph-booking-ajax-interface.php:152
+#: includes/class-ph-booking-order-item-handler.php:81
+#: includes/admin/class-ph-booking-export-bookings.php:146
+#: includes/admin/class-ph-booking-export-bookings.php:584
+#: includes/frondend/class-ph-booking-calendar-strategy.php:1066
+#: includes/admin/views/html-ph-booking-settings-assets.php:77
+#: includes/admin/views/html-ph-booking-settings-assets.php:154
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:50
+msgid "Asset"
+msgstr "Nimike"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:133
+msgid "Asset Availability"
+msgstr "Omaisuuden saatavuus"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:384
+msgid "Asset Name"
+msgstr "Omaisuuserän nimi"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:62
+msgid "Assets"
+msgstr "Varattavat"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:80
+msgid "Assets are global resources which can be attached either to a single product or to multiple products. Assets have a quantity and availability attached."
+msgstr "Omaisuuserät ovat globaaleja resursseja, jotka voidaan liittää joko yhteen tuotteeseen tai useisiin tuotteisiin. Omaisuuserillä on määrä ja saatavuus."
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:108
+msgid "Assets Name"
+msgstr "Omaisuuden nimi"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:63
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:26
+msgid "Assign"
+msgstr "Varata"
+
+#: includes/admin/views/html-ph-booking-admin-order.php:74
+msgid "Assign this booking to an existing order with this ID:"
+msgstr "Liitä tämä varaus olemassa olevaan tilaukseen, jolla on tämä tunnus:"
+
+#: ph-bookings-appointments-woocommerce-premium.php:751
+#: includes/class-ph-booking-checkout-decorator.php:864
+#: includes/addons/ph_bookings_month_picker.php:105
+msgid "Aug"
+msgstr "elokuu"
+
+#: ph-bookings-appointments-woocommerce-premium.php:737
+#: includes/class-ph-booking-checkout-decorator.php:853
+#: includes/addons/ph_bookings_month_picker.php:91
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:66
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:133
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:72
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:124
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:42
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:81
+msgid "August"
+msgstr "elokuu"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources-matrix-row.php:15
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:93
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:29
+msgid "Automatically assigned"
+msgstr "Annetaan automaattisesti"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:119
+msgid "Availability Rules :"
+msgstr "Saatavuus:"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:234
+#: includes/emails/class-ph-booking-payment-for-customer.php:227
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:292
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:262
+#: includes/emails/class-ph-wc-email-booking-reminder.php:243
+#: includes/emails/class-ph-wc-email-booking-followup.php:241
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:272
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:191
+#, php-format
+msgid "Available placeholders: %s"
+msgstr "Käytettävissä olevat paikkamerkit: %s"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:74
+msgid "Avoid last minute bookings"
+msgstr "Vältä viime hetken varauksia"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:63
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:16
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:84
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:135
+msgid "Base Cost"
+msgstr "Peruskustannukset"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:91
+msgid "Base cost"
+msgstr "Peruskustannukset"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:245
+msgid "Before Booking"
+msgstr "Ennen varausta"
+
+#: includes/emails/class-ph-email-content.php:300
+msgid "Billing address"
+msgstr "Postitusosoite"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:64
+msgid "Block Cost"
+msgstr "Estä kustannukset"
+
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:43
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:60
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:6
+msgid "Block Count"
+msgstr "Estä laskenta"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:279
+msgid "Book Across Days"
+msgstr "Varaa päivien yli"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:162
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:612
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:670
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:756
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:860
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:939
+msgid "Book Now"
+msgstr "Varaa nyt"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:794
+msgid "Book Now Background"
+msgstr "Varaa nyt tausta"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:153
+msgid "Book Now Button"
+msgstr "Varaa nyt -painike"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:675
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:799
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:944
+msgid "Book Now Text"
+msgstr "Varaa nyt teksti"
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:93
+#: includes/admin/views/html-ph-booking-settings-assets.php:158
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:156
+msgid "Bookable"
+msgstr "Varattavissa"
+
+#: includes/admin/views/html-ph-booking-admin-order.php:35
+msgid "Bookable Product"
+msgstr "Varattava tuote"
+
+#: includes/admin/class-ph-booking-product-manager.php:110
+msgid "Bookable product"
+msgstr "Varattava tuote"
+
+#: includes/class-ph-booking-cart-decorator.php:762
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:300
+msgid "Booked"
+msgstr "Varattu"
+
+#: includes/admin/class-ph-booking-export-bookings.php:629
+msgid "Booked By"
+msgstr "Varannut"
+
+#: includes/admin/class-ph-booking-export-bookings.php:134
+#: includes/admin/class-ph-booking-admin-reports-list.php:121
+msgid "Booked by"
+msgstr "Varaus mennessä"
+
+#: includes/class-ph-booking-google-calendar.php:1635
+msgid "Booked by: "
+msgstr "Varaus mennessä:"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:660
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:784
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:954
+msgid "Booked Dates"
+msgstr "Varatut päivämäärät"
+
+#: includes/class-ph-booking-checkout-decorator.php:102
+#: includes/class-ph-booking-google-calendar.php:327
+#: includes/class-ph-booking-google-calendar.php:748
+#: includes/class-ph-booking-cart-decorator.php:760
+#: includes/class-ph-booking-email-manager.php:385
+#: includes/admin/class-ph-booking-admin-order.php:461
+#: includes/admin/class-ph-booking-order-manager.php:41
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:284
+msgid "Booked From"
+msgstr "Varattu alkaen"
+
+#: includes/admin/class-ph-booking-export-bookings.php:128
+#: includes/admin/class-ph-booking-export-bookings.php:613
+msgid "Booked Participants"
+msgstr "Varatut osallistujat"
+
+#: includes/admin/class-ph-booking-export-bookings.php:131
+#: includes/admin/class-ph-booking-export-bookings.php:623
+msgid "Booked Resources"
+msgstr "Varatut resurssit"
+
+#: includes/class-ph-booking-checkout-decorator.php:103
+#: includes/class-ph-booking-google-calendar.php:328
+#: includes/class-ph-booking-google-calendar.php:749
+#: includes/class-ph-booking-cart-decorator.php:761
+#: includes/class-ph-booking-email-manager.php:386
+#: includes/admin/class-ph-booking-admin-order.php:481
+#: includes/admin/class-ph-booking-order-manager.php:42
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:292
+msgid "Booked To"
+msgstr "Varaus päättyy"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:360
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:219
+msgid "Booking"
+msgstr "varaus"
+
+#: includes/admin/views/html-ph-booking-settings-booking-addons.php:8
+msgid "Booking Add-Ons"
+msgstr "Lisäosien varaaminen"
+
+#: includes/admin/class-ph-booking-product-manager.php:78
+msgid "Booking Assets"
+msgstr "Varausten varaaminen"
+
+#: includes/admin/class-ph-booking-product-manager.php:54
+msgid "Booking Availability"
+msgstr "Varaus saatavuus"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:473
+msgid "Booking Availability View"
+msgstr "Varaus Näytä"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:264
+msgid "Booking Cancellation"
+msgstr "Varauksen peruutus"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:45
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:46
+msgid "Booking cancelled emails are sent when the status of a booking goes to cancelled."
+msgstr "Varauksen peruutetuista sähköpostiviesteistä lähetetään, kun varauksen tilaksi tulee peruutettu."
+
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:49
+msgid "Booking confirmed emails are sent when the status of a booking goes from requires confirmation to confirmed."
+msgstr "Varausvahvistetut sähköpostit lähetetään, kun varauksen tila siirtyy vahvistuksesta vahvistukseen."
+
+#: includes/admin/class-ph-booking-export-bookings.php:149
+#: includes/admin/class-ph-booking-export-bookings.php:652
+msgid "Booking Cost"
+msgstr "Varauskustannukset"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:227
+msgid "Booking cost"
+msgstr "Varauskustannukset"
+
+#: includes/frondend/class-ph-icalendar-extension.php:335
+msgid "Booking Cost: "
+msgstr "Varauskustannukset:"
+
+#: includes/class-ph-booking-google-calendar.php:1643
+msgid "Booking cost: "
+msgstr "Varauskustannukset:"
+
+#: includes/admin/class-ph-booking-product-manager.php:60
+msgid "Booking Costs"
+msgstr "Varauskustannukset"
+
+#: includes/admin/views/html-ph-booking-admin-order-calender.php:31
+msgid "Booking Data"
+msgstr "Varaustiedot"
+
+#: includes/frondend/class-ph-booking-product-details.php:6
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:610
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:754
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:858
+msgid "Booking Details"
+msgstr "Varauksen tiedot"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:256
+msgid "Booking has been cancelled. The order details are shown below"
+msgstr "Varaus on peruttu. Tilaustiedot näkyvät alla"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:225
+msgid "Booking Notes Label"
+msgstr "Varausilmoitus"
+
+#: includes/admin/class-ph-booking-product-manager.php:66
+msgid "Booking Participants"
+msgstr "Osallistujien varaaminen"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:57
+msgid "Booking Period"
+msgstr "Varauskausi"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:391
+msgid "Booking Personalization for Admin Calendar"
+msgstr "Varauksen personointi järjestelmänvalvojan kalenteriin"
+
+#: includes/admin/class-ph-booking-product-manager.php:72
+msgid "Booking Resources"
+msgstr "Varausresurssit"
+
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:987
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:10
+msgid "Booking Search"
+msgstr "Varaushaku"
+
+#. Widget name will appear in UI
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:14
+msgid "Booking Search Availability"
+msgstr "Varaushaku Saatavuus"
+
+#: includes/class-ph-booking-checkout-decorator.php:152
+#: includes/class-ph-booking-checkout-decorator.php:176
+#: includes/class-ph-booking-checkout-decorator.php:592
+#: includes/class-ph-booking-checkout-decorator.php:844
+#: includes/class-ph-booking-checkout-decorator.php:898
+#: includes/class-ph-booking-checkout-decorator.php:913
+#: includes/class-ph-booking-google-calendar.php:420
+#: includes/class-ph-booking-google-calendar.php:948
+#: includes/admin/class-ph-booking-export-bookings.php:577
+#: includes/admin/class-ph-booking-admin-reports-list.php:117
+#: includes/admin/class-ph-booking-admin-reports-list.php:211
+#: includes/admin/class-ph-booking-admin-reports-list.php:262
+#: includes/admin/class-ph-booking-admin-reports-list.php:272
+#: includes/admin/class-ph-booking-admin-reports-list.php:311
+#: includes/admin/class-ph-booking-admin-reports-list.php:396
+#: includes/admin/class-ph-booking-admin-reports-list.php:424
+#: includes/admin/class-ph-booking-admin-order.php:679
+#: includes/admin/class-ph-booking-order-manager.php:332
+#: includes/admin/class-ph-booking-order-manager.php:389
+msgid "Booking Status"
+msgstr "Varaustila"
+
+#: includes/func-ph-booking-general-functions.php:10
+msgctxt "Booking status"
+msgid "Cancelled"
+msgstr "peruttu"
+
+#: includes/func-ph-booking-general-functions.php:9
+msgctxt "Booking status"
+msgid "Paid"
+msgstr "Maksettu"
+
+#: includes/func-ph-booking-general-functions.php:13
+msgctxt "Booking status"
+msgid "Partially Paid"
+msgstr "Osittain maksettu"
+
+#: includes/func-ph-booking-general-functions.php:12
+msgctxt "Booking status"
+msgid "Requires Confirmation"
+msgstr "Vaatii vahvistusta"
+
+#: includes/func-ph-booking-general-functions.php:11
+msgctxt "Booking status"
+msgid "Un-paid"
+msgstr "Maksamaton"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:146
+#: includes/admin/views/html-ph-booking-settings-outlook.php:182
+msgid "Booking Status Filter"
+msgstr "Varaustilasuodin"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:361
+msgid "Booking Summary text includes End Date and Time"
+msgstr "Varausyhteenvedon teksti sisältää lopetuspäivän ja ajan"
+
+#: includes/admin/class-ph-booking-product-manager.php:48
+#: includes/admin/class-ph-booking-admin-pages.php:17
+msgid "Bookings"
+msgstr "varaukset"
+
+#. Name of the plugin
+msgid "Bookings and Appointments For WooCommerce Premium"
+msgstr "Varaukset ja nimitykset WooCommerce Premiumille"
+
+#. Description of the plugin
+msgid "Bookings and Appointments solution for all types of businesses."
+msgstr "Varaus- ja tapaamisratkaisu kaikenlaisille yrityksille."
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:57
+msgid "Bookings are open for the next"
+msgstr "Varaukset ovat avoinna seuraavalle"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:47
+msgid "Bookings are open from"
+msgstr "Varaukset ovat avoinna klo"
+
+#: includes/emails/class-ph-booking-payment-for-customer.php:45
+msgid "Bookings confirmation email with Payment Link for manually created bookings."
+msgstr "Varausten vahvistussähköposti, jossa on maksulinkki manuaalisesti luoduille varauksille."
+
+#: includes/admin/class-ph-booking-export-bookings.php:112
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:61
+msgid "Bookings end between"
+msgstr "Varaukset päättyvät välillä"
+
+#: includes/emails/class-ph-wc-email-booking-followup.php:38
+msgid "Bookings follow-up emails are sent once the booking has been completed."
+msgstr "Varausten seurantasähköpostit lähetetään, kun varaus on tehty."
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:36
+msgid "Bookings open no later than"
+msgstr "Varaukset avataan viimeistään"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:29
+msgid "Bookings open no sooner than"
+msgstr "Varaukset avataan aikaisintaan"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:201
+msgid "Bookings Per Night"
+msgstr "Varaukset per yö"
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:122
+#: includes/emails/class-ph-wc-email-booking-reminder.php:133
+msgid "Bookings Reminder"
+msgstr "Varaus muistutus"
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:39
+msgid "Bookings reminder emails are sent prior to the booking start date & time."
+msgstr "Varausmuistutusviestit lähetetään ennen varauksen alkamispäivää ja aikaa."
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:35
+msgid "Bookings Reminders"
+msgstr "Varaukset muistutukset"
+
+#: includes/admin/class-ph-booking-export-bookings.php:106
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:44
+msgid "Bookings start between"
+msgstr "Varaukset alkavat välillä"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:85
+msgid "Bookings will be closed before the specified time. E.g. - Set this option to 10 mins if you don't want any booking in the last 10 mins."
+msgstr "Varaukset suljetaan ennen ilmoitettua aikaa. Esimerkiksi. - Aseta tämä vaihtoehto 10 minuuttiin, jos et halua varausta viimeisen 10 minuutin aikana."
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:284
+msgid "Border"
+msgstr "Raja"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:308
+msgid "Border Color"
+msgstr "Rajan väri"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:290
+msgid "Border Colour"
+msgstr "Rajaväri"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:329
+msgid "Border Radius"
+msgstr "Border Sadius"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:296
+msgid "Border Radius(px)"
+msgstr "Border Radius(px)"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:293
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:311
+msgid "Border Style"
+msgstr "Rajatyyli"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:305
+msgid "Border Width"
+msgstr "Rajan leveys"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:287
+msgid "Border Width(px)"
+msgstr "Rajan leveys(px)"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:239
+msgid "Buffer Time"
+msgstr "Puskuriaika"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:243
+msgid "Button Colour"
+msgstr "Napin väri"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:81
+msgid "Button Title:"
+msgstr "Napin nimi:"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:231
+msgid "Buttons"
+msgstr "Napit"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:430
+msgid "By default Calendar Title have Month followed by Year. Enable this option to display Year first."
+msgstr "Oletusarvoisesti Kalenterin otsikossa on kuukausi ja sen jälkeen vuosi. Ota tämä vaihtoehto käyttöön, jos haluat näyttää vuoden ensin."
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:375
+msgid "By default details in Cart, Order Details and Emails will contain “Booked To”.<br>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Disabling this option will omit the Booking end details and “Booked To” will not be displayed."
+msgstr "Oletuksena ostoskorin, tilaustiedot ja sähköpostitiedot sisältävät “Varattu”. <br>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Jos poistat tämän vaihtoehdon käytöstä, varauksen lopputiedot jätetään pois ja “Varattu” ei näy."
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:365
+msgid "By default the summary of Booking details is displayed as “Booking: December 18, 2019 9:00 AM to December 19, 2019 1:00 PM”.<br>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Disabling this option will omit the Booking end details and display as “Booking: December 18, 2019 9:00 AM”."
+msgstr "Oletuksena varaustietojen yhteenveto näkyy muodossa ”Varaus: 18. joulukuuta 2019 klo 9.00–19.12.2019 13:00”. <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Jos poistat tämän vaihtoehdon käytöstä, varauksen loputiedot jätetään pois ja näytetään nimellä ”Varaus: 18. joulukuuta 2019 9:00”."
+
+#: includes/admin/class-ph-booking-admin-pages.php:68
+#: includes/admin/views/html-calendar-month.php:2
+#: includes/admin/views/html-calendar-day.php:2
+msgid "Calendar"
+msgstr "Kalenteri"
+
+#: includes/admin/class-ph-booking-admin-pages.php:133
+msgid "Calendar Design"
+msgstr "Kalenterisuunnittelu"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:565
+msgid "Calendar Design 1"
+msgstr "Kalenterisuunnittelu 1"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:713
+msgid "Calendar Design 2"
+msgstr "Kalenterisuunnittelu 2"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:836
+msgid "Calendar Design 3"
+msgstr "kalenterin suunnittelu 3"
+
+#: includes/admin/class-ph-booking-admin-pages.php:134
+msgid "Calendar Display"
+msgstr "Kalenterinäyttö"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:308
+msgid "Calendar Display Settings"
+msgstr "Kalenterin näyttöasetukset"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:861
+msgid "Calendar on click"
+msgstr "Kalenteri napsauttamalla"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:60
+msgid "Calendar Range with Blocks of"
+msgstr "Kalenteri alue lohkoilla"
+
+#: includes/admin/class-ph-booking-order-manager.php:518
+msgid "Cancel"
+msgstr "Peruuttaa"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:93
+msgid "Cancel Booking(s)"
+msgstr "Peruuta varaus"
+
+#: class-ph-bookings-translation-support.php:17
+msgid "canceled"
+msgstr "peruttu"
+
+#: includes/class-ph-booking-checkout-decorator.php:95
+#: includes/admin/class-ph-bookings-calendar-admin.php:350
+#: includes/admin/class-ph-booking-admin-order.php:512
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:50
+#: includes/admin/views/html-ph-booking-settings-outlook.php:54
+msgid "Cancelled"
+msgstr "peruttu"
+
+#: class-ph-bookings-translation-support.php:25
+#: includes/admin/class-ph-booking-order-manager.php:389
+msgid "cancelled"
+msgstr "peruttu"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:920
+msgid "Change colors by clicking in the box"
+msgstr "Vaihda värejä napsauttamalla ruutua"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:616
+msgid "Change the background colors by clicking in the box"
+msgstr "Muuta taustavärejä napsauttamalla ruutua"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:760
+msgid "Change the colors by clicking in the box"
+msgstr "Muuta värejä napsauttamalla ruutua"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:65
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:93
+msgid "Charge Per Block"
+msgstr "Maksu korttia kohden"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:64
+msgid "Charge Per Participant"
+msgstr "Maksu osallistujaa kohti"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:17
+msgid "Check this option to eanable assets."
+msgstr "Valitse tämä vaihtoehto, jos haluat käyttää varoja."
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:267
+msgid "Check-in"
+msgstr "Ilmoittautua"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:275
+msgid "Check-out"
+msgstr "Tarkista"
+
+#: includes/admin/views/html-calendar-month.php:81
+#: includes/admin/views/html-calendar-day.php:28
+msgid "Choose Product"
+msgstr "Valitse tuote"
+
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:32
+msgid "Choose product"
+msgstr "Valitse tuote"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:138
+msgid "Choose the Google calendar to which bookings should be synchronized."
+msgstr "Valitse Googlen kalenteri, johon varaukset tulisi synkronoida."
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:171
+msgid "Choose the Outlook calendar to which bookings should be synchronized."
+msgstr "Valitse Outlook-kalenteri, johon varaukset tulisi synkronoida."
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:279
+#: includes/emails/class-ph-booking-payment-for-customer.php:266
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:331
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:301
+#: includes/emails/class-ph-wc-email-booking-reminder.php:280
+#: includes/emails/class-ph-wc-email-booking-followup.php:278
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:318
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:236
+msgid "Choose which format of email to send."
+msgstr "Valitse lähetettävä sähköposti."
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:251
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:268
+msgid "Class"
+msgstr "Luokka"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:234
+msgid "Class Name"
+msgstr "Luokan nimi"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:362
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:885
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:961
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1042
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:265
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:271
+msgid "Clear"
+msgstr "Tyhjennä"
+
+#: includes/class-ph-booking-google-calendar.php:1261
+msgid "Clear the authentication details"
+msgstr "Poista todennustiedot"
+
+#: includes/class-ph-booking-google-calendar.php:1227
+msgid "Cleared all google API authentication details"
+msgstr "Poistettu kaikki google API -todennustiedot"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:83
+#: includes/admin/views/html-ph-booking-settings-outlook.php:83
+msgid "Client ID"
+msgstr "Asiakastunnus"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:93
+#: includes/admin/views/html-ph-booking-settings-outlook.php:93
+msgid "Client Secret"
+msgstr "Asiakassalaisuus"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:94
+msgid "Confirm Booking(s)"
+msgstr "Vahvista varaus"
+
+#: class-ph-bookings-translation-support.php:23
+msgid "Confirmed"
+msgstr "Vahvistettu"
+
+#: class-ph-bookings-translation-support.php:24
+msgid "confirmed"
+msgstr "vahvistettu"
+
+#: includes/class-ph-booking-google-calendar.php:1254
+msgid "Connect"
+msgstr "Kytkeä"
+
+#: includes/class-ph-booking-google-calendar.php:1242
+msgid "Connect Google Calendar"
+msgstr "Yhdistä Google-kalenteri"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:117
+msgid "Connection Status"
+msgstr "Yhteystila"
+
+#: includes/class-ph-booking-google-calendar.php:1270
+msgid "Connection Successfull"
+msgstr "Yhteys onnistui"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:42
+msgid "Consider each participant as separate booking"
+msgstr "Harkitse jokaista osallistujaa erillisenä varauksena"
+
+#: includes/class-ph-booking-cart-decorator.php:419
+msgid "Continue booking"
+msgstr "Jatka varaamista"
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:27
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:85
+msgid "Cost per block"
+msgstr "Hinta per lohko"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:136
+msgid "Cost per participant"
+msgstr "Hinta per osallistuja"
+
+#: includes/admin/views/html-ph-booking-admin-order.php:68
+msgid "Create a new  order."
+msgstr "Luo uusi tilaus."
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:94
+msgid "Create a new asset"
+msgstr "Luo uusi sisältö"
+
+#: includes/admin/views/html-ph-booking-admin-order.php:62
+msgid "Create Order"
+msgstr "Luo tilaus"
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:295
+#: includes/emails/class-ph-wc-email-booking-followup.php:292
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:116
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:231
+msgid "Cron Interval (Minutes)"
+msgstr "Cron -aika (minuutteja)"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:5
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:27
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:7
+msgid "Custom date range"
+msgstr "Muokattu ajanjakso"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:24
+msgid "Custom Home Page"
+msgstr "Oma kotisivu"
+
+#: includes/admin/class-ph-booking-export-bookings.php:137
+#: includes/admin/class-ph-booking-export-bookings.php:632
+msgid "Customer Email"
+msgstr "Asiakkaan sähköposti"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:400
+msgid "Customer Name"
+msgstr "Asiakkaan nimi"
+
+#: includes/class-ph-booking-google-calendar.php:1593
+msgid "Customer Name: "
+msgstr "Asiakkaan nimi:"
+
+#: includes/admin/class-ph-booking-export-bookings.php:140
+#: includes/admin/class-ph-booking-export-bookings.php:635
+msgid "Customer Phone"
+msgstr "Asiakkaan Puhelin"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:68
+msgid "Customers will be able to book till 30 days from today if this option is set to 30 days."
+msgstr "Asiakkaat voivat varata 30 päivään tänään, jos tämän vaihtoehdon arvo on 30 päivää."
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:87
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:201
+msgid "Customise"
+msgstr "Mukauta"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:188
+msgid "Customize Calendar Event Details"
+msgstr "Muokkaa kalenteritapahtumien tietoja"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:170
+msgid "Customize Calendar Event Title"
+msgstr "Mukauta kalenteritapahtuman otsikkoa"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:233
+msgid "Customize Event Details"
+msgstr "Muokkaa tapahtuman yksityiskohtia"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:203
+msgid "Customize Event Title"
+msgstr "Muokkaa tapahtuman otsikkoa"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:339
+msgid "Customize Filter Labels"
+msgstr "Muokkaa suotimen nimikkeitä"
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:84
+msgid "Customize iCalendar Event Details"
+msgstr "Muokkaa iCalendaria Tapahtuman tiedot"
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:66
+msgid "Customize iCalendar Event Title"
+msgstr "Muokkaa iCalendaria Tapahtuman nimi"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:142
+msgid "Customize Labels"
+msgstr "Muokkaa tarroja"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:225
+msgid "Customize Style"
+msgstr "Muokkaa tyyliä"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:259
+msgid "Daily Booking Times:"
+msgstr "Päivittäiset varausajat:"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:949
+msgid "Date Box on Click"
+msgstr "Päivämääräruutu napsauttamalla"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:58
+msgid "Date Format"
+msgstr "Päivämäärä"
+
+#: includes/admin/views/html-calendar-month.php:126
+msgctxt "date format"
+msgid "l"
+msgstr "l"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:9
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:31
+msgid "Date range and time"
+msgstr "Ajanjakso ja aika"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:640
+msgid "Dates"
+msgstr "päivämäärät"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:645
+msgid "Dates Text"
+msgstr "Päivämäärät Teksti"
+
+#: includes/admin/views/html-calendar-month.php:15
+#: includes/admin/views/html-calendar-day.php:14
+msgid "Day"
+msgstr "Päivä"
+
+#: ph-bookings-appointments-woocommerce-premium.php:787
+msgid "day"
+msgstr "päivä"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:70
+#: includes/admin/views/html-ph-booking-product-admin-options.php:185
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:62
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:81
+msgid "Day(s)"
+msgstr "Päivä (ä)"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:131
+msgid "Deactivate & Re-Authorize"
+msgstr "Poista & uudelleenvaltuutus"
+
+#: ph-api-manager/ph_api_manager_bookings.php:499
+msgid "Deactivate and reactivate the Bookings plugin"
+msgstr "Sulje ja aktivoi varausliitännäinen"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:201
+msgid "Debug log"
+msgstr "Virheloki"
+
+#: ph-bookings-appointments-woocommerce-premium.php:755
+#: includes/class-ph-booking-checkout-decorator.php:868
+#: includes/addons/ph_bookings_month_picker.php:109
+msgid "Dec"
+msgstr "joulukuu"
+
+#: ph-bookings-appointments-woocommerce-premium.php:741
+#: includes/class-ph-booking-checkout-decorator.php:857
+#: includes/addons/ph_bookings_month_picker.php:95
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:70
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:137
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:76
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:128
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:46
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:85
+msgid "December"
+msgstr "joulukuu"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:134
+msgid "Define availability for each asset."
+msgstr "Määritä saatavuus jokaiselle omaisuudelle."
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:45
+msgid "Define global availability rules here. These will reflect in all the bookable products and can be overridden at a product level."
+msgstr "Määritä globaalit saatavuussäännöt täällä. Ne heijastuvat kaikissa varattavissa tuotteissa, ja ne voidaan ohittaa tuotetasolla."
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:92
+msgid "Delete Booking(s)"
+msgstr "Poista varaus"
+
+#: ph-api-manager/ph_api_manager_bookings.php:496
+msgid "Delete the previous activation of the license key (If any)"
+msgstr "Poista lisenssiavaimen aiempi aktivointi (jos sellainen on)"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:478
+msgid "Direct Booking"
+msgstr "Suorat varaukset"
+
+#: includes/class-ph-booking-google-calendar.php:1261
+msgid "Disconnect"
+msgstr "Katkaista"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:183
+#: includes/admin/class-ph-booking-admin-reports-list.php:345
+#: includes/admin/class-ph-booking-admin-reports-list.php:409
+#: includes/admin/class-ph-booking-admin-reports-list.php:437
+#: includes/admin/class-ph-booking-admin-reports-list.php:459
+msgid "Dismiss this notice"
+msgstr "Hylkää tämä ilmoitus"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:237
+msgid "Dismiss this notice."
+msgstr "Hylkää tämä ilmoitus."
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:74
+msgid "Display Book Now button"
+msgstr "Näytä kirja Nyt nappia"
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:38
+msgid "Display Cost"
+msgstr "Näyttökustannukset"
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:41
+msgid "Display cost will appear as the product price in the front end. This price is not considered for the dynamic booking cost calculations. If not set, the Base Cost  + the block cost will be the price displayed."
+msgstr "Näyttökustannukset näkyvät tuotteen hintana käyttöliittymässä. Tätä hintaa ei oteta huomioon dynaamisissa varauskustannuslaskelmissa. Jos asetusta ei ole asetettu, peruskustannus + lohkon hinta on näkyvä hinta."
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:441
+msgid "Display Search Availability Widget"
+msgstr "Näytä haku Saatavuus- sovelma"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:17
+msgid "Display Search Widget Visibility"
+msgstr "Näytä hakusovelman näkyvyys"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:4
+msgid "Display Settings"
+msgstr "Näytön asetukset"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:293
+msgid "Display Slot End Time"
+msgstr "Näyttää lähtö- ja saapumisajan"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:237
+msgid "Display Text"
+msgstr "Näytä teksti"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:240
+msgid "Display Text Colour"
+msgstr "Näytä tekstin väri"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:78
+msgid "Display View Product button"
+msgstr "Näytä tuotepainike"
+
+#: ph-bookings-appointments-woocommerce-premium.php:443
+msgid "Documentation"
+msgstr "Dokumentointi"
+
+#: includes/frondend/class-ph-icalendar-extension.php:61
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:4
+msgid "Download .ics File"
+msgstr "Lataa .ics Tiedosto"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:101
+#: includes/admin/class-ph-booking-admin-reports-list.php:125
+#: includes/frondend/class-ph-icalendar-extension.php:284
+msgid "Download iCal File"
+msgstr "Lataa iCal-tiedosto"
+
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:298
+msgid "Email Heading"
+msgstr "Sähköpostien otsikko"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:260
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:263
+#: includes/emails/class-ph-booking-payment-for-customer.php:246
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:311
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:281
+#: includes/emails/class-ph-wc-email-booking-reminder.php:253
+#: includes/emails/class-ph-wc-email-booking-followup.php:251
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:217
+msgid "Email heading"
+msgstr "Sähköpostien otsikko"
+
+#: includes/class-ph-booking-google-calendar.php:1637
+msgid "Email Id: "
+msgstr "Sähköposti tunnus: "
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:277
+#: includes/emails/class-ph-booking-payment-for-customer.php:264
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:329
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:299
+#: includes/emails/class-ph-wc-email-booking-reminder.php:278
+#: includes/emails/class-ph-wc-email-booking-followup.php:276
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:316
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:234
+msgid "Email type"
+msgstr "Sähköpostityyppi"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:338
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:78
+#: includes/admin/views/html-ph-booking-settings-outlook.php:287
+msgid "Enable"
+msgstr "ota käyttöön"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:14
+msgid "Enable Assets"
+msgstr "Ota omaisuus käyttöön"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:216
+msgid "Enable Booking Notes"
+msgstr "Ota varausilmoitukset käyttöön"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:71
+msgid "Enable Booking Reminder Emails"
+msgstr "Ota muistutussähköpostiviestien varaaminen käyttöön"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:283
+msgid "Enable Debug Mode"
+msgstr "Ota vianetsintätila käyttöön"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:185
+msgid "Enable Follow up Emails"
+msgstr "Ota sähköpostien seuranta käyttöön"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:74
+msgid "Enable Google Calendar Sync"
+msgstr "Ota Google-kalenterin synkronointi käyttöön"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:20
+msgid "Enable Participants"
+msgstr "Ota osallistujat käyttöön"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:12
+msgid "Enable Resources"
+msgstr "Ota resurssit käyttöön"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:240
+#: includes/emails/class-ph-booking-payment-for-customer.php:233
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:298
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:268
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:278
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:197
+msgid "Enable this email notification"
+msgstr "Ota tämä sähköposti -ilmoitus käyttöön"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:219
+msgid "Enable this option if you need a text area to appear along with the calendar for clients to enter additional information."
+msgstr "Ota tämä vaihtoehto käyttöön, jos tarvitset tekstialueen näkymisen yhdessä kalenterin kanssa, jotta asiakkaat voivat kirjoittaa lisätietoja."
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:23
+msgid "Enable this option if you want to allow the user to book this product with number of people or materials. For Eg : Adults/Children for hotel room, Chairs for party equipment etc."
+msgstr "Ota tämä vaihtoehto käyttöön, jos haluat sallia käyttäjän varata tämä tuote ihmisten tai materiaalien lukumäärällä. Esimerkiksi: Aikuiset / Lapset hotellihuoneeseen, Tuolit juhlavälineille jne."
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:47
+msgid "Enable this option if you wish to make resource as a mandatory field for bookings."
+msgstr "Ota tämä vaihtoehto käyttöön, jos haluat tehdä resurssin pakollisiksi kentiksi varauksille."
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:15
+msgid "Enable this option if you wish to provide additional resources for the booking. For Eg: Breakfast in the case of hotels."
+msgstr "Ota tämä vaihtoehto käyttöön, jos haluat antaa varaukselle lisäresursseja. Esimerkiksi: Aamiainen hotellien yhteydessä."
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:205
+msgid "Enable this option only to troubleshoot issues in authentication or calendar syncing"
+msgstr "Ota tämä vaihtoehto käyttöön vain todentamisessa tai kalenterin synkronoinnissa olevien ongelmien vianetsinnässä"
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:75
+msgid "Enable this to ensure product-specific availability settings take precedence. Global availability rules will only apply if no product-specific rule exists for a given time slot."
+msgstr "Käytä tätä varmistaaksesi, että tuotekohtaiset saatavuusasetukset ovat etusijalla. Maailmanlaajuista saatavuutta koskevia sääntöjä sovelletaan vain, jos tiettyä aikapaikkaa varten ei ole olemassa tuotekohtaista sääntöä."
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:238
+#: includes/emails/class-ph-booking-payment-for-customer.php:231
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:296
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:266
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:276
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:195
+msgid "Enable/Disable"
+msgstr "Ota käyttöön poista käytöstä"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:289
+msgid "Enabling the option to exclude cost calculation for unavailable slots between consecutive days."
+msgstr "Otetaan käyttöön mahdollisuus sulkea pois käytettävissä olevien paikkojen kustannuslaskenta peräkkäisten päivien välillä."
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:354
+msgid "Enabling this option will allow clients to see the calendar in their own time zone."
+msgstr "Tämän vaihtoehdon ottaminen käyttöön antaa asiakkaille mahdollisuuden nähdä kalenteri omassa aikavyöhykkeessään."
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:43
+msgid "Enabling this option will allow you to export the booking events to your iCalendar via .ics file"
+msgstr "Mahdollistamalla tämän vaihtoehdon voit viedä varaus tapahtumia iCalendar kautta .ics tiedosto"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:77
+msgid "Enabling this option will allow you to sync booking events to your MS Outlook calendar"
+msgstr "Tämän vaihtoehdon avulla voit synkronoida varaus tapahtumia MS Outlook kalenteriin"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:108
+msgid "Enabling this option will allow your customers to add the booking as an event to their google calendar"
+msgstr "Tämän vaihtoehdon ottaminen käyttöön antaa asiakkaille mahdollisuuden lisätä varaus tapahtumana google-kalenteriinsa"
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:52
+msgid "Enabling this option will allow your customers to export the booking events to your iCalendar via .ics file from their My Accounts page"
+msgstr "Tämän vaihtoehdon mahdollistaminen antaa asiakkaillesi mahdollisuuden viedä varaustapahtumat iCalendariin .ics-tiedoston kautta Omat Tilit -sivulta"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:45
+msgid "Enabling this option will create a separate booking order for each participant"
+msgstr "Tämän vaihtoehdon ottaminen käyttöön luo erillisen varaustilauksen jokaiselle osallistujalle"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:135
+msgid "Enabling this option will disable all dates in the calendar. Using this option with availability rules, you can enable desired dates for bookings."
+msgstr "Tämän asetuksen ottaminen käyttöön poistaa kaikki kalenteripäivät. Kun valitset tämän vaihtoehdon saatavuussääntöjen kanssa, voit ottaa halutut päivämäärät varauksille."
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:140
+msgid "Enabling this option will select the Minimum Booking Slots automatically as soon as the customer selects the first slot."
+msgstr "Tämän vaihtoehdon ottaminen käyttöön valitsee Minimivarauspaikat automaattisesti heti, kun asiakas valitsee ensimmäisen korttipaikan."
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:243
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:853
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:873
+msgid "End Date"
+msgstr "Päättymispäivä"
+
+#: includes/frondend/html-ph-booking-monthpicker.php:339
+msgid "End Month"
+msgstr "Loppukuukausi"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:259
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:178
+msgid "End Time"
+msgstr "Loppu aika"
+
+#: includes/emails/class-ph-wc-email-booking-followup.php:287
+msgid "Enter how many minutes after the booking the follow up email should be sent."
+msgstr "Kirjoita kuinka monta minuuttia seuranta -sähköpostin varaamisen jälkeen tulisi lähettää."
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:108
+msgid "Enter how many minutes in advance the reminder email should be sent"
+msgstr "Anna kuinka monta minuuttia etukäteen muistutusviesti on lähetettävä"
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:289
+msgid "Enter how many minutes in advance the reminder email should be sent."
+msgstr "Kirjoita kuinka monta minuuttia etukäteen muistutusviesti on lähetettävä."
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:246
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:203
+#, php-format
+msgid "Enter recipients (comma separated) for this email. Defaults to %s."
+msgstr "Kirjoita tämän sähköpostin vastaanottajat (pilkuilla erotettuina). Oletusarvo on %s."
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:297
+#: includes/emails/class-ph-wc-email-booking-followup.php:294
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:120
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:235
+msgid "Enter the interval, in minutes, at which the cron job should run."
+msgstr "Syötä aikaväli muutamassa minuutissa, jossa Cron -työn tulisi suorittaa."
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:84
+msgid "Enter with your Client id. You can find this under Credentials."
+msgstr "Kirjoita asiakkaan tunnuksella. Löydät tämän kohdasta Käyttöoikeustiedot."
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:94
+msgid "Enter with your Client Secret. You can find this under Credentials."
+msgstr "Kirjoita asiakassalaisuutesi kanssa. Löydät tämän kohdasta Käyttöoikeustiedot."
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:48
+msgid "Event Export for Customers"
+msgstr "Tapahtuman vienti asiakkaille"
+
+#: includes/addons/class-ph-bookings-send-email-notifications.php:76
+#: includes/addons/class-ph-bookings-send-follow-up-emails.php:113
+msgid "Every %d minutes"
+msgstr "Joka %d minuuttia"
+
+#: includes/class-ph-booking-google-calendar.php:266
+msgid "Every %d seconds"
+msgstr "%d sekunnin välein"
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:11
+msgid "Exact Match (days)"
+msgstr "Tarkka ottelu (päivinä)"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:436
+msgid "Experimental Feature: Search Availability Widget"
+msgstr "Kokeellinen ominaisuus: Haku Saatavuus WidgetComment"
+
+#: includes/admin/class-ph-booking-export-bookings.php:160
+msgid "Export and Download"
+msgstr "Vie ja lataa"
+
+#: includes/admin/class-ph-booking-export-bookings.php:38
+#: includes/admin/class-ph-booking-export-bookings.php:86
+msgid "Export Bookings"
+msgstr "Vie varaukset"
+
+#: includes/admin/class-ph-booking-export-bookings.php:89
+msgid "Export Bookings To CSV :"
+msgstr "Export Bookings To CSV :"
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:57
+msgid "Export Event Button Text"
+msgstr "Vie tapahtuman näppäinteksti"
+
+#: ph-bookings-appointments-woocommerce-premium.php:745
+#: includes/class-ph-booking-checkout-decorator.php:859
+#: includes/addons/ph_bookings_month_picker.php:99
+msgid "Feb"
+msgstr "helmikuu"
+
+#: ph-bookings-appointments-woocommerce-premium.php:731
+#: includes/class-ph-booking-checkout-decorator.php:847
+#: includes/addons/ph_bookings_month_picker.php:85
+msgid "February"
+msgstr "helmikuu"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:60
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:127
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:66
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:118
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:36
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:75
+msgid "Febuary"
+msgstr "Helmikuu"
+
+#: includes/admin/class-ph-booking-export-bookings.php:122
+msgid "Fields To Include"
+msgstr "Sisällytettävät kentät"
+
+#: includes/admin/views/html-calendar-month.php:105
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:79
+#: includes/admin/views/html-calendar-day.php:52
+msgid "Filter"
+msgstr "Suodattaa"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:186
+msgid "Filter by Asset Name"
+msgstr "Suodata kohteen nimen mukaan"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:105
+msgid "Filter by Day (For Checkin)"
+msgstr "Suodata päiväkohtaisesti (arkistointia varten)"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:138
+msgid "Filter by Day (For Checkout)"
+msgstr "Suodata päiväkohtaisesti (For Checkout)"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:99
+msgid "Filter by Fixed Date"
+msgstr "Suodata kiinteän päivämäärän mukaan"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:197
+msgid "Filter by Participants"
+msgstr "Suodata osallistujien mukaan"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:163
+msgid "Filter by Time"
+msgstr "Suodata ajan mukaan"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:347
+msgid "Filter Display Text"
+msgstr "Suodattimen näyttöteksti"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:344
+msgid "Filters"
+msgstr "Suodattimet"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:50
+msgid "First Available Date"
+msgstr "Ensimmäinen käytettävissä oleva päivämäärä"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:262
+msgid "First booking starts at :"
+msgstr "Ensimmäinen varaus alkaa:"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:59
+msgid "Fixed Blocks of"
+msgstr "Kiinteät kortit"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:477
+msgid "Flexible Booking"
+msgstr "Joustava varaus"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:222
+msgid "Follow up delay time (Minutes)"
+msgstr "Seurannan viive (minuuttia)"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:180
+msgid "Follow up Email"
+msgstr "Seuraa sähköposti"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:214
+msgid "Follow up Email Content"
+msgstr "Seuraa sähköpostin sisältöä"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:206
+msgid "Follow up Email Subject"
+msgstr "Seuranta sähköpostin aihe"
+
+#: includes/emails/class-ph-wc-email-booking-followup.php:285
+msgid "Followup Time"
+msgstr "Seurannan aika"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:924
+msgid "Font Color"
+msgstr "Fontin väri"
+
+#: includes/admin/class-ph-booking-admin-pages.php:125
+#, php-format
+msgid "For assistance, refer to the %s."
+msgstr "Katso apua osoitteesta %s."
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:181
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:77
+#: includes/admin/views/html-ph-booking-settings-outlook.php:223
+msgid "For eg; if you want to mention customer’s name in the title then choose [CUSTOMER_NAME] tag."
+msgstr "Esimerkiksi, jos haluat mainita asiakkaan nimen otsikossa, valitse [Asiakas_NAME] tag."
+
+#: includes/class-ph-booking-google-calendar.php:1170
+msgid "For more info please visit here: "
+msgstr "Lisätietoja täältä:"
+
+#: includes/addons/ph_bookings_start_of_the_week.php:32
+#: includes/addons/ph_bookings_start_of_the_week.php:41
+#: includes/addons/ph_bookings_start_of_the_week.php:49
+#: includes/addons/ph_bookings_start_of_the_week.php:57
+#: includes/addons/ph_bookings_start_of_the_week.php:65
+#: includes/addons/ph_bookings_start_of_the_week.php:73
+#: includes/addons/ph_bookings_start_of_the_week.php:88
+#: includes/addons/ph_bookings_start_of_the_week.php:95
+#: includes/frondend/html-ph-booking-datepicker.php:574
+#: includes/frondend/class-ph-booking-calendar-strategy.php:862
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:595
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:741
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:903
+msgid "Fr"
+msgstr "Per"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:67
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:32
+msgid "Frequently asked questions about Google Calendar Sync"
+msgstr "Usein kysyttyjä kysymyksiä Google -kalenterisynkronoinnista"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:15
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:79
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:146
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:40
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:57
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:110
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:37
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:85
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:137
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:19
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:55
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:94
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:115
+msgid "Friday"
+msgstr "perjantai"
+
+#: includes/admin/class-ph-booking-export-bookings.php:580
+#: includes/admin/class-ph-booking-admin-reports-list.php:118
+#: includes/addons/booking-search-widget/booking-search-widget.php:363
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:889
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:969
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1046
+#: includes/admin/views/html-ph-booking-settings-availability.php:91
+#: includes/admin/views/html-ph-booking-settings-assets.php:156
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:154
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:47
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:64
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:82
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:133
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:355
+msgid "From"
+msgstr "alkaen"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:352
+msgid "From Date"
+msgstr "Päivämäärä"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:368
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:371
+msgid "From Time"
+msgstr "Ajasta"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:108
+msgid "Fully Booked Indicator"
+msgstr "Täysin varattu indikaattori"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:115
+msgid "Fully Booked Message"
+msgstr "Täysin varattu viesti"
+
+#: includes/admin/class-ph-booking-admin-pages.php:136
+msgid "Global Assets"
+msgstr "Globaalit varat"
+
+#: includes/admin/class-ph-booking-admin-pages.php:135
+#: includes/admin/views/html-ph-booking-settings-availability.php:44
+msgid "Global Availability"
+msgstr "Globaali saatavuus"
+
+#: ph-api-manager/ph_api_manager_bookings.php:493
+msgid "Go to <a href='https://www.pluginhive.com/my-account/api-keys/?utm_source=bookings&utm_medium=plugin_settings' target='_BLANK'>PluginHive > My Account > API Keys</a> Section"
+msgstr "Siirry osoitteeseen <a href='https://www.pluginhive.com/my-account/api-keys/?utm_source=bookings&utm_medium=plugin_settings' kohde='_BLANK'>PluginHive > Oma tili > API Keys </a> Pääluokka"
+
+#: includes/class-ph-booking-google-calendar.php:1222
+msgid "Google API authentication Failed "
+msgstr "Google API -todennus epäonnistui"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:117
+msgid "Google Calendar for Bookings"
+msgstr "Googlen varauskalenteri"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:58
+msgid "Google Calendar Settings"
+msgstr "Google-kalenterin asetukset"
+
+#: includes/admin/class-ph-booking-admin-pages.php:137
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:61
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:26
+msgid "Google Calendar Sync"
+msgstr "Google-kalenterin synkronointi"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:104
+msgid "Google calendar sync for customers"
+msgstr "Google-kalenterin synkronointi asiakkaille"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:217
+msgid "Google calendar Two Way Sync"
+msgstr "Google-kalenteri Kaksisuuntainen synkronointi"
+
+#: includes/admin/views/html-ph-booking-admin-order.php:19
+msgid "Guest"
+msgstr "Vieras"
+
+#: includes/emails/class-ph-email-content.php:225
+#: includes/templates/emails/ph-customer-booking-followup.php:38
+#: includes/templates/emails/ph-booking-payment-for-customer-plain.php:36
+#: includes/templates/emails/ph-customer-booking-requires-confirmation.php:37
+#: includes/templates/emails/ph-customer-booking-requires-confirmation-plain.php:36
+#: includes/templates/emails/ph-customer-booking-confirmed-plain.php:35
+#: includes/templates/emails/ph-customer-booking-reminder.php:38
+#: includes/templates/emails/ph-customer-booking-followup-plain.php:35
+#: includes/templates/emails/ph-customer-booking-cancelled.php:36
+#: includes/templates/emails/ph-customer-booking-confirmed.php:42
+#: includes/templates/emails/ph-customer-booking-cancelled-plain.php:36
+#: includes/templates/emails/ph-customer-booking-reminder-plain.php:36
+msgid "Hi"
+msgstr "Hei"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:39
+msgid "Hide Asset Details from Cart/Checkout, Order Details and Emails"
+msgstr "Piilota omaisuuserän tiedot ostoskorista/kassasta, tilaustiedoista ja sähköposteista."
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:36
+msgid "Hide Assets"
+msgstr "Piilota omaisuuserät"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:46
+msgid "Hide Clear Search button"
+msgstr "Piilota Tyhjennä Etsi- painike"
+
+#. %1$s: Order number, %2$s: Customer full name.
+#: includes/templates/emails/ph-booking-payment-for-customer-html.php:41
+msgid "Hii"
+msgstr "Hii"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:23
+msgid "Home Page"
+msgstr "Etusivu"
+
+#: ph-bookings-appointments-woocommerce-premium.php:786
+msgid "hour"
+msgstr "tunti"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:69
+#: includes/admin/views/html-ph-booking-product-admin-options.php:184
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:61
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:80
+msgid "Hour(s)"
+msgstr "Tunti (a)"
+
+#: ph-api-manager/ph_api_manager_bookings.php:487
+msgid "How to Activate the plugin license?"
+msgstr "Miten aktivoida plugin lisenssi?"
+
+#: includes/class-ph-booking-google-calendar.php:1272
+#: includes/admin/class-ph-booking-admin-reports-list.php:450
+msgid "How to fix the error"
+msgstr "Kuinka korjata virhe"
+
+#. Author URI of the plugin
+msgid "https://www.pluginhive.com/"
+msgstr "https://www.pluginhive.com/"
+
+#. URI of the plugin
+msgid "https://www.pluginhive.com/product/woocommerce-booking-and-appointments/"
+msgstr "https://www.pluginhive.com/product/woocommerce-booking-and-appoints/"
+
+#: includes/templates/emails/ph-customer-booking-reminder.php:39
+#, php-format
+msgid "I request you to check the bookings details for your appointment with %s."
+msgstr "Pyydän teitä tarkistamaan varaustiedot tapaamisestanne %s:n kanssa."
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:39
+msgid "iCalendar Event Export"
+msgstr "iCalendar-tapahtuman vienti"
+
+#: includes/admin/class-ph-booking-admin-pages.php:139
+msgid "iCalendar Export"
+msgstr "iCalendar- vienti"
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:23
+msgid "iCalendar Settings"
+msgstr "iCalendar- asetukset"
+
+#: ph-api-manager/ph_api_manager_bookings.php:489
+msgid "If you are still facing difficulties, please follow the below steps:"
+msgstr "Jos sinulla on edelleen vaikeuksia, noudata seuraavia ohjeita:"
+
+#: ph-api-manager/ph_api_manager_bookings.php:505
+msgid "If you still facing difficulties, kindly contact <a href='https://www.pluginhive.com/support/?utm_source=bookings&utm_medium=plugin_settings' target='_BLANK'>PluginHive Support</a> with the WordPress Administrator Access, along with the PluginHive Purchase Order Details. We will activate it on your site promptly."
+msgstr "Jos sinulla on vielä vaikeuksia, ota ystävällisesti yhteyttä <a href='https://www.pluginhive.com/support/?utm_source=bookings&utm_medium=plugin_settings' object='_BLANK'>PluginHive Support</a> WordPress Administrator Accessin sekä PluginHive Ostotilauksen tiedot. Aktivoimme sen sivustollasi nopeasti."
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:371
+msgid "Include End Date and Time in Cart, Order Details and Emails"
+msgstr "Sisällytä ostoskoriin lopetuspäivä ja -aika, tilaustiedot ja sähköpostit"
+
+#: includes/admin/class-ph-booking-admin-pages.php:142
+#: includes/admin/views/html-ph-booking-settings-booking-integrations.php:7
+msgid "Integrations"
+msgstr "integraatiot"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:231
+msgid "interval in seconds"
+msgstr "väli sekunneissa"
+
+#: includes/admin/class-ph-booking-admin-order.php:123
+msgid "Invalid Order ID."
+msgstr "Virheellinen tilaustunnus."
+
+#: ph-bookings-appointments-woocommerce-premium.php:762
+msgid "is not available."
+msgstr "ei ole saatavilla."
+
+#: ph-bookings-appointments-woocommerce-premium.php:744
+#: includes/class-ph-booking-checkout-decorator.php:858
+#: includes/addons/ph_bookings_month_picker.php:98
+msgid "Jan"
+msgstr "tammikuu"
+
+#: ph-bookings-appointments-woocommerce-premium.php:730
+#: includes/class-ph-booking-checkout-decorator.php:846
+#: includes/addons/ph_bookings_month_picker.php:84
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:59
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:126
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:65
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:117
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:35
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:74
+msgid "January"
+msgstr "tammikuu"
+
+#: ph-bookings-appointments-woocommerce-premium.php:750
+#: includes/class-ph-booking-checkout-decorator.php:863
+#: includes/addons/ph_bookings_month_picker.php:104
+msgid "Jul"
+msgstr "heinäkuu"
+
+#: ph-bookings-appointments-woocommerce-premium.php:736
+#: includes/class-ph-booking-checkout-decorator.php:852
+#: includes/addons/ph_bookings_month_picker.php:90
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:65
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:132
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:71
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:123
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:41
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:80
+msgid "July"
+msgstr "heinäkuu"
+
+#: ph-bookings-appointments-woocommerce-premium.php:749
+#: includes/class-ph-booking-checkout-decorator.php:862
+#: includes/addons/ph_bookings_month_picker.php:103
+msgid "Jun"
+msgstr "kesäkuu"
+
+#: ph-bookings-appointments-woocommerce-premium.php:735
+#: includes/class-ph-booking-checkout-decorator.php:851
+#: includes/addons/ph_bookings_month_picker.php:89
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:64
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:131
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:70
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:122
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:40
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:79
+msgid "June"
+msgstr "kesäkuu"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:420
+msgid "Kindly choose at least one option and a maximum of three to save the settings."
+msgstr "Valitse vähintään yksi vaihtoehto ja enintään kolme vaihtoehtoa tallentaaksesi asetukset."
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:45
+msgid "Label"
+msgstr "etiketti"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:269
+msgid "Last booking starts at :"
+msgstr "Viimeinen varaus alkaa:"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources-matrix-row.php:14
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:28
+msgid "Let customer choose"
+msgstr "Anna asiakkaan valita"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:451
+msgid "Locate the Search Availability Widget in your theme's widget section and add it to a desired widget area to enable the feature."
+msgstr "Etsi hakujen saatavuus Widget teeman widget osa ja lisätä se haluttu widget alue mahdollistaa ominaisuus."
+
+#: includes/class-ph-booking-google-calendar.php:1599
+msgid "Location: "
+msgstr "Sijainti:"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:232
+msgid "Make \"Notes\" Mandatory"
+msgstr "Tee \"Huomautuksista\" pakollisia"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:141
+msgid "Make all Assets unavailable by default"
+msgstr "Tee kaikki resurssit oletusarvoisesti poissa käytöstä"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:132
+msgid "Make all dates/blocks unavailable"
+msgstr "Tee kaikista päivämääristä / lohkoista poissa käytöstä"
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:68
+msgid "Make all dates/blocks unavailable by default"
+msgstr "Tee kaikista päivämääristä / lohkoista oletuksena poissa käytöstä"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:250
+msgid "Manually Sync"
+msgstr "Synkronoi manuaalisesti"
+
+#: ph-bookings-appointments-woocommerce-premium.php:746
+#: includes/class-ph-booking-checkout-decorator.php:860
+#: includes/addons/ph_bookings_month_picker.php:100
+msgid "Mar"
+msgstr "maaliskuu"
+
+#: ph-bookings-appointments-woocommerce-premium.php:732
+#: includes/class-ph-booking-checkout-decorator.php:848
+#: includes/addons/ph_bookings_month_picker.php:86
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:61
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:128
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:67
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:119
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:37
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:76
+msgid "March"
+msgstr "maaliskuu"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:95
+msgid "Mark as Paid"
+msgstr "Merkitse maksettuksi"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:96
+msgid "Mark as Un-Paid"
+msgstr "Merkitse maksamatta"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:90
+msgid "Max"
+msgstr "Max"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:78
+msgid "Max Bookings per Block"
+msgstr "Enintään varauksia korttia kohden"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:185
+msgid "Max no of blocks available"
+msgstr "Lohkojen enimmäismäärä käytettävissä"
+
+#: ph-bookings-appointments-woocommerce-premium.php:702
+msgid "Max no of blocks available to book is %max_block"
+msgstr "Varattavissa olevien lohkojen enimmäismäärä on %max_block."
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:144
+msgid "Maximum Duration"
+msgstr "Enimmäiskesto"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:65
+msgid "Maximum number of participants allowed in a booking"
+msgstr "Enimmäismäärä osallistujia sallitaan varauksessaMaksin osallistujamäärä sallitaan varauksessa"
+
+#: ph-bookings-appointments-woocommerce-premium.php:734
+#: ph-bookings-appointments-woocommerce-premium.php:748
+#: includes/class-ph-booking-checkout-decorator.php:850
+#: includes/addons/ph_bookings_month_picker.php:88
+#: includes/addons/ph_bookings_month_picker.php:102
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:63
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:130
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:69
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:121
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:39
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:78
+msgid "May"
+msgstr "toukokuu"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:89
+msgid "Min"
+msgstr "Min"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:129
+msgid "Minimum Duration"
+msgstr "Vähimmäiskesto"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:194
+msgid "Minimum no of blocks required"
+msgstr "Vähimmäismäärä lohkoja vaaditaan"
+
+#: ph-bookings-appointments-woocommerce-premium.php:779
+msgid "Minimum number of %pname required is %min"
+msgstr "%pname vaadittava vähimmäismäärä on %min"
+
+#: ph-bookings-appointments-woocommerce-premium.php:517
+#: ph-bookings-appointments-woocommerce-premium.php:620
+msgid "Minimum number of participants required for a booking is (%min)"
+msgstr "Varausta tarvittavien osallistujien vähimmäismäärä on (%min)"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:51
+msgid "Minimum number of participants required in a booking"
+msgstr "Varaus edellyttää vähintään osallistujien lukumäärää"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:203
+msgid "Minimum participant"
+msgstr "Vähimmäisosaaja"
+
+#: ph-bookings-appointments-woocommerce-premium.php:785
+msgid "minute"
+msgstr "minuutti"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:68
+#: includes/admin/views/html-ph-booking-product-admin-options.php:183
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:60
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:79
+msgid "Minutes(s)"
+msgstr "Minuuttia (t)"
+
+#: includes/addons/ph_bookings_start_of_the_week.php:28
+#: includes/addons/ph_bookings_start_of_the_week.php:37
+#: includes/addons/ph_bookings_start_of_the_week.php:52
+#: includes/addons/ph_bookings_start_of_the_week.php:60
+#: includes/addons/ph_bookings_start_of_the_week.php:68
+#: includes/addons/ph_bookings_start_of_the_week.php:76
+#: includes/addons/ph_bookings_start_of_the_week.php:84
+#: includes/addons/ph_bookings_start_of_the_week.php:91
+#: includes/frondend/html-ph-booking-datepicker.php:570
+#: includes/frondend/class-ph-booking-calendar-strategy.php:858
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:591
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:737
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:899
+msgid "Mo"
+msgstr "Ma"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:11
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:75
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:142
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:317
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:36
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:53
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:106
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:33
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:81
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:133
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:15
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:51
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:90
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:111
+msgid "Monday"
+msgstr "maanantai"
+
+#: includes/admin/views/html-calendar-month.php:12
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:620
+#: includes/admin/views/html-calendar-day.php:11
+msgid "Month"
+msgstr "Kuukausi"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:334
+msgid "Month Picker"
+msgstr "Kuukauden valitsija"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:625
+msgid "Month Text"
+msgstr "Kuukauden teksti"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:72
+msgid "Month(s)"
+msgstr "Kuukaudet)"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:73
+msgid "MS Outlook Event Sync"
+msgstr "MS Outlook Event Sync"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:68
+msgid "MS Outlook Settings"
+msgstr "MS Outlook- asetukset"
+
+#: includes/admin/class-ph-booking-admin-pages.php:138
+msgid "MS Outlook Sync"
+msgstr "MS Outlook Sync"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:24
+msgid "Multiple Choice (Check box)"
+msgstr "Monivalinta (valintaruutu)"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:32
+msgid "Multiply all costs by number of participants"
+msgstr "Kerro kaikki kustannukset osallistujien lukumäärällä"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:271
+#: includes/emails/class-ph-booking-payment-for-customer.php:258
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:323
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:293
+#: includes/emails/class-ph-wc-email-booking-reminder.php:272
+#: includes/emails/class-ph-wc-email-booking-followup.php:270
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:310
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:228
+msgid "N/A"
+msgstr "N/a"
+
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:220
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:221
+#: includes/templates/emails/ph-admin-booking-waiting-for-approval.php:37
+msgid "New customer order"
+msgstr "Uusi asiakastilaus"
+
+#: includes/templates/emails/ph-admin-booking-waiting-for-approval-plain.php:37
+msgid ""
+"New customer order\n"
+""
+msgstr ""
+"Uusi asiakastilaus\n"
+""
+
+#: includes/admin/views/html-ph-booking-admin-order.php:88
+msgid "Next"
+msgstr "Seuraava"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources-matrix-row.php:21
+#: includes/admin/views/html-ph-booking-product-admin-resources-matrix-row.php:28
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:157
+#: includes/admin/views/html-ph-booking-product-admin-persons-matrix-row.php:20
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:148
+msgid "No"
+msgstr "Ei"
+
+#: class-ph-bookings-translation-support.php:19
+msgid "no"
+msgstr "ei"
+
+#: includes/admin/class-ph-booking-export-bookings.php:483
+msgid "No Bookings Found."
+msgstr "Varauksia ei löydy."
+
+#: includes/admin/class-ph-booking-export-bookings.php:125
+#: includes/admin/class-ph-booking-export-bookings.php:594
+#: includes/admin/class-ph-booking-admin-reports-list.php:120
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:401
+msgid "No of Participants"
+msgstr "Osallistujien lukumäärä"
+
+#: includes/integrations/outlook/class-ph-bookings-outlook.php:230
+msgid "Not Signed in, First sign in to MS Outlook"
+msgstr "Ei kirjautunut sisään, Ensimmäinen kirjautuminen MS Outlookiin"
+
+#: includes/class-ph-booking-google-calendar.php:173
+msgid "Not Synced, First sync with Google Calendar"
+msgstr "Ei synkronoitu, Ensimmäinen synkronointi Google-kalenterin kanssa"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:124
+msgid "Note :  Please save the participants to be able to create the rules for every participant.<br>You can create a common rule for all participants using “Participant Total Count” or you could create a separate rule for every participant."
+msgstr "Huomaa: Tallenna osallistujat voidaksesi luoda säännöt jokaiselle osallistujalle. <br> Voit luoda yhteisen säännön kaikille osallistujille käyttämällä ”osallistujien kokonaismäärää” tai luoda erillisen säännön jokaiselle osallistujalle."
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:275
+msgid "Note : To override these timings for specific days, you can set the Availability Rules under <b>Booking Availability</b>."
+msgstr "Huomaa: Voit ohittaa nämä tiettyjen päivien ajoitukset asettamalla saatavuuden säännöt kohtaan <b> Varausvaraus </b>."
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:175
+msgid "Note:  In case of conflicting rules, the top rule gets priority."
+msgstr "Huomautus: Jos ristiriitaiset säännöt ovat tärkeimmät, etusääntö on etusijalla."
+
+#: ph-bookings-appointments-woocommerce-premium.php:754
+#: includes/class-ph-booking-checkout-decorator.php:867
+#: includes/addons/ph_bookings_month_picker.php:108
+msgid "Nov"
+msgstr "marraskuu"
+
+#: ph-bookings-appointments-woocommerce-premium.php:740
+#: includes/class-ph-booking-checkout-decorator.php:856
+#: includes/addons/ph_bookings_month_picker.php:94
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:69
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:136
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:75
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:127
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:45
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:84
+msgid "November"
+msgstr "Marraskuu"
+
+#: ph-bookings-appointments-woocommerce-premium.php:777
+msgid "Number of %pname cannot exceed %pmax"
+msgstr "%pname ei voi ylittää %pmax"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:392
+msgid "Number of Participants"
+msgstr "Osallistujien lukumäärä"
+
+#: class-ph-bookings-translation-support.php:20
+#: includes/class-ph-booking-checkout-decorator.php:683
+#: includes/addons/class-ph-bookings-send-email-notifications.php:563
+#: includes/emails/class-ph-wc-email-booking-reminder.php:321
+#: includes/emails/class-ph-wc-email-booking-followup.php:312
+msgid "Number of persons"
+msgstr "Henkilöiden lukumäärä"
+
+#: ph-bookings-appointments-woocommerce-premium.php:753
+#: includes/class-ph-booking-checkout-decorator.php:866
+#: includes/addons/ph_bookings_month_picker.php:107
+msgid "Oct"
+msgstr "lokakuu"
+
+#: ph-bookings-appointments-woocommerce-premium.php:739
+#: includes/class-ph-booking-checkout-decorator.php:855
+#: includes/addons/ph_bookings_month_picker.php:93
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:68
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:135
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:74
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:126
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:44
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:83
+msgid "October"
+msgstr "lokakuu"
+
+#: ph-bookings-appointments-woocommerce-premium.php:68
+msgid "Oops! You tried installing the premium version without deactivating and deleting the basic version. Kindly deactivate and delete Bookings and Appointments Woocommerce Extension and then try again"
+msgstr "Oho! Yritit asentaa premium-version poistamatta käytöstä ja poistamatta perusversiota. Deaktivoi ja poista Varaus- ja tapaamisalueiden verkkokaupan laajennus ystävällisesti ja yritä sitten uudelleen"
+
+#: includes/class-ph-booking-ajax-interface.php:237
+#, php-format
+msgid "Oops!, %s is not available to book "
+msgstr "Hups!, %s ei ole varattavissa. "
+
+#: class-ph-bookings-translation-support.php:21
+#: includes/admin/class-ph-booking-export-bookings.php:567
+#: includes/admin/class-ph-booking-admin-reports-list.php:115
+#: includes/emails/class-ph-email-content.php:169
+#: includes/templates/emails/ph-admin-booking-waiting-for-approval.php:45
+#: includes/templates/emails/ph-admin-booking-cancelled.php:43
+msgid "Order"
+msgstr "Tilaus"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:398
+msgid "Order ID"
+msgstr "tilausnumero"
+
+#: includes/class-ph-booking-google-calendar.php:402
+msgid "Order Item:"
+msgstr "Tilaustuote:"
+
+#: includes/class-ph-booking-google-calendar.php:1868
+msgid "Order Item: #"
+msgstr "Tilaustuote: #"
+
+#: includes/class-ph-booking-google-calendar.php:1583
+#: includes/class-ph-booking-order-item-handler.php:104
+msgid "Order Placed"
+msgstr "Tilaus tehty"
+
+#: includes/class-ph-booking-google-calendar.php:396
+msgid "Order:"
+msgstr "Tilaus:"
+
+#: includes/class-ph-booking-google-calendar.php:1868
+msgid "Order: #"
+msgstr "Tilaus: #"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:150
+msgid "Outlook Calendar for Bookings"
+msgstr "Näkymät -kalenteri Varauksille"
+
+#: includes/class-ph-booking-checkout-decorator.php:93
+#: includes/admin/class-ph-bookings-calendar-admin.php:348
+#: includes/admin/class-ph-booking-admin-order.php:510
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:48
+#: includes/admin/views/html-ph-booking-settings-outlook.php:52
+msgid "Paid"
+msgstr "Maksettu"
+
+#: includes/admin/class-ph-bookings-calendar-admin.php:352
+msgid "Partially Paid"
+msgstr "Osittain maksettu"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:368
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:865
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:941
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1022
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:32
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:49
+#: includes/admin/views/html-ph-booking-product-admin-person-rule-matrix-row.php:6
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:395
+msgid "Participant Count"
+msgstr "Osallistujamäärä"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:88
+msgid "Participant Label/Type"
+msgstr "Osallistujan etiketti / tyyppi"
+
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:6
+msgid "Participant Total Count"
+msgstr "Osallistujien kokonaismäärä"
+
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:9
+msgid "Participant Total Count With Block Count"
+msgstr "Osallistujien lukumäärä kokonaismäärällä"
+
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:7
+msgid "Participant Total Count With Custom Date"
+msgstr "Osallistujien kokonaismäärä mukautetulla päivämäärällä"
+
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:8
+msgid "Participant Total Count With Week Days"
+msgstr "Osallistujien kokonaismäärä viikonpäivinä"
+
+#: includes/class-ph-booking-payment-gateway.php:21
+msgid "Pay the full amount after your booking is confirmed. You'll receive a confirmation email with payment details."
+msgstr "Maksa koko summa varauksesi vahvistamisen jälkeen. Saat vahvistussähköpostin ja maksutiedot."
+
+#: includes/class-ph-booking-payment-gateway.php:18
+msgid "Payment on Confirmation"
+msgstr "Maksu vahvistuksella"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:92
+msgid "Per Participant Cost"
+msgstr "Osallistujakohtainen hinta"
+
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:45
+msgid "PH Booking Cancelled"
+msgstr "PH-varaus peruutettu"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:44
+msgid "PH Booking Cancelled For Admin"
+msgstr "PH-varaus peruutettu järjestelmänvalvojalta"
+
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:48
+msgid "PH Booking Confirmed"
+msgstr "PH-varaus vahvistettu"
+
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:45
+msgid "PH Booking Requires Confirmation"
+msgstr "PH-varaus vaatii vahvistuksen"
+
+#: includes/emails/class-ph-wc-email-booking-followup.php:37
+msgid "PH Bookings Followup"
+msgstr "PH -varausten seuranta"
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:38
+msgid "PH Bookings Reminder"
+msgstr "PH -varaukset muistutus"
+
+#: includes/emails/class-ph-booking-payment-for-customer.php:44
+msgid "PH Manual Bookings"
+msgstr "PH Manuaaliset varaukset"
+
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:31
+msgid "PH Waiting For Approval For Admin"
+msgstr "PH odottaa hyväksyntää järjestelmänvalvojalle"
+
+#: includes/class-ph-booking-google-calendar.php:1636
+msgid "Phone: "
+msgstr "Puhelin: "
+
+#: ph-bookings-appointments-woocommerce-premium.php:764
+msgid "Pick a later end date"
+msgstr "Valitse myöhempi lopetuspäivä"
+
+#: ph-bookings-appointments-woocommerce-premium.php:765
+msgid "Pick a later end time"
+msgstr "Valitse myöhempi lopetusaika"
+
+#: includes/frondend/html-ph-booking-monthpicker.php:352
+msgid "Pick Month(s)"
+msgstr "Valitse kuukausi"
+
+#: includes/emails/class-ph-email-content.php:167
+#: includes/templates/emails/ph-booking-payment-for-customer-html.php:54
+#: includes/templates/emails/ph-customer-booking-confirmed.php:54
+msgid "Please click below link to proceed with the payment "
+msgstr "Napsauta alla olevaa linkkiä jatkaaksesi maksua"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:136
+msgid "Please deactivate the <strong>Availability Search Widget Add-on</strong> to access the features in beta version."
+msgstr "Poista <strong>Saatavuushaku Widget Add-on </strong> -sovelman käytöstä beta-version ominaisuuksiin."
+
+#: includes/class-ph-booking-google-calendar.php:1257
+msgid "Please enter the credentials"
+msgstr "Anna käyttäjätiedot"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:64
+msgid "Please Note : Default Emails like “New Booking Order Emails, Booking Cancellation Emails and Booking Approval Emails are sent automatically when applicable, no configuration is required for them."
+msgstr "Huomaa: Oletussähköpostit, kuten ”Uudet varaustilaussähköpostiviestit, Varauksen peruutus- ja varaushyväksyntäsähköpostiviestit, lähetetään automaattisesti tarvittaessa, heille ei tarvita kokoonpanoa."
+
+#: ph-bookings-appointments-woocommerce-premium.php:767
+msgid "Please pick a booking period"
+msgstr "Valitse varausaika"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:161
+msgid "Please Pick a Date"
+msgstr "Ole hyvä ja valitse päivämäärä"
+
+#: ph-bookings-appointments-woocommerce-premium.php:770
+msgid "Please Pick a End Dates."
+msgstr "Ole hyvä ja valitse päättymispäivämäärä."
+
+#: includes/frondend/html-ph-booking-monthpicker.php:305
+msgid "Please Pick a Month"
+msgstr "Ole hyvä ja valitse kuukausi"
+
+#: ph-bookings-appointments-woocommerce-premium.php:776
+msgid "Please pick a month"
+msgstr "Ole hyvä ja valitse kuukausi"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:177
+msgid "Please Pick a Time"
+msgstr "Valitse aika"
+
+#: ph-bookings-appointments-woocommerce-premium.php:709
+msgid "Please pick a Time"
+msgstr "Ole hyvä ja valitse aika"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:169
+msgid "Please Pick an End Date"
+msgstr "Ole hyvä ja valitse lopetuspäivä"
+
+#: ph-bookings-appointments-woocommerce-premium.php:706
+msgid "Please pick an end date"
+msgstr "Valitse päättymispäivä"
+
+#: ph-bookings-appointments-woocommerce-premium.php:775
+msgid "Please pick an end month"
+msgstr "Ole hyvä ja valitse loppukuukausi"
+
+#: ph-bookings-appointments-woocommerce-premium.php:774
+msgid "Please pick the end time"
+msgstr "Ole hyvä ja valitse loppuaika"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:147
+msgid "Please retain the text in parenthesis() and used with % sign as is."
+msgstr "Säilytä teksti suluissa () ja käytä % -merkin kanssa sellaisenaan."
+
+#: ph-bookings-appointments-woocommerce-premium.php:704
+msgid "Please Select minimum %d blocks."
+msgstr "Valitse vähintään %d lohkoa."
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:84
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:198
+msgid "Plugin Default"
+msgstr "Plugin -oletusarvo"
+
+#. Author of the plugin
+msgid "PluginHive"
+msgstr "PluginHive"
+
+#: ph-bookings-appointments-woocommerce-premium.php:535
+#: ph-bookings-appointments-woocommerce-premium.php:638
+msgid "pm"
+msgstr "pm"
+
+#: includes/addons/class-ph-bookings-send-email-notifications.php:533
+#: includes/emails/class-ph-email-content.php:250
+#: includes/templates/emails/ph-admin-booking-waiting-for-approval.php:64
+#: includes/templates/emails/ph-admin-booking-cancelled.php:62
+msgid "Price"
+msgstr "Hinta"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:764
+msgid "Primary Background"
+msgstr "Ensisijainen tausta"
+
+#: includes/addons/class-ph-bookings-send-email-notifications.php:532
+#: includes/admin/class-ph-booking-export-bookings.php:572
+#: includes/admin/class-ph-booking-admin-reports-list.php:116
+#: includes/emails/class-ph-email-content.php:249
+#: includes/templates/emails/ph-admin-booking-waiting-for-approval.php:61
+#: includes/templates/emails/ph-admin-booking-cancelled.php:59
+msgid "Product"
+msgstr "Tuote"
+
+#: includes/admin/class-ph-booking-export-bookings.php:91
+msgid "Product : "
+msgstr "Tuote : "
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:26
+msgid "Product Category Page"
+msgstr "Tuoteluokka Sivu"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:399
+msgid "Product Name"
+msgstr "tuotteen nimi"
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:76
+msgid "Provide Discounts or Special Prices by creating cost rules."
+msgstr "Tarjoa alennuksia tai erikoishintoja luomalla kustannussäännöt."
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:121
+msgid "Provide Discounts or Special Prices for participants by creating participant rules."
+msgstr "Tarjoa osallistujille alennuksia tai erikoishintoja luomalla osallistujasäännöt."
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:109
+msgid "Quantity"
+msgstr "Määrä"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:7
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:29
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:9
+msgid "Range of days"
+msgstr "Päivien alue"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:6
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:28
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:8
+msgid "Range of months"
+msgstr "Kuukausien alue"
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:90
+#: includes/admin/views/html-ph-booking-settings-assets.php:155
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:153
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:132
+msgid "Range Type"
+msgstr "Alueen tyyppi"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:97
+msgid "Re-sync google calender"
+msgstr "Synkronoi google-kalenteri uudelleen"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:64
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:29
+msgid "Read more to know how to "
+msgstr "Lue lisää tietää kuinka"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:61
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:26
+msgid "Read more to know how to set up "
+msgstr "Lue lisää tietääksesi kuinka asentaa"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:67
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:32
+msgid "Read more to know the "
+msgstr "Lue lisää tuntemaan"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:244
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:201
+msgid "Recipient(s)"
+msgstr "Vastaanottaja(t)"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:103
+msgid "Redirect URI"
+msgstr "Uudelleensuuntaa URI"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:93
+#, php-format
+msgid "Refer %s for further details."
+msgstr "Katso %s lisätietoja."
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:133
+#: includes/admin/views/html-ph-booking-settings-outlook.php:167
+msgid "Refresh Calendar List"
+msgstr "Päivitä kalenteriluettelo"
+
+#: includes/class-ph-booking-checkout-decorator.php:97
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:52
+#: includes/admin/views/html-ph-booking-settings-outlook.php:56
+msgid "Refunded"
+msgstr "Hyvitetty"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:87
+msgid "Remaining Bookings"
+msgstr "Jäljellä olevat varaukset"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:93
+msgid "Remaining Bookings Text"
+msgstr "Jäljellä oleva varausteksti"
+
+#: includes/admin/class-ph-booking-admin-pages.php:140
+msgid "Reminder and Follow up Emails"
+msgstr "Muistutus ja seurantatiedot"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:66
+msgid "Reminder Email"
+msgstr "Muistutuksen sähköposti"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:100
+msgid "Reminder Email Content"
+msgstr "Muistutuksen sähköpostisisältö"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:92
+msgid "Reminder Email Subject"
+msgstr "Muistutuksen sähköpostin aihe"
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:287
+msgid "Reminder Time"
+msgstr "Muistutusaika"
+
+#: includes/class-ph-booking-payment-gateway.php:20
+msgid "Request Confirmation"
+msgstr "Pyydä vahvistus"
+
+#: includes/class-ph-booking-checkout-decorator.php:96
+#: includes/admin/class-ph-bookings-calendar-admin.php:351
+#: includes/admin/class-ph-booking-admin-order.php:513
+#: includes/admin/views/html-ph-booking-product-admin-options.php:195
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:51
+#: includes/admin/views/html-ph-booking-settings-outlook.php:55
+msgid "Requires Confirmation"
+msgstr "Vaatii vahvistusta"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:700
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:822
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:982
+msgid "Reset to Default"
+msgstr "Palauta oletukseen"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:401
+msgid "Reset to default"
+msgstr "Nollaa oletusarvoon"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:62
+msgid "Resource Cost (Optional)"
+msgstr "Resurssikustannukset (valinnainen)"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:33
+msgid "Resource Label"
+msgstr "Resurssien etiketti"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:61
+msgid "Resource Name/Label"
+msgstr "Resurssin nimi / tarra"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:44
+msgid "Resource Selection is Mandatory"
+msgstr "Resurssien valinta on pakollista"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:21
+msgid "Resource Type"
+msgstr "Resurssin tyyppi"
+
+#: includes/admin/class-ph-booking-product-manager.php:143
+#: includes/frondend/class-ph-booking-calendar-strategy.php:933
+msgid "Resources"
+msgstr "Varat"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:97
+msgid "Restrict bookings to start only on certain days of the week"
+msgstr "Rajoita varausten alkaminen vain tietyinä viikonpäivinä"
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:81
+msgid "Rule Type"
+msgstr "Säännön tyyppi"
+
+#: includes/addons/ph_bookings_start_of_the_week.php:33
+#: includes/addons/ph_bookings_start_of_the_week.php:42
+#: includes/addons/ph_bookings_start_of_the_week.php:50
+#: includes/addons/ph_bookings_start_of_the_week.php:58
+#: includes/addons/ph_bookings_start_of_the_week.php:66
+#: includes/addons/ph_bookings_start_of_the_week.php:74
+#: includes/addons/ph_bookings_start_of_the_week.php:82
+#: includes/addons/ph_bookings_start_of_the_week.php:96
+#: includes/frondend/html-ph-booking-datepicker.php:575
+#: includes/frondend/class-ph-booking-calendar-strategy.php:863
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:596
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:742
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:904
+msgid "Sa"
+msgstr "Lau"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:16
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:80
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:147
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:41
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:58
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:111
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:38
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:86
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:138
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:20
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:56
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:95
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:116
+msgid "Saturday"
+msgstr "lauantai"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:294
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:699
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:821
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:981
+msgid "Save Changes"
+msgstr "Tallenna muutokset"
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:114
+#: includes/admin/views/html-ph-booking-settings-assets.php:180
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:210
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:241
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:97
+msgid "Save changes"
+msgstr "Tallenna muutokset"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:248
+msgid "Save Interval"
+msgstr "Tallenna väli"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:493
+msgid "Save Settings"
+msgstr "Tallenna asetukset"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:96
+msgid "Save the Product Settings once you create a New Asset in order to create an Asset Rule."
+msgstr "Tallenna tuoteasetukset, kun olet luonut uuden omaisuuden, jotta voit luoda omaisuuserän."
+
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:16
+msgid "Seach here the available Bookings"
+msgstr "Valitse tästä käytettävissä olevat varaukset"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:361
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:881
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:957
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1038
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:248
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:254
+msgid "Search"
+msgstr "Etsi"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:302
+msgid "Search Bar"
+msgstr "Hakupalkki"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:93
+msgid "Search Filters"
+msgstr "Hakusuodattimet"
+
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:48
+#, php-format
+msgid "Search results for: &ldquo;%1$s to %2$s&rdquo;"
+msgstr "Hakutulokset haulle: ”%1$s - %2$s”"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:8
+msgid "Search Widget Title:"
+msgstr "Etsi muokkainta Nimi:"
+
+#: includes/admin/class-ph-booking-export-bookings.php:93
+msgid "Select a product"
+msgstr "Valitse tuote"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:365
+#: includes/addons/booking-search-widget/booking-search-widget.php:366
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:891
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:892
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:971
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:972
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1048
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1049
+msgid "Select a time"
+msgstr "Valitse aika"
+
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:940
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1021
+msgid "Select an Asset"
+msgstr "Valitse omaisuuserä"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:367
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:387
+msgid "Select an asset"
+msgstr "Valitse omaisuuserä"
+
+#: includes/frondend/class-ph-booking-calendar-strategy.php:950
+msgid "Select any"
+msgstr "Valitse mikä tahansa"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:122
+msgid "Select Google Calendar"
+msgstr "Valitse Google-kalenteri"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:155
+msgid "Select Outlook Calendar"
+msgstr "Valitse Outlook-kalenteri"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:202
+msgid "Select Participants"
+msgstr "Valitse osallistujat"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:159
+msgid "Select the booking statuses to sync with your Google calendar. Leave empty to synchronize all booking statuses."
+msgstr "Valitse varaustilanteet synkronoidaksesi Google-kalenterin kanssa. Jätä tyhjä synkronoida kaikki varaustilanteet."
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:195
+msgid "Select the booking statuses to sync with your Outlook calendar. Leave empty to synchronize all booking statuses."
+msgstr "Valitse varaustilanteet synkronoidaksesi Outlook-kalenterin kanssa. Jätä tyhjä synkronoida kaikki varaustilanteet."
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:80
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:194
+msgid "Select the Email Template"
+msgstr "Valitse sähköpostimalli"
+
+#: includes/class-ph-booking-cart-decorator.php:196
+msgid "Selected blocks not available for "
+msgstr "Valitut lohkot eivät ole käytettävissä"
+
+#: includes/class-ph-booking-cart-decorator.php:344
+msgid "Selected blocks not available."
+msgstr "Valitut lohkot eivät ole käytettävissä."
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:95
+msgid "Selected by default"
+msgstr "Valittu oletuksena"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:665
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:789
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:959
+msgid "Selected Date"
+msgstr "Valittu päivämäärä"
+
+#: includes/admin/views/html-ph-booking-admin-order-calender.php:98
+msgid "Send payment link email to customer."
+msgstr "Lähetä maksulinkki sähköpostilla asiakkaalle."
+
+#: ph-bookings-appointments-woocommerce-premium.php:752
+#: includes/class-ph-booking-checkout-decorator.php:865
+#: includes/addons/ph_bookings_month_picker.php:106
+msgid "Sep"
+msgstr "syyskuu"
+
+#: ph-bookings-appointments-woocommerce-premium.php:738
+#: includes/class-ph-booking-checkout-decorator.php:854
+#: includes/addons/ph_bookings_month_picker.php:92
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:67
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:134
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:73
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:125
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:43
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:82
+msgid "September"
+msgstr "syyskuu"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:55
+msgid "Set a booking window relative to today"
+msgstr "Aseta varausikkuna tänään"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:27
+msgid "Set a fixed booking window"
+msgstr "Aseta kiinteä varausikkuna"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:45
+msgid "Set a relative booking window"
+msgstr "Aseta suhteellinen varausikkuna"
+
+#: ph-bookings-appointments-woocommerce-premium.php:795
+#: includes/class-ph-booking-payment-gateway.php:39
+#: includes/admin/class-ph-booking-admin-pages.php:58
+msgid "Settings"
+msgstr "asetukset"
+
+#: includes/emails/class-ph-email-content.php:303
+msgid "Shipping address"
+msgstr "Toimitusosoite"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:25
+msgid "Shop Page"
+msgstr "Kauppasivu"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:217
+msgid "Show Products Partially Unavailable Between The Search Interval"
+msgstr "Näytä tuotteet Osittain ei saatavilla Hakuvälin välillä"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:125
+msgid "Sign in to MS Outlook"
+msgstr "Kirjaudu sisään MS Outlookiin"
+
+#: ph-bookings-appointments-woocommerce-premium.php:768
+msgid "Since max bookings per block is %d and you have enabled 'each participant as a booking' max participants allowed is %d"
+msgstr "Koska enimmäisvarauksia lohkoa kohti on %d ja olet sallinut 'jokaisen osallistujan varauksena' enimmäis osallistujien sallitun %d"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:23
+msgid "Single Choice (Dropdown)"
+msgstr "Yksi valinta (avattava)"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:40
+msgid "Sold Out"
+msgstr "Myyty loppuun"
+
+#: includes/class-ph-booking-ajax-interface.php:208
+#, php-format
+msgid "Sorry! %1$s is not available for the selected slot %2$s to %3$s.<br>Please try a different slot or adjust your booking duration."
+msgstr "Pahoittelut! %1$s ei ole saatavilla valitulle ajalle %2$s–%3$s.<br>Kokeile toista ajankohtaa tai muuta varauksesi kestoa."
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:235
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:845
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:865
+msgid "Start Date"
+msgstr "Aloituspäivämäärä"
+
+#: includes/frondend/html-ph-booking-monthpicker.php:318
+#: includes/frondend/html-ph-booking-monthpicker.php:331
+msgid "Start Month"
+msgstr "Aloituskuukausi"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:251
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:174
+msgid "Start Time"
+msgstr "Aloitusaika"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:262
+msgid "Start Two Way Sync"
+msgstr "Käynnistä kaksisuuntainen synkronointi"
+
+#: includes/class-ph-booking-google-calendar.php:1268
+msgid "Status"
+msgstr "Tila"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:223
+msgid "Stop Two Way Sync"
+msgstr "Lopeta kaksisuuntainen synkronointi"
+
+#: includes/addons/ph_bookings_start_of_the_week.php:27
+#: includes/addons/ph_bookings_start_of_the_week.php:43
+#: includes/addons/ph_bookings_start_of_the_week.php:51
+#: includes/addons/ph_bookings_start_of_the_week.php:59
+#: includes/addons/ph_bookings_start_of_the_week.php:67
+#: includes/addons/ph_bookings_start_of_the_week.php:75
+#: includes/addons/ph_bookings_start_of_the_week.php:83
+#: includes/addons/ph_bookings_start_of_the_week.php:97
+#: includes/frondend/html-ph-booking-datepicker.php:576
+#: includes/frondend/class-ph-booking-calendar-strategy.php:864
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:597
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:743
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:905
+msgid "Su"
+msgstr "Su"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:252
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:255
+#: includes/emails/class-ph-booking-payment-for-customer.php:237
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:302
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:272
+#: includes/emails/class-ph-wc-email-booking-reminder.php:261
+#: includes/emails/class-ph-wc-email-booking-followup.php:259
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:282
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:209
+msgid "Subject"
+msgstr "Kohde"
+
+#: includes/class-ph-booking-google-calendar.php:1218
+msgid "Successfully authenticated to google API"
+msgstr "Google API -sovelluksen todennus onnistui"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:650
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:929
+msgid "Summary"
+msgstr "Yhteenveto"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:769
+msgid "Summary Box"
+msgstr "Yhteenvetokenttä"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:655
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:774
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:934
+msgid "Summary Text"
+msgstr "Yhteenveto"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:17
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:81
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:148
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:316
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:35
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:52
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:112
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:39
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:87
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:139
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:21
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:57
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:96
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:117
+msgid "Sunday"
+msgstr "sunnuntai"
+
+#: ph-bookings-appointments-woocommerce-premium.php:794
+msgid "Support"
+msgstr "Tuki"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:426
+msgid "Swap Month & Year Format in Calendar Title"
+msgstr "Vaihda kuukauden ja vuoden muoto kalenterin otsikossa"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:779
+msgid "Text"
+msgstr "Teksti"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:269
+#: includes/emails/class-ph-booking-payment-for-customer.php:256
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:321
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:291
+#: includes/emails/class-ph-wc-email-booking-reminder.php:270
+#: includes/emails/class-ph-wc-email-booking-followup.php:268
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:308
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:226
+msgid "Text to appear below the main email content."
+msgstr "Teksti näkyvät pääsisällön alla."
+
+#: includes/addons/ph_bookings_start_of_the_week.php:31
+#: includes/addons/ph_bookings_start_of_the_week.php:40
+#: includes/addons/ph_bookings_start_of_the_week.php:48
+#: includes/addons/ph_bookings_start_of_the_week.php:56
+#: includes/addons/ph_bookings_start_of_the_week.php:64
+#: includes/addons/ph_bookings_start_of_the_week.php:79
+#: includes/addons/ph_bookings_start_of_the_week.php:87
+#: includes/addons/ph_bookings_start_of_the_week.php:94
+#: includes/frondend/html-ph-booking-datepicker.php:573
+#: includes/frondend/class-ph-booking-calendar-strategy.php:861
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:594
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:740
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:902
+msgid "Th"
+msgstr "To"
+
+#: includes/templates/emails/ph-customer-booking-followup.php:39
+#, php-format
+msgid "Thank you for booking with %s.<br>Hope you enjoyed our services."
+msgstr "Kiitos, että varasit %s.<br>Toivottavasti pidät palvelustamme."
+
+#: includes/emails/class-ph-booking-payment-for-customer.php:47
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:51
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:95
+#: includes/emails/class-ph-email-content.php:159
+msgid "Thank you for booking with us"
+msgstr "Kiitos, että varaat kanssamme"
+
+#: includes/emails/class-ph-wc-email-booking-followup.php:120
+#: includes/emails/class-ph-wc-email-booking-followup.php:131
+msgid "Thanks for Booking with Us..!"
+msgstr "Kiitos varauksesta kanssamme ..!"
+
+#: includes/templates/emails/ph-booking-payment-for-customer-html.php:42
+msgid "Thanks for placing your booking."
+msgstr "Kiitos varauksestasi."
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:163
+#: includes/emails/class-ph-booking-payment-for-customer.php:156
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:221
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:191
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:199
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:120
+msgid "Thanks for reading."
+msgstr "Kiitos lukemisesta."
+
+#: includes/emails/class-ph-email-content.php:161
+msgid "Thanks for shopping with us"
+msgstr "Kiitos ostoksille kanssamme"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:47
+msgid "The assets get displayed in this label "
+msgstr "Omaisuus näytetään tässä tunnisteessa"
+
+#: includes/templates/emails/ph-admin-booking-cancelled.php:37
+#, php-format
+msgid "The Booking for the order #%s has been cancelled."
+msgstr "Tilauksen #%s varaus on peruutettu."
+
+#: includes/templates/emails/ph-admin-booking-cancelled-plain.php:35
+#, php-format
+msgid ""
+"The Booking for the order #%s has been cancelled.\n"
+""
+msgstr ""
+"Tilauksen #%s varaus on peruutettu.\n"
+""
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:255
+#, php-format
+msgid "The next import is scheduled on <code>%s</code>"
+msgstr "Seuraava tuonti on ajoitettu <code>%s </code>"
+
+#: includes/admin/class-ph-booking-order-manager.php:357
+msgid "The order is canceled"
+msgstr "Tilaus peruutetaan"
+
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:212
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:213
+msgid "The order is waiting for approval"
+msgstr "Tilaus odottaa hyväksyntää"
+
+#: includes/class-ph-booking-payment-gateway.php:62
+msgid "The order is waiting for approval from admin"
+msgstr "Tilaus odottaa hyväksyntää järjestelmänvalvojalta"
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:90
+msgid "The tags/information mentioned in box will be displayed in your iCalendar. You have an option to remove any tags that you do not wish to add to your iCalendar. Similarly, you could add any tags that are missing from the list given below."
+msgstr "Laatikossa mainitut tunnisteet/tiedot näytetään iCalendarissa. Sinulla on mahdollisuus poistaa kaikki tagit, joita et halua lisätä iCalendar. Samoin voit lisätä kaikki tagit, jotka puuttuvat alla olevasta luettelosta."
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:242
+msgid ""
+"The tags/information mentioned in box will be displayed in your MS Outlook Calendar.\n"
+"\t\t\t\t\t\tYou have an option to remove any tags that you do not wish to add to your iCalendar.\n"
+"\t\t\t\t\t\tSimilarly, you could add any tags that are missing from the list given below."
+msgstr ""
+"Laatikossa mainitut tunnisteet/tiedot näytetään MS Outlook -kalenterissasi.\n"
+"Sinulla on mahdollisuus poistaa kaikki tagit, joita et halua lisätä iCalendar.\n"
+"Samoin voit lisätä kaikki tagit, jotka puuttuvat alla olevasta luettelosta."
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:194
+msgid "The tags/information mentioned in box will be synced and displayed in your calendar. You have an option to remove any tags that you do not wish to sync with your calendar. Similarly, you could add any tags that are missing from the list given below.  Please ensure you maintain the html tags for each detail so that the formatting is maintained."
+msgstr "Laatikossa mainitut tunnisteet/tiedot synkronoidaan ja näytetään kalenterissasi. Voit poistaa kaikki tunnisteet, joita et halua synkronoida kalenterisi kanssa. Samoin voit lisätä kaikki tagit, jotka puuttuvat alla olevasta luettelosta. Varmista, että säilytät html tagit kunkin yksityiskohdan niin, että muotoilu pidetään yllä."
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:145
+msgid "The text given below is displayed by the plugin by default. You can change the text messages as per your preference."
+msgstr "Alla oleva teksti näkyy laajennuksessa oletuksena. Voit muuttaa tekstiviestejä haluamallasi tavalla."
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:47
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:123
+msgid "There are two ways you can set the availability rules"
+msgstr "Saatavuussäännöt voidaan asettaa kahdella tavalla"
+
+#: ph-bookings-appointments-woocommerce-premium.php:531
+#: ph-bookings-appointments-woocommerce-premium.php:634
+msgid "There is a maximum of %available_slot place remaining"
+msgstr "Paikka on jäljellä enintään %available_slot -paikasta"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:257
+msgid "There is no import scheduled."
+msgstr "Tuontiaikataulua ei ole."
+
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:46
+msgid "These emails are sent when a booking requires confirmation from admin"
+msgstr "Nämä sähköpostit lähetetään, kun varaus vaatii vahvistuksen järjestelmänvalvojalta"
+
+#: includes/admin/class-ph-booking-admin-pages.php:122
+msgid "These settings are global and apply to all bookable products, but they are optional. To configure specific settings for an individual bookable product, please visit the product’s settings."
+msgstr "Nämä asetukset ovat maailmanlaajuisia ja koskevat kaikkia kirjattavissa olevia tuotteita, mutta ne ovat valinnaisia. Jotta voit määrittää tietyt asetukset yksittäiselle bookable-tuotteelle, käy tuotteenasetuksissa."
+
+#. 1: subject
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:254
+#: includes/emails/class-ph-booking-payment-for-customer.php:240
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:305
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:275
+#: includes/emails/class-ph-wc-email-booking-reminder.php:263
+#: includes/emails/class-ph-wc-email-booking-followup.php:261
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:285
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:211
+msgid "This controls the email subject line. Leave blank to use the default subject.<br>Available placeholders: {site_title}, {site_address}, {site_url}, {order_date}, {order_id}, {order_number}, {order_billing_full_name}"
+msgstr "Tämä hallitsee sähköpostin aiheriviä. Jätä tyhjäksi, jos haluat käyttää oletusaihetta.<br>Saatavilla olevat paikkamerkit: {site_title}, {site_address}, {site_url}, {order_date}, {order_id}, {order_number}, {order_billing_full_name}"
+
+#. 1: heading
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:262
+#: includes/emails/class-ph-booking-payment-for-customer.php:249
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:314
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:284
+#: includes/emails/class-ph-wc-email-booking-reminder.php:255
+#: includes/emails/class-ph-wc-email-booking-followup.php:253
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:301
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:219
+msgid "This controls the main heading contained within the email notification. Leave blank to use the default heading."
+msgstr "Tämä hallitsee sähköposti-ilmoituksen sisältämää pääotsikkoa. Jätä tyhjäksi, jos haluat käyttää oletusotsikkoa."
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:35
+msgid "This description will be displayed with the Resource selection."
+msgstr "Tämä kuvaus näytetään yhdessä Resurssien valinnan kanssa."
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:437
+msgid "This feature is currently in development and may not function as expected in all scenarios. Please report any issues you encounter. We are actively working to improve the functionality and reliability of this feature. Please note that this feature is currently not tested with our add-ons."
+msgstr "Tämä ominaisuus on parhaillaan kehitteillä eikä välttämättä toimi odotetusti kaikissa skenaarioissa. Ilmoittakaa kaikista kohtaamistanne ongelmista. Pyrimme aktiivisesti parantamaan tämän ominaisuuden toimivuutta ja luotettavuutta. Huomaa, että tätä ominaisuutta ei tällä hetkellä testata lisäosillamme."
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:19
+msgid "This is a one-off cost that is applied to the entire booking."
+msgstr "Tämä on kertaluonteinen hinta, jota sovelletaan koko varaukseen."
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:30
+msgid "This is the cost applied to each block booked. for Eg : When booking period is 1 day and cost per block is $10, the total cost for booking 10 days is $100."
+msgstr "Tämä on kullekin varatulle ryhmälle aiheutuva hinta. Esimerkiksi: Jos varausaika on 1 päivä ja hinta per blokki on 10 dollaria, 10 päivän varauksen kokonaiskustannukset ovat 100 dollaria."
+
+#: includes/class-ph-booking-payment-gateway.php:43
+msgid "This payment gateway does not need to config"
+msgstr "Tätä maksuyhdyskäytävää ei tarvitse määrittää"
+
+#: includes/class-ph-booking-payment-gateway.php:42
+msgid "This payment method is used those orders has booking products and pay later (Need confirmation)"
+msgstr "Tätä maksutapaa käytetään niissä tilauksissa, joissa on varaustuotteita ja maksetaan myöhemmin (tarvitaan vahvistus)"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:63
+msgid "This section allows you to configure Reminder and Follow up Emails for your bookings. Please configure them below :"
+msgstr "Tässä osiossa voit määrittää muistutus- ja seurantamailusähköpostit varauksille. Määritä ne alla:"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:101
+msgid "This text is displayed below each date or time block For Eg: 10 Left"
+msgstr "Tämä teksti näkyy kunkin päivämäärä- tai aikajakson alapuolella. Esimerkiksi: 10 vasemmalle"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:123
+msgid "This text is displayed below fully booked date or time slot."
+msgstr "Tämä teksti näytetään alla täysin varattu päivämäärä tai kellonaika."
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:61
+msgid "This text will be displayed on the .ics file download button on the customer's My Account Page"
+msgstr "Tämä teksti näytetään .ics-tiedoston latauspainikkeella asiakkaan Oman tilin sivulla"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:327
+msgid "This will be the first weekday in the calendar."
+msgstr "Tämä on kalenterin ensimmäinen arkipäivä."
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:369
+msgid "This will reset all the settings to default. Click 'Ok' to proceed."
+msgstr "Tämä nollaa kaikki asetukset oletusarvoon. Klikkaa \"Ok\" jatkaa."
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:14
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:78
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:145
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:39
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:56
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:109
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:36
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:84
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:136
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:18
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:54
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:93
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:114
+msgid "Thursday"
+msgstr "torstai"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:227
+msgid "Time Interval"
+msgstr "Aikaväli"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:170
+msgid "Time Interval in Minutes"
+msgstr "Aikaväli minuuttia"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:10
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:32
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:14
+msgid "Time Range (all week)"
+msgstr "Aikaväli (koko viikko)"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:8
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:30
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:13
+msgid "Time Ranges"
+msgstr "Aika-alueet"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:348
+msgid "Time Zone Conversion"
+msgstr "Aikavyöhykkeen muuntaminen"
+
+#: includes/admin/class-ph-booking-export-bookings.php:581
+#: includes/admin/class-ph-booking-admin-reports-list.php:119
+#: includes/addons/booking-search-widget/booking-search-widget.php:364
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:890
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:970
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1047
+#: includes/admin/views/html-ph-booking-settings-availability.php:92
+#: includes/admin/views/html-ph-booking-settings-assets.php:157
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:155
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:54
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:71
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:83
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:134
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:363
+msgid "To"
+msgstr "jotta"
+
+#: ph-bookings-appointments-woocommerce-premium.php:759
+msgid "to"
+msgstr "että"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:360
+msgid "To Date"
+msgstr "Toistaiseksi"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:376
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:379
+msgid "To Time"
+msgstr "Aikaan"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:49
+msgid "Today"
+msgstr "Tänään"
+
+#: includes/class-ph-booking-checkout-decorator.php:441
+#: includes/class-ph-booking-checkout-decorator.php:684
+#: includes/class-ph-booking-google-calendar.php:737
+#: includes/class-ph-booking-google-calendar.php:1649
+#: includes/addons/class-ph-bookings-send-email-notifications.php:562
+#: includes/admin/class-ph-booking-admin-order.php:361
+#: includes/admin/class-ph-booking-order-manager.php:306
+#: includes/admin/class-ph-booking-order-manager.php:607
+#: includes/emails/class-ph-wc-email-booking-reminder.php:320
+#: includes/emails/class-ph-wc-email-booking-followup.php:311
+msgid "Total Number of Participants"
+msgstr "Osallistujien kokonaismäärä"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:53
+msgid "Total number of Participants can not be lesser than this value."
+msgstr "Osallistujien kokonaismäärä ei voi olla pienempi kuin tämä arvo."
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:67
+msgid "Total number of Participants will not exceed this value."
+msgstr "Osallistujien kokonaismäärä ei ylitä tätä arvoa."
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:211
+msgid "Total participant"
+msgstr "Koko osallistuja"
+
+#: ph-bookings-appointments-woocommerce-premium.php:516
+#: ph-bookings-appointments-woocommerce-premium.php:619
+msgid "Total participant (%total) exceeds maximum allowed participant (%max)"
+msgstr "Osallistujien kokonaismäärä (%total) ylittää suurimman sallitun osallistujan (%max)"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:64
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:29
+msgid "Troubleshoot Google Calendar Sync"
+msgstr "Vianetsintä Google -kalenterin synkronointi"
+
+#: includes/addons/ph_bookings_start_of_the_week.php:29
+#: includes/addons/ph_bookings_start_of_the_week.php:38
+#: includes/addons/ph_bookings_start_of_the_week.php:46
+#: includes/addons/ph_bookings_start_of_the_week.php:61
+#: includes/addons/ph_bookings_start_of_the_week.php:69
+#: includes/addons/ph_bookings_start_of_the_week.php:77
+#: includes/addons/ph_bookings_start_of_the_week.php:85
+#: includes/addons/ph_bookings_start_of_the_week.php:92
+#: includes/frondend/html-ph-booking-datepicker.php:571
+#: includes/frondend/class-ph-booking-calendar-strategy.php:859
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:592
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:738
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:900
+msgid "Tu"
+msgstr "Ti"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:12
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:76
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:143
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:37
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:54
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:107
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:34
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:82
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:134
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:16
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:52
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:91
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:112
+msgid "Tuesday"
+msgstr "tiistai"
+
+#: class-ph-bookings-translation-support.php:22
+msgid "un-paid"
+msgstr "maksamaton"
+
+#: includes/class-ph-booking-checkout-decorator.php:94
+#: includes/class-ph-booking-google-calendar.php:948
+#: includes/admin/class-ph-bookings-calendar-admin.php:349
+#: includes/admin/class-ph-booking-admin-order.php:511
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:49
+#: includes/admin/views/html-ph-booking-settings-outlook.php:53
+msgid "Unpaid"
+msgstr "Maksamaton"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:180
+msgid "Until"
+msgstr "Siihen asti kun"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:83
+msgid "Use assets in following cases:"
+msgstr "Käytä omaisuutta seuraavissa tapauksissa:"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:180
+msgid "Use the following Tags to customize your Google Calendar Event Title."
+msgstr "Käytä seuraavia tageja muokataksesi Google-kalenterisi tapahtuman otsikkoa."
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:76
+msgid "Use the following Tags to customize your iCalendar Event Title."
+msgstr "Käytä seuraavia Tunnisteita muokata iCalendar Event Title."
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:220
+msgid "Use the following Tags to customize your MS Outlook Event Title."
+msgstr "Käytä seuraavia Tunnisteita muokata MS Outlook Event otsikko."
+
+#: includes/admin/views/html-ph-booking-admin-order.php:14
+msgid "User"
+msgstr "Käyttäjä"
+
+#: includes/admin/class-ph-booking-admin-order.php:128
+msgid "User & Order ID combination not found. Please enter the correct details and try again."
+msgstr "Käyttäjä- ja tilaustunnuksen yhdistelmää ei löydy. Anna oikeat tiedot ja yritä uudelleen"
+
+#: includes/class-ph-booking-google-calendar.php:1254
+msgid "Validate the credentials with google API"
+msgstr "Vahvista käyttöoikeustiedot google API: lla"
+
+#: ph-bookings-appointments-woocommerce-premium.php:782
+msgid "Value must be greater than or equal to 1"
+msgstr "Arvon on oltava suurempi tai yhtä suuri kuin 1"
+
+#: ph-bookings-appointments-woocommerce-premium.php:781
+msgid "Value must be less than or equal to Max Bookings per Block (%d)"
+msgstr "Arvon on oltava pienempi tai yhtä suuri kuin maksimi varaukset lohkoa kohti (%d)"
+
+#: ph-api-manager/ph_api_manager_bookings.php:502
+msgid "Verify the API key details again and activate the API Key by clicking Save Changes"
+msgstr "Tarkista API avaintiedot uudelleen ja aktivoi API avain klikkaamalla Tallenna muutokset"
+
+#: includes/class-ph-booking-cart-decorator.php:425
+msgid "View cart"
+msgstr "Katso ostoskoria"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:178
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:956
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1037
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:83
+msgid "View Product"
+msgstr "Näytä tuote"
+
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:32
+msgid "Waiting For Approval emails are sent when need requires confirmation for Product."
+msgstr "Odottaa hyväksyntää sähköpostit lähetetään, kun tarve vaatii vahvistusta Tuotteelle."
+
+#: includes/addons/ph_bookings_start_of_the_week.php:30
+#: includes/addons/ph_bookings_start_of_the_week.php:39
+#: includes/addons/ph_bookings_start_of_the_week.php:47
+#: includes/addons/ph_bookings_start_of_the_week.php:55
+#: includes/addons/ph_bookings_start_of_the_week.php:70
+#: includes/addons/ph_bookings_start_of_the_week.php:78
+#: includes/addons/ph_bookings_start_of_the_week.php:86
+#: includes/addons/ph_bookings_start_of_the_week.php:93
+#: includes/frondend/html-ph-booking-datepicker.php:572
+#: includes/frondend/class-ph-booking-calendar-strategy.php:860
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:593
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:739
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:901
+msgid "We"
+msgstr "Ke"
+
+#: includes/emails/class-ph-email-content.php:158
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:47
+msgid "We have received your booking"
+msgstr "Olemme vastaanottaneet varauksesi"
+
+#: includes/emails/class-ph-wc-email-booking-followup.php:157
+msgid "We look forward to serving you again.<br><br>With Regards,<br>Admin"
+msgstr "Odotamme palvelevan sinua uudelleen. <br> <br> suhteessa <br> admin"
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:159
+msgid "We look forward to serving you.<br>Regards<br>Admin"
+msgstr "Odotamme palvelevani sinua. <br> Terveisin <br> järjestelmänvalvoja"
+
+#: includes/templates/emails/ph-booking-payment-for-customer-html.php:43
+msgid "We request you to go through the booking details attached in this email"
+msgstr "Pyydämme sinua käymään läpi tämän sähköpostin liitteenä olevat varaustiedot."
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:13
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:77
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:144
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:38
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:55
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:108
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:35
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:83
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:135
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:17
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:53
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:92
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:113
+msgid "Wednesday"
+msgstr "keskiviikko"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:312
+msgid "Week Starts On"
+msgstr "Viikko alkaa"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:630
+msgid "Weekdays"
+msgstr "Arkisin"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:635
+msgid "Weekdays Text"
+msgstr "Viikonpäivien teksti"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:278
+msgid "When enabled, the customer will be added as an attendee for the event in Outlook Calendar, and Outlook will send an email invitation to the customer."
+msgstr "Kun käytössä, asiakas lisätään osallistujana tapahtumaan Outlook Kalenteri, ja Outlook lähettää sähköpostikutsun asiakkaalle."
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:85
+msgid "When Product A is booked, you need product B to be automatically booked for the same time."
+msgstr "Kun tuote A on varattu, tarvitset tuotteen B varata automaattisesti samanaikaisesti."
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:86
+msgid "When you have a staff that handles multiple services. When Service A is booked, other services from the same staff are unavailable to book for the same time."
+msgstr "Kun sinulla on henkilökunta, joka hoitaa useita palveluita. Kun palvelu A on varattu, saman henkilökunnan muita palveluita ei ole mahdollista varata samanaikaisesti."
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:88
+msgid "When you have multiple resource types with different quantities. For Eg : Types of Kayaks to be chosen by the user to book."
+msgstr "Kun sinulla on useita resurssityyppejä eri määrillä. Esimerkiksi: Kajakkityypit, jotka käyttäjä valitsee varaamaan."
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:87
+msgid "When you have multiple staff with varying availability or price."
+msgstr "Kun sinulla on useita työntekijöitä saatavuuden tai hinnan mukaan."
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:51
+msgid "Will be displayed as a suffix with Display Cost."
+msgstr "Näytetään jälkiliitteenä näytön kustannuksella."
+
+#: includes/admin/class-ph-booking-admin-pages.php:118
+msgid "WooCommerce Bookings and Appointments"
+msgstr "WooCommerce-varaukset ja nimitykset"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:85
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:199
+msgid "WooCommerce Emails"
+msgstr "WooCommerce -sähköpostit"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources-matrix-row.php:22
+#: includes/admin/views/html-ph-booking-product-admin-resources-matrix-row.php:29
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:158
+#: includes/admin/views/html-ph-booking-product-admin-persons-matrix-row.php:21
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:149
+msgid "Yes"
+msgstr "Joo"
+
+#: class-ph-bookings-translation-support.php:18
+#: includes/class-ph-booking-checkout-decorator.php:481
+#: includes/class-ph-booking-cart-decorator.php:842
+msgid "yes"
+msgstr "Kyllä"
+
+#: includes/templates/emails/ph-admin-booking-waiting-for-approval.php:38
+msgid "You have received an order. The order is waiting for approval. The order is as follows"
+msgstr "Olet saanut tilauksen. Tilaus odottaa hyväksyntää. Järjestys on seuraava"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:419
+msgid "You'll have the option to personalize your admin calendar, choosing to display essential details like order ID, product name, customer name, and the number of participants."
+msgstr "Voit muokata järjestelmänvalvojan kalenteriasi ja valita tärkeiden tietojen, kuten tilaustunnuksen, tuotteen nimen, asiakkaan nimen ja osallistujien määrän, näyttämisen."
+
+#: includes/emails/class-ph-email-content.php:233
+#: includes/templates/emails/ph-customer-booking-cancelled.php:37
+#, php-format
+msgid "Your booking at %s has been marked as %s."
+msgstr "Varauksesi %s:ssä on merkitty %s:ksi."
+
+#: includes/emails/class-ph-email-content.php:127
+#, php-format
+msgid "Your Booking at %s is %s"
+msgstr "Varauksesi osoitteessa %s on %s"
+
+#: includes/emails/class-ph-email-content.php:230
+#: includes/templates/emails/ph-customer-booking-confirmed.php:43
+#, php-format
+msgid "Your booking at %s is approved."
+msgstr "Varaus osoitteessa %s on hyväksytty."
+
+#: includes/emails/class-ph-email-content.php:160
+#, php-format
+msgid "Your booking at %s is cancelled"
+msgstr "Varaus osoitteessa %s peruutetaan"
+
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:47
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:48
+msgid "Your booking at {site_title} is cancelled"
+msgstr "Varauksesi osoitteessa {site_title} on peruutettu"
+
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:53
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:96
+msgid "Your Booking at {site_title} is confirmed"
+msgstr "Varauksesi osoitteessa {site_title} on vahvistettu"
+
+#: includes/class-ph-booking-payment-gateway.php:32
+msgid "Your booking has been approved, Thank you."
+msgstr "Varaus on hyväksytty, kiitos."
+
+#: includes/emails/class-ph-booking-payment-for-customer.php:49
+msgid "Your Booking Is Placed Successfully"
+msgstr "Varaus on suoritettu onnistuneesti"
+
+#: includes/class-ph-booking-payment-gateway.php:34
+msgid "Your booking is waiting for approval"
+msgstr "Varauksesi odottaa hyväksyntää"
+
+#: includes/emails/class-ph-email-content.php:130
+#, php-format
+msgid "Your Booking request at %s is awaiting approval"
+msgstr "Varauspyyntösi osoitteessa %s odottaa hyväksyntää"
+
+#: includes/emails/class-ph-email-content.php:227
+#: includes/templates/emails/ph-customer-booking-requires-confirmation.php:38
+#, php-format
+msgid "Your Booking request at %s is awaiting approval."
+msgstr "Varauspyyntösi osoitteessa %s odottaa hyväksyntää."
+
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:48
+msgid "Your Booking request at {site_title} is awaiting approval"
+msgstr "Varauspyyntösi osoitteessa {site_title} odottaa hyväksyntää"

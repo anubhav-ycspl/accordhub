@@ -1,0 +1,3665 @@
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ca\n"
+"Language-Team: Catalan\n"
+"Last-Translator: PluginHive\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2025-06-19 11:37+0000\n"
+"POT-Creation-Date: 2020-02-04 07:21+0000\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"X-Generator: Loco\n"
+"X-Loco-Version: 2.8.0; wp-6.8.1; php-8.3.6\n"
+
+#: includes/templates/emails/ph-booking-payment-for-customer-plain.php:48
+#: includes/templates/emails/ph-customer-booking-confirmed-plain.php:47
+msgid ""
+"\n"
+" Please click below link to proceed with the payment \n"
+""
+msgstr ""
+"Feu clic a l'enllaç següent per procedir amb el pagament\n"
+""
+
+#: includes/templates/emails/ph-booking-payment-for-customer-plain.php:37
+msgid ""
+"\n"
+" Thanks for placing your booking."
+msgstr "Gràcies per fer la teva reserva."
+
+#: includes/templates/emails/ph-booking-payment-for-customer-plain.php:38
+msgid ""
+"\n"
+" We request you to go through the booking details attached in this email. \n"
+""
+msgstr "Us demanem que reviseu els detalls de la reserva que s'adjunten en aquest correu electrònic."
+
+#: includes/templates/emails/ph-customer-booking-confirmed-plain.php:37
+#, php-format
+msgid ""
+"\n"
+" Your booking at %s is approved. \n"
+""
+msgstr "S'ha aprovat la teva reserva a %s."
+
+#: includes/templates/emails/ph-customer-booking-reminder-plain.php:37
+#, php-format
+msgid ""
+"\n"
+"I request you to check the bookings details for your appointment with %s.\n"
+""
+msgstr "Us demano que comproveu els detalls de la reserva de la vostra cita amb %s."
+
+#: includes/templates/emails/ph-customer-booking-followup-plain.php:36
+#, php-format
+msgid ""
+"\n"
+"Thank you for booking with %s.<br>Hope you enjoyed our services.\n"
+""
+msgstr "Gràcies per reservar amb %s.<br>Esperem que hagis gaudit dels nostres serveis."
+
+#: includes/templates/emails/ph-admin-booking-waiting-for-approval-plain.php:38
+#, php-format
+msgid ""
+"\n"
+"You have received an order #%s. The order is waiting for approval. The order is as follows"
+msgstr "Heu rebut una comanda #%s. L'ordre està pendent d'aprovació. L'ordre és el següent"
+
+#: includes/templates/emails/ph-customer-booking-cancelled-plain.php:37
+#, php-format
+msgid ""
+"\n"
+"Your booking at %s has been marked as %s.\n"
+""
+msgstr "La teva reserva a %s s'ha marcat com a %s."
+
+#: includes/templates/emails/ph-customer-booking-requires-confirmation-plain.php:37
+#, php-format
+msgid ""
+"\n"
+"Your Booking request at %s is awaiting approval.\n"
+""
+msgstr "La vostra sol·licitud de reserva a %s està pendent d'aprovació."
+
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:864
+msgid " "
+msgstr " "
+
+#: includes/class-ph-booking-google-calendar.php:373
+msgid " (Attention: Time is required for this event)"
+msgstr "(Atenció: cal temps per a aquest esdeveniment)"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:188
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:83
+msgid " before the booking starts"
+msgstr " abans que comenci la reserva"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:408
+msgid "%d Booking staus(s) changed to Paid"
+msgstr "%d s'ha canviat la reserva a Pagada"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:436
+msgid "%d Booking staus(s) changed to Un-Paid"
+msgstr "%d s'han canviat els staus de la reserva a No Pagada"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:343
+msgid "%d item(s) Booking Confirmed"
+msgstr "%d'element(s) de la reserva confirmat(s)"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:236
+msgid "%d item(s) canceled"
+msgstr "%d elements cancel·lats"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:182
+msgid "%d item(s) deleted"
+msgstr "%d elements suprimits"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:458
+msgid "%d items(s) Re-synced with Google Calender"
+msgstr "%d elements re-sincronitzats amb Google Calender"
+
+#: includes/class-ph-booking-cart-decorator.php:417
+#: includes/class-ph-booking-cart-decorator.php:424
+#, php-format
+msgid "%s has been added to your cart."
+msgstr "%s s'ha afegit a la cistella."
+
+#: includes/frondend/class-ph-booking-calendar-strategy.php:578
+#, php-format
+msgid "(%s left)"
+msgstr "(Queden %s)"
+
+#: includes/class-ph-booking-google-calendar.php:350
+msgid "(Attention: Time is required for this event)"
+msgstr "(Atenció: cal temps per a aquest esdeveniment)"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:247
+#: includes/admin/views/html-ph-booking-product-admin-options.php:252
+msgid "(s)"
+msgstr "(es)"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:166
+msgid "*Time range can not be used in booking search when timezone conversion is enabled."
+msgstr "*L'interval de temps no es pot utilitzar a la cerca de reserves quan la conversió de la zona horària està activada."
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:54
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:125
+msgid "1. All dates are available by default. Create rules to set the time period when you are not available to take bookings."
+msgstr "1. Totes les dates estan disponibles per defecte. Creeu regles per definir el període de temps en què no esteu disponible per fer reserves."
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:56
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:127
+msgid "2. Mark all the dates/blocks as unavailable and then set the time period when you are available for bookings."
+msgstr "2. Marqueu totes les dates / blocs com a no disponibles i, a continuació, definiu el període de temps en què esteu disponible per a les reserves."
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:74
+msgid "<br><span style='float:left;'><i>Fixed Blocks : Customers can book one block at a time.<br>Enable Range : Customers can book multiple blocks by choosing a start and an end.</i></span>"
+msgstr "<br><span style=\"float:left;\"><i>Blocs fixos: els clients poden reservar un bloc a la vegada.<br>Habilita l'interval: els clients poden reservar diversos blocs triant un inici i un final.</i></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:28
+msgid "<h4><b>Single Resource</b> - Customers can choose One Resource from a Drop Down containing all the resources. </h4><h4><b>Multiple Resources</b> - Customers can select Multiple Resource while booking.</h4>"
+msgstr "<h4><b>Un sol recurs:</b> els clients poden triar Un recurs d'un desplegable que contingui tots els recursos. </h4><h4><b>Diversos recursos:</b> els clients poden seleccionar Diversos recursos mentre reserven.</h4>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:196
+msgid "<span style='padding-left:2%; font-size:12px;'><i>Check this box if the booking requires admin approval/confirmation.</i></span>"
+msgstr "<span style='padding-left:2%; font-size:12px;'><i>Marqueu aquesta casella si la reserva requereix l'aprovació/confirmació de l'administrador.</i></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:81
+msgid "<span style='padding-left:2%;'><i>Allow multiple bookings for the same block until the specified number is reached.</i></span>"
+msgstr "<span style='padding-left:2%;'><i>Permet diverses reserves per al mateix bloc fins que s'assoleixi el número especificat.</i></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:137
+msgid "<span style='padding-left:2%;'><i>Auto-Select Minimum Booking Slots.</i></span>"
+msgstr "<span style='padding-left:2%;'><i>Seleccioneu automàticament les places mínimes de reserva.</i></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:202
+msgid "<span style='padding-left:2%;'><i>Enable this option to offer bookings on a per night basis. For Eg : Accommodations. The customer can choose a check in and check out date.</i></span>"
+msgstr "<span style='padding-left:2%;'><i>Habiliteu aquesta opció per oferir reserves per nit. Per a Eg: Allotjaments. El client pot triar una data d'entrada i sortida.</i></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:281
+msgid "<span style='padding-left:2%;'><i>Enabling this option will allow customers to book timeslots across days. For Eg : 9.00 Am , 1st May to 6.00 Pm 2nd May.</i></span>"
+msgstr "<span style='padding-left:2%;'><i>Si activeu aquesta opció, els clients podran reservar intervals de temps al llarg dels dies. Per a Eg: 9.00 h, de l'1 de maig a les 18.00 h del 2 de maig.</i></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:295
+msgid "<span style='padding-left:2%;'><i>Enabling this option will display both the Booking Slot Start Time as well as End Time on the calendar.</i></span>"
+msgstr "<span style='padding-left:2%;'><i>Si activeu aquesta opció, es mostrarà tant l'hora d'inici de la ranura de reserva com l'hora de finalització al calendari.</i></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:109
+msgid "<span style='padding-left:2%;'><i>Enabling this will show the Fully Booked Indicator for bookings slots which is fully booked.</i><span>"
+msgstr "<span style='padding-left:2%;'><i>En activar-ho, es mostrarà l'indicador de reserva completa per als espais de reserves que estiguin completament reservats.</i><span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:88
+msgid "<span style='padding-left:2%;'><i>Enabling this will show the number of places left for bookings per block.</i><span>"
+msgstr "<span style='padding-left:2%;'><i>Si ho activeu, es mostrarà el nombre de places que queden per a les reserves per bloc.</i><span></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:209
+msgid "<span style='padding-left:2%;'><i>Hide checkout date on admin calendar and google calendar for per night bookings.</i></span>"
+msgstr "<span style='padding-left:2%;'><i>Oculta la data de compra al calendari d’administració i al calendari de Google per les reserves nocturnes.</i></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:146
+msgid "<span style='padding-left:2%;'><i>Set the maximum period the customer can input. Leave blank for unlimited.</i></span>"
+msgstr "<span style='padding-left:2%;'><i>Definiu el període màxim que el client pot introduir. Deixeu-ho en blanc per il·limitat.</i></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:131
+msgid "<span style='padding-left:2%;'><i>Set the minimum booking period the customer can select.</i></span>"
+msgstr "<span style='padding-left:2%;'><i>Estableix el període mínim de reserva que el client pot seleccionar.</i></span>"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:484
+msgid "<strong>Direct Booking:</strong> Display booking details directly without a calendar for modifications."
+msgstr "<strong>Reserva directa:</strong> mostra els detalls de la reserva directament sense un calendari per a modificacions."
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:482
+msgid "<strong>Flexible Booking:</strong> Display booking details along with a calendar for editing and modifying."
+msgstr "<strong>Reserva flexible:</strong> mostra els detalls de la reserva juntament amb un calendari per editar i modificar."
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:286
+msgid "Across Days Cost Calculation"
+msgstr "Al llarg dels dies Càlcul de costos"
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:108
+#: includes/admin/views/html-ph-booking-settings-assets.php:124
+#: includes/admin/views/html-ph-booking-settings-assets.php:173
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:79
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:87
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:181
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:101
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:108
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:151
+msgid "Add"
+msgstr "Afegir"
+
+#: includes/class-ph-booking-google-calendar.php:1176
+msgid "Add as an event in google calendar"
+msgstr "Agregar como event en el calendari de google"
+
+#: includes/admin/class-ph-booking-admin-pages.php:48
+#: includes/admin/class-ph-booking-admin-pages.php:81
+#: includes/admin/views/html-ph-booking-admin-order-calender.php:24
+#: includes/admin/views/html-ph-booking-admin-order-calender.php:112
+#: includes/admin/views/html-calendar-month.php:2
+#: includes/admin/views/html-ph-booking-admin-order.php:7
+#: includes/admin/views/html-calendar-day.php:2
+msgid "Add Booking"
+msgstr "Afegir reserva"
+
+#: includes/frondend/class-ph-icalendar-extension.php:283
+msgid "Add Bookings to iCalendar"
+msgstr "Afegeix reserves a iCalendar"
+
+#: includes/frondend/class-ph-icalendar-extension.php:107
+#: includes/frondend/class-ph-icalendar-extension.php:254
+msgid "Add bookings to iCalendar"
+msgstr "Afegeix reserves a iCalendar"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:274
+msgid "Add Customer as Event Attendee"
+msgstr "Afegeix un client com a assistent de l'esdeveniment"
+
+#: includes/admin/class-ph-booking-admin-pages.php:38
+msgid "Add Product"
+msgstr "Afegir producte"
+
+#: includes/admin/class-ph-booking-admin-pages.php:141
+msgid "Add-Ons"
+msgstr "Complements"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:268
+#: includes/emails/class-ph-booking-payment-for-customer.php:255
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:320
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:290
+#: includes/emails/class-ph-wc-email-booking-reminder.php:269
+#: includes/emails/class-ph-wc-email-booking-followup.php:267
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:307
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:225
+msgid "Additional content"
+msgstr "Contingut addicional"
+
+#: includes/admin/class-ph-booking-export-bookings.php:143
+#: includes/admin/class-ph-booking-export-bookings.php:638
+msgid "Additional Notes"
+msgstr "Notes addicionals"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:251
+msgid "After Booking"
+msgstr "Després de fer la reserva"
+
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:13
+msgid "All"
+msgstr "Tot"
+
+#: includes/admin/class-ph-booking-admin-pages.php:28
+#: includes/admin/class-ph-booking-admin-pages.php:80
+msgid "All Bookings"
+msgstr "Totes les reserves"
+
+#: includes/admin/views/html-calendar-day.php:78
+msgid "All Day"
+msgstr "Tot el dia"
+
+#: includes/admin/views/html-calendar-month.php:92
+#: includes/admin/views/html-calendar-day.php:39
+msgid "All Status"
+msgstr "Tot estat"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:35
+msgid "All the costs will be multiplied by the number of participants"
+msgstr "Tots els costos es multiplicaran pel nombre de participants"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:176
+msgid "Allow Cancellation"
+msgstr "Permet la cancel·lació"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:75
+msgid "Allow customers to book until"
+msgstr "Permet als clients reservar fins"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:341
+msgid "Allow customers to choose a month from a drop down to navigate to that month directly."
+msgstr "Permet als clients triar un mes des d'un menú desplegable per navegar directament a aquest mes."
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:100
+msgid "Allow start booking only with selected days"
+msgstr "Permet començar a reservar només amb els dies seleccionats"
+
+#: ph-bookings-appointments-woocommerce-premium.php:534
+#: ph-bookings-appointments-woocommerce-premium.php:637
+msgid "am"
+msgstr "am"
+
+#: ph-bookings-appointments-woocommerce-premium.php:783
+msgid "and"
+msgstr "i"
+
+#: includes/admin/class-ph-booking-export-bookings.php:128
+#: includes/admin/class-ph-booking-export-bookings.php:131
+msgid "Applicable for bookings made after updating to plugin version 2.3.0"
+msgstr "Aplicable per a les reserves realitzades després de l'actualització del complement de la versió 2.3.0"
+
+#: ph-bookings-appointments-woocommerce-premium.php:747
+#: includes/class-ph-booking-checkout-decorator.php:861
+#: includes/addons/ph_bookings_month_picker.php:101
+msgid "Apr"
+msgstr "Abr"
+
+#: ph-bookings-appointments-woocommerce-premium.php:733
+#: includes/class-ph-booking-checkout-decorator.php:849
+#: includes/addons/ph_bookings_month_picker.php:87
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:62
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:129
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:68
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:120
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:38
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:77
+msgid "April"
+msgstr "Abril"
+
+#: ph-bookings-appointments-woocommerce-premium.php:763
+msgid "are not available."
+msgstr "no disponibles."
+
+#: includes/admin/class-ph-booking-order-manager.php:513
+msgid "Are you sure to cancel booking?"
+msgstr "Esteu segur de cancel·lar la reserva?"
+
+#: includes/class-ph-booking-checkout-decorator.php:700
+#: includes/class-ph-booking-checkout-decorator.php:768
+#: includes/class-ph-booking-checkout-decorator.php:823
+#: includes/class-ph-booking-google-calendar.php:694
+#: includes/class-ph-booking-google-calendar.php:872
+#: includes/class-ph-booking-google-calendar.php:876
+#: includes/class-ph-booking-google-calendar.php:1672
+#: includes/class-ph-booking-google-calendar.php:1842
+#: includes/class-ph-booking-cart-decorator.php:820
+#: includes/class-ph-booking-ajax-interface.php:152
+#: includes/class-ph-booking-order-item-handler.php:81
+#: includes/admin/class-ph-booking-export-bookings.php:146
+#: includes/admin/class-ph-booking-export-bookings.php:584
+#: includes/frondend/class-ph-booking-calendar-strategy.php:1066
+#: includes/admin/views/html-ph-booking-settings-assets.php:77
+#: includes/admin/views/html-ph-booking-settings-assets.php:154
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:50
+msgid "Asset"
+msgstr "Actiu"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:133
+msgid "Asset Availability"
+msgstr "Disponibilitat d'actius"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:384
+msgid "Asset Name"
+msgstr "Nom de l'actiu"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:62
+msgid "Assets"
+msgstr "Equips"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:80
+msgid "Assets are global resources which can be attached either to a single product or to multiple products. Assets have a quantity and availability attached."
+msgstr "Els actius són recursos globals que es poden adjuntar a un sol producte o a diversos productes. Els actius tenen una quantitat i disponibilitat adjuntes."
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:108
+msgid "Assets Name"
+msgstr "Nom dels actius"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:63
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:26
+msgid "Assign"
+msgstr "Assignar"
+
+#: includes/admin/views/html-ph-booking-admin-order.php:74
+msgid "Assign this booking to an existing order with this ID:"
+msgstr "Assigna aquesta reserva a una comanda existent amb aquest identificador:"
+
+#: ph-bookings-appointments-woocommerce-premium.php:751
+#: includes/class-ph-booking-checkout-decorator.php:864
+#: includes/addons/ph_bookings_month_picker.php:105
+msgid "Aug"
+msgstr "Ago"
+
+#: ph-bookings-appointments-woocommerce-premium.php:737
+#: includes/class-ph-booking-checkout-decorator.php:853
+#: includes/addons/ph_bookings_month_picker.php:91
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:66
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:133
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:72
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:124
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:42
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:81
+msgid "August"
+msgstr "Agost"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources-matrix-row.php:15
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:93
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:29
+msgid "Automatically assigned"
+msgstr "Assignat automàticament"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:119
+msgid "Availability Rules :"
+msgstr "Normes de disponibilitat:"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:234
+#: includes/emails/class-ph-booking-payment-for-customer.php:227
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:292
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:262
+#: includes/emails/class-ph-wc-email-booking-reminder.php:243
+#: includes/emails/class-ph-wc-email-booking-followup.php:241
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:272
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:191
+#, php-format
+msgid "Available placeholders: %s"
+msgstr "Posadors de lloc disponibles: %s"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:74
+msgid "Avoid last minute bookings"
+msgstr "Evitar reserves d'última hora"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:63
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:16
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:84
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:135
+msgid "Base Cost"
+msgstr "Cost base"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:91
+msgid "Base cost"
+msgstr "Preu base"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:245
+msgid "Before Booking"
+msgstr "Abans de reservar"
+
+#: includes/emails/class-ph-email-content.php:300
+msgid "Billing address"
+msgstr "Adreça de facturació"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:64
+msgid "Block Cost"
+msgstr "Cost del bloc"
+
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:43
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:60
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:6
+msgid "Block Count"
+msgstr "Recompte de blocs"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:279
+msgid "Book Across Days"
+msgstr "Reserva a través dels dies"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:162
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:612
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:670
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:756
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:860
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:939
+msgid "Book Now"
+msgstr "Reserva ara"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:794
+msgid "Book Now Background"
+msgstr "Fons de Reserva Ara"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:153
+msgid "Book Now Button"
+msgstr "Botó Reserva Ara"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:675
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:799
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:944
+msgid "Book Now Text"
+msgstr "Text de Reserva Ara"
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:93
+#: includes/admin/views/html-ph-booking-settings-assets.php:158
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:156
+msgid "Bookable"
+msgstr "Reservable"
+
+#: includes/admin/views/html-ph-booking-admin-order.php:35
+msgid "Bookable Product"
+msgstr "Producte reservable"
+
+#: includes/admin/class-ph-booking-product-manager.php:110
+msgid "Bookable product"
+msgstr "Producte reservable"
+
+#: includes/class-ph-booking-cart-decorator.php:762
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:300
+msgid "Booked"
+msgstr "Reservat"
+
+#: includes/admin/class-ph-booking-export-bookings.php:629
+msgid "Booked By"
+msgstr "Reservat per"
+
+#: includes/admin/class-ph-booking-export-bookings.php:134
+#: includes/admin/class-ph-booking-admin-reports-list.php:121
+msgid "Booked by"
+msgstr "Reservat a"
+
+#: includes/class-ph-booking-google-calendar.php:1635
+msgid "Booked by: "
+msgstr "Reservat per:"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:660
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:784
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:954
+msgid "Booked Dates"
+msgstr "Dates reservades"
+
+#: includes/class-ph-booking-checkout-decorator.php:102
+#: includes/class-ph-booking-google-calendar.php:327
+#: includes/class-ph-booking-google-calendar.php:748
+#: includes/class-ph-booking-cart-decorator.php:760
+#: includes/class-ph-booking-email-manager.php:385
+#: includes/admin/class-ph-booking-admin-order.php:461
+#: includes/admin/class-ph-booking-order-manager.php:41
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:284
+msgid "Booked From"
+msgstr "Reservat des de"
+
+#: includes/admin/class-ph-booking-export-bookings.php:128
+#: includes/admin/class-ph-booking-export-bookings.php:613
+msgid "Booked Participants"
+msgstr "Participants reservats"
+
+#: includes/admin/class-ph-booking-export-bookings.php:131
+#: includes/admin/class-ph-booking-export-bookings.php:623
+msgid "Booked Resources"
+msgstr "Recursos reservats"
+
+#: includes/class-ph-booking-checkout-decorator.php:103
+#: includes/class-ph-booking-google-calendar.php:328
+#: includes/class-ph-booking-google-calendar.php:749
+#: includes/class-ph-booking-cart-decorator.php:761
+#: includes/class-ph-booking-email-manager.php:386
+#: includes/admin/class-ph-booking-admin-order.php:481
+#: includes/admin/class-ph-booking-order-manager.php:42
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:292
+msgid "Booked To"
+msgstr "Reservat a"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:360
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:219
+msgid "Booking"
+msgstr "Reserva"
+
+#: includes/admin/views/html-ph-booking-settings-booking-addons.php:8
+msgid "Booking Add-Ons"
+msgstr "Complements de reserva"
+
+#: includes/admin/class-ph-booking-product-manager.php:78
+msgid "Booking Assets"
+msgstr "Actius de reserves"
+
+#: includes/admin/class-ph-booking-product-manager.php:54
+msgid "Booking Availability"
+msgstr "Disponibilitat de reserves"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:473
+msgid "Booking Availability View"
+msgstr "Vista de disponibilitat de reserves"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:264
+msgid "Booking Cancellation"
+msgstr "Cancel·lació de la reserva"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:45
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:46
+msgid "Booking cancelled emails are sent when the status of a booking goes to cancelled."
+msgstr "Els correus electrònics cancel·lats de reserva s’envien quan l’estat d’una reserva es cancel·la."
+
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:49
+msgid "Booking confirmed emails are sent when the status of a booking goes from requires confirmation to confirmed."
+msgstr "Els correus electrònics confirmats de la reserva s’envien quan es produeix l’estat d’una reserva requereix una confirmació per confirmar -la."
+
+#: includes/admin/class-ph-booking-export-bookings.php:149
+#: includes/admin/class-ph-booking-export-bookings.php:652
+msgid "Booking Cost"
+msgstr "Cost de reserva"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:227
+msgid "Booking cost"
+msgstr "Preu de reserva"
+
+#: includes/frondend/class-ph-icalendar-extension.php:335
+msgid "Booking Cost: "
+msgstr "Cost de reserva:"
+
+#: includes/class-ph-booking-google-calendar.php:1643
+msgid "Booking cost: "
+msgstr "Cost de reserva:"
+
+#: includes/admin/class-ph-booking-product-manager.php:60
+msgid "Booking Costs"
+msgstr "Despeses de reserva"
+
+#: includes/admin/views/html-ph-booking-admin-order-calender.php:31
+msgid "Booking Data"
+msgstr "Dades de la reserva"
+
+#: includes/frondend/class-ph-booking-product-details.php:6
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:610
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:754
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:858
+msgid "Booking Details"
+msgstr "Detalls de la reserva"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:256
+msgid "Booking has been cancelled. The order details are shown below"
+msgstr "La reserva s'ha cancel·lat. Els detalls de la comanda es mostren a continuació"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:225
+msgid "Booking Notes Label"
+msgstr "Etiqueta de notes de reserva"
+
+#: includes/admin/class-ph-booking-product-manager.php:66
+msgid "Booking Participants"
+msgstr "Participants a la reserva"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:57
+msgid "Booking Period"
+msgstr "Període de reserva"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:391
+msgid "Booking Personalization for Admin Calendar"
+msgstr "Personalització de reserves per al calendari d'administració"
+
+#: includes/admin/class-ph-booking-product-manager.php:72
+msgid "Booking Resources"
+msgstr "Recursos de reserva"
+
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:987
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:10
+msgid "Booking Search"
+msgstr "Cerca de reserves"
+
+#. Widget name will appear in UI
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:14
+msgid "Booking Search Availability"
+msgstr "Cerca de reserves de disponibilitat"
+
+#: includes/class-ph-booking-checkout-decorator.php:152
+#: includes/class-ph-booking-checkout-decorator.php:176
+#: includes/class-ph-booking-checkout-decorator.php:592
+#: includes/class-ph-booking-checkout-decorator.php:844
+#: includes/class-ph-booking-checkout-decorator.php:898
+#: includes/class-ph-booking-checkout-decorator.php:913
+#: includes/class-ph-booking-google-calendar.php:420
+#: includes/class-ph-booking-google-calendar.php:948
+#: includes/admin/class-ph-booking-export-bookings.php:577
+#: includes/admin/class-ph-booking-admin-reports-list.php:117
+#: includes/admin/class-ph-booking-admin-reports-list.php:211
+#: includes/admin/class-ph-booking-admin-reports-list.php:262
+#: includes/admin/class-ph-booking-admin-reports-list.php:272
+#: includes/admin/class-ph-booking-admin-reports-list.php:311
+#: includes/admin/class-ph-booking-admin-reports-list.php:396
+#: includes/admin/class-ph-booking-admin-reports-list.php:424
+#: includes/admin/class-ph-booking-admin-order.php:679
+#: includes/admin/class-ph-booking-order-manager.php:332
+#: includes/admin/class-ph-booking-order-manager.php:389
+msgid "Booking Status"
+msgstr "Estat de la reserva"
+
+#: includes/func-ph-booking-general-functions.php:10
+msgctxt "Booking status"
+msgid "Cancelled"
+msgstr "Cancel·lat"
+
+#: includes/func-ph-booking-general-functions.php:9
+msgctxt "Booking status"
+msgid "Paid"
+msgstr "Pagat"
+
+#: includes/func-ph-booking-general-functions.php:13
+msgctxt "Booking status"
+msgid "Partially Paid"
+msgstr "Parcialment pagat"
+
+#: includes/func-ph-booking-general-functions.php:12
+msgctxt "Booking status"
+msgid "Requires Confirmation"
+msgstr "Requereix confirmació"
+
+#: includes/func-ph-booking-general-functions.php:11
+msgctxt "Booking status"
+msgid "Un-paid"
+msgstr "Impagat"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:146
+#: includes/admin/views/html-ph-booking-settings-outlook.php:182
+msgid "Booking Status Filter"
+msgstr "Filtre d'estat de reserva"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:361
+msgid "Booking Summary text includes End Date and Time"
+msgstr "El text del resum de la reserva inclou data i hora de finalització"
+
+#: includes/admin/class-ph-booking-product-manager.php:48
+#: includes/admin/class-ph-booking-admin-pages.php:17
+msgid "Bookings"
+msgstr "Reserves"
+
+#. Name of the plugin
+msgid "Bookings and Appointments For WooCommerce Premium"
+msgstr "Reserves i cites per WooCommerce Premium"
+
+#. Description of the plugin
+msgid "Bookings and Appointments solution for all types of businesses."
+msgstr "Solució de reserves i cites per a tot tipus d'empreses."
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:57
+msgid "Bookings are open for the next"
+msgstr "Les reserves estan obertes per a les properes"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:47
+msgid "Bookings are open from"
+msgstr "Les reserves estan obertes des de"
+
+#: includes/emails/class-ph-booking-payment-for-customer.php:45
+msgid "Bookings confirmation email with Payment Link for manually created bookings."
+msgstr "Correu electrònic de confirmació de reserves amb l'enllaç de pagament per a les reserves creades manualment."
+
+#: includes/admin/class-ph-booking-export-bookings.php:112
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:61
+msgid "Bookings end between"
+msgstr "Les reserves acaben entre"
+
+#: includes/emails/class-ph-wc-email-booking-followup.php:38
+msgid "Bookings follow-up emails are sent once the booking has been completed."
+msgstr "Els correus electrònics de seguiment de les reserves s'envien un cop finalitzada la reserva."
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:36
+msgid "Bookings open no later than"
+msgstr "Les reserves s'obren fins a"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:29
+msgid "Bookings open no sooner than"
+msgstr "Les reserves s'obren des de"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:201
+msgid "Bookings Per Night"
+msgstr "Reserves per nit"
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:122
+#: includes/emails/class-ph-wc-email-booking-reminder.php:133
+msgid "Bookings Reminder"
+msgstr "Recordatori de reserves"
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:39
+msgid "Bookings reminder emails are sent prior to the booking start date & time."
+msgstr "Els correus electrònics de recordatori s’envien abans de la data i l’hora d’inici de la reserva."
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:35
+msgid "Bookings Reminders"
+msgstr "Rebogadors de reserves"
+
+#: includes/admin/class-ph-booking-export-bookings.php:106
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:44
+msgid "Bookings start between"
+msgstr "Les reserves comencen entre"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:85
+msgid "Bookings will be closed before the specified time. E.g. - Set this option to 10 mins if you don't want any booking in the last 10 mins."
+msgstr "Les reserves es tancaran abans de l'hora especificada. Per exemple, establiu aquesta opció a 10 minuts si no voleu cap reserva en els últims 10 minuts."
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:284
+msgid "Border"
+msgstr "Frontera"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:308
+msgid "Border Color"
+msgstr "Color de la vora"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:290
+msgid "Border Colour"
+msgstr "Color de la vora"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:329
+msgid "Border Radius"
+msgstr "Radi de la vora"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:296
+msgid "Border Radius(px)"
+msgstr "Radi de la vora (px)"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:293
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:311
+msgid "Border Style"
+msgstr "Estil de vora"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:305
+msgid "Border Width"
+msgstr "Amplada de la vora"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:287
+msgid "Border Width(px)"
+msgstr "Amplada de la vora (px)"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:239
+msgid "Buffer Time"
+msgstr "Temps de marge"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:243
+msgid "Button Colour"
+msgstr "Color del botó"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:81
+msgid "Button Title:"
+msgstr "Títol del botó:"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:231
+msgid "Buttons"
+msgstr "Botons"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:430
+msgid "By default Calendar Title have Month followed by Year. Enable this option to display Year first."
+msgstr "Per defecte, el títol del calendari té el mes seguit de l'any. Activeu aquesta opció per mostrar primer l'any."
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:375
+msgid "By default details in Cart, Order Details and Emails will contain “Booked To”.<br>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Disabling this option will omit the Booking end details and “Booked To” will not be displayed."
+msgstr "De manera predeterminada, els detalls de CART, els detalls de la comanda i els correus electrònics contindran \"reservat a\". Desactivar aquesta opció ometà els detalls de la reserva i no es mostrarà \"reservat a\"."
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:365
+msgid "By default the summary of Booking details is displayed as “Booking: December 18, 2019 9:00 AM to December 19, 2019 1:00 PM”.<br>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Disabling this option will omit the Booking end details and display as “Booking: December 18, 2019 9:00 AM”."
+msgstr "De manera predeterminada, el resum de les dades de la reserva es mostra com a \"Reserva: del 18 de desembre de 2019 de 9:00 a 19 de desembre de 2019 a les 13:00\".<br>Si desactives aquesta opció, ometrem les dades finals de la reserva i es mostraran com a \"Reserva: 18 de desembre de 2019 9:00 AM\"."
+
+#: includes/admin/class-ph-booking-admin-pages.php:68
+#: includes/admin/views/html-calendar-month.php:2
+#: includes/admin/views/html-calendar-day.php:2
+msgid "Calendar"
+msgstr "Calendari"
+
+#: includes/admin/class-ph-booking-admin-pages.php:133
+msgid "Calendar Design"
+msgstr "Disseny de calendari"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:565
+msgid "Calendar Design 1"
+msgstr "Disseny de calendari 1"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:713
+msgid "Calendar Design 2"
+msgstr "Disseny de calendari 2"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:836
+msgid "Calendar Design 3"
+msgstr "Disseny del calendari 3"
+
+#: includes/admin/class-ph-booking-admin-pages.php:134
+msgid "Calendar Display"
+msgstr "Visualització del calendari"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:308
+msgid "Calendar Display Settings"
+msgstr "Configuració de la visualització del calendari"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:861
+msgid "Calendar on click"
+msgstr "Calendari al clic"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:60
+msgid "Calendar Range with Blocks of"
+msgstr "Gamma de calendari amb blocs de"
+
+#: includes/admin/class-ph-booking-order-manager.php:518
+msgid "Cancel"
+msgstr "Cancel·lar"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:93
+msgid "Cancel Booking(s)"
+msgstr "Cancel·la les reserves"
+
+#: class-ph-bookings-translation-support.php:17
+msgid "canceled"
+msgstr "cancel·lat"
+
+#: includes/class-ph-booking-checkout-decorator.php:95
+#: includes/admin/class-ph-bookings-calendar-admin.php:350
+#: includes/admin/class-ph-booking-admin-order.php:512
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:50
+#: includes/admin/views/html-ph-booking-settings-outlook.php:54
+msgid "Cancelled"
+msgstr "Cancel·lat"
+
+#: class-ph-bookings-translation-support.php:25
+#: includes/admin/class-ph-booking-order-manager.php:389
+msgid "cancelled"
+msgstr "cancel·lat"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:920
+msgid "Change colors by clicking in the box"
+msgstr "Canvieu els colors fent clic al quadre"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:616
+msgid "Change the background colors by clicking in the box"
+msgstr "Canvieu els colors de fons fent clic al quadre"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:760
+msgid "Change the colors by clicking in the box"
+msgstr "Canvieu els colors fent clic al quadre"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:65
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:93
+msgid "Charge Per Block"
+msgstr "Càrrec per bloc"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:64
+msgid "Charge Per Participant"
+msgstr "Càrrec per participant"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:17
+msgid "Check this option to eanable assets."
+msgstr "Marqueu aquesta opció per habilitar actius."
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:267
+msgid "Check-in"
+msgstr "Registrar-se"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:275
+msgid "Check-out"
+msgstr "Revisa"
+
+#: includes/admin/views/html-calendar-month.php:81
+#: includes/admin/views/html-calendar-day.php:28
+msgid "Choose Product"
+msgstr "Trieu el producte"
+
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:32
+msgid "Choose product"
+msgstr "Trieu el producte"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:138
+msgid "Choose the Google calendar to which bookings should be synchronized."
+msgstr "Trieu el calendari de Google amb el qual s'han de sincronitzar les reserves."
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:171
+msgid "Choose the Outlook calendar to which bookings should be synchronized."
+msgstr "Trieu el calendari d'Outlook amb el qual s'han de sincronitzar les reserves."
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:279
+#: includes/emails/class-ph-booking-payment-for-customer.php:266
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:331
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:301
+#: includes/emails/class-ph-wc-email-booking-reminder.php:280
+#: includes/emails/class-ph-wc-email-booking-followup.php:278
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:318
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:236
+msgid "Choose which format of email to send."
+msgstr "Trieu quin format de correu electrònic cal enviar."
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:251
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:268
+msgid "Class"
+msgstr "Classe"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:234
+msgid "Class Name"
+msgstr "Nom de la classe"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:362
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:885
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:961
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1042
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:265
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:271
+msgid "Clear"
+msgstr "Clar"
+
+#: includes/class-ph-booking-google-calendar.php:1261
+msgid "Clear the authentication details"
+msgstr "Esborra els detalls de l'autenticació"
+
+#: includes/class-ph-booking-google-calendar.php:1227
+msgid "Cleared all google API authentication details"
+msgstr "S'han esborrat tots els detalls de l'autenticació de l'API de Google"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:83
+#: includes/admin/views/html-ph-booking-settings-outlook.php:83
+msgid "Client ID"
+msgstr "Identificació del cliente"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:93
+#: includes/admin/views/html-ph-booking-settings-outlook.php:93
+msgid "Client Secret"
+msgstr "Secret de client"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:94
+msgid "Confirm Booking(s)"
+msgstr "Confirmació de les reserves"
+
+#: class-ph-bookings-translation-support.php:23
+msgid "Confirmed"
+msgstr "Confirmat"
+
+#: class-ph-bookings-translation-support.php:24
+msgid "confirmed"
+msgstr "confirmat"
+
+#: includes/class-ph-booking-google-calendar.php:1254
+msgid "Connect"
+msgstr "Connecta't"
+
+#: includes/class-ph-booking-google-calendar.php:1242
+msgid "Connect Google Calendar"
+msgstr "Connecta Google Calendar"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:117
+msgid "Connection Status"
+msgstr "Estat de la connexió"
+
+#: includes/class-ph-booking-google-calendar.php:1270
+msgid "Connection Successfull"
+msgstr "Connexió correcta"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:42
+msgid "Consider each participant as separate booking"
+msgstr "Considera cada participant com a reserva independent"
+
+#: includes/class-ph-booking-cart-decorator.php:419
+msgid "Continue booking"
+msgstr "Continua reservant"
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:27
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:85
+msgid "Cost per block"
+msgstr "Cost per bloc"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:136
+msgid "Cost per participant"
+msgstr "Cost por participante"
+
+#: includes/admin/views/html-ph-booking-admin-order.php:68
+msgid "Create a new  order."
+msgstr "Crea nova comanda."
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:94
+msgid "Create a new asset"
+msgstr "Crear un actiu nou"
+
+#: includes/admin/views/html-ph-booking-admin-order.php:62
+msgid "Create Order"
+msgstr "Crea una comanda"
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:295
+#: includes/emails/class-ph-wc-email-booking-followup.php:292
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:116
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:231
+msgid "Cron Interval (Minutes)"
+msgstr "Interval de Cron (minuts)"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:5
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:27
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:7
+msgid "Custom date range"
+msgstr "Interval de dates personalitzat"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:24
+msgid "Custom Home Page"
+msgstr "Pàgina d'inici personalitzada"
+
+#: includes/admin/class-ph-booking-export-bookings.php:137
+#: includes/admin/class-ph-booking-export-bookings.php:632
+msgid "Customer Email"
+msgstr "Correu electrònic del client"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:400
+msgid "Customer Name"
+msgstr "Nom del client"
+
+#: includes/class-ph-booking-google-calendar.php:1593
+msgid "Customer Name: "
+msgstr "Nom del client:"
+
+#: includes/admin/class-ph-booking-export-bookings.php:140
+#: includes/admin/class-ph-booking-export-bookings.php:635
+msgid "Customer Phone"
+msgstr "Telèfon del client"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:68
+msgid "Customers will be able to book till 30 days from today if this option is set to 30 days."
+msgstr "Els clients podran reservar fins a 30 dies a partir d'avui si aquesta opció està establerta a 30 dies."
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:87
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:201
+msgid "Customise"
+msgstr "Personalitza"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:188
+msgid "Customize Calendar Event Details"
+msgstr "Personalitza els detalls de l'esdeveniment del calendari"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:170
+msgid "Customize Calendar Event Title"
+msgstr "Personalitza el títol de l'esdeveniment del calendari"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:233
+msgid "Customize Event Details"
+msgstr "Personalitza els detalls de l'esdeveniment"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:203
+msgid "Customize Event Title"
+msgstr "Personalitza el títol de l'esdeveniment"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:339
+msgid "Customize Filter Labels"
+msgstr "Personalitza el títol de l'esdeveniment"
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:84
+msgid "Customize iCalendar Event Details"
+msgstr "Personalitza els detalls de l'esdeveniment iCalendar"
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:66
+msgid "Customize iCalendar Event Title"
+msgstr "Personalitza el títol de l'esdeveniment iCalendar"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:142
+msgid "Customize Labels"
+msgstr "Personalitza les etiquetes"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:225
+msgid "Customize Style"
+msgstr "Personalitza l'estil"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:259
+msgid "Daily Booking Times:"
+msgstr "Horaris de reserva diaris:"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:949
+msgid "Date Box on Click"
+msgstr "Quadre de data del clic"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:58
+msgid "Date Format"
+msgstr "Format de data"
+
+#: includes/admin/views/html-calendar-month.php:126
+msgctxt "date format"
+msgid "l"
+msgstr "l"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:9
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:31
+msgid "Date range and time"
+msgstr "Interval de dates i hora"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:640
+msgid "Dates"
+msgstr "Dates"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:645
+msgid "Dates Text"
+msgstr "Text dates"
+
+#: includes/admin/views/html-calendar-month.php:15
+#: includes/admin/views/html-calendar-day.php:14
+msgid "Day"
+msgstr "Dia"
+
+#: ph-bookings-appointments-woocommerce-premium.php:787
+msgid "day"
+msgstr "dia"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:70
+#: includes/admin/views/html-ph-booking-product-admin-options.php:185
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:62
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:81
+msgid "Day(s)"
+msgstr "Dia(es)"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:131
+msgid "Deactivate & Re-Authorize"
+msgstr "Desactiva i torna a autoritzar"
+
+#: ph-api-manager/ph_api_manager_bookings.php:499
+msgid "Deactivate and reactivate the Bookings plugin"
+msgstr "Desactiva i reactiva el connector Reserves"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:201
+msgid "Debug log"
+msgstr "Registre de depuració"
+
+#: ph-bookings-appointments-woocommerce-premium.php:755
+#: includes/class-ph-booking-checkout-decorator.php:868
+#: includes/addons/ph_bookings_month_picker.php:109
+msgid "Dec"
+msgstr "Des"
+
+#: ph-bookings-appointments-woocommerce-premium.php:741
+#: includes/class-ph-booking-checkout-decorator.php:857
+#: includes/addons/ph_bookings_month_picker.php:95
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:70
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:137
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:76
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:128
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:46
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:85
+msgid "December"
+msgstr "Desembre"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:134
+msgid "Define availability for each asset."
+msgstr "Definir la disponibilitat de cada actiu."
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:45
+msgid "Define global availability rules here. These will reflect in all the bookable products and can be overridden at a product level."
+msgstr "Definiu aquí les regles de disponibilitat global. Aquests es reflectiran en tots els productes reservables i es poden substituir a nivell de producte."
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:92
+msgid "Delete Booking(s)"
+msgstr "Suprimeix  reserva(es)"
+
+#: ph-api-manager/ph_api_manager_bookings.php:496
+msgid "Delete the previous activation of the license key (If any)"
+msgstr "Suprimeix l'activació anterior de la clau de llicència (si n'hi ha)"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:478
+msgid "Direct Booking"
+msgstr "Reserva directa"
+
+#: includes/class-ph-booking-google-calendar.php:1261
+msgid "Disconnect"
+msgstr "Desconnecta"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:183
+#: includes/admin/class-ph-booking-admin-reports-list.php:345
+#: includes/admin/class-ph-booking-admin-reports-list.php:409
+#: includes/admin/class-ph-booking-admin-reports-list.php:437
+#: includes/admin/class-ph-booking-admin-reports-list.php:459
+msgid "Dismiss this notice"
+msgstr "Ignora l'avís"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:237
+msgid "Dismiss this notice."
+msgstr "Descartar aquest avís."
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:74
+msgid "Display Book Now button"
+msgstr "Mostra el botó Reserva ara"
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:38
+msgid "Display Cost"
+msgstr "Cost de visualització"
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:41
+msgid "Display cost will appear as the product price in the front end. This price is not considered for the dynamic booking cost calculations. If not set, the Base Cost  + the block cost will be the price displayed."
+msgstr "El cost de visualització es mostrarà com el preu del producte a la part frontal. Aquest preu no es considera per als càlculs dinàmics del cost de la reserva. Si no s'estableix, el cost base + el cost del bloc serà el preu mostrat."
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:441
+msgid "Display Search Availability Widget"
+msgstr "Mostra el widget de disponibilitat de cerca"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:17
+msgid "Display Search Widget Visibility"
+msgstr "Mostra la visibilitat del widget de cerca"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:4
+msgid "Display Settings"
+msgstr "Configuració de la pantalla"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:293
+msgid "Display Slot End Time"
+msgstr "Visualitza l'hora d'acabament de la reserva"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:237
+msgid "Display Text"
+msgstr "Mostra el text"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:240
+msgid "Display Text Colour"
+msgstr "Mostra el color del text"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:78
+msgid "Display View Product button"
+msgstr "Mostra el botó Visualitza el producte"
+
+#: ph-bookings-appointments-woocommerce-premium.php:443
+msgid "Documentation"
+msgstr "Documentació"
+
+#: includes/frondend/class-ph-icalendar-extension.php:61
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:4
+msgid "Download .ics File"
+msgstr "Descarrega el fitxer .ics"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:101
+#: includes/admin/class-ph-booking-admin-reports-list.php:125
+#: includes/frondend/class-ph-icalendar-extension.php:284
+msgid "Download iCal File"
+msgstr "Descarrega el fitxer iCal"
+
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:298
+msgid "Email Heading"
+msgstr "Encapçalament per correu electrònic"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:260
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:263
+#: includes/emails/class-ph-booking-payment-for-customer.php:246
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:311
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:281
+#: includes/emails/class-ph-wc-email-booking-reminder.php:253
+#: includes/emails/class-ph-wc-email-booking-followup.php:251
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:217
+msgid "Email heading"
+msgstr "Encapçalament per correu electrònic"
+
+#: includes/class-ph-booking-google-calendar.php:1637
+msgid "Email Id: "
+msgstr "Identificació de correu electrònic: "
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:277
+#: includes/emails/class-ph-booking-payment-for-customer.php:264
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:329
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:299
+#: includes/emails/class-ph-wc-email-booking-reminder.php:278
+#: includes/emails/class-ph-wc-email-booking-followup.php:276
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:316
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:234
+msgid "Email type"
+msgstr "Tipus de correu electrònic"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:338
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:78
+#: includes/admin/views/html-ph-booking-settings-outlook.php:287
+msgid "Enable"
+msgstr "Habilitar"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:14
+msgid "Enable Assets"
+msgstr "Habilita els actius"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:216
+msgid "Enable Booking Notes"
+msgstr "Habilita les notes de reserva"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:71
+msgid "Enable Booking Reminder Emails"
+msgstr "Habilita els e-mail de recordatori de reserves"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:283
+msgid "Enable Debug Mode"
+msgstr "Activa el mode de depuració"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:185
+msgid "Enable Follow up Emails"
+msgstr "Habilita els e-mail de seguiment"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:74
+msgid "Enable Google Calendar Sync"
+msgstr "Activar la sincronització de Google Calendar"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:20
+msgid "Enable Participants"
+msgstr "Habilita els participants"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:12
+msgid "Enable Resources"
+msgstr "Habilita els recursos"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:240
+#: includes/emails/class-ph-booking-payment-for-customer.php:233
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:298
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:268
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:278
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:197
+msgid "Enable this email notification"
+msgstr "Activa aquesta notificació de correu electrònic"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:219
+msgid "Enable this option if you need a text area to appear along with the calendar for clients to enter additional information."
+msgstr "Habiliteu aquesta opció si necessiteu que aparegui una àrea de text juntament amb el calendari perquè els clients introdueixin informació addicional."
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:23
+msgid "Enable this option if you want to allow the user to book this product with number of people or materials. For Eg : Adults/Children for hotel room, Chairs for party equipment etc."
+msgstr "Habiliteu aquesta opció si voleu permetre que l'usuari reservi aquest producte amb nombre de persones o materials. Per a eg: Adults / Nens per a habitació d'hotel, cadires per a equips de festa, etc."
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:47
+msgid "Enable this option if you wish to make resource as a mandatory field for bookings."
+msgstr "Habiliteu aquesta opció si voleu fer el recurs com a camp obligatori per a les reserves."
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:15
+msgid "Enable this option if you wish to provide additional resources for the booking. For Eg: Breakfast in the case of hotels."
+msgstr "Habiliteu aquesta opció si voleu proporcionar recursos addicionals per a la reserva. Per exemple: Esmorzar en el cas dels hotels."
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:205
+msgid "Enable this option only to troubleshoot issues in authentication or calendar syncing"
+msgstr "Habilita aquesta opció només per resoldre problemes en l'autenticació o la sincronització del calendari"
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:75
+msgid "Enable this to ensure product-specific availability settings take precedence. Global availability rules will only apply if no product-specific rule exists for a given time slot."
+msgstr "Activeu-ho per assegurar-vos que la configuració de disponibilitat específica del producte tingui prioritat. Les regles de disponibilitat global només s'aplicaran si no hi ha cap regla específica de producte per a una franja horària determinada."
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:238
+#: includes/emails/class-ph-booking-payment-for-customer.php:231
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:296
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:266
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:276
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:195
+msgid "Enable/Disable"
+msgstr "Activar desactivar"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:289
+msgid "Enabling the option to exclude cost calculation for unavailable slots between consecutive days."
+msgstr "Activació de l'opció per excloure el càlcul de costos per a espais no disponibles entre dies consecutius."
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:354
+msgid "Enabling this option will allow clients to see the calendar in their own time zone."
+msgstr "Si activeu aquesta opció, els clients podran veure el calendari en la seva pròpia zona horària."
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:43
+msgid "Enabling this option will allow you to export the booking events to your iCalendar via .ics file"
+msgstr "Activar aquesta opció us permetrà exportar els esdeveniments de reserva al vostre iCalendar mitjançant un fitxer .ics"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:77
+msgid "Enabling this option will allow you to sync booking events to your MS Outlook calendar"
+msgstr "Activar aquesta opció us permetrà sincronitzar esdeveniments de reserva amb el vostre calendari d'MS Outlook"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:108
+msgid "Enabling this option will allow your customers to add the booking as an event to their google calendar"
+msgstr "Si activeu aquesta opció, els vostres clients podran afegir la reserva com a esdeveniment al seu calendari de Google"
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:52
+msgid "Enabling this option will allow your customers to export the booking events to your iCalendar via .ics file from their My Accounts page"
+msgstr "Si activeu aquesta opció, els vostres clients podran exportar els esdeveniments de reserva al vostre iCalendar mitjançant un fitxer .ics des de la seva pàgina Els meus comptes"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:45
+msgid "Enabling this option will create a separate booking order for each participant"
+msgstr "Si activeu aquesta opció, es crearà una comanda de reserva independent per a cada participant"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:135
+msgid "Enabling this option will disable all dates in the calendar. Using this option with availability rules, you can enable desired dates for bookings."
+msgstr "Si activeu aquesta opció, es desactivaran totes les dates del calendari. Mitjançant aquesta opció amb regles de disponibilitat, podeu habilitar les dates desitjades per a les reserves."
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:140
+msgid "Enabling this option will select the Minimum Booking Slots automatically as soon as the customer selects the first slot."
+msgstr "Si activeu aquesta opció, seleccionaran les franges mínimes de reserva automàticament tan bon punt el client seleccioni la primera franja."
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:243
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:853
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:873
+msgid "End Date"
+msgstr "Data de finalització"
+
+#: includes/frondend/html-ph-booking-monthpicker.php:339
+msgid "End Month"
+msgstr "Final de mes"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:259
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:178
+msgid "End Time"
+msgstr "Fi del temps"
+
+#: includes/emails/class-ph-wc-email-booking-followup.php:287
+msgid "Enter how many minutes after the booking the follow up email should be sent."
+msgstr "Introduïu quants minuts després de la reserva s’ha d’enviar el correu electrònic de seguiment."
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:108
+msgid "Enter how many minutes in advance the reminder email should be sent"
+msgstr "Introduïu amb quants minuts d'antelació s'ha d'enviar el e-mail de recordatori"
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:289
+msgid "Enter how many minutes in advance the reminder email should be sent."
+msgstr "Introduïu quants minuts d’antelació s’ha d’enviar el correu electrònic del recordatori."
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:246
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:203
+#, php-format
+msgid "Enter recipients (comma separated) for this email. Defaults to %s."
+msgstr "Introduïu els destinataris (separats per comes) per a aquest correu electrònic. El valor per defecte és %s."
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:297
+#: includes/emails/class-ph-wc-email-booking-followup.php:294
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:120
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:235
+msgid "Enter the interval, in minutes, at which the cron job should run."
+msgstr "Introduïu l’interval, en pocs minuts, en què s’hauria d’executar el treball de Cron."
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:84
+msgid "Enter with your Client id. You can find this under Credentials."
+msgstr "Introduïu amb el vostre identificador de client. Podeu trobar-ho a Credencials."
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:94
+msgid "Enter with your Client Secret. You can find this under Credentials."
+msgstr "Entra amb el teu client secret. Podeu trobar-ho a Credencials."
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:48
+msgid "Event Export for Customers"
+msgstr "Exportació d'esdeveniments per a clients"
+
+#: includes/addons/class-ph-bookings-send-email-notifications.php:76
+#: includes/addons/class-ph-bookings-send-follow-up-emails.php:113
+msgid "Every %d minutes"
+msgstr "Cada %d minuts"
+
+#: includes/class-ph-booking-google-calendar.php:266
+msgid "Every %d seconds"
+msgstr "Cada %d segons"
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:11
+msgid "Exact Match (days)"
+msgstr "Coincidència exacta (dies)"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:436
+msgid "Experimental Feature: Search Availability Widget"
+msgstr "Funció experimental: widget de disponibilitat de cerca"
+
+#: includes/admin/class-ph-booking-export-bookings.php:160
+msgid "Export and Download"
+msgstr "Exportar i descarregar"
+
+#: includes/admin/class-ph-booking-export-bookings.php:38
+#: includes/admin/class-ph-booking-export-bookings.php:86
+msgid "Export Bookings"
+msgstr "Reserves d'exportació"
+
+#: includes/admin/class-ph-booking-export-bookings.php:89
+msgid "Export Bookings To CSV :"
+msgstr "Exporta les reserves a CSV:"
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:57
+msgid "Export Event Button Text"
+msgstr "Exporta el text del botó d'esdeveniment"
+
+#: ph-bookings-appointments-woocommerce-premium.php:745
+#: includes/class-ph-booking-checkout-decorator.php:859
+#: includes/addons/ph_bookings_month_picker.php:99
+msgid "Feb"
+msgstr "Feb"
+
+#: ph-bookings-appointments-woocommerce-premium.php:731
+#: includes/class-ph-booking-checkout-decorator.php:847
+#: includes/addons/ph_bookings_month_picker.php:85
+msgid "February"
+msgstr "Febrer"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:60
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:127
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:66
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:118
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:36
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:75
+msgid "Febuary"
+msgstr "Febrer"
+
+#: includes/admin/class-ph-booking-export-bookings.php:122
+msgid "Fields To Include"
+msgstr "Camps a incloure"
+
+#: includes/admin/views/html-calendar-month.php:105
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:79
+#: includes/admin/views/html-calendar-day.php:52
+msgid "Filter"
+msgstr "Filtre"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:186
+msgid "Filter by Asset Name"
+msgstr "Filtra per nom de l'actiu"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:105
+msgid "Filter by Day (For Checkin)"
+msgstr "Filtra per dia (per a la facturació)"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:138
+msgid "Filter by Day (For Checkout)"
+msgstr "Filtra per dia (per a la compra)"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:99
+msgid "Filter by Fixed Date"
+msgstr "Filtra per data fixa"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:197
+msgid "Filter by Participants"
+msgstr "Filtra per participants"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:163
+msgid "Filter by Time"
+msgstr "Filtra per temps"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:347
+msgid "Filter Display Text"
+msgstr "Filtrar el text de visualització"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:344
+msgid "Filters"
+msgstr "Filtres"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:50
+msgid "First Available Date"
+msgstr "Primera data disponible"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:262
+msgid "First booking starts at :"
+msgstr "La primera reserva comença a:"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:59
+msgid "Fixed Blocks of"
+msgstr "Blocs fixos de"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:477
+msgid "Flexible Booking"
+msgstr "Reserva flexible"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:222
+msgid "Follow up delay time (Minutes)"
+msgstr "Temps de retard de seguiment (minuts)"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:180
+msgid "Follow up Email"
+msgstr "E-mail de seguiment"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:214
+msgid "Follow up Email Content"
+msgstr "Contingut del e-mail de seguiment"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:206
+msgid "Follow up Email Subject"
+msgstr "Assumpte del e-mail de seguiment"
+
+#: includes/emails/class-ph-wc-email-booking-followup.php:285
+msgid "Followup Time"
+msgstr "Temps de seguiment"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:924
+msgid "Font Color"
+msgstr "Color de la lletra"
+
+#: includes/admin/class-ph-booking-admin-pages.php:125
+#, php-format
+msgid "For assistance, refer to the %s."
+msgstr "Per obtenir ajuda, consulteu el %s."
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:181
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:77
+#: includes/admin/views/html-ph-booking-settings-outlook.php:223
+msgid "For eg; if you want to mention customer’s name in the title then choose [CUSTOMER_NAME] tag."
+msgstr "Per exemple; si voleu esmentar el nom del client al títol, trieu l'etiqueta [CUSTOMER_NAME]."
+
+#: includes/class-ph-booking-google-calendar.php:1170
+msgid "For more info please visit here: "
+msgstr "Per a més informació visiteu aquí: "
+
+#: includes/addons/ph_bookings_start_of_the_week.php:32
+#: includes/addons/ph_bookings_start_of_the_week.php:41
+#: includes/addons/ph_bookings_start_of_the_week.php:49
+#: includes/addons/ph_bookings_start_of_the_week.php:57
+#: includes/addons/ph_bookings_start_of_the_week.php:65
+#: includes/addons/ph_bookings_start_of_the_week.php:73
+#: includes/addons/ph_bookings_start_of_the_week.php:88
+#: includes/addons/ph_bookings_start_of_the_week.php:95
+#: includes/frondend/html-ph-booking-datepicker.php:574
+#: includes/frondend/class-ph-booking-calendar-strategy.php:862
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:595
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:741
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:903
+msgid "Fr"
+msgstr "Dv"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:67
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:32
+msgid "Frequently asked questions about Google Calendar Sync"
+msgstr "Preguntes més freqüents sobre la sincronització del calendari de Google"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:15
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:79
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:146
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:40
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:57
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:110
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:37
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:85
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:137
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:19
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:55
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:94
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:115
+msgid "Friday"
+msgstr "Divendres"
+
+#: includes/admin/class-ph-booking-export-bookings.php:580
+#: includes/admin/class-ph-booking-admin-reports-list.php:118
+#: includes/addons/booking-search-widget/booking-search-widget.php:363
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:889
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:969
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1046
+#: includes/admin/views/html-ph-booking-settings-availability.php:91
+#: includes/admin/views/html-ph-booking-settings-assets.php:156
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:154
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:47
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:64
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:82
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:133
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:355
+msgid "From"
+msgstr "De"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:352
+msgid "From Date"
+msgstr "Des de la data"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:368
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:371
+msgid "From Time"
+msgstr "Del Temps"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:108
+msgid "Fully Booked Indicator"
+msgstr "Indicador completament reservat"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:115
+msgid "Fully Booked Message"
+msgstr "Missatge completament reservat"
+
+#: includes/admin/class-ph-booking-admin-pages.php:136
+msgid "Global Assets"
+msgstr "Activos globales"
+
+#: includes/admin/class-ph-booking-admin-pages.php:135
+#: includes/admin/views/html-ph-booking-settings-availability.php:44
+msgid "Global Availability"
+msgstr "Disponibilidad global"
+
+#: ph-api-manager/ph_api_manager_bookings.php:493
+msgid "Go to <a href='https://www.pluginhive.com/my-account/api-keys/?utm_source=bookings&utm_medium=plugin_settings' target='_BLANK'>PluginHive > My Account > API Keys</a> Section"
+msgstr "Aneu a la secció <a href='https://www.pluginhive.com/my-account/api-keys/?utm_source=bookings&utm_medium=plugin_settings' target='_BLANK'>PluginHive > El meu compte > Claus API</a>"
+
+#: includes/class-ph-booking-google-calendar.php:1222
+msgid "Google API authentication Failed "
+msgstr "L'autenticació de l'API de Google ha fallat "
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:117
+msgid "Google Calendar for Bookings"
+msgstr "Google Calendar per a reserves"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:58
+msgid "Google Calendar Settings"
+msgstr "Configuració de Google Calendar"
+
+#: includes/admin/class-ph-booking-admin-pages.php:137
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:61
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:26
+msgid "Google Calendar Sync"
+msgstr "Google Calendar Sync"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:104
+msgid "Google calendar sync for customers"
+msgstr "Sincronització de calendaris de Google per a clients"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:217
+msgid "Google calendar Two Way Sync"
+msgstr "Sincronització bidireccional del calendari de Google"
+
+#: includes/admin/views/html-ph-booking-admin-order.php:19
+msgid "Guest"
+msgstr "Convidat"
+
+#: includes/emails/class-ph-email-content.php:225
+#: includes/templates/emails/ph-customer-booking-followup.php:38
+#: includes/templates/emails/ph-booking-payment-for-customer-plain.php:36
+#: includes/templates/emails/ph-customer-booking-requires-confirmation.php:37
+#: includes/templates/emails/ph-customer-booking-requires-confirmation-plain.php:36
+#: includes/templates/emails/ph-customer-booking-confirmed-plain.php:35
+#: includes/templates/emails/ph-customer-booking-reminder.php:38
+#: includes/templates/emails/ph-customer-booking-followup-plain.php:35
+#: includes/templates/emails/ph-customer-booking-cancelled.php:36
+#: includes/templates/emails/ph-customer-booking-confirmed.php:42
+#: includes/templates/emails/ph-customer-booking-cancelled-plain.php:36
+#: includes/templates/emails/ph-customer-booking-reminder-plain.php:36
+msgid "Hi"
+msgstr "Hola"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:39
+msgid "Hide Asset Details from Cart/Checkout, Order Details and Emails"
+msgstr "Amaga els detalls de l'actiu del carretó/pagament, els detalls de la comanda i els correus electrònics"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:36
+msgid "Hide Assets"
+msgstr "Amaga recursos"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:46
+msgid "Hide Clear Search button"
+msgstr "Amaga el botó Esborra la cerca"
+
+#. %1$s: Order number, %2$s: Customer full name.
+#: includes/templates/emails/ph-booking-payment-for-customer-html.php:41
+msgid "Hii"
+msgstr "hola"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:23
+msgid "Home Page"
+msgstr "Pàgina d'inici"
+
+#: ph-bookings-appointments-woocommerce-premium.php:786
+msgid "hour"
+msgstr "hora"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:69
+#: includes/admin/views/html-ph-booking-product-admin-options.php:184
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:61
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:80
+msgid "Hour(s)"
+msgstr "Hora(es)"
+
+#: ph-api-manager/ph_api_manager_bookings.php:487
+msgid "How to Activate the plugin license?"
+msgstr "Com activar la llicència del complement?"
+
+#: includes/class-ph-booking-google-calendar.php:1272
+#: includes/admin/class-ph-booking-admin-reports-list.php:450
+msgid "How to fix the error"
+msgstr "Com solucionar l'error"
+
+#. Author URI of the plugin
+msgid "https://www.pluginhive.com/"
+msgstr "https://www.pluginhive.com/"
+
+#. URI of the plugin
+msgid "https://www.pluginhive.com/product/woocommerce-booking-and-appointments/"
+msgstr "https://www.pluginhive.com/product/woocommerce-booking-and-appointments/"
+
+#: includes/templates/emails/ph-customer-booking-reminder.php:39
+#, php-format
+msgid "I request you to check the bookings details for your appointment with %s."
+msgstr "Us demano que comproveu les dades de les reserves de la vostra cita amb %s."
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:39
+msgid "iCalendar Event Export"
+msgstr "Exportació d'esdeveniments iCalendar"
+
+#: includes/admin/class-ph-booking-admin-pages.php:139
+msgid "iCalendar Export"
+msgstr "Exportació iCalendar"
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:23
+msgid "iCalendar Settings"
+msgstr "Configuració d'iCalendar"
+
+#: ph-api-manager/ph_api_manager_bookings.php:489
+msgid "If you are still facing difficulties, please follow the below steps:"
+msgstr "Si encara teniu dificultats, seguiu els passos següents:"
+
+#: ph-api-manager/ph_api_manager_bookings.php:505
+msgid "If you still facing difficulties, kindly contact <a href='https://www.pluginhive.com/support/?utm_source=bookings&utm_medium=plugin_settings' target='_BLANK'>PluginHive Support</a> with the WordPress Administrator Access, along with the PluginHive Purchase Order Details. We will activate it on your site promptly."
+msgstr "Si encara teniu dificultats, poseu-vos en contacte amb el <a href='https://www.pluginhive.com/support/?utm_source=bookings&utm_medium=plugin_settings' target='_BLANK'>Suport de PluginHive</a> amb l'accés d'administrador de WordPress, juntament amb els detalls de la comanda de compra de PluginHive. L'activarem al vostre lloc de seguida."
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:371
+msgid "Include End Date and Time in Cart, Order Details and Emails"
+msgstr "Incloeu la data i l'hora de final"
+
+#: includes/admin/class-ph-booking-admin-pages.php:142
+#: includes/admin/views/html-ph-booking-settings-booking-integrations.php:7
+msgid "Integrations"
+msgstr "Integracions"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:231
+msgid "interval in seconds"
+msgstr "interval en segons"
+
+#: includes/admin/class-ph-booking-admin-order.php:123
+msgid "Invalid Order ID."
+msgstr "Identificador de comanda no vàlid."
+
+#: ph-bookings-appointments-woocommerce-premium.php:762
+msgid "is not available."
+msgstr "no disponible."
+
+#: ph-bookings-appointments-woocommerce-premium.php:744
+#: includes/class-ph-booking-checkout-decorator.php:858
+#: includes/addons/ph_bookings_month_picker.php:98
+msgid "Jan"
+msgstr "Gen"
+
+#: ph-bookings-appointments-woocommerce-premium.php:730
+#: includes/class-ph-booking-checkout-decorator.php:846
+#: includes/addons/ph_bookings_month_picker.php:84
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:59
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:126
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:65
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:117
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:35
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:74
+msgid "January"
+msgstr "Gener"
+
+#: ph-bookings-appointments-woocommerce-premium.php:750
+#: includes/class-ph-booking-checkout-decorator.php:863
+#: includes/addons/ph_bookings_month_picker.php:104
+msgid "Jul"
+msgstr "Jul"
+
+#: ph-bookings-appointments-woocommerce-premium.php:736
+#: includes/class-ph-booking-checkout-decorator.php:852
+#: includes/addons/ph_bookings_month_picker.php:90
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:65
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:132
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:71
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:123
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:41
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:80
+msgid "July"
+msgstr "Juliol"
+
+#: ph-bookings-appointments-woocommerce-premium.php:749
+#: includes/class-ph-booking-checkout-decorator.php:862
+#: includes/addons/ph_bookings_month_picker.php:103
+msgid "Jun"
+msgstr "Jun"
+
+#: ph-bookings-appointments-woocommerce-premium.php:735
+#: includes/class-ph-booking-checkout-decorator.php:851
+#: includes/addons/ph_bookings_month_picker.php:89
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:64
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:131
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:70
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:122
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:40
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:79
+msgid "June"
+msgstr "Juny"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:420
+msgid "Kindly choose at least one option and a maximum of three to save the settings."
+msgstr "Si us plau, trieu almenys una opció i un màxim de tres per desar la configuració."
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:45
+msgid "Label"
+msgstr "Etiqueta"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:269
+msgid "Last booking starts at :"
+msgstr "L'última reserva comença a:"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources-matrix-row.php:14
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:28
+msgid "Let customer choose"
+msgstr "Deixa que el client triï"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:451
+msgid "Locate the Search Availability Widget in your theme's widget section and add it to a desired widget area to enable the feature."
+msgstr "Localitzeu el giny de disponibilitat de cerca a la secció del giny del vostre tema i afegiu-lo a l'àrea del giny desitjat per habilitar la funció."
+
+#: includes/class-ph-booking-google-calendar.php:1599
+msgid "Location: "
+msgstr "Ubicació:"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:232
+msgid "Make \"Notes\" Mandatory"
+msgstr "Feu que les \"Notes\" siguin obligatòries"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:141
+msgid "Make all Assets unavailable by default"
+msgstr "Feu que tots els actius no estiguin disponibles per defecte"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:132
+msgid "Make all dates/blocks unavailable"
+msgstr "Fa que totes les dates/blocs no estiguin disponibles"
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:68
+msgid "Make all dates/blocks unavailable by default"
+msgstr "Fa que totes les dates/blocs no estiguin disponibles per defecte"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:250
+msgid "Manually Sync"
+msgstr "Sincronització manual"
+
+#: ph-bookings-appointments-woocommerce-premium.php:746
+#: includes/class-ph-booking-checkout-decorator.php:860
+#: includes/addons/ph_bookings_month_picker.php:100
+msgid "Mar"
+msgstr "Mar"
+
+#: ph-bookings-appointments-woocommerce-premium.php:732
+#: includes/class-ph-booking-checkout-decorator.php:848
+#: includes/addons/ph_bookings_month_picker.php:86
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:61
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:128
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:67
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:119
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:37
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:76
+msgid "March"
+msgstr "Març"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:95
+msgid "Mark as Paid"
+msgstr "Marcar como pagat"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:96
+msgid "Mark as Un-Paid"
+msgstr "Marcar como no pagat"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:90
+msgid "Max"
+msgstr "Máx"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:78
+msgid "Max Bookings per Block"
+msgstr "Reserves màximes per bloc"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:185
+msgid "Max no of blocks available"
+msgstr "Màxim sense blocs disponibles"
+
+#: ph-bookings-appointments-woocommerce-premium.php:702
+msgid "Max no of blocks available to book is %max_block"
+msgstr "El nombre màxim de blocs disponibles per reservar és %max_block"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:144
+msgid "Maximum Duration"
+msgstr "Durada màxima"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:65
+msgid "Maximum number of participants allowed in a booking"
+msgstr "Nombre màxim de participants permesos en una reserva"
+
+#: ph-bookings-appointments-woocommerce-premium.php:734
+#: ph-bookings-appointments-woocommerce-premium.php:748
+#: includes/class-ph-booking-checkout-decorator.php:850
+#: includes/addons/ph_bookings_month_picker.php:88
+#: includes/addons/ph_bookings_month_picker.php:102
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:63
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:130
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:69
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:121
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:39
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:78
+msgid "May"
+msgstr "Maig"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:89
+msgid "Min"
+msgstr "Mín"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:129
+msgid "Minimum Duration"
+msgstr "Durada mínima"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:194
+msgid "Minimum no of blocks required"
+msgstr "No es requereix mínim de blocs"
+
+#: ph-bookings-appointments-woocommerce-premium.php:779
+msgid "Minimum number of %pname required is %min"
+msgstr "El nombre mínim de %p nom necessari és %min"
+
+#: ph-bookings-appointments-woocommerce-premium.php:517
+#: ph-bookings-appointments-woocommerce-premium.php:620
+msgid "Minimum number of participants required for a booking is (%min)"
+msgstr "El nombre mínim de participants necessari per a una reserva és (%min)"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:51
+msgid "Minimum number of participants required in a booking"
+msgstr "Nombre mínim de participants requerits en una reserva"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:203
+msgid "Minimum participant"
+msgstr "Participants mínim"
+
+#: ph-bookings-appointments-woocommerce-premium.php:785
+msgid "minute"
+msgstr "minut"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:68
+#: includes/admin/views/html-ph-booking-product-admin-options.php:183
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:60
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:79
+msgid "Minutes(s)"
+msgstr "Minut(s)"
+
+#: includes/addons/ph_bookings_start_of_the_week.php:28
+#: includes/addons/ph_bookings_start_of_the_week.php:37
+#: includes/addons/ph_bookings_start_of_the_week.php:52
+#: includes/addons/ph_bookings_start_of_the_week.php:60
+#: includes/addons/ph_bookings_start_of_the_week.php:68
+#: includes/addons/ph_bookings_start_of_the_week.php:76
+#: includes/addons/ph_bookings_start_of_the_week.php:84
+#: includes/addons/ph_bookings_start_of_the_week.php:91
+#: includes/frondend/html-ph-booking-datepicker.php:570
+#: includes/frondend/class-ph-booking-calendar-strategy.php:858
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:591
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:737
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:899
+msgid "Mo"
+msgstr "Dl"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:11
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:75
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:142
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:317
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:36
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:53
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:106
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:33
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:81
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:133
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:15
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:51
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:90
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:111
+msgid "Monday"
+msgstr "Dilluns"
+
+#: includes/admin/views/html-calendar-month.php:12
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:620
+#: includes/admin/views/html-calendar-day.php:11
+msgid "Month"
+msgstr "Mes"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:334
+msgid "Month Picker"
+msgstr "Selector de mesos"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:625
+msgid "Month Text"
+msgstr "Text del mes"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:72
+msgid "Month(s)"
+msgstr "Mes(os)"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:73
+msgid "MS Outlook Event Sync"
+msgstr "Sincronització d'esdeveniments de MS Outlook"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:68
+msgid "MS Outlook Settings"
+msgstr "Configuració de MS Outlook"
+
+#: includes/admin/class-ph-booking-admin-pages.php:138
+msgid "MS Outlook Sync"
+msgstr "MS Outlook Sync"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:24
+msgid "Multiple Choice (Check box)"
+msgstr "Opció múltiple (casella de selecció)"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:32
+msgid "Multiply all costs by number of participants"
+msgstr "Multiplica tots els costos per nombre de participants"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:271
+#: includes/emails/class-ph-booking-payment-for-customer.php:258
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:323
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:293
+#: includes/emails/class-ph-wc-email-booking-reminder.php:272
+#: includes/emails/class-ph-wc-email-booking-followup.php:270
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:310
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:228
+msgid "N/A"
+msgstr "N/a"
+
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:220
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:221
+#: includes/templates/emails/ph-admin-booking-waiting-for-approval.php:37
+msgid "New customer order"
+msgstr "Nova comanda d'un client"
+
+#: includes/templates/emails/ph-admin-booking-waiting-for-approval-plain.php:37
+msgid ""
+"New customer order\n"
+""
+msgstr "Nova comanda de client"
+
+#: includes/admin/views/html-ph-booking-admin-order.php:88
+msgid "Next"
+msgstr "Següent"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources-matrix-row.php:21
+#: includes/admin/views/html-ph-booking-product-admin-resources-matrix-row.php:28
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:157
+#: includes/admin/views/html-ph-booking-product-admin-persons-matrix-row.php:20
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:148
+msgid "No"
+msgstr "No"
+
+#: class-ph-bookings-translation-support.php:19
+msgid "no"
+msgstr "no"
+
+#: includes/admin/class-ph-booking-export-bookings.php:483
+msgid "No Bookings Found."
+msgstr "No es van trobar reserves."
+
+#: includes/admin/class-ph-booking-export-bookings.php:125
+#: includes/admin/class-ph-booking-export-bookings.php:594
+#: includes/admin/class-ph-booking-admin-reports-list.php:120
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:401
+msgid "No of Participants"
+msgstr "Nº dels participants"
+
+#: includes/integrations/outlook/class-ph-bookings-outlook.php:230
+msgid "Not Signed in, First sign in to MS Outlook"
+msgstr "No heu iniciat la sessió, primer inicieu la sessió a MS Outlook"
+
+#: includes/class-ph-booking-google-calendar.php:173
+msgid "Not Synced, First sync with Google Calendar"
+msgstr "No sincronitzat, primer sincronització amb Google Calendar"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:124
+msgid "Note :  Please save the participants to be able to create the rules for every participant.<br>You can create a common rule for all participants using “Participant Total Count” or you could create a separate rule for every participant."
+msgstr "Nota: Deseu els participants per poder crear les regles per a cada participant.<br>Podeu crear una regla comuna per a tots els participants mitjançant \"Recompte total de participants\" o podeu crear una regla independent per a cada participant."
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:275
+msgid "Note : To override these timings for specific days, you can set the Availability Rules under <b>Booking Availability</b>."
+msgstr "Nota: per substituir aquestes temporitzacions durant dies concrets, pots definir les Regles de disponibilitat a <b>Disponibilitat de la reserva</b>."
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:175
+msgid "Note:  In case of conflicting rules, the top rule gets priority."
+msgstr "Nota: En cas conflicte, la regla superior té prioritat."
+
+#: ph-bookings-appointments-woocommerce-premium.php:754
+#: includes/class-ph-booking-checkout-decorator.php:867
+#: includes/addons/ph_bookings_month_picker.php:108
+msgid "Nov"
+msgstr "Nov"
+
+#: ph-bookings-appointments-woocommerce-premium.php:740
+#: includes/class-ph-booking-checkout-decorator.php:856
+#: includes/addons/ph_bookings_month_picker.php:94
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:69
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:136
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:75
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:127
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:45
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:84
+msgid "November"
+msgstr "Novembre"
+
+#: ph-bookings-appointments-woocommerce-premium.php:777
+msgid "Number of %pname cannot exceed %pmax"
+msgstr "El nombre de %pname no pot superar l'%pmax"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:392
+msgid "Number of Participants"
+msgstr "Nombre de participants"
+
+#: class-ph-bookings-translation-support.php:20
+#: includes/class-ph-booking-checkout-decorator.php:683
+#: includes/addons/class-ph-bookings-send-email-notifications.php:563
+#: includes/emails/class-ph-wc-email-booking-reminder.php:321
+#: includes/emails/class-ph-wc-email-booking-followup.php:312
+msgid "Number of persons"
+msgstr "Número de personas"
+
+#: ph-bookings-appointments-woocommerce-premium.php:753
+#: includes/class-ph-booking-checkout-decorator.php:866
+#: includes/addons/ph_bookings_month_picker.php:107
+msgid "Oct"
+msgstr "Oct"
+
+#: ph-bookings-appointments-woocommerce-premium.php:739
+#: includes/class-ph-booking-checkout-decorator.php:855
+#: includes/addons/ph_bookings_month_picker.php:93
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:68
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:135
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:74
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:126
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:44
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:83
+msgid "October"
+msgstr "Octubre"
+
+#: ph-bookings-appointments-woocommerce-premium.php:68
+msgid "Oops! You tried installing the premium version without deactivating and deleting the basic version. Kindly deactivate and delete Bookings and Appointments Woocommerce Extension and then try again"
+msgstr "Ui! Heu provat d'instal·lar la versió premium sense desactivar i suprimir la versió bàsica. Desactiveu i suprimiu amablement Reserves i cites Woocommerce Extension i torneu-ho a provar"
+
+#: includes/class-ph-booking-ajax-interface.php:237
+#, php-format
+msgid "Oops!, %s is not available to book "
+msgstr "Vaja!, %s no està disponible per reservar"
+
+#: class-ph-bookings-translation-support.php:21
+#: includes/admin/class-ph-booking-export-bookings.php:567
+#: includes/admin/class-ph-booking-admin-reports-list.php:115
+#: includes/emails/class-ph-email-content.php:169
+#: includes/templates/emails/ph-admin-booking-waiting-for-approval.php:45
+#: includes/templates/emails/ph-admin-booking-cancelled.php:43
+msgid "Order"
+msgstr "Comanda"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:398
+msgid "Order ID"
+msgstr "Identificador de comanda"
+
+#: includes/class-ph-booking-google-calendar.php:402
+msgid "Order Item:"
+msgstr "Article de la comanda:"
+
+#: includes/class-ph-booking-google-calendar.php:1868
+msgid "Order Item: #"
+msgstr "Article de la comanda: #"
+
+#: includes/class-ph-booking-google-calendar.php:1583
+#: includes/class-ph-booking-order-item-handler.php:104
+msgid "Order Placed"
+msgstr "Comanda realitzada"
+
+#: includes/class-ph-booking-google-calendar.php:396
+msgid "Order:"
+msgstr "Ordre:"
+
+#: includes/class-ph-booking-google-calendar.php:1868
+msgid "Order: #"
+msgstr "Ordre: #"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:150
+msgid "Outlook Calendar for Bookings"
+msgstr "Calendari d'Outlook per a reserves"
+
+#: includes/class-ph-booking-checkout-decorator.php:93
+#: includes/admin/class-ph-bookings-calendar-admin.php:348
+#: includes/admin/class-ph-booking-admin-order.php:510
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:48
+#: includes/admin/views/html-ph-booking-settings-outlook.php:52
+msgid "Paid"
+msgstr "Pagat"
+
+#: includes/admin/class-ph-bookings-calendar-admin.php:352
+msgid "Partially Paid"
+msgstr "Parcialment pagat"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:368
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:865
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:941
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1022
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:32
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:49
+#: includes/admin/views/html-ph-booking-product-admin-person-rule-matrix-row.php:6
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:395
+msgid "Participant Count"
+msgstr "Recompte de participants"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:88
+msgid "Participant Label/Type"
+msgstr "Etiqueta/Tipus de participant"
+
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:6
+msgid "Participant Total Count"
+msgstr "Recompte total de participants"
+
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:9
+msgid "Participant Total Count With Block Count"
+msgstr "Recompte total de participants amb recompte de blocs"
+
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:7
+msgid "Participant Total Count With Custom Date"
+msgstr "Recompte total de participants amb data personalitzada"
+
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:8
+msgid "Participant Total Count With Week Days"
+msgstr "Recompte total de participants amb dies de setmana"
+
+#: includes/class-ph-booking-payment-gateway.php:21
+msgid "Pay the full amount after your booking is confirmed. You'll receive a confirmation email with payment details."
+msgstr "Pagueu l'import total un cop confirmada la vostra reserva. Rebràs un correu electrònic de confirmació amb les dades del pagament."
+
+#: includes/class-ph-booking-payment-gateway.php:18
+msgid "Payment on Confirmation"
+msgstr "Pagament per confirmació"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:92
+msgid "Per Participant Cost"
+msgstr "Cost per participant"
+
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:45
+msgid "PH Booking Cancelled"
+msgstr "Reserva de pH cancel·lada"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:44
+msgid "PH Booking Cancelled For Admin"
+msgstr "Reserva de PH cancel·lada per a l'administrador"
+
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:48
+msgid "PH Booking Confirmed"
+msgstr "La reserva de pH confirmada"
+
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:45
+msgid "PH Booking Requires Confirmation"
+msgstr "La reserva de pH requereix confirmació"
+
+#: includes/emails/class-ph-wc-email-booking-followup.php:37
+msgid "PH Bookings Followup"
+msgstr "Seguiment de reserves de pH"
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:38
+msgid "PH Bookings Reminder"
+msgstr "Recordatori de reserves de pH"
+
+#: includes/emails/class-ph-booking-payment-for-customer.php:44
+msgid "PH Manual Bookings"
+msgstr "Reserves manuals de PH"
+
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:31
+msgid "PH Waiting For Approval For Admin"
+msgstr "PH esperant l'aprovació per a l'administrador"
+
+#: includes/class-ph-booking-google-calendar.php:1636
+msgid "Phone: "
+msgstr "Telèfon:"
+
+#: ph-bookings-appointments-woocommerce-premium.php:764
+msgid "Pick a later end date"
+msgstr "Trieu una data de finalització posterior"
+
+#: ph-bookings-appointments-woocommerce-premium.php:765
+msgid "Pick a later end time"
+msgstr "Trieu un temps final posterior"
+
+#: includes/frondend/html-ph-booking-monthpicker.php:352
+msgid "Pick Month(s)"
+msgstr "Tria els mesos"
+
+#: includes/emails/class-ph-email-content.php:167
+#: includes/templates/emails/ph-booking-payment-for-customer-html.php:54
+#: includes/templates/emails/ph-customer-booking-confirmed.php:54
+msgid "Please click below link to proceed with the payment "
+msgstr "Feu clic a sota de l'enllaç per continuar amb el pagament "
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:136
+msgid "Please deactivate the <strong>Availability Search Widget Add-on</strong> to access the features in beta version."
+msgstr "Desactiveu el <strong>complement del widget de cerca de disponibilitat</strong> per accedir a les funcions de la versió beta."
+
+#: includes/class-ph-booking-google-calendar.php:1257
+msgid "Please enter the credentials"
+msgstr "Introduïu les credencials si us plau"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:64
+msgid "Please Note : Default Emails like “New Booking Order Emails, Booking Cancellation Emails and Booking Approval Emails are sent automatically when applicable, no configuration is required for them."
+msgstr "Tingueu en compte: correus electrònics predeterminats com ara \"Correus electrònics de comandes de reserva nous, correus electrònics de cancel·lació de reserves i correus electrònics d'aprovació de reserves s'envien automàticament quan sigui aplicable, no es requereix cap configuració per a ells."
+
+#: ph-bookings-appointments-woocommerce-premium.php:767
+msgid "Please pick a booking period"
+msgstr "Si us plau, trieu un període de reserva"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:161
+msgid "Please Pick a Date"
+msgstr "Si us plau, trieu una data"
+
+#: ph-bookings-appointments-woocommerce-premium.php:770
+msgid "Please Pick a End Dates."
+msgstr "Si us plau, trieu una data de finalització."
+
+#: includes/frondend/html-ph-booking-monthpicker.php:305
+msgid "Please Pick a Month"
+msgstr "Si us plau, trieu un mes"
+
+#: ph-bookings-appointments-woocommerce-premium.php:776
+msgid "Please pick a month"
+msgstr "Si us plau, trieu un mes"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:177
+msgid "Please Pick a Time"
+msgstr "Si us plau, trieu un temps"
+
+#: ph-bookings-appointments-woocommerce-premium.php:709
+msgid "Please pick a Time"
+msgstr "Si us plau, escolliu una hora"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:169
+msgid "Please Pick an End Date"
+msgstr "Trieu una data de finalització"
+
+#: ph-bookings-appointments-woocommerce-premium.php:706
+msgid "Please pick an end date"
+msgstr "Si us plau, escolliu una data de finalització"
+
+#: ph-bookings-appointments-woocommerce-premium.php:775
+msgid "Please pick an end month"
+msgstr "Si us plau, trieu un mes final"
+
+#: ph-bookings-appointments-woocommerce-premium.php:774
+msgid "Please pick the end time"
+msgstr "Trieu l'hora de finalització"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:147
+msgid "Please retain the text in parenthesis() and used with % sign as is."
+msgstr "Si us plau, conserveu el text entre parèntesis() i s'utilitza amb % sign tal com és."
+
+#: ph-bookings-appointments-woocommerce-premium.php:704
+msgid "Please Select minimum %d blocks."
+msgstr "Seleccioneu un mínim de %d blocs."
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:84
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:198
+msgid "Plugin Default"
+msgstr "Per defecte del connector"
+
+#. Author of the plugin
+msgid "PluginHive"
+msgstr "PluginHive"
+
+#: ph-bookings-appointments-woocommerce-premium.php:535
+#: ph-bookings-appointments-woocommerce-premium.php:638
+msgid "pm"
+msgstr "pm"
+
+#: includes/addons/class-ph-bookings-send-email-notifications.php:533
+#: includes/emails/class-ph-email-content.php:250
+#: includes/templates/emails/ph-admin-booking-waiting-for-approval.php:64
+#: includes/templates/emails/ph-admin-booking-cancelled.php:62
+msgid "Price"
+msgstr "Preu"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:764
+msgid "Primary Background"
+msgstr "Fons primari"
+
+#: includes/addons/class-ph-bookings-send-email-notifications.php:532
+#: includes/admin/class-ph-booking-export-bookings.php:572
+#: includes/admin/class-ph-booking-admin-reports-list.php:116
+#: includes/emails/class-ph-email-content.php:249
+#: includes/templates/emails/ph-admin-booking-waiting-for-approval.php:61
+#: includes/templates/emails/ph-admin-booking-cancelled.php:59
+msgid "Product"
+msgstr "Producte"
+
+#: includes/admin/class-ph-booking-export-bookings.php:91
+msgid "Product : "
+msgstr "Producte:"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:26
+msgid "Product Category Page"
+msgstr "Pàgina de categoria de producte"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:399
+msgid "Product Name"
+msgstr "nom del producte"
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:76
+msgid "Provide Discounts or Special Prices by creating cost rules."
+msgstr "Proporcionar descomptes o preus especials creant regles de cost."
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:121
+msgid "Provide Discounts or Special Prices for participants by creating participant rules."
+msgstr "Proporcionar descomptes o preus especials per als participants creant regles de participants."
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:109
+msgid "Quantity"
+msgstr "Quantitat"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:7
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:29
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:9
+msgid "Range of days"
+msgstr "Interval de dies"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:6
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:28
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:8
+msgid "Range of months"
+msgstr "Interval de mesos"
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:90
+#: includes/admin/views/html-ph-booking-settings-assets.php:155
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:153
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:132
+msgid "Range Type"
+msgstr "Tipus d'interval"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:97
+msgid "Re-sync google calender"
+msgstr "Torna a sincronitzar amb Google calender"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:64
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:29
+msgid "Read more to know how to "
+msgstr "Llegiu més per saber com fer -ho"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:61
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:26
+msgid "Read more to know how to set up "
+msgstr "Llegiu -ne més per saber configurar"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:67
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:32
+msgid "Read more to know the "
+msgstr "Llegiu més per saber el"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:244
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:201
+msgid "Recipient(s)"
+msgstr "Destinataris"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:103
+msgid "Redirect URI"
+msgstr "URI de redirecció"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:93
+#, php-format
+msgid "Refer %s for further details."
+msgstr "Consulteu %s per a més detalls."
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:133
+#: includes/admin/views/html-ph-booking-settings-outlook.php:167
+msgid "Refresh Calendar List"
+msgstr "Actualitza la llista de calendaris"
+
+#: includes/class-ph-booking-checkout-decorator.php:97
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:52
+#: includes/admin/views/html-ph-booking-settings-outlook.php:56
+msgid "Refunded"
+msgstr "Reemborsat"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:87
+msgid "Remaining Bookings"
+msgstr "Resta de reserves"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:93
+msgid "Remaining Bookings Text"
+msgstr "Text de la resta de reserves"
+
+#: includes/admin/class-ph-booking-admin-pages.php:140
+msgid "Reminder and Follow up Emails"
+msgstr "Recordatorios y correos electrónicos de seguimiento"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:66
+msgid "Reminder Email"
+msgstr "E-mail de recordatori"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:100
+msgid "Reminder Email Content"
+msgstr "Contingut de l'e-mail de recordatori"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:92
+msgid "Reminder Email Subject"
+msgstr "Tema de l'e-mail de recordatori"
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:287
+msgid "Reminder Time"
+msgstr "Temps de recordatori"
+
+#: includes/class-ph-booking-payment-gateway.php:20
+msgid "Request Confirmation"
+msgstr "Sol·licita Confirmació"
+
+#: includes/class-ph-booking-checkout-decorator.php:96
+#: includes/admin/class-ph-bookings-calendar-admin.php:351
+#: includes/admin/class-ph-booking-admin-order.php:513
+#: includes/admin/views/html-ph-booking-product-admin-options.php:195
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:51
+#: includes/admin/views/html-ph-booking-settings-outlook.php:55
+msgid "Requires Confirmation"
+msgstr "Requereix confirmació"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:700
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:822
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:982
+msgid "Reset to Default"
+msgstr "Reinicialitza-ho per defecte"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:401
+msgid "Reset to default"
+msgstr "Restableix els valors predeterminats"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:62
+msgid "Resource Cost (Optional)"
+msgstr "Cost del recurs (opcional)"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:33
+msgid "Resource Label"
+msgstr "Etiqueta de recurs"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:61
+msgid "Resource Name/Label"
+msgstr "Nom/etiqueta del recurs"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:44
+msgid "Resource Selection is Mandatory"
+msgstr "La selecció de recursos és obligatòria"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:21
+msgid "Resource Type"
+msgstr "Tipus de recurs"
+
+#: includes/admin/class-ph-booking-product-manager.php:143
+#: includes/frondend/class-ph-booking-calendar-strategy.php:933
+msgid "Resources"
+msgstr "Recursos"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:97
+msgid "Restrict bookings to start only on certain days of the week"
+msgstr "Restringir les reserves per començar només en determinats dies de la setmana"
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:81
+msgid "Rule Type"
+msgstr "Tipus de regla"
+
+#: includes/addons/ph_bookings_start_of_the_week.php:33
+#: includes/addons/ph_bookings_start_of_the_week.php:42
+#: includes/addons/ph_bookings_start_of_the_week.php:50
+#: includes/addons/ph_bookings_start_of_the_week.php:58
+#: includes/addons/ph_bookings_start_of_the_week.php:66
+#: includes/addons/ph_bookings_start_of_the_week.php:74
+#: includes/addons/ph_bookings_start_of_the_week.php:82
+#: includes/addons/ph_bookings_start_of_the_week.php:96
+#: includes/frondend/html-ph-booking-datepicker.php:575
+#: includes/frondend/class-ph-booking-calendar-strategy.php:863
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:596
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:742
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:904
+msgid "Sa"
+msgstr "Ds"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:16
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:80
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:147
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:41
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:58
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:111
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:38
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:86
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:138
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:20
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:56
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:95
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:116
+msgid "Saturday"
+msgstr "Dissabte"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:294
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:699
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:821
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:981
+msgid "Save Changes"
+msgstr "Desa els canvis"
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:114
+#: includes/admin/views/html-ph-booking-settings-assets.php:180
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:210
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:241
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:97
+msgid "Save changes"
+msgstr "Desa els canvis"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:248
+msgid "Save Interval"
+msgstr "Desa l'interval"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:493
+msgid "Save Settings"
+msgstr "Desa la configuració"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:96
+msgid "Save the Product Settings once you create a New Asset in order to create an Asset Rule."
+msgstr "Deseu la configuració del producte un cop hàgiu creat un actiu nou per crear una regla d'actius."
+
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:16
+msgid "Seach here the available Bookings"
+msgstr "Busqueu aquí les Reserves disponibles"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:361
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:881
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:957
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1038
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:248
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:254
+msgid "Search"
+msgstr "Cerca"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:302
+msgid "Search Bar"
+msgstr "Barra de cerca"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:93
+msgid "Search Filters"
+msgstr "Filtres de cerca"
+
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:48
+#, php-format
+msgid "Search results for: &ldquo;%1$s to %2$s&rdquo;"
+msgstr "Resultats de la cerca per a: &ldquo;%1$s a %2$s&rdquo;"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:8
+msgid "Search Widget Title:"
+msgstr "Títol del widget de cerca:"
+
+#: includes/admin/class-ph-booking-export-bookings.php:93
+msgid "Select a product"
+msgstr "Seleccioneu un producte"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:365
+#: includes/addons/booking-search-widget/booking-search-widget.php:366
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:891
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:892
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:971
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:972
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1048
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1049
+msgid "Select a time"
+msgstr "Seleccioneu una hora"
+
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:940
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1021
+msgid "Select an Asset"
+msgstr "Seleccioneu un actiu"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:367
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:387
+msgid "Select an asset"
+msgstr "Seleccioneu un actiu"
+
+#: includes/frondend/class-ph-booking-calendar-strategy.php:950
+msgid "Select any"
+msgstr "Seleccioneu qualsevol"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:122
+msgid "Select Google Calendar"
+msgstr "Select Google Calendar"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:155
+msgid "Select Outlook Calendar"
+msgstr "Seleccioneu Calendari d'Outlook"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:202
+msgid "Select Participants"
+msgstr "Seleccioneu Participants"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:159
+msgid "Select the booking statuses to sync with your Google calendar. Leave empty to synchronize all booking statuses."
+msgstr "Seleccioneu els estats de la reserva per sincronitzar amb el vostre calendari de Google. Deixeu-lo en blanc per sincronitzar tots els estats de la reserva."
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:195
+msgid "Select the booking statuses to sync with your Outlook calendar. Leave empty to synchronize all booking statuses."
+msgstr "Seleccioneu els estats de reserva per sincronitzar amb el vostre calendari d'Outlook. Deixeu-lo en blanc per sincronitzar tots els estats de la reserva."
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:80
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:194
+msgid "Select the Email Template"
+msgstr "Seleccioneu la plantilla de correu electrònic"
+
+#: includes/class-ph-booking-cart-decorator.php:196
+msgid "Selected blocks not available for "
+msgstr "Els blocs seleccionats no estan disponibles per a"
+
+#: includes/class-ph-booking-cart-decorator.php:344
+msgid "Selected blocks not available."
+msgstr "Els blocs seleccionats no estan disponibles."
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:95
+msgid "Selected by default"
+msgstr "Seleccionat de manera predeterminada"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:665
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:789
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:959
+msgid "Selected Date"
+msgstr "Data seleccionada"
+
+#: includes/admin/views/html-ph-booking-admin-order-calender.php:98
+msgid "Send payment link email to customer."
+msgstr "Envieu el correu electrònic d’enllaç de pagament al client."
+
+#: ph-bookings-appointments-woocommerce-premium.php:752
+#: includes/class-ph-booking-checkout-decorator.php:865
+#: includes/addons/ph_bookings_month_picker.php:106
+msgid "Sep"
+msgstr "Sep"
+
+#: ph-bookings-appointments-woocommerce-premium.php:738
+#: includes/class-ph-booking-checkout-decorator.php:854
+#: includes/addons/ph_bookings_month_picker.php:92
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:67
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:134
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:73
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:125
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:43
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:82
+msgid "September"
+msgstr "Septembre"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:55
+msgid "Set a booking window relative to today"
+msgstr "Estableix una finestra de reserva relativa a avui"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:27
+msgid "Set a fixed booking window"
+msgstr "Estableix una finestra de reserva fixa"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:45
+msgid "Set a relative booking window"
+msgstr "Estableix una finestra de reserva relativa"
+
+#: ph-bookings-appointments-woocommerce-premium.php:795
+#: includes/class-ph-booking-payment-gateway.php:39
+#: includes/admin/class-ph-booking-admin-pages.php:58
+msgid "Settings"
+msgstr "Configuració"
+
+#: includes/emails/class-ph-email-content.php:303
+msgid "Shipping address"
+msgstr "Adreça d’enviament"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:25
+msgid "Shop Page"
+msgstr "Pàgina de la botiga"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:217
+msgid "Show Products Partially Unavailable Between The Search Interval"
+msgstr "Mostra els productes parcialment no disponibles entre l'interval de cerca"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:125
+msgid "Sign in to MS Outlook"
+msgstr "Inicieu la sessió a MS Outlook"
+
+#: ph-bookings-appointments-woocommerce-premium.php:768
+msgid "Since max bookings per block is %d and you have enabled 'each participant as a booking' max participants allowed is %d"
+msgstr "Atès que les reserves màximes per bloc són %d i s'ha habilitat \"cada participant com a reserva\" els participants màxims permesos són %d"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:23
+msgid "Single Choice (Dropdown)"
+msgstr "Elecció única (desplegable)"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:40
+msgid "Sold Out"
+msgstr "Esgotat"
+
+#: includes/class-ph-booking-ajax-interface.php:208
+#, php-format
+msgid "Sorry! %1$s is not available for the selected slot %2$s to %3$s.<br>Please try a different slot or adjust your booking duration."
+msgstr "Ho sentim! %1$s no està disponible per a la franja horària seleccionada de %2$s a %3$s.<br>Si us plau, proveu una franja horària diferent o ajusteu la durada de la reserva."
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:235
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:845
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:865
+msgid "Start Date"
+msgstr "Data d'inici"
+
+#: includes/frondend/html-ph-booking-monthpicker.php:318
+#: includes/frondend/html-ph-booking-monthpicker.php:331
+msgid "Start Month"
+msgstr "Mes d'inici"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:251
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:174
+msgid "Start Time"
+msgstr "L'hora d'inici"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:262
+msgid "Start Two Way Sync"
+msgstr "Inicia la sincronització de dues vies"
+
+#: includes/class-ph-booking-google-calendar.php:1268
+msgid "Status"
+msgstr "Estat"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:223
+msgid "Stop Two Way Sync"
+msgstr "Atura la sincronització de dues vies"
+
+#: includes/addons/ph_bookings_start_of_the_week.php:27
+#: includes/addons/ph_bookings_start_of_the_week.php:43
+#: includes/addons/ph_bookings_start_of_the_week.php:51
+#: includes/addons/ph_bookings_start_of_the_week.php:59
+#: includes/addons/ph_bookings_start_of_the_week.php:67
+#: includes/addons/ph_bookings_start_of_the_week.php:75
+#: includes/addons/ph_bookings_start_of_the_week.php:83
+#: includes/addons/ph_bookings_start_of_the_week.php:97
+#: includes/frondend/html-ph-booking-datepicker.php:576
+#: includes/frondend/class-ph-booking-calendar-strategy.php:864
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:597
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:743
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:905
+msgid "Su"
+msgstr "Dg"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:252
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:255
+#: includes/emails/class-ph-booking-payment-for-customer.php:237
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:302
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:272
+#: includes/emails/class-ph-wc-email-booking-reminder.php:261
+#: includes/emails/class-ph-wc-email-booking-followup.php:259
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:282
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:209
+msgid "Subject"
+msgstr "Assignatura"
+
+#: includes/class-ph-booking-google-calendar.php:1218
+msgid "Successfully authenticated to google API"
+msgstr "Se ha autenticat correctament a l'API de Google"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:650
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:929
+msgid "Summary"
+msgstr "Quadre de resum"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:769
+msgid "Summary Box"
+msgstr "Quadre de resum"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:655
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:774
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:934
+msgid "Summary Text"
+msgstr "Text del resum"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:17
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:81
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:148
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:316
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:35
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:52
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:112
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:39
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:87
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:139
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:21
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:57
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:96
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:117
+msgid "Sunday"
+msgstr "Diumenge"
+
+#: ph-bookings-appointments-woocommerce-premium.php:794
+msgid "Support"
+msgstr "Suport"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:426
+msgid "Swap Month & Year Format in Calendar Title"
+msgstr "Canvia el format de mes i any al títol del calendari"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:779
+msgid "Text"
+msgstr "Text"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:269
+#: includes/emails/class-ph-booking-payment-for-customer.php:256
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:321
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:291
+#: includes/emails/class-ph-wc-email-booking-reminder.php:270
+#: includes/emails/class-ph-wc-email-booking-followup.php:268
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:308
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:226
+msgid "Text to appear below the main email content."
+msgstr "Text que apareix a sota del contingut de correu electrònic principal."
+
+#: includes/addons/ph_bookings_start_of_the_week.php:31
+#: includes/addons/ph_bookings_start_of_the_week.php:40
+#: includes/addons/ph_bookings_start_of_the_week.php:48
+#: includes/addons/ph_bookings_start_of_the_week.php:56
+#: includes/addons/ph_bookings_start_of_the_week.php:64
+#: includes/addons/ph_bookings_start_of_the_week.php:79
+#: includes/addons/ph_bookings_start_of_the_week.php:87
+#: includes/addons/ph_bookings_start_of_the_week.php:94
+#: includes/frondend/html-ph-booking-datepicker.php:573
+#: includes/frondend/class-ph-booking-calendar-strategy.php:861
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:594
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:740
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:902
+msgid "Th"
+msgstr "Dj"
+
+#: includes/templates/emails/ph-customer-booking-followup.php:39
+#, php-format
+msgid "Thank you for booking with %s.<br>Hope you enjoyed our services."
+msgstr "Gràcies per reservar amb %s.<br>Esperem que hagis gaudit dels nostres serveis."
+
+#: includes/emails/class-ph-booking-payment-for-customer.php:47
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:51
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:95
+#: includes/emails/class-ph-email-content.php:159
+msgid "Thank you for booking with us"
+msgstr "Gràcies per reservar amb nosaltres"
+
+#: includes/emails/class-ph-wc-email-booking-followup.php:120
+#: includes/emails/class-ph-wc-email-booking-followup.php:131
+msgid "Thanks for Booking with Us..!"
+msgstr "Gràcies per reservar amb nosaltres ..!"
+
+#: includes/templates/emails/ph-booking-payment-for-customer-html.php:42
+msgid "Thanks for placing your booking."
+msgstr "Gràcies per fer la teva reserva."
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:163
+#: includes/emails/class-ph-booking-payment-for-customer.php:156
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:221
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:191
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:199
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:120
+msgid "Thanks for reading."
+msgstr "Gràcies per llegir."
+
+#: includes/emails/class-ph-email-content.php:161
+msgid "Thanks for shopping with us"
+msgstr "Gràcies per anar de compres amb nosaltres"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:47
+msgid "The assets get displayed in this label "
+msgstr "Els actius es mostren en aquesta etiqueta "
+
+#: includes/templates/emails/ph-admin-booking-cancelled.php:37
+#, php-format
+msgid "The Booking for the order #%s has been cancelled."
+msgstr "La reserva de la comanda #%s s'ha cancel·lat."
+
+#: includes/templates/emails/ph-admin-booking-cancelled-plain.php:35
+#, php-format
+msgid ""
+"The Booking for the order #%s has been cancelled.\n"
+""
+msgstr "La reserva de la comanda #%s s'ha cancel·lat."
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:255
+#, php-format
+msgid "The next import is scheduled on <code>%s</code>"
+msgstr "La propera importació està programada a <code>%s</code>"
+
+#: includes/admin/class-ph-booking-order-manager.php:357
+msgid "The order is canceled"
+msgstr "La comanda s'ha cancel·lat"
+
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:212
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:213
+msgid "The order is waiting for approval"
+msgstr "L'ordre està pendent d'aprovació"
+
+#: includes/class-ph-booking-payment-gateway.php:62
+msgid "The order is waiting for approval from admin"
+msgstr "L'ordre està a l'espera de l'aprovació de l'administrador"
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:90
+msgid "The tags/information mentioned in box will be displayed in your iCalendar. You have an option to remove any tags that you do not wish to add to your iCalendar. Similarly, you could add any tags that are missing from the list given below."
+msgstr "Les etiquetes/ informació mencionades en la caixa es mostraran en el vostre iCalendar. Teniu una opció per eliminar qualsevol etiqueta que no desitgeu afegir al vostre iCalendar. De manera similar, podeu afegir qualsevol etiqueta que falten de la llista proporcionada a sota."
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:242
+msgid ""
+"The tags/information mentioned in box will be displayed in your MS Outlook Calendar.\n"
+"\t\t\t\t\t\tYou have an option to remove any tags that you do not wish to add to your iCalendar.\n"
+"\t\t\t\t\t\tSimilarly, you could add any tags that are missing from the list given below."
+msgstr ""
+"Les etiquetes/informació esmentades al quadre es mostraran al vostre calendari de MS Outlook.\n"
+"\t\t\t\t\t\tTeniu una opció per eliminar les etiquetes que no vulgueu afegir al vostre iCalendar.\n"
+"\t\t\t\t\t\tDe la mateixa manera, podeu afegir qualsevol etiqueta que falti a la llista que es mostra a continuació."
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:194
+msgid "The tags/information mentioned in box will be synced and displayed in your calendar. You have an option to remove any tags that you do not wish to sync with your calendar. Similarly, you could add any tags that are missing from the list given below.  Please ensure you maintain the html tags for each detail so that the formatting is maintained."
+msgstr "Les etiquetes/ informació mencionades a la caixa es sincronitzaran i es mostraran en el calendari. Teniu una opció per eliminar qualsevol etiqueta que no desitgeu sincronitzar amb el calendari. De manera similar, podeu afegir qualsevol etiqueta que falten de la llista proporcionada a sota. Si us plau, assegureu- vos de mantenir les etiquetes html per a cada detall per tal de mantenir el formatat."
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:145
+msgid "The text given below is displayed by the plugin by default. You can change the text messages as per your preference."
+msgstr "El text que es mostra a continuació és mostrat pel connector per defecte. Podeu canviar els missatges de text segons les vostres preferències."
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:47
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:123
+msgid "There are two ways you can set the availability rules"
+msgstr "Hi ha dues maneres d'establir les regles de disponibilitat"
+
+#: ph-bookings-appointments-woocommerce-premium.php:531
+#: ph-bookings-appointments-woocommerce-premium.php:634
+msgid "There is a maximum of %available_slot place remaining"
+msgstr "Queda un màxim de %available_slot places"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:257
+msgid "There is no import scheduled."
+msgstr "No hi ha cap importació planificada."
+
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:46
+msgid "These emails are sent when a booking requires confirmation from admin"
+msgstr "Aquests correus electrònics s’envien quan una reserva requereix la confirmació de l’administrador"
+
+#: includes/admin/class-ph-booking-admin-pages.php:122
+msgid "These settings are global and apply to all bookable products, but they are optional. To configure specific settings for an individual bookable product, please visit the product’s settings."
+msgstr "Aquestes opcions de configuració són globals i s'apliquen a tots els productes que es poden reservar, però són opcionals. Per configurar paràmetres específics per a un producte individual que es pot reservar, visiteu la configuració del producte."
+
+#. 1: subject
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:254
+#: includes/emails/class-ph-booking-payment-for-customer.php:240
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:305
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:275
+#: includes/emails/class-ph-wc-email-booking-reminder.php:263
+#: includes/emails/class-ph-wc-email-booking-followup.php:261
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:285
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:211
+msgid "This controls the email subject line. Leave blank to use the default subject.<br>Available placeholders: {site_title}, {site_address}, {site_url}, {order_date}, {order_id}, {order_number}, {order_billing_full_name}"
+msgstr "Això controla la línia d'assumpte del correu electrònic. Deixeu-lo en blanc per utilitzar l'assumpte predeterminat.<br>Reservadors de posició disponibles: {site_title}, {site_address}, {site_url}, {order_date}, {order_id}, {order_number}, {order_billing_full_name}"
+
+#. 1: heading
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:262
+#: includes/emails/class-ph-booking-payment-for-customer.php:249
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:314
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:284
+#: includes/emails/class-ph-wc-email-booking-reminder.php:255
+#: includes/emails/class-ph-wc-email-booking-followup.php:253
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:301
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:219
+msgid "This controls the main heading contained within the email notification. Leave blank to use the default heading."
+msgstr "Això controla l’encapçalament principal que conté la notificació de correu electrònic. Deixeu en blanc per utilitzar l’encapçalament predeterminat."
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:35
+msgid "This description will be displayed with the Resource selection."
+msgstr "Aquesta descripció es mostrarà amb la selecció Recursos."
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:437
+msgid "This feature is currently in development and may not function as expected in all scenarios. Please report any issues you encounter. We are actively working to improve the functionality and reliability of this feature. Please note that this feature is currently not tested with our add-ons."
+msgstr "Aquesta funció està actualment en desenvolupament i és possible que no funcioni com s'esperava en tots els escenaris. Informeu de qualsevol problema que trobeu. Estem treballant activament per millorar la funcionalitat i la fiabilitat d'aquesta funció. Tingueu en compte que aquesta funció no es prova actualment amb els nostres complements."
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:19
+msgid "This is a one-off cost that is applied to the entire booking."
+msgstr "Aquest és un cost únic que s'aplica a tota la reserva."
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:30
+msgid "This is the cost applied to each block booked. for Eg : When booking period is 1 day and cost per block is $10, the total cost for booking 10 days is $100."
+msgstr "Aquest és el cost que s'aplica a cada bloc reservat. Per exemple: Quan el període de reserva és d'1 dia i el cost per bloc és de $ 10, el cost total de la reserva de 10 dies és de $ 100."
+
+#: includes/class-ph-booking-payment-gateway.php:43
+msgid "This payment gateway does not need to config"
+msgstr "Aquesta pasarel·la de pagament no necessita configuració"
+
+#: includes/class-ph-booking-payment-gateway.php:42
+msgid "This payment method is used those orders has booking products and pay later (Need confirmation)"
+msgstr "Aquesta forma de pagament s'utilitza en què les comandes tenen productes de reserva i paguen més tard (Necessitat confirmació)"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:63
+msgid "This section allows you to configure Reminder and Follow up Emails for your bookings. Please configure them below :"
+msgstr "Aquesta secció us permet configurar recordatoris i correus electrònics de seguiment per a les vostres reserves. Configureu-los a continuació:"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:101
+msgid "This text is displayed below each date or time block For Eg: 10 Left"
+msgstr "Aquest text es mostra a sota de cada data o bloc de temps Per a per exemple: 10 Disponibles"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:123
+msgid "This text is displayed below fully booked date or time slot."
+msgstr "Aquest text es mostra a sota de la data o franja horària totalment reservada."
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:61
+msgid "This text will be displayed on the .ics file download button on the customer's My Account Page"
+msgstr "Aquest text es mostrarà al botó de descàrrega del fitxer .ics a la pàgina El meu compte del client"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:327
+msgid "This will be the first weekday in the calendar."
+msgstr "Primer dia de la setmana del calendari."
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:369
+msgid "This will reset all the settings to default. Click 'Ok' to proceed."
+msgstr "Això restablirà tota la configuració per defecte. Feu clic a \"D'acord\" per continuar."
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:14
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:78
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:145
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:39
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:56
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:109
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:36
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:84
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:136
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:18
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:54
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:93
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:114
+msgid "Thursday"
+msgstr "Dijous"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:227
+msgid "Time Interval"
+msgstr "Interval de temps"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:170
+msgid "Time Interval in Minutes"
+msgstr "Interval de temps en minuts"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:10
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:32
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:14
+msgid "Time Range (all week)"
+msgstr "Interval de temps (tota la setmana)"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:8
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:30
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:13
+msgid "Time Ranges"
+msgstr "Intervals de temps"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:348
+msgid "Time Zone Conversion"
+msgstr "Conversió de fus horari"
+
+#: includes/admin/class-ph-booking-export-bookings.php:581
+#: includes/admin/class-ph-booking-admin-reports-list.php:119
+#: includes/addons/booking-search-widget/booking-search-widget.php:364
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:890
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:970
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1047
+#: includes/admin/views/html-ph-booking-settings-availability.php:92
+#: includes/admin/views/html-ph-booking-settings-assets.php:157
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:155
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:54
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:71
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:83
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:134
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:363
+msgid "To"
+msgstr "A"
+
+#: ph-bookings-appointments-woocommerce-premium.php:759
+msgid "to"
+msgstr "a"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:360
+msgid "To Date"
+msgstr "Fins a la data"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:376
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:379
+msgid "To Time"
+msgstr "Al Temps"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:49
+msgid "Today"
+msgstr "Avui"
+
+#: includes/class-ph-booking-checkout-decorator.php:441
+#: includes/class-ph-booking-checkout-decorator.php:684
+#: includes/class-ph-booking-google-calendar.php:737
+#: includes/class-ph-booking-google-calendar.php:1649
+#: includes/addons/class-ph-bookings-send-email-notifications.php:562
+#: includes/admin/class-ph-booking-admin-order.php:361
+#: includes/admin/class-ph-booking-order-manager.php:306
+#: includes/admin/class-ph-booking-order-manager.php:607
+#: includes/emails/class-ph-wc-email-booking-reminder.php:320
+#: includes/emails/class-ph-wc-email-booking-followup.php:311
+msgid "Total Number of Participants"
+msgstr "Nombre total de participants"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:53
+msgid "Total number of Participants can not be lesser than this value."
+msgstr "El nombre total de participants no pot ser inferior a aquest valor."
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:67
+msgid "Total number of Participants will not exceed this value."
+msgstr "El nombre total de participants no superarà aquest valor."
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:211
+msgid "Total participant"
+msgstr "Participants total"
+
+#: ph-bookings-appointments-woocommerce-premium.php:516
+#: ph-bookings-appointments-woocommerce-premium.php:619
+msgid "Total participant (%total) exceeds maximum allowed participant (%max)"
+msgstr "El total de participants (%total) supera el màxim de participants permès (%max)"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:64
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:29
+msgid "Troubleshoot Google Calendar Sync"
+msgstr "Resolució de problemes de la sincronització del calendari de Google"
+
+#: includes/addons/ph_bookings_start_of_the_week.php:29
+#: includes/addons/ph_bookings_start_of_the_week.php:38
+#: includes/addons/ph_bookings_start_of_the_week.php:46
+#: includes/addons/ph_bookings_start_of_the_week.php:61
+#: includes/addons/ph_bookings_start_of_the_week.php:69
+#: includes/addons/ph_bookings_start_of_the_week.php:77
+#: includes/addons/ph_bookings_start_of_the_week.php:85
+#: includes/addons/ph_bookings_start_of_the_week.php:92
+#: includes/frondend/html-ph-booking-datepicker.php:571
+#: includes/frondend/class-ph-booking-calendar-strategy.php:859
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:592
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:738
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:900
+msgid "Tu"
+msgstr "Dm"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:12
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:76
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:143
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:37
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:54
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:107
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:34
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:82
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:134
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:16
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:52
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:91
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:112
+msgid "Tuesday"
+msgstr "Dimarts"
+
+#: class-ph-bookings-translation-support.php:22
+msgid "un-paid"
+msgstr "sense pagar"
+
+#: includes/class-ph-booking-checkout-decorator.php:94
+#: includes/class-ph-booking-google-calendar.php:948
+#: includes/admin/class-ph-bookings-calendar-admin.php:349
+#: includes/admin/class-ph-booking-admin-order.php:511
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:49
+#: includes/admin/views/html-ph-booking-settings-outlook.php:53
+msgid "Unpaid"
+msgstr "Pendent de pagament"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:180
+msgid "Until"
+msgstr "Fins"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:83
+msgid "Use assets in following cases:"
+msgstr "Utilitzar actius en els casos següents:"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:180
+msgid "Use the following Tags to customize your Google Calendar Event Title."
+msgstr "Utilitza les etiquetes següents per personalitzar el títol de l'esdeveniment de Google Calendar."
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:76
+msgid "Use the following Tags to customize your iCalendar Event Title."
+msgstr "Utilitzeu les etiquetes següents per personalitzar el títol de l'esdeveniment iCalendar."
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:220
+msgid "Use the following Tags to customize your MS Outlook Event Title."
+msgstr "Utilitzeu les etiquetes següents per personalitzar el títol de l'esdeveniment de MS Outlook."
+
+#: includes/admin/views/html-ph-booking-admin-order.php:14
+msgid "User"
+msgstr "Utilitari"
+
+#: includes/admin/class-ph-booking-admin-order.php:128
+msgid "User & Order ID combination not found. Please enter the correct details and try again."
+msgstr "No s'ha trobat la combinació d'usuari i identificador de comanda. Introduïu els detalls correctes i torneu-ho a provar."
+
+#: includes/class-ph-booking-google-calendar.php:1254
+msgid "Validate the credentials with google API"
+msgstr "Valida les credencials amb l'API de Google"
+
+#: ph-bookings-appointments-woocommerce-premium.php:782
+msgid "Value must be greater than or equal to 1"
+msgstr "El valor ha de ser superior o igual a 1"
+
+#: ph-bookings-appointments-woocommerce-premium.php:781
+msgid "Value must be less than or equal to Max Bookings per Block (%d)"
+msgstr "El valor ha de ser inferior o igual a les reserves màximes per bloc (%d)"
+
+#: ph-api-manager/ph_api_manager_bookings.php:502
+msgid "Verify the API key details again and activate the API Key by clicking Save Changes"
+msgstr "Torneu a verificar els detalls de la clau de l'API i activeu-la fent clic a Desa els canvis"
+
+#: includes/class-ph-booking-cart-decorator.php:425
+msgid "View cart"
+msgstr "Veure la cistella"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:178
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:956
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1037
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:83
+msgid "View Product"
+msgstr "Veure producte"
+
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:32
+msgid "Waiting For Approval emails are sent when need requires confirmation for Product."
+msgstr "Els correus electrònics d'espera d'aprovació s'envien quan la necessitat requereix confirmació del producte."
+
+#: includes/addons/ph_bookings_start_of_the_week.php:30
+#: includes/addons/ph_bookings_start_of_the_week.php:39
+#: includes/addons/ph_bookings_start_of_the_week.php:47
+#: includes/addons/ph_bookings_start_of_the_week.php:55
+#: includes/addons/ph_bookings_start_of_the_week.php:70
+#: includes/addons/ph_bookings_start_of_the_week.php:78
+#: includes/addons/ph_bookings_start_of_the_week.php:86
+#: includes/addons/ph_bookings_start_of_the_week.php:93
+#: includes/frondend/html-ph-booking-datepicker.php:572
+#: includes/frondend/class-ph-booking-calendar-strategy.php:860
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:593
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:739
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:901
+msgid "We"
+msgstr "Dc"
+
+#: includes/emails/class-ph-email-content.php:158
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:47
+msgid "We have received your booking"
+msgstr "Hem rebut la teva reserva"
+
+#: includes/emails/class-ph-wc-email-booking-followup.php:157
+msgid "We look forward to serving you again.<br><br>With Regards,<br>Admin"
+msgstr "Esperem servir -vos de nou. Salutacions, administrador"
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:159
+msgid "We look forward to serving you.<br>Regards<br>Admin"
+msgstr "Esperem servir -vos.Regandsadmin"
+
+#: includes/templates/emails/ph-booking-payment-for-customer-html.php:43
+msgid "We request you to go through the booking details attached in this email"
+msgstr "Us demanem que reviseu els detalls de la reserva que s'adjunten en aquest correu electrònic"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:13
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:77
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:144
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:38
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:55
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:108
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:35
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:83
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:135
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:17
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:53
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:92
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:113
+msgid "Wednesday"
+msgstr "Dimecres"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:312
+msgid "Week Starts On"
+msgstr "La setmana comença"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:630
+msgid "Weekdays"
+msgstr "Dies laborables"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:635
+msgid "Weekdays Text"
+msgstr "Text de dilluns a divendres"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:278
+msgid "When enabled, the customer will be added as an attendee for the event in Outlook Calendar, and Outlook will send an email invitation to the customer."
+msgstr "Quan estigui activat, el client s'afegirà com a assistent de l'esdeveniment al calendari d'Outlook i l'Outlook enviarà una invitació per correu electrònic al client."
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:85
+msgid "When Product A is booked, you need product B to be automatically booked for the same time."
+msgstr "Quan es reserva el producte A, necessiteu que el producte B es reservin automàticament durant el mateix temps."
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:86
+msgid "When you have a staff that handles multiple services. When Service A is booked, other services from the same staff are unavailable to book for the same time."
+msgstr "Quan teniu un personal que s'encarrega de diversos serveis. Quan es reserva el servei A, altres serveis del mateix personal no estan disponibles per reservar al mateix temps."
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:88
+msgid "When you have multiple resource types with different quantities. For Eg : Types of Kayaks to be chosen by the user to book."
+msgstr "Quan teniu diversos tipus de recursos amb quantitats diferents. Per exemple: Tipus de caiacs que l'usuari ha de triar per reservar."
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:87
+msgid "When you have multiple staff with varying availability or price."
+msgstr "Quan disposes de diversos empleats amb disponibilitat o preu variable."
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:51
+msgid "Will be displayed as a suffix with Display Cost."
+msgstr "Es mostrarà com un sufix amb cost de visualització."
+
+#: includes/admin/class-ph-booking-admin-pages.php:118
+msgid "WooCommerce Bookings and Appointments"
+msgstr "WooCommerce Reserves i Cites"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:85
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:199
+msgid "WooCommerce Emails"
+msgstr "Correus electrònics de WooCommerce"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources-matrix-row.php:22
+#: includes/admin/views/html-ph-booking-product-admin-resources-matrix-row.php:29
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:158
+#: includes/admin/views/html-ph-booking-product-admin-persons-matrix-row.php:21
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:149
+msgid "Yes"
+msgstr "Sí"
+
+#: class-ph-bookings-translation-support.php:18
+#: includes/class-ph-booking-checkout-decorator.php:481
+#: includes/class-ph-booking-cart-decorator.php:842
+msgid "yes"
+msgstr "si"
+
+#: includes/templates/emails/ph-admin-booking-waiting-for-approval.php:38
+msgid "You have received an order. The order is waiting for approval. The order is as follows"
+msgstr "Has rebut una comanda. L'ordre està pendent d'aprovació. L'ordre és el següent"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:419
+msgid "You'll have the option to personalize your admin calendar, choosing to display essential details like order ID, product name, customer name, and the number of participants."
+msgstr "Tindreu l'opció de personalitzar el vostre calendari d'administració, escollint mostrar detalls essencials com l'identificador de la comanda, el nom del producte, el nom del client i el nombre de participants."
+
+#: includes/emails/class-ph-email-content.php:233
+#: includes/templates/emails/ph-customer-booking-cancelled.php:37
+#, php-format
+msgid "Your booking at %s has been marked as %s."
+msgstr "La reserva a %s s'ha marcat com a %s."
+
+#: includes/emails/class-ph-email-content.php:127
+#, php-format
+msgid "Your Booking at %s is %s"
+msgstr "La teva reserva a %s és %s"
+
+#: includes/emails/class-ph-email-content.php:230
+#: includes/templates/emails/ph-customer-booking-confirmed.php:43
+#, php-format
+msgid "Your booking at %s is approved."
+msgstr "La reserva a %s està aprovada."
+
+#: includes/emails/class-ph-email-content.php:160
+#, php-format
+msgid "Your booking at %s is cancelled"
+msgstr "Reserva a %s es cancel·lada"
+
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:47
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:48
+msgid "Your booking at {site_title} is cancelled"
+msgstr "La reserva a {site_title} cancel·lada"
+
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:53
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:96
+msgid "Your Booking at {site_title} is confirmed"
+msgstr "La teva reserva a {site_title} està confirmada"
+
+#: includes/class-ph-booking-payment-gateway.php:32
+msgid "Your booking has been approved, Thank you."
+msgstr "La teva reserva ha estat aprovada, Gràcies."
+
+#: includes/emails/class-ph-booking-payment-for-customer.php:49
+msgid "Your Booking Is Placed Successfully"
+msgstr "La teva reserva s'ha realitzat correctament"
+
+#: includes/class-ph-booking-payment-gateway.php:34
+msgid "Your booking is waiting for approval"
+msgstr "La teva reserva està a l'espera de l'aprovació"
+
+#: includes/emails/class-ph-email-content.php:130
+#, php-format
+msgid "Your Booking request at %s is awaiting approval"
+msgstr "La teva sol·licitud de Reserva a %s està pendent d'aprovació"
+
+#: includes/emails/class-ph-email-content.php:227
+#: includes/templates/emails/ph-customer-booking-requires-confirmation.php:38
+#, php-format
+msgid "Your Booking request at %s is awaiting approval."
+msgstr "La vostra sol·licitud de reserva a %s està pendent d'aprovació."
+
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:48
+msgid "Your Booking request at {site_title} is awaiting approval"
+msgstr "La vostra sol·licitud de reserva a {site_title} està esperant l'aprovació"

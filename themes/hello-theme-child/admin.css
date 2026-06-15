@@ -1,0 +1,1501 @@
+label[for="ph_filter_product_ids"] {
+    font-size: 0;
+}
+
+label[for="ph_filter_product_ids"]:before {
+    content: "Select Room";
+    font-size: 14px;
+}
+
+label[for="create_order"] {
+    font-size: 0;
+}
+
+label[for="create_order"]:before {
+    content: "Create Booking";
+    font-size: 14px;
+}
+
+label:has(input#ph_booking_order_new) {
+    font-size: 0;
+}
+
+label:has(input#ph_booking_order_new):after {
+    content: "Create a new booking.";
+    font-size: 14px;
+    line-height: 1.5;
+    position: relative;
+    top: 4px;
+    left: 3px;
+}
+
+label:has(input#ph_booking_order_existing) {
+    font-size: 0;
+    display: flex;
+    align-items: center;
+}
+
+label:has(input#ph_booking_order_existing):after {
+    content: "Assign this booking to an existing booking ID:";
+    font-size: 14px;
+    line-height: 1.5;
+    position: relative;
+    left: 3px;
+}
+
+input#ph_booking_order_id {
+    order: 1;
+    margin-left: 10px;
+}
+
+input#ph_add_booking_send_payment_email~label {
+    font-size: 0;
+}
+
+input#ph_add_booking_send_payment_email~label:after {
+    content: "Send payment link to the user.";
+    font-size: 14px;
+    line-height: 1.5;
+    position: relative;
+    left: 3px;
+}
+
+th.ph-add-booking-page-th-hide label {
+    font-size: 0;
+}
+
+th.ph-add-booking-page-th-hide label:before {
+    content: "Select Booking Date";
+    font-size: 14px;
+}
+
+
+.wapf-product-totals {
+    display: none;
+}
+
+body .time-calendar-date-section {
+    box-shadow: 0px 2.38px 20.35px 0px #9696961C !important;
+    padding: 19.01px 8px;
+    border-radius: 12.67px;
+    margin-bottom: 12.67px;
+    background-color: #fff;
+}
+
+body .ph-calendar-days .ph-calendar-date {
+    font-size: 15px;
+    width: 26px;
+    height: 26px;
+}
+
+body #ph-calendar-days {
+    border-radius: 0 0 5px 5px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    row-gap: 7px;
+    justify-items: center;
+}
+
+body .ph-calendar-month span {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.time-picker-wraper {
+    display: grid;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6.4px 0px #0000001A;
+    padding: 30px 23px;
+    border-radius: 9px;
+    max-width: 500px;
+}
+
+.booking-info-wraper {
+    box-sizing: border-box;
+    min-height: auto;
+    padding: 0;
+}
+
+.booking-info-wraper {
+    border-top: 1px dashed #959595;
+    margin-top: 15px;
+}
+
+body div#slt-time-1 p.dis {
+    font-weight: 400;
+    justify-content: space-between;
+}
+
+body p#booking_price_text b,
+body #booking_price_text .woocommerce-Price-amount.amount {
+    margin: 0 !important;
+    padding: 19px 0 0 0;
+    border-bottom: none;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px !important;
+    line-height: 140%;
+    color: #191919;
+}
+
+p#room-charge {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+
+.dsc_line {
+    display: none;
+}
+
+#customer_details {
+    display: none;
+}
+
+.wapf .wapf-wrapper::before {
+    content: "Case Details";
+    display: block;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 120%;
+    text-align: left;
+    vertical-align: middle;
+    color: #191919;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+body .ph-calendar-weekdays {
+    display: flex;
+    justify-content: space-around;
+    border-top: 0.8px solid #E4E5E7;
+    padding-top: 16px !important;
+}
+
+body #ph-calendar-days .ph-calendar-date {
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+body li.ph-calendar-date.mouse_hover,
+body li.ph-calendar-date:not(.de-active):hover,
+body li.ph-calendar-date.mouse_hover,
+body li.ph-calendar-date:not(.de-active):hover,
+body .timepicker-selected-date,
+body li.ph-calendar-date.selected-date.cusClass {
+    background: #1763B9 !important;
+    color: #ffffff !important;
+}
+
+form:has(.wc-bookings-booking-form) .extra-resources label {
+    font-size: 16px;
+    font-family: 'Inter';
+    display: flex;
+}
+
+form:has(.wc-bookings-booking-form) .extra-resources input,
+form:has(.wc-bookings-booking-form) .extra-resources textarea {
+    font-size: 16px;
+    font-family: 'Inter';
+}
+
+form:has(.wc-bookings-booking-form) .booking-info-wraper * {
+    font-size: 16px !important;
+    font-family: 'Inter';
+}
+
+form:has(.wc-bookings-booking-form) .booking-info-wraper p#booking_info_text {
+    margin-bottom: 5px !important;
+}
+
+form:has(.wc-bookings-booking-form) p#booking_info_text b:last-child {
+    font-weight: unset;
+}
+
+body .wapf-field-container .wapf-field-input textarea.wapf-input,
+body .wapf-field-container .wapf-field-input input.wapf-input,
+input.input-person.shipping-price-related[rule-key="persons-0"] {
+    height: 48px;
+    scrollbar-width: none;
+    border: 1px solid #D4D7E3 !important;
+    border-radius: 12px !important;
+    width: calc(100% - 1px) !important;
+    background-color: transparent;
+}
+
+.person-value:has(input[rule-key="persons-0"]) a {
+    display: none;
+}
+
+.participant_inner_section .person-value {
+    width: 100%;
+    margin: 0;
+}
+
+.wapf-field-row .wapf-field-container {
+    padding-bottom: 15px;
+}
+
+body .persons-title label,
+body .wapf-field-label label span {
+    color: #2e2e2e;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    vertical-align: middle;
+    margin-bottom: 8px;
+}
+
+body .extra-resources .input-person {
+    text-align: left !important;
+    padding: .4rem .79rem !important;
+}
+
+body .wapf-field-container .wapf-field-input textarea.wapf-input {
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.ph-prev-day-time,
+.ph-next-day-time {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #848A95 !important;
+}
+
+.ph-prev-day-time {
+    left: 0;
+}
+
+.ph-next-day-time {
+    right: 0;
+}
+
+ul#ph-calendar-time {
+    display: flex;
+    justify-content: center;
+}
+
+body .time-picker-wraper #ph-calendar-time li.ph-calendar-date {
+    margin-left: 1% !important;
+    margin-right: 1% !important;
+    cursor: pointer;
+    padding: 5px 0 !important;
+}
+
+span.ph_calendar_time {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+body #ph-calendar-overlay {
+    opacity: 1;
+    background-color: #ffffff;
+    backdrop-filter: blur(2px);
+}
+
+tr.ph-add-booking-page-send-email-tr {
+    display: none;
+}
+
+input.button-primary.single_add_to_cart_button {
+    font-size: 16px;
+    padding: 0px 20px;
+    line-height: 40px;
+}
+
+.woocommerce-order-data .order_data_column:nth-child(3) {
+    display: none !important;
+}
+
+#order_data.woocommerce-order-data .order_data_column:nth-child(1) {
+    width: 48%;
+}
+
+#order_data.woocommerce-order-data .order_data_column:nth-child(2) {
+    width: 48%;
+    padding: 0 0 0 2%;
+}
+
+body.post-type-shop_order:has(.send_manual_invoice_btn) h1.wp-heading-inline {
+    font-size: 0;
+}
+
+body.post-type-shop_order:has(.send_manual_invoice_btn) h1.wp-heading-inline:before {
+    font-size: 23px;
+    content: "Edit Booking";
+}
+
+body.post-type-shop_order.role-service_manager:has(.send_manual_invoice_btn) h1.wp-heading-inline:before {
+    font-size: 23px;
+    content: "Booking Details";
+}
+
+body.post-type-shop_order #order_data .order_data_column .form-field-wide input.hour,
+body.post-type-shop_order #order_data .order_data_column .form-field-wide input.minute {
+    width: 8em;
+}
+
+body.post-type-shop_order #order_data .order_data_column .form-field-wide input.date-picker {
+    width: 45%;
+}
+
+div#woocommerce-order-actions h2 {
+    font-size: 0;
+}
+
+div#woocommerce-order-actions li:not(.custom-order-buttons) {
+    display: none;
+}
+
+div#woocommerce-order-actions h2:before {
+    content: "Manage Booking";
+    font-size: 14px;
+}
+
+div#woocommerce-order-source-data h2 {
+    font-size: 0;
+}
+
+div#woocommerce-order-source-data h2:before {
+    content: "Booking Source";
+    font-size: 14px;
+}
+
+/* #woocommerce-order-items .wc-order-data-row button:not(.send_manual_invoice_btn,.add-coupon) {
+    display: none !important;
+} */
+#woocommerce-order-items .wc-order-data-row button.button.add-order-item,
+#woocommerce-order-items .wc-order-data-row button.button.add-order-fee,
+#woocommerce-order-items .wc-order-data-row button.button.add-order-shipping,
+#woocommerce-order-items .wc-order-data-row button.button.add-order-tax {
+    display: none !important;
+}
+
+div#woocommerce-order-notes h2 {
+    font-size: 0;
+}
+
+div#woocommerce-order-notes h2:before {
+    content: "Booking notes";
+    font-size: 14px;
+}
+
+#woocommerce-order-items .wc-order-data-row .save-action,
+#woocommerce-order-items .wc-order-data-row .cancel-action {
+    display: inline-block !important;
+}
+
+#order_data.woocommerce-order-data .order_data_column:nth-child(2) div.edit_address {
+    display: none !important;
+}
+
+/* 1. Hide the regular and split Receipt / Confirmation & Receipt buttons by default */
+body div#phive_manual_invoice_box button.send_manual_confirmation.receipt,
+body div#phive_manual_invoice_box button.send_manual_confirmation:not(.no_pdf),
+button#btn-download-receipt,
+body button.trigger-global-comm-modal[data-action="send_receipt"],
+body button.trigger-global-comm-modal[data-action="send_manual_booking_confirmation"],
+body select.individual-email-type option[value="send_receipt"],
+body select.individual-email-type option[value="send_manual_booking_confirmation"] {
+    display: none;
+}
+
+/* 2. Show them ONLY when the order status is Completed */
+body form#order:has(input[value="wc-completed"]) div#phive_manual_invoice_box button.send_manual_confirmation,
+body form#order:has(input[value="wc-completed"]) button#btn-download-receipt,
+body form#order:has(input[value="wc-completed"]) button.trigger-global-comm-modal[data-action="send_receipt"],
+body form#order:has(input[value="wc-completed"]) button.trigger-global-comm-modal[data-action="send_manual_booking_confirmation"],
+body form#order:has(input[value="wc-completed"]) select.individual-email-type option[value="send_receipt"],
+body form#order:has(input[value="wc-completed"]) select.individual-email-type option[value="send_manual_booking_confirmation"] {
+    display: block;
+}
+
+button#phive_open_refund_modal {
+    display: none;
+}
+
+body form#order:has(input[value="wc-cancelled"]) button#phive_open_refund_modal {
+    display: block;
+}
+
+.coupon_box ul li {
+    border: 1px solid #8c8f94;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+    min-width: 180px;
+}
+
+a.phive_remove_coupon {
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    float: right;
+}
+
+.user-new-php div#acf-form-data+h2 {
+    display: none;
+}
+
+.user-new-php tr:has(input#user_login),
+.user-new-php tr:has(input#url) {
+    display: none;
+}
+
+tr.form-field.form-required.user-pass1-wrap {
+    display: none;
+}
+
+tr.form-field.form-required.user-pass2-wrap {
+    display: none;
+}
+
+/* Admin Popup Styling */
+.admin-popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 99999;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.admin-popup-overlay .popup-content {
+    background: #fff;
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.admin-popup-overlay .close-icn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.service-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.service-table th,
+.service-table td {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.addon-selection-area input {
+    line-height: 1.2;
+    min-height: 30px;
+}
+
+.admin-popup-overlay .input-disabled {
+    background-color: #f0f0f0;
+    color: #888;
+}
+
+/* Toggle Switch Style (Same as frontend) */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 22px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+    line-height: 1;
+    text-align: right;
+    font-size: 12px;
+    color: #fff;
+    padding: 5px 6px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+    text-align: left;
+}
+
+input:checked+.slider:before {
+    transform: translateX(18px);
+}
+
+.service_desc {
+    font-size: 12px;
+}
+
+tr.service-row td:first-child {
+    color: #000;
+}
+
+tr.service-row td:first-child .service_desc {
+    color: gray
+}
+
+div#admin-extra-services-popup textarea,
+div#admin-extra-services-popup input {
+    font-size: 13px;
+}
+
+tbody#order_line_items .wc-order-item-thumbnail:empty {
+    display: none !important;
+}
+
+tbody#order_line_items tr.item:not(:first-child) td {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+/* Popup Inner Overlay */
+#admin-member-input-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.25);
+    z-index: 99999999999999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.member-input-box {
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.member-input-box h3 {
+    margin-top: 0;
+    color: #2271b1;
+}
+
+.member-input-box input {
+    width: 80px;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    margin: 0;
+    border: 1px solid #2271b1;
+    border-radius: 4px;
+    height: 35px;
+}
+
+#woocommerce-order-items .wc-order-edit-line-item-actions a.edit-order-item.tips {
+    display: none;
+}
+
+div#woocommerce-order-items:has(button.add_addons[disabled]) h3 a.add_addons {
+    all: unset;
+    pointer-events: none;
+    font-size: 16px;
+}
+
+h3 a.add_addons {
+    font-size: 16px;
+}
+
+div#woocommerce-order-items span.wc-order-item-discount {
+    display: none !important;
+}
+
+div#woocommerce-order-items th.line_tax,
+td.line_tax {
+    color: transparent !important;
+    max-width: 0px;
+    padding: 0 !important;
+    font-size: 0px !important;
+    margin: 0 !important;
+}
+
+body div#woocommerce-order-items.postbox .inside,
+body div#woocommerce-order-data.postbox .inside,
+body #woocommerce-order-items .woocommerce_order_items_wrapper table.woocommerce_order_items table.display_meta,
+body #woocommerce-order-items .woocommerce_order_items_wrapper table.woocommerce_order_items table.meta,
+body div#woocommerce-order-items.postbox .inside p,
+body div#woocommerce-order-items.postbox .inside button {
+    font-size: 14px !important;
+}
+
+.wp-core-ui select.addon-status-select:disabled {
+    background-image: none;
+}
+
+/* body:has(input#original_post_status[value="wc-pending"]) div#meeting_addons_box,
+body:has(input#original_post_status[value="wc-cancelled"]) div#meeting_addons_box,
+body:has(input#original_post_status[value="wc-refund-processed"]) div#meeting_addons_box {
+    display: none;
+} */
+
+.js div#meeting_addons_box.closed .inside {
+    display: block;
+}
+
+.addons-group-table th {
+    cursor: pointer;
+    position: relative;
+}
+
+.addons-group-table th:hover {
+    background-color: #f1f1f1;
+}
+
+/* Optional: Add sort arrows */
+
+
+.addon-selection-area .service-table * {
+    border-color: #ddd !important;
+}
+
+.addon-selection-area {
+    border: none !important;
+}
+
+tr.addons-item-row td:not(:last-child) {
+    border-right: 1px solid #f0f0f1;
+}
+
+body tr.addons-item-row td {
+    padding: 5px 10px;
+}
+
+tr.service-row.misc-row:has(input#misc_price[value=""]) input:not(#misc_price, #misc_name),
+tr.service-row.misc-row:has(input#misc_price[value=""]) td:has(.addon-all),
+tr.service-row.misc-row:has(input#misc_price[value="0"]) input:not(#misc_price, #misc_name),
+tr.service-row.misc-row:has(input#misc_price[value="0"]) td:has(.addon-all),
+tr.service-row.misc-row:has(input#misc_name[value=""]) input#misc_price {
+    opacity: .5;
+    cursor: not-allowed;
+    pointer-events: none !important;
+}
+
+tr.dup_misc a {
+    font-size: 20px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13px;
+    float: inline-end;
+    text-decoration: none;
+}
+
+select.addon-status-select.status-cancelled {
+    color: #a00;
+    border-color: #a00;
+    background-color: #fff5f5;
+}
+
+textarea.addon-remark.auto-height {
+    margin-top: 5px;
+}
+
+.coupon-section {
+    display: flex;
+    align-items: center;
+}
+
+.coupon-section #active_coupon_display {
+    text-transform: uppercase;
+}
+
+body:not(:has(input#original_post_status[value="wc-pending"])) #phive_order_coupons {
+    display: none !important;
+}
+
+#order_data p.order_number {
+    font-size: 14px !important;
+}
+
+
+.woocommerce-embed-page #wpbody-content .notice {
+    display: none;
+}
+
+#order_data .order_data_column a.edit_date {
+    width: 14px;
+    height: 0;
+    padding: 14px 0 0;
+    margin: 0 0 0 6px;
+    overflow: hidden;
+    position: relative;
+    color: #999;
+    border: 0;
+    text-decoration: none;
+}
+
+#order_data .order_data_column a.edit_date::after {
+    font-family: Dashicons;
+    content: "\f464";
+}
+
+.order_data_column:has(.wc-customer-user) {
+    display: grid;
+}
+
+.order_data_column:has(.wc-customer-user) h3 {
+    order: 1;
+}
+
+.order_data_column:has(.wc-customer-user) p.form-field.form-field-wide:has(input[name="order_date"]) {
+    order: 3;
+    height: 0;
+    overflow: hidden;
+    transition: height .5s ease;
+    margin-top: 0 !important;
+}
+
+.order_data_column:has(.wc-customer-user) p.form-field.form-field-wide.show:has(input[name="order_date"]) {
+    height: auto;
+    margin-top: 5px !important;
+}
+
+.order_data_column:has(.wc-customer-user) p.form-field.form-field-wide.wc-customer-user {
+    order: 2;
+}
+
+a.edit_date {
+    outline: none !important;
+    box-shadow: none !important
+}
+
+label[for="order_date"] {
+    display: none !important;
+}
+
+label[for="customer_user"] {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+
+p.mode {
+    display: none;
+}
+
+select:has(option[value="completed"]:checked)+p.mode:has(input[name="payment_mode"]) {
+    display: block;
+}
+
+option[value="mark_on-hold"] {
+    display: none;
+}
+
+
+#invoice_email_actions,
+
+.role-service_manager #phive_payment_status_box,
+.role-service_manager #phive_manual_invoice_box button.button-primary,
+.role-service_manager #woocommerce-customer-history,
+.role-service_manager #woocommerce-order-actions,
+.role-service_manager #phive_booking_datetime_editor,
+.role-service_manager div#woocommerce-order-downloads,
+.role-service_manager div#order_custom,
+.role-service_manager a.edit_address,
+.role-service_manager a.edit_date,
+.role-service_manager a.delete-order-item.tips,
+.role-service_manager p.add-items,
+.role-service_manager .custom-order-action,
+.role-service_manager div#screen-meta-links,
+.role-service_manager .woocommerce-layout__activity-panel,
+.role-service_manager li#wp-admin-bar-new-content,
+.role-service_manager a.page-title-action,
+.role-service_manager .phive-reordered-child,
+.role-service_manager .phive-toggle-children,
+.role-service_manager .actions.bulkactions,
+.role-service_manager .column-origin,
+.role-service_manager label[for="customer_user"] a,
+.role-service_manager div#woocommerce-order-data a[class],
+.role-service_manager .delete_refund,
+.role-service_manager li#toplevel_page_manage-webapp {
+    display: none !important;
+}
+
+div#woocommerce-order-items th.sortable,
+.role-service_manager .add_addons,
+.role-service_manager #meeting-addons-table-container a {
+    pointer-events: none;
+}
+
+body .cd_box_itm.cd_box_itm_fw {
+    width: 100%;
+}
+
+/* .role-service_manager div#woocommerce-order-items:before { 
+    font-size: 21px;
+    position: relative;
+    line-height: 2;
+    padding: 10px;
+} */
+
+body #woocommerce-order-items .woocommerce_order_items_wrapper table.woocommerce_order_items thead th {
+    color: #000;
+    font-weight: 600;
+}
+
+#woocommerce-order-items .woocommerce_order_items_wrapper table.woocommerce_order_items tbody#order_line_items tr:first-child td>span {
+    color: #000;
+}
+
+h2.woocommerce-order-data__heading {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+body.post-type-shop_order .wp-list-table .column-order_total,
+.woocommerce_page_wc-orders .wp-list-table .column-order_total {
+    width: 6ch;
+}
+
+th#booking_date_time {
+    width: 22ch;
+}
+
+body.post-type-shop_order .wp-list-table .check-column,
+.woocommerce_page_wc-orders .wp-list-table .check-column,
+body.post-type-shop_order .wp-list-table tbody td,
+body.post-type-shop_order .wp-list-table tbody th,
+.woocommerce_page_wc-orders .wp-list-table tbody td,
+.woocommerce_page_wc-orders .wp-list-table tbody th {
+    padding: 10px 11px 10px 11px !important;
+}
+
+body .alternate,
+body .striped>tbody>:nth-child(odd),
+body ul.striped>:nth-child(odd) {
+    background-color: unset;
+}
+
+body td.order_type.column-order_type span,
+body .fulfillment-status>span,
+body .order-status>span,
+tbody#the-list td,
+tbody#the-list:not([data-wp-lists="list:user"]) td span {
+    line-height: 2;
+}
+
+.column-order_number .dashicons,
+.column-order_number .dashicons-before:before {
+    width: 15px;
+    height: 15px;
+    font-size: 16px;
+}
+
+body.post-type-shop_order .wp-list-table .column-order_number,
+.woocommerce_page_wc-orders .wp-list-table .column-order_number {
+    width: 28ch;
+}
+
+th#order_type {
+    width: 10ch;
+}
+
+th#order_source {
+    width: 5ch;
+}
+
+
+.column-order_number .dashicons-arrow-down-alt2:before {
+    content: "\f347";
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+span.optional {
+    display: none;
+}
+
+table#fieldset-shipping {
+    display: none;
+}
+
+table#fieldset-billing+h2 {
+    display: none;
+}
+
+div#profile-page .rank-math-metabox-frame {
+    display: none;
+}
+
+body #woocommerce-order-items .woocommerce_order_items_wrapper table.woocommerce_order_items table.display_meta,
+body #woocommerce-order-items .woocommerce_order_items_wrapper table.woocommerce_order_items table.meta,
+body.woocommerce_page_wc-orders,
+body.woocommerce_page_wc-orders .widefat td,
+body.woocommerce_page_wc-orders .widefat th,
+body #order_data p {
+    color: #000;
+}
+
+tr.phive-addon-heading:not(:has(~ tr.item)) {
+    display: none !important;
+}
+
+tr.item:first-child td.name>span {
+    font-size: 18px;
+}
+
+form#createuser tr[data-name="billing_gstin"] {
+    display: none;
+}
+
+tr.main-order span.combined_total {
+    display: block !important;
+}
+
+tr.main-order .order_total .tips,
+tr.main-order .order_total>span:not(.combined_total) {
+    display: none !important;
+}
+
+tbody#the-list:has(.combined-addon-row) .addon-order {
+    display: none !important;
+}
+
+.order-type-child mark.order-status {
+    display: none !important;
+}
+
+tr.phive-reordered-child * {
+    color: gray !important;
+    pointer-events: none;
+}
+
+.phive-reordered-child .booking_date_time,
+.phive-reordered-child a.order-preview {
+    opacity: 0;
+}
+
+.phive-reordered-child .order_total del {
+    text-decoration: none;
+}
+
+.phive-reordered-child .order_total:has(del) ins {
+    display: none;
+}
+
+.woocommerce_page_wc-orders #loginasuser_col,
+.woocommerce_page_wc-orders .loginasuser_col,
+.woocommerce_page_wc-orders .column-loginasuser_col {
+    display: none;
+}
+
+body.wp-admin table.users td.name {
+    font-weight: 700;
+    color: #2271b1;
+    cursor: default
+}
+
+body.wp-admin table.users td.name * {
+    font-weight: 400;
+}
+
+.role-administrator div#phive_order_coupons {
+    display: block !important;
+}
+
+.admin-popup-overlay .close-icn svg {
+    fill: #fff;
+    stroke: #fff;
+}
+
+.coupon_code.column-coupon_code strong a {
+    text-transform: uppercase;
+}
+
+mark.order-status:last-child {
+    display: none;
+}
+
+mark.order-status:first-child {
+    min-width: 90px;
+    text-align: center;
+    display: inline-grid;
+}
+
+.discount-area {
+    border: 1px solid #dadada;
+    border-radius: 8px;
+    padding: 10px;
+    display: none;
+    background-color: #F2F8FF;
+    margin-top: 15px;
+
+}
+
+body:has(input#ph-booking-time-for-the-date) .discount-area {
+    display: block;
+}
+
+ul.disc-point {
+    list-style: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0;
+}
+
+ul.disc-point li {
+    position: relative;
+    padding-left: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    vertical-align: middle;
+    color: #272727;
+    margin-bottom: 0;
+}
+
+ul.disc-point li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+ul.disc-point li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 3px;
+    width: 14px;
+    height: 14px;
+    background: url('data:image/svg+xml;utf8,<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 10C0 4.49219 4.45312 0 10 0C15.5078 0 20 4.49219 20 10C20 15.5469 15.5078 20 10 20C4.45312 20 0 15.5469 0 10ZM14.4922 8.28125C14.9219 7.85156 14.9219 7.1875 14.4922 6.75781C14.0625 6.32812 13.3984 6.32812 12.9688 6.75781L8.75 10.9766L6.99219 9.25781C6.5625 8.82812 5.89844 8.82812 5.46875 9.25781C5.03906 9.6875 5.03906 10.3516 5.46875 10.7812L7.96875 13.2812C8.39844 13.7109 9.0625 13.7109 9.49219 13.2812L14.4922 8.28125Z" fill="%235D92CE"/></svg>') no-repeat center center;
+    background-size: contain;
+}
+
+body div#custom-price-breakdown {
+    margin-top: 20px;
+    padding: 30px 23px;
+    border-radius: 9px;
+    box-shadow: 0px 1px 6.4px 0px #0000001A;
+    max-width: 500px;
+    background-color: #fff;
+}
+
+#custom-price-breakdown>div:nth-child(2n) {
+    background: #ffffff;
+}
+
+div#stl-price {
+    display: none;
+}
+
+div#fee-title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 120%;
+    vertical-align: middle;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+#custom-price-breakdown>div#slt-price {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+div#custom-price-breakdown div#btns {
+    margin-top: 19px !important;
+}
+
+div#custom-price-breakdown:has(div#slt-time-1:empty) {
+    display: none;
+}
+
+body #booking_price_text .woocommerce-Price-amount.amount {
+    color: #1763B9;
+}
+
+div#custom-price-breakdown:has(button.ph_book_now_button.disabled):before {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: url(https://accordhub.in/wp-content/plugins/ph-bookings-appointments-woocommerce-premium/resources/css/images/loading2.gif);
+    background-size: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    opacity: 1;
+    z-index: 1;
+    border-radius: inherit;
+}
+
+div#custom-price-breakdown:has(button.ph_book_now_button.disabled) {
+    position: relative;
+}
+
+#custom-price-breakdown>div#slt-price {
+    margin-bottom: 10px;
+}
+
+div#slt-time-1 p:first-child b {
+    color: #666666;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+div#slt-time-1>p:not(:first-child) {
+    margin-top: 6px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #191919;
+}
+
+p#room-charge,
+#settlement-charge,
+#adds-price p,
+p#booking_price_text,
+p.dis,
+p.ad-charge,
+div#slt-time-1 p,
+div#slt-time-2 p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+p#booking_info_text {
+    display: none;
+}
+
+div#slt-price {
+    margin-top: 0 !important;
+}
+
+.wc-order-edit-line-item {
+    display: none;
+}
+
+#woocommerce-order-items .woocommerce_order_items_wrapper {
+    overflow-x: hidden !important;
+}
+
+body .wapf-field-container .wapf-field-input textarea.wapf-input {
+    box-shadow: none !important;
+}
+
+.actions.bulkactions:not(:has(option[value="untrash"])) {
+    display: none;
+}
+
+.meta-box-sortables select.party-email-type {
+    max-width: fit-content;
+}
+
+.global-comm-party-row:has(span.inline-error) td {
+    /* vertical-align: unset; */
+}
+
+.global-comm-party-row span.inline-error {
+    line-height: 1.2;
+}
+
+#phive-global-comm-modal>div,
+#phive-edit-party-modal>div,
+#phive-view-party-modal>div {
+    position: relative;
+}
+
+#phive-global-comm-modal button.modal-close.modal-close-link,
+#phive-edit-party-modal button.modal-close.modal-close-link,
+#phive-view-party-modal button.modal-close.modal-close-link {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    cursor: pointer;
+}
+
+.post-type-shop_order #phive_admin_payment_mode_box .wp-list-table tbody td {
+    line-height: 1.2;
+}
+
+.btn-grp {
+    display: flex;
+    gap: 5px;
+}
+
+#wpfooter {
+    display: none;
+}
+
+.button.button-secondary.global-comm-send-single {
+    min-width: 90px;
+}
+
+#phive_admin_split_wrapper:has(.member-box:nth-child(14)) #add_new_party_btn {
+    opacity: 0;
+    pointer-events: none;
+}
+#admin_members_wrap::after {
+  content: "(Max 15)";
+}
+button.trigger-view-party:before {
+    font-family: WooCommerce;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    margin: 0;
+    text-indent: 0;
+    position: relative;
+    top: -2px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    content: "\e010";
+    line-height: 16px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+button.trigger-edit-party:before {
+    font-family: Dashicons;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    margin: 0;
+    text-indent: 0;
+    position: relative;
+    top: -2px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    content: "\f327";
+    line-height: 16px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+button.trigger-edit-party,
+button.trigger-view-party {
+    all: unset !important;
+    color: #2271b1 !important;
+}
+
+button.trigger-edit-party {
+    margin-right: 5px !important;
+}
+
+body:not(:has(.addons-group-table)) .finalize-actions {
+    display: none;
+}
+
+[class*="branch-7"].wp-core-ui .button .dashicons {
+    line-height: 1 !important;
+    margin-top: 0 !important;
+    color: inherit !important;
+}
+
+.phive-group-table {
+    text-align: center;
+}
+
+body a {
+    color: #2271b1;
+}
+
+body .wrap .page-title-action {
+    background: rgba(#2271b1, .04);
+    border-color: #2271b1;
+    color: #2271b1;
+}
+
+body.wp-core-ui button.button-primary,body.wp-core-ui a.button-primary {
+    background: #2271b1;
+}
+body.wp-core-ui a.button-secondary,body.wp-core-ui button.button-secondary { 
+  border: 1px solid #2271b1; 
+  color: #2271b1;
+}
+
+body:not(:has(.trigger-edit-party)) #view-party-edit{
+    display: none !important;
+}
+body input:focus{
+    box-shadow: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Snackes & Bites CSS Start */
+
+.woocommerce_order_items .item .name a {
+    cursor: auto;
+    pointer-events: none;
+    color: inherit;
+    text-decoration: none;
+}
+
+.category-row .rm_tabs_li {
+    height: 36px;
+}
+
+.category-row .rm_tabs_li .rm_tabs_inner img {
+    height: 26px;
+}
+
+table.service-table tbody tr:hover>td,
+table.service-table tbody tr:hover>th {
+    background-color: transparent;
+}
+
+.rm_tabs_ul,
+.order_tabs_ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    grid-gap: 12px;
+}
+
+.rm_tabs_li,
+.order_tabs_li {
+    border: 1px solid #B6D7FB52;
+    display: flex;
+    align-items: center;
+    background-color: #F8FAFC;
+    height: 44px;
+    padding: 0 12px;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.rm_tabs_inner {
+    display: flex;
+    align-items: center;
+    grid-gap: 8px;
+}
+
+.rm_tabs_inner img {
+    height: 30px;
+    width: auto;
+    border-radius: 3px;
+}
+
+.rm_tabs_inner span,
+.order_tabs_li {
+    color: #2E2E2ED6;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+}
+
+.order_tabs_li {
+    font-size: 14px;
+    height: 36px;
+}
+
+.rm_tabs_li.active,
+.order_tabs_li.active {
+    background-color: #1763B9;
+}
+
+.rm_tabs_li.active .rm_tabs_inner span,
+.order_tabs_li.active {
+    color: #fff;
+}
+
+.rm_item_meta {
+    display: flex;
+    align-items: center;
+    grid-gap: 12px;
+    margin-bottom: 11px;
+}
+
+.rm_item_image {
+    width: 38px;
+}
+
+.rm_item_image img {
+    vertical-align: middle;
+    min-width: 38px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Snackes & Bites CSS End */
+
+
+#phive_admin_payment_mode_box:has(#phive_admin_split_wrapper) .p_list {
+  display: none !important;
+}

@@ -1,0 +1,415 @@
+/* Outermost search bar container */
+.ph_book_search_widget_container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 10px;
+    position: relative;
+    overflow: visible;
+    border-radius: 8px !important;  /* force roundness */
+    border: 1px solid #8f8f8f !important; /* override inline border */
+}
+
+.ph_book_search_widget_container_column {
+	border-radius: 0.4em;
+	flex-direction: column;
+	align-items: stretch;
+    height: 100%;
+    gap: .5rem;
+}
+
+.ph_book_search_widget_container_column .ph_book_search_button_container {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: space-around !important;
+    place-content: initial;
+}
+
+.ph_book_search_widget_container_column .ph_book_search_number_of_participants_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 15px 0px;
+    max-height: 30px;
+}
+
+.ph_book_search_widget_container_column > div {
+	max-width: 100% !important;
+	width: 100% !important;
+}
+
+/* Child containers - equally spaced */
+.ph_book_search_date_container,
+.ph_book_search_date_container1,
+.ph_book_search_asset_name_container,
+.ph_book_search_number_of_participants_container {
+    flex: 1;
+    padding: 0 5px;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-right-style: inset !important;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.ph_book_search_number_of_participants_container a {
+    text-align: center !important;
+    color: #626161 !important;
+}
+
+.ph_book_search_asset_name_container {
+    color: #626161 !important;
+}
+
+/* Ensure long text wraps within each container */
+.ph_book_search_date_container input,
+.ph_book_search_date_container1 input,
+.ph_book_search_asset_name_container select,
+.ph_book_search_number_of_participants_container,
+.ph_book_search_button_container button {
+    width: auto !important;
+    height: 100%;
+    padding: 5px;
+    margin: -1px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255) !important;
+    border: transparent !important;
+    border-radius: 6px;
+    color: #333;
+    text-align: center;
+    white-space: nowrap;
+    overflow-wrap: break-word;
+    cursor: pointer;
+    outline-color: transparent !important;
+    text-overflow: ellipsis;
+}
+
+/* Button container - fixed width */
+.ph_book_search_button_container {
+    flex-grow: 0;
+    border-right-style: none !important;
+    padding: 0 0px;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    /* overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; */
+    flex-wrap: nowrap;
+    border-radius: 6px;
+    gap: 5px;
+}
+
+.ph_book_search_date_container {
+    display: flex;
+    justify-content: space-between;
+    width: 37%;
+    min-width: 20% !important;
+}
+
+.ph_book_search_widget_container input[type="text"] {
+    flex: 1;
+    margin-right: 10px;
+    box-shadow: none;
+    padding: 8px;
+    border-radius: 6px;
+    outline-color: transparent;
+    text-align: left;
+    border-style: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.ph_book_search_date_container1 {
+    display: flex;
+    justify-content: space-between;
+    width: 37%;
+    min-width: 20% !important;
+}
+
+.ph_book_search_number_of_participants_buttons {
+    background-color: transparent !important;
+    outline-color: transparent !important;
+    height: 36px;
+    cursor: pointer;
+    border-style: none;
+    position: absolute;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+    max-width: 14%;
+}
+
+.ph_book_search_date_container input[type="text"]:last-child {
+    margin-right: 0;
+}
+
+.ph_book_search_date_container1 input[type="text"]:last-child {
+    margin-right: 0;
+}
+
+/* Asset Container */
+.ph_book_search_asset_name {
+    background: white;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.ph_book_search_asset_item {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ph_book_search_asset_item:last-child {
+    border-bottom: none;
+}
+
+.ph_book_search_asset_item:hover {
+    background: #f0f0f0;
+}
+
+/* participant Container */
+.ph_popup {
+    display: none;
+    position: absolute;
+    background: #ffffff;
+    overflow: auto;
+    min-width: 160px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 9px;
+    border-radius: 6px;
+    max-width: 316px;
+    margin-top: 0.5%;
+    border: .5px solid #e6e6e6;
+    z-index: 1000;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.show {
+    display: block;
+}
+
+.close {
+    display: inline-block;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+}
+
+.ph_content {
+    margin-bottom: 10px;
+}
+
+#ph_book_search_number_of_participants_button:target {
+    display: block;
+}
+
+.ph_participant-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    border-radius: 6px;
+}
+
+.ph_participant-group label {
+    width: 150px;
+    margin-right: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ph_controls {
+    display: flex;
+    align-items: center;
+    border: thin double !important;
+    margin: -3px !important;
+    box-sizing: border-box;
+}
+
+.ph_controls button {
+    background-color: transparent;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 5px 10px;
+    border: none;
+    flex-shrink: 0;
+}
+
+.ph_controls button.ph-booking-participant-plus {
+    color: green;
+    outline-style: none !important;
+}
+
+.ph_controls button.ph-booking-participant-minus {
+    color: red;
+    outline-style: none !important;
+}
+
+.ph_controls button:hover {
+    background-color: #e6e6e6;
+    outline-style: none !important;
+}
+
+.ph_controls button.ph-booking-participant-plus:hover {
+    background-color: #d5efff;
+    color: darkgreen;
+    outline-style: none !important;
+}
+
+.ph_controls button.ph-booking-participant-minus:hover {
+    background-color: #d5efff;
+    color: darkred;
+    outline-style: none !important;
+}
+
+.ph_controls input {
+    width: 50px;
+    text-align: center;
+    margin: 0 5px !important;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    margin: -1px -18px -1px -5px !important;
+    padding: 5px;
+    flex-shrink: 0;
+}
+
+/* Style the search and clear buttons */
+#ph_booking_searchsubmit,
+#ph_booking_clear {
+    max-width: 100px;
+    width: 100px;
+    height: 100%;
+    padding: 6px;
+    border: none;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 6px;
+    text-align: center !important;
+    cursor: pointer;
+}
+
+/* Product Styling */
+.ph_product_main {
+    font-family: Arial, sans-serif;
+}
+
+.ph_product_section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 11px;
+    max-width: 466px;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 10%);
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.ph_outer_container {
+    position: relative;
+    min-height: 200px;
+}
+
+.ph_outer_container p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.ph_product_container,
+.ph_booking_container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ph_product_row,
+.ph_booking_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.ph_product_row:last-child {
+    border-bottom: none;
+}
+
+.ph_product_container label,
+.ph_booking_container label {
+    font-weight: bold;
+    width: 40%;
+    color: darkgray;
+}
+
+.ph_label {
+    color: black;
+}
+
+#ph_booking_cost {
+    font-weight: bold;
+    color: black;
+}
+
+/* Loading Spinner */
+.ph_loading_spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: -25px;
+    margin-top: -25px;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #a8a8a8;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.ph_outer_container.loaded .ph_loading_spinner {
+    display: none;
+}
+
+.ph_outer_container.loaded .ph_product_container {
+    display: block;
+}

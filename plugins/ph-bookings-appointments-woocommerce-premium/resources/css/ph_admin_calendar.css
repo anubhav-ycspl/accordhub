@@ -1,0 +1,435 @@
+/* admin calendar */
+
+.clear {
+    clear: both;
+}
+.nobr {
+    white-space: nowrap;
+}
+
+.ph_bookings_calendar_form {
+    margin: 1em 0 0 !important;
+    background: white;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid #c8c8c8;
+    border-top-color: #e5e5e5;
+    border-bottom-color: #b5b5b5;
+    padding: 0.5%;
+    padding-bottom: 0;
+}
+.ph_bookings_calendar_form .calendar_days {
+    position: relative;
+    height: 1440px;
+    overflow: hidden;
+    overflow-x: scroll;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAA8CAYAAACn8dD6AAAAIElEQVQYGWO4e/fuf4afP3/+Z2IAgsFCfP36lWHQuQoAvaoOvF/jxHkAAAAASUVORK5CYII=);
+    background-repeat: repeat;
+    background-position: 0 0;
+}
+.ph_bookings_calendar_form .calendar_days .hours {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: -0.5em 0 0 0;
+}
+.ph_bookings_calendar_form .calendar_days .hours li {
+    height: 60px;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+}
+.ph_bookings_calendar_form .calendar_days .hours li label {
+    float: left;
+    background: #f9f9f9;
+    padding: 0 8px;
+}
+.ph_bookings_calendar_form .calendar_days .bookings {
+    margin: 0 0 0 100px;
+    padding: 0;
+    height: 100%;
+    white-space: nowrap;
+    position: relative;
+}
+.ph_bookings_calendar_form .calendar_days .bookings li {
+    position: absolute;
+    width: 98px;
+    background: #000;
+    border-radius: 2px;
+    margin: 0;
+    overflow: hidden;
+    color: #fff;
+    border: 1px solid white;
+}
+.ph_bookings_calendar_form .calendar_days .bookings li a, .ph_bookings_calendar_form .calendar_days_all_day .bookings li a{
+    display: block;
+    padding: 2px 4px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+}
+.ph_bookings_calendar_form .tablenav {
+    background: #fff;
+    height: auto;
+    box-shadow: 0 1px 1px -1px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 1px -1px rgba(0, 0, 0, 0.1);
+    padding-bottom: 5px;
+    border-radius: 2px;
+    /* margin-bottom: 4%; */
+}
+.ph_bookings_calendar_form .tablenav:after,
+.ph_bookings_calendar_form .tablenav:before {
+    content: " ";
+    display: table;
+}
+.ph_bookings_calendar_form .tablenav:after {
+    clear: both;
+}
+.ph_bookings_calendar_form .tablenav .filters {
+    /* float: left; */
+    line-height: 30px;
+    padding: 5px;
+    /* border-right: 1px solid #ddd; */
+    padding-right: 26px;
+}
+.ph_bookings_calendar_form .tablenav .filters .chosen-container {
+    width: 12em;
+}
+.ph_bookings_calendar_form .tablenav .views {
+    float: right;
+    padding: 0;
+    border-left: 1px solid #ddd;
+}
+.ph_bookings_calendar_form .tablenav .views a, .ph_bookings_calendar_form .tablenav .views input {
+    padding: 1px 12px;
+    margin: 5px 10px 0 5px;
+    display: block;
+    text-decoration: none;
+}
+.ph_bookings_calendar_form .tablenav .views a:not(.submit-button)::before {
+    font-family: woocommerce;
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin-right: 7px;
+    content: "\e010";
+}
+.ph_bookings_calendar_form .tablenav .date_selector {
+    margin-left: 5px;
+    display: block;
+    float: left;
+    margin-right: auto;
+}
+.ph_bookings_calendar_form .tablenav .date_selector div {
+    padding: 5px 0;
+    float: left;
+}
+.ph_bookings_calendar_form .tablenav .date_selector div:first-of-type select {
+    margin-right: 5px;
+}
+.ph_bookings_calendar_form .tablenav .date_selector select {
+    vertical-align: middle;
+    width: 6em;
+}
+.ph_bookings_calendar_form .tablenav .date_selector a {
+    display: block;
+    position: relative;
+    height: 1em;
+    width: 1em;
+    margin: 4px;
+    border: 1px solid #f1f1f1;
+    border-radius: 50%;
+    padding: 8px;
+    color: #999;
+    border-color: #f1f1f1;
+    /* text-indent: -9999px; */
+    /* font-size: 1.3em; */
+    /* padding: 0.6em; */
+}
+
+.ph_bookings_calendar_form .tablenav .date_selector a.prev {
+    float: left;
+}
+
+.ph_bookings_calendar_form .tablenav .date_selector a.next {
+    float: right;
+}
+
+.ph_bookings_calendar_form .ph_bookings_calendar {
+    width: 100%;
+    margin: 1em 0 0 !important;
+    border: 0;
+}
+.ph_bookings_calendar_form .ph_bookings_calendar th {
+    color: #999;
+    text-align: left;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    border: 0;
+}
+.ph_bookings_calendar_form .ph_bookings_calendar td {
+    color: #bbb;
+    text-align: left;
+    padding: 0 4px;
+    font-size: 14px;
+    height: 155px;
+}
+
+.ph_bookings_calendar_form .ph_bookings_calendar td .ph-admin-calendar-date-wrapper
+{
+    height: 155px;
+}
+
+.ph_bookings_calendar_form .ph_bookings_calendar td .bookings {
+    overflow: auto;
+    height: 130px;
+    width: 100%;
+    text-align: left;
+    font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+}
+.ph_bookings_calendar_form .ph_bookings_calendar td .bookings ul {
+    padding: 0;
+    margin: 0;
+}
+.ph_bookings_calendar_form .ph_bookings_calendar td .bookings ul li, .ph_bookings_calendar_form .calendar_days_all_day .bookings li {
+    padding: 0;
+    margin: 0 0 4px 0;
+    list-style: none;
+    height: 26px;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.ph_bookings_calendar_form .ph_bookings_calendar td .bookings ul li a {
+    padding: 0 8px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 11px;
+}
+.ph_bookings_calendar_form .ph_bookings_calendar td .bookings ul li a ul {
+    padding: 0;
+    margin: 0;
+}
+.ph_bookings_calendar_form .ph_bookings_calendar td .bookings ul li a ul li {
+    list-style: none;
+    /* font-size: 0.75em; */
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+/* .ph_bookings_calendar_form .ph_bookings_calendar td .bookings ul li a:hover {
+    border-left-color: #ccc;
+    background: #fafafa;
+} */
+.ph_bookings_calendar_form .ph_bookings_calendar .calendar-diff-month {
+    background: #fafafa;
+}
+.ph_bookings_calendar_form .ph_bookings_calendar tbody tr td:last-child {
+    border-right: 0;
+}
+.ph_bookings_calendar_form .ph_bookings_calendar tbody tr:last-child td {
+    border-bottom: 0;
+}
+
+.ph_bookings_calendar_form .ph_bookings_calendar td .bookings ul li.paid,
+.ph_bookings_calendar_form .calendar_days_all_day .bookings li.paid,
+.ph_bookings_calendar_form .calendar_days .bookings li.paid{
+    background: #039be5;
+}
+
+.ph_bookings_calendar_form .ph_bookings_calendar td .bookings ul li.paid:hover,
+.ph_bookings_calendar_form .calendar_days_all_day .bookings li.paid:hover,
+.ph_bookings_calendar_form .calendar_days .bookings li.paid:hover{
+    
+    z-index: 2;
+    width: auto;
+    box-shadow: 0 0 10px #2e444f;
+}
+
+.ph_bookings_calendar_form .ph_bookings_calendar td .bookings ul li.un-paid,
+.ph_bookings_calendar_form .calendar_days_all_day .bookings li.un-paid,
+.ph_bookings_calendar_form .calendar_days .bookings li.un-paid {
+    background: #797979;
+}
+
+.ph_bookings_calendar_form .ph_bookings_calendar td .bookings ul li.un-paid:hover,
+.ph_bookings_calendar_form .calendar_days_all_day .bookings li.un-paid:hover,
+.ph_bookings_calendar_form .calendar_days .bookings li.un-paid:hover{
+
+    z-index: 2;
+    width: auto;
+    box-shadow: 0 0 10px #2e444f;
+}
+
+.ph_bookings_calendar_form .ph_bookings_calendar td .bookings ul li.partially-paid,
+.ph_bookings_calendar_form .calendar_days_all_day .bookings li.partially-paid,
+.ph_bookings_calendar_form .calendar_days .bookings li.partially-paid {
+    background: #08a8a0;
+}
+
+.ph_bookings_calendar_form .ph_bookings_calendar td .bookings ul li.partially-paid:hover,
+.ph_bookings_calendar_form .calendar_days_all_day .bookings li.partially-paid:hover,
+.ph_bookings_calendar_form .calendar_days .bookings li.partially-paid:hover {
+    z-index: 2;
+    width: auto;
+    box-shadow: 0 0 10px #2e444f;
+}
+.ph_bookings_calendar_form .ph_bookings_calendar td .bookings ul li.requires-confirmation,
+.ph_bookings_calendar_form .calendar_days_all_day .bookings li.requires-confirmation,
+.ph_bookings_calendar_form .calendar_days .bookings li.requires-confirmation {
+    background: #f6bf26;
+}
+
+.ph_bookings_calendar_form .ph_bookings_calendar td .bookings ul li.requires-confirmation:hover,
+.ph_bookings_calendar_form .calendar_days_all_day .bookings li.requires-confirmation:hover,
+.ph_bookings_calendar_form .calendar_days .bookings li.requires-confirmation:hover {
+    
+    z-index: 2;
+    width: auto;
+    box-shadow: 0 0 10px #2e444f;
+}
+
+.ph_bookings_calendar_form .ph_bookings_calendar td .bookings ul li.canceled,
+.ph_bookings_calendar_form .calendar_days_all_day .bookings li.canceled,
+.ph_bookings_calendar_form .calendar_days .bookings li.canceled {
+    background: #e91764;
+    /* background: rgb(235, 25, 25); */
+}
+
+.ph_bookings_calendar_form .ph_bookings_calendar td .bookings ul li.canceled:hover,
+.ph_bookings_calendar_form .calendar_days_all_day .bookings li.canceled:hover,
+.ph_bookings_calendar_form .calendar_days .bookings li.canceled:hover {
+    z-index: 2;
+    width: auto;
+    box-shadow: 0 0 10px #2e444f;
+}
+.ph_bookings_calendar_form .ph_bookings_calendar td .bookings ul li a {
+    color: #fff;
+}
+
+.ph_bookings_calendar_form .ph-admin-calendar-date{
+    /* padding-left: 8px; */
+    font-weight: 600;
+    font-size: 12px;
+    text-decoration: none;
+    box-shadow: none;
+    color: #656565;
+}
+
+.ph_bookings_calendar_form .ph-admin-calendar-date:hover
+{
+    color: #2470ff;
+}
+
+.ph-admin-calendar-date-wrapper
+{
+    border-top: 2px solid #f1f1f1;
+}
+
+.ph_bookings_calendar_form .calendar_days_all_day
+{
+    background: #fafafa;
+    padding:10px;
+    position:relative;
+}
+
+.ph_bookings_calendar_form .calendar_days_all_day .bookings
+{
+    overflow-y:scroll;
+    max-height: 100px;
+}
+
+.ph_bookings_calendar_form .calendar_days_all_day .bookings li{
+    width: auto;
+    display: inline-block;
+    margin: 0.3%;
+}
+.ph_bookings_calendar_form .calendar_days_all_day .bookings li a {
+    overflow: hidden;
+    padding: 0 8px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 11px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.admin-calendar-views{
+    padding: 10px;
+    margin: 10px;
+}
+
+.admin-calendar-views .admin-calendar-btn
+{
+    display: inline-block;
+    background: #4BB6CA;
+    margin-left: -3px;
+    border-radius: 3px 0 0 3px;
+}
+
+.admin-calendar-views .admin-calendar-btn a
+{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px !important;
+    font-weight: 500;
+    text-transform: uppercase;
+    min-width: 60px;
+}
+
+.admin-calendar-views .admin-calendar-btn a:focus
+{
+    outline: 0;
+    box-shadow: none;
+}
+
+.admin-calendar-views .admin-calendar-btn:last-child
+{
+    border-radius: 0 3px 3px 0;
+}
+
+.ph-admin-calendar-submit-btn
+{
+    background: #1e3368 !important;
+    color: white !important;
+    font-size: 14px;
+    padding: 3px 27px !important;
+}
+
+.ph_bookings_calendar_form .tablenav .date_selector select, .ph_bookings_calendar_form .ph-bottom-filters .date_selector input
+{
+    width: 150px;
+    box-shadow: none;
+    border-radius: 3px;
+    padding: 3px 7px;
+    height: auto;
+    border: 1px solid #aaa;
+}
+
+#select2-ph-calendar-bookings-filter-container, #select2-ph-calendar-bookings-filter-status-container
+{
+    padding: 3px 7px;
+}
+
+.ph_bookings_calendar_form  .filters .select2-selection__arrow, .ph_bookings_calendar_form .filters .select2-selection__arrow
+{
+    padding: 3px 7px;
+}
+
+.ph_bookings_calendar_form .filters .select2-container--default .select2-selection--single
+{
+    height: auto;
+}
+
+.ph-bottom-filters
+{
+    display: flex;
+}

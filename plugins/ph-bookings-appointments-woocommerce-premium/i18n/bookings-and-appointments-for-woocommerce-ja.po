@@ -1,0 +1,3680 @@
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ja\n"
+"Language-Team: Japanese\n"
+"Last-Translator: PluginHive\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2025-06-19 11:39+0000\n"
+"POT-Creation-Date: 2024-02-13 14:56+0000\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: Bookings and Appointments For WooCommerce Premium\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Generator: Loco\n"
+"X-Loco-Version: 2.8.0; wp-6.8.1; php-8.3.6\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/templates/emails/ph-booking-payment-for-customer-plain.php:48
+#: includes/templates/emails/ph-customer-booking-confirmed-plain.php:47
+msgid ""
+"\n"
+" Please click below link to proceed with the payment \n"
+""
+msgstr " 以下のリンクをクリックして支払いを進めてください。"
+
+#: includes/templates/emails/ph-booking-payment-for-customer-plain.php:37
+msgid ""
+"\n"
+" Thanks for placing your booking."
+msgstr " ご予約ありがとうございます。"
+
+#: includes/templates/emails/ph-booking-payment-for-customer-plain.php:38
+msgid ""
+"\n"
+" We request you to go through the booking details attached in this email. \n"
+""
+msgstr " このメールに添付されている予約の詳細をご確認ください。"
+
+#: includes/templates/emails/ph-customer-booking-confirmed-plain.php:37
+#, php-format
+msgid ""
+"\n"
+" Your booking at %s is approved. \n"
+""
+msgstr "%sでのご予約が承認されました。"
+
+#: includes/templates/emails/ph-customer-booking-reminder-plain.php:37
+#, php-format
+msgid ""
+"\n"
+"I request you to check the bookings details for your appointment with %s.\n"
+""
+msgstr ""
+"%s との予約の詳細を確認してください。\n"
+""
+
+#: includes/templates/emails/ph-customer-booking-followup-plain.php:36
+#, php-format
+msgid ""
+"\n"
+"Thank you for booking with %s.<br>Hope you enjoyed our services.\n"
+""
+msgstr ""
+"%s をご予約いただきありがとうございます。<br>弊社のサービスをお楽しみいただけたでしょうか。\n"
+""
+
+#: includes/templates/emails/ph-admin-booking-waiting-for-approval-plain.php:38
+#, php-format
+msgid ""
+"\n"
+"You have received an order #%s. The order is waiting for approval. The order is as follows"
+msgstr ""
+"注文 #%s を受け取りました。注文は承認を待っています。順序は次のとおりです\n"
+""
+
+#: includes/templates/emails/ph-customer-booking-cancelled-plain.php:37
+#, php-format
+msgid ""
+"\n"
+"Your booking at %s has been marked as %s.\n"
+""
+msgstr ""
+"%s での予約は %s としてマークされています。\n"
+""
+
+#: includes/templates/emails/ph-customer-booking-requires-confirmation-plain.php:37
+#, php-format
+msgid ""
+"\n"
+"Your Booking request at %s is awaiting approval.\n"
+""
+msgstr "%s での予約リクエストは承認を待っています。"
+
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:864
+msgid " "
+msgstr " "
+
+#: includes/class-ph-booking-google-calendar.php:373
+msgid " (Attention: Time is required for this event)"
+msgstr " (注意：このイベントには時間が必要です）"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:188
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:83
+msgid " before the booking starts"
+msgstr " 予約開始前"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:408
+msgid "%d Booking staus(s) changed to Paid"
+msgstr "%d 件の予約ステータスが有料に変更されました"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:436
+msgid "%d Booking staus(s) changed to Un-Paid"
+msgstr "%d 件の予約ステータスが未払いに変更されました"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:343
+msgid "%d item(s) Booking Confirmed"
+msgstr "%d 件の予約が確定しました。"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:236
+msgid "%d item(s) canceled"
+msgstr "%d のアイテムがキャンセルされました。"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:182
+msgid "%d item(s) deleted"
+msgstr "%d 個のアイテムが削除されました。"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:458
+msgid "%d items(s) Re-synced with Google Calender"
+msgstr "%d 個のアイテムがGoogle Calenderと再同期されました。"
+
+#: includes/class-ph-booking-cart-decorator.php:417
+#: includes/class-ph-booking-cart-decorator.php:424
+#, php-format
+msgid "%s has been added to your cart."
+msgstr "%s がカートに追加されました"
+
+#: includes/frondend/class-ph-booking-calendar-strategy.php:578
+#, php-format
+msgid "(%s left)"
+msgstr "(残り %s)"
+
+#: includes/class-ph-booking-google-calendar.php:350
+msgid "(Attention: Time is required for this event)"
+msgstr "(注意：このイベントには時間が必要です）"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:247
+#: includes/admin/views/html-ph-booking-product-admin-options.php:252
+msgid "(s)"
+msgstr "(s) )"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:166
+msgid "*Time range can not be used in booking search when timezone conversion is enabled."
+msgstr "※タイムゾーン変換が有効になっている場合、予約検索では時間範囲が使用できません."
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:54
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:125
+msgid "1. All dates are available by default. Create rules to set the time period when you are not available to take bookings."
+msgstr "1. デフォルトではすべての日程が利用可能です。ルールを作成し、予約を受け付けることができない期間を設定します。"
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:56
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:127
+msgid "2. Mark all the dates/blocks as unavailable and then set the time period when you are available for bookings."
+msgstr "2. すべての日付/ブロックを予約不可としてマークし、予約可能な期間を設定します。"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:74
+msgid "<br><span style='float:left;'><i>Fixed Blocks : Customers can book one block at a time.<br>Enable Range : Customers can book multiple blocks by choosing a start and an end.</i></span>"
+msgstr "<br><span style='float:left;'><i>固定ブロック：一度に一つのブロックを予約することができます。<br>有効範囲：お客様は、開始と終了を選択することにより、複数のブロックを予約することができます。</i></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:28
+msgid "<h4><b>Single Resource</b> - Customers can choose One Resource from a Drop Down containing all the resources. </h4><h4><b>Multiple Resources</b> - Customers can select Multiple Resource while booking.</h4>"
+msgstr "<h4><b>単一リソース</b> - お客様は、すべてのリソースを含むドロップダウンから1つのリソースを選択することができます。</h4><h4><b>複数のリソース</b> - 予約時に複数のリソースを選択することができます。</h4>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:196
+msgid "<span style='padding-left:2%; font-size:12px;'><i>Check this box if the booking requires admin approval/confirmation.</i></span>"
+msgstr "<span style='padding-left:2%; font-size:12px;'><i>予約に管理者の承認/確認が必要な場合は、このボックスにチェックを入れてください。</i></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:81
+msgid "<span style='padding-left:2%;'><i>Allow multiple bookings for the same block until the specified number is reached.</i></span>"
+msgstr "<span style='padding-left:2%;'><i>指定された数に達するまで、同じブロックに対して複数の予約を許可する。</i></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:137
+msgid "<span style='padding-left:2%;'><i>Auto-Select Minimum Booking Slots.</i></span>"
+msgstr "<span style='padding-left:2%;'><i>最低予約枠の自動選択。</i></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:202
+msgid "<span style='padding-left:2%;'><i>Enable this option to offer bookings on a per night basis. For Eg : Accommodations. The customer can choose a check in and check out date.</i></span>"
+msgstr "<span style='padding-left:2%;'><i>このオプションを有効にすると、1泊単位で予約できます。例：宿泊施設。顧客はチェックインとチェックアウトの日付を選択することができます。</i></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:281
+msgid "<span style='padding-left:2%;'><i>Enabling this option will allow customers to book timeslots across days. For Eg : 9.00 Am , 1st May to 6.00 Pm 2nd May.</i></span>"
+msgstr "<span style='padding-left:2%;'><i>このオプションを有効にすると、日をまたいだタイムスロットの予約が可能になります。例：5月1日午前9時から5月2日午後6時まで。</i></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:295
+msgid "<span style='padding-left:2%;'><i>Enabling this option will display both the Booking Slot Start Time as well as End Time on the calendar.</i></span>"
+msgstr "<span style='padding-left:2%;'><i>このオプションを有効にすると、予約スロットの開始時間と終了時間の両方がカレンダーに表示されます。</i></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:109
+msgid "<span style='padding-left:2%;'><i>Enabling this will show the Fully Booked Indicator for bookings slots which is fully booked.</i><span>"
+msgstr "<span style='padding-left:2%;'><i> これを有効にすると、完全に予約されている予約スロットの完全予約インジケータが表示されます。</i><span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:88
+msgid "<span style='padding-left:2%;'><i>Enabling this will show the number of places left for bookings per block.</i><span>"
+msgstr "<span style='padding-left:2%;'><i>これを有効にすると、ブロックごとの予約残数が表示されます。</i><span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:209
+msgid "<span style='padding-left:2%;'><i>Hide checkout date on admin calendar and google calendar for per night bookings.</i></span>"
+msgstr "<span style='padding-left:2%;'><i>宿泊予約のチェックアウト日を管理カレンダーとグーグルカレンダーで非表示にする。</i></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:146
+msgid "<span style='padding-left:2%;'><i>Set the maximum period the customer can input. Leave blank for unlimited.</i></span>"
+msgstr "<span style='padding-left:2%;'><i>顧客が入力できる最大期間を設定します。無制限の場合は空白にしてください。</i></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:131
+msgid "<span style='padding-left:2%;'><i>Set the minimum booking period the customer can select.</i></span>"
+msgstr "<span style='padding-left:2%;'><i>顧客が選択できる最小予約期間を設定します。</i></span>"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:484
+msgid "<strong>Direct Booking:</strong> Display booking details directly without a calendar for modifications."
+msgstr "<strong>直接予約:</strong> 変更のためのカレンダーなしで直接予約の詳細を表示します."
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:482
+msgid "<strong>Flexible Booking:</strong> Display booking details along with a calendar for editing and modifying."
+msgstr "<strong>フレキシブル予約:</strong> 編集および変更のためのカレンダーと共に予約の詳細を表示します."
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:286
+msgid "Across Days Cost Calculation"
+msgstr "アクロス日数コスト計算"
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:108
+#: includes/admin/views/html-ph-booking-settings-assets.php:124
+#: includes/admin/views/html-ph-booking-settings-assets.php:173
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:79
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:87
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:181
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:101
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:108
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:151
+msgid "Add"
+msgstr "追加"
+
+#: includes/class-ph-booking-google-calendar.php:1176
+msgid "Add as an event in google calendar"
+msgstr "グーグルカレンダーにイベントとして追加する"
+
+#: includes/admin/class-ph-booking-admin-pages.php:48
+#: includes/admin/class-ph-booking-admin-pages.php:81
+#: includes/admin/views/html-ph-booking-admin-order-calender.php:24
+#: includes/admin/views/html-ph-booking-admin-order-calender.php:112
+#: includes/admin/views/html-calendar-month.php:2
+#: includes/admin/views/html-ph-booking-admin-order.php:7
+#: includes/admin/views/html-calendar-day.php:2
+msgid "Add Booking"
+msgstr "予約の追加"
+
+#: includes/frondend/class-ph-icalendar-extension.php:283
+msgid "Add Bookings to iCalendar"
+msgstr "ICalendarに予約を追加"
+
+#: includes/frondend/class-ph-icalendar-extension.php:107
+#: includes/frondend/class-ph-icalendar-extension.php:254
+msgid "Add bookings to iCalendar"
+msgstr "ICalendarに予約を追加する"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:274
+msgid "Add Customer as Event Attendee"
+msgstr "イベント参加者として顧客を追加"
+
+#: includes/admin/class-ph-booking-admin-pages.php:38
+msgid "Add Product"
+msgstr "製品を追加する"
+
+#: includes/admin/class-ph-booking-admin-pages.php:141
+msgid "Add-Ons"
+msgstr "アドオン"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:268
+#: includes/emails/class-ph-booking-payment-for-customer.php:255
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:320
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:290
+#: includes/emails/class-ph-wc-email-booking-reminder.php:269
+#: includes/emails/class-ph-wc-email-booking-followup.php:267
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:307
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:225
+msgid "Additional content"
+msgstr "追加コンテンツ"
+
+#: includes/admin/class-ph-booking-export-bookings.php:143
+#: includes/admin/class-ph-booking-export-bookings.php:638
+msgid "Additional Notes"
+msgstr "特記事項"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:251
+msgid "After Booking"
+msgstr "予約後"
+
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:13
+msgid "All"
+msgstr "すべて"
+
+#: includes/admin/class-ph-booking-admin-pages.php:28
+#: includes/admin/class-ph-booking-admin-pages.php:80
+msgid "All Bookings"
+msgstr "すべての予約"
+
+#: includes/admin/views/html-calendar-day.php:78
+msgid "All Day"
+msgstr "終日"
+
+#: includes/admin/views/html-calendar-month.php:92
+#: includes/admin/views/html-calendar-day.php:39
+msgid "All Status"
+msgstr "すべてのステータス"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:35
+msgid "All the costs will be multiplied by the number of participants"
+msgstr "すべての費用に参加者数を掛けます。"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:176
+msgid "Allow Cancellation"
+msgstr "キャンセルを許可する"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:75
+msgid "Allow customers to book until"
+msgstr "予約可能時間"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:341
+msgid "Allow customers to choose a month from a drop down to navigate to that month directly."
+msgstr "顧客がドロップダウンから月を選択し、その月に直接移動できるようにする。"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:100
+msgid "Allow start booking only with selected days"
+msgstr "選択した日にのみ予約開始を許可する"
+
+#: ph-bookings-appointments-woocommerce-premium.php:534
+#: ph-bookings-appointments-woocommerce-premium.php:637
+msgid "am"
+msgstr "アム"
+
+#: ph-bookings-appointments-woocommerce-premium.php:783
+msgid "and"
+msgstr "そして"
+
+#: includes/admin/class-ph-booking-export-bookings.php:128
+#: includes/admin/class-ph-booking-export-bookings.php:131
+msgid "Applicable for bookings made after updating to plugin version 2.3.0"
+msgstr "プラグインバージョン2.3.0への更新後に行われた予約に適用されます。"
+
+#: ph-bookings-appointments-woocommerce-premium.php:747
+#: includes/class-ph-booking-checkout-decorator.php:861
+#: includes/addons/ph_bookings_month_picker.php:101
+msgid "Apr"
+msgstr "4月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:733
+#: includes/class-ph-booking-checkout-decorator.php:849
+#: includes/addons/ph_bookings_month_picker.php:87
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:62
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:129
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:68
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:120
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:38
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:77
+msgid "April"
+msgstr "4月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:763
+msgid "are not available."
+msgstr "は利用できない。"
+
+#: includes/admin/class-ph-booking-order-manager.php:513
+msgid "Are you sure to cancel booking?"
+msgstr "予約をキャンセルしてよろしいですか？"
+
+#: includes/class-ph-booking-checkout-decorator.php:700
+#: includes/class-ph-booking-checkout-decorator.php:768
+#: includes/class-ph-booking-checkout-decorator.php:823
+#: includes/class-ph-booking-google-calendar.php:694
+#: includes/class-ph-booking-google-calendar.php:872
+#: includes/class-ph-booking-google-calendar.php:876
+#: includes/class-ph-booking-google-calendar.php:1672
+#: includes/class-ph-booking-google-calendar.php:1842
+#: includes/class-ph-booking-cart-decorator.php:820
+#: includes/class-ph-booking-ajax-interface.php:152
+#: includes/class-ph-booking-order-item-handler.php:81
+#: includes/admin/class-ph-booking-export-bookings.php:146
+#: includes/admin/class-ph-booking-export-bookings.php:584
+#: includes/frondend/class-ph-booking-calendar-strategy.php:1066
+#: includes/admin/views/html-ph-booking-settings-assets.php:77
+#: includes/admin/views/html-ph-booking-settings-assets.php:154
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:50
+msgid "Asset"
+msgstr "資産"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:133
+msgid "Asset Availability"
+msgstr "アセット・アベイラビリティ"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:384
+msgid "Asset Name"
+msgstr "アセット名"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:62
+msgid "Assets"
+msgstr "資産"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:80
+msgid "Assets are global resources which can be attached either to a single product or to multiple products. Assets have a quantity and availability attached."
+msgstr "アセット（資産）とは、単一の製品または複数の製品にアタッチできるグローバル・リソースのことです。アセットには数量と可用性が設定されています。"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:108
+msgid "Assets Name"
+msgstr "資産名"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:63
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:26
+msgid "Assign"
+msgstr "アサイン"
+
+#: includes/admin/views/html-ph-booking-admin-order.php:74
+msgid "Assign this booking to an existing order with this ID:"
+msgstr "このIDを持つ既存の注文にこの予約を割り当てます："
+
+#: ph-bookings-appointments-woocommerce-premium.php:751
+#: includes/class-ph-booking-checkout-decorator.php:864
+#: includes/addons/ph_bookings_month_picker.php:105
+msgid "Aug"
+msgstr "8月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:737
+#: includes/class-ph-booking-checkout-decorator.php:853
+#: includes/addons/ph_bookings_month_picker.php:91
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:66
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:133
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:72
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:124
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:42
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:81
+msgid "August"
+msgstr "8月"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources-matrix-row.php:15
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:93
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:29
+msgid "Automatically assigned"
+msgstr "自動的に割り当てられる"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:119
+msgid "Availability Rules :"
+msgstr "アベイラビリティ・ルール："
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:234
+#: includes/emails/class-ph-booking-payment-for-customer.php:227
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:292
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:262
+#: includes/emails/class-ph-wc-email-booking-reminder.php:243
+#: includes/emails/class-ph-wc-email-booking-followup.php:241
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:272
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:191
+#, php-format
+msgid "Available placeholders: %s"
+msgstr "使用可能なプレースホルダ: %s"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:74
+msgid "Avoid last minute bookings"
+msgstr "直前の予約は避ける"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:63
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:16
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:84
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:135
+msgid "Base Cost"
+msgstr "基本料金"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:91
+msgid "Base cost"
+msgstr "基本料金"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:245
+msgid "Before Booking"
+msgstr "ご予約の前に"
+
+#: includes/emails/class-ph-email-content.php:300
+msgid "Billing address"
+msgstr "請求先住所"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:64
+msgid "Block Cost"
+msgstr "ブロックコスト"
+
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:43
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:60
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:6
+msgid "Block Count"
+msgstr "ブロック数"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:279
+msgid "Book Across Days"
+msgstr "ブック・アクロス・デイズ"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:162
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:612
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:670
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:756
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:860
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:939
+msgid "Book Now"
+msgstr "今すぐ予約"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:794
+msgid "Book Now Background"
+msgstr "今すぐ予約 背景"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:153
+msgid "Book Now Button"
+msgstr "今すぐ予約ボタン"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:675
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:799
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:944
+msgid "Book Now Text"
+msgstr "今すぐ予約 テキスト"
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:93
+#: includes/admin/views/html-ph-booking-settings-assets.php:158
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:156
+msgid "Bookable"
+msgstr "予約可能"
+
+#: includes/admin/views/html-ph-booking-admin-order.php:35
+msgid "Bookable Product"
+msgstr "予約可能商品"
+
+#: includes/admin/class-ph-booking-product-manager.php:110
+msgid "Bookable product"
+msgstr "予約可能商品"
+
+#: includes/class-ph-booking-cart-decorator.php:762
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:300
+msgid "Booked"
+msgstr "予約済み"
+
+#: includes/admin/class-ph-booking-export-bookings.php:629
+msgid "Booked By"
+msgstr "予約者"
+
+#: includes/admin/class-ph-booking-export-bookings.php:134
+#: includes/admin/class-ph-booking-admin-reports-list.php:121
+msgid "Booked by"
+msgstr "予約者"
+
+#: includes/class-ph-booking-google-calendar.php:1635
+msgid "Booked by: "
+msgstr "予約者:"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:660
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:784
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:954
+msgid "Booked Dates"
+msgstr "予約済み日程"
+
+#: includes/class-ph-booking-checkout-decorator.php:102
+#: includes/class-ph-booking-google-calendar.php:327
+#: includes/class-ph-booking-google-calendar.php:748
+#: includes/class-ph-booking-cart-decorator.php:760
+#: includes/class-ph-booking-email-manager.php:385
+#: includes/admin/class-ph-booking-admin-order.php:461
+#: includes/admin/class-ph-booking-order-manager.php:41
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:284
+msgid "Booked From"
+msgstr "予約開始日"
+
+#: includes/admin/class-ph-booking-export-bookings.php:128
+#: includes/admin/class-ph-booking-export-bookings.php:613
+msgid "Booked Participants"
+msgstr "予約参加者"
+
+#: includes/admin/class-ph-booking-export-bookings.php:131
+#: includes/admin/class-ph-booking-export-bookings.php:623
+msgid "Booked Resources"
+msgstr "予約済みリソース"
+
+#: includes/class-ph-booking-checkout-decorator.php:103
+#: includes/class-ph-booking-google-calendar.php:328
+#: includes/class-ph-booking-google-calendar.php:749
+#: includes/class-ph-booking-cart-decorator.php:761
+#: includes/class-ph-booking-email-manager.php:386
+#: includes/admin/class-ph-booking-admin-order.php:481
+#: includes/admin/class-ph-booking-order-manager.php:42
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:292
+msgid "Booked To"
+msgstr "予約先"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:360
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:219
+msgid "Booking"
+msgstr "予約"
+
+#: includes/admin/views/html-ph-booking-settings-booking-addons.php:8
+msgid "Booking Add-Ons"
+msgstr "予約アドオン"
+
+#: includes/admin/class-ph-booking-product-manager.php:78
+msgid "Booking Assets"
+msgstr "予約資産"
+
+#: includes/admin/class-ph-booking-product-manager.php:54
+msgid "Booking Availability"
+msgstr "予約状況"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:473
+msgid "Booking Availability View"
+msgstr "予約状況 ニュース"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:264
+msgid "Booking Cancellation"
+msgstr "予約キャンセル"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:45
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:46
+msgid "Booking cancelled emails are sent when the status of a booking goes to cancelled."
+msgstr "予約キャンセルメールは予約のステータスがキャンセルになった時に送信されます。"
+
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:49
+msgid "Booking confirmed emails are sent when the status of a booking goes from requires confirmation to confirmed."
+msgstr "予約確認メールは、予約のステータスが要確認から確認済みになると送信されます。"
+
+#: includes/admin/class-ph-booking-export-bookings.php:149
+#: includes/admin/class-ph-booking-export-bookings.php:652
+msgid "Booking Cost"
+msgstr "予約費用"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:227
+msgid "Booking cost"
+msgstr "予約費用"
+
+#: includes/frondend/class-ph-icalendar-extension.php:335
+msgid "Booking Cost: "
+msgstr "予約費用:"
+
+#: includes/class-ph-booking-google-calendar.php:1643
+msgid "Booking cost: "
+msgstr "予約費用："
+
+#: includes/admin/class-ph-booking-product-manager.php:60
+msgid "Booking Costs"
+msgstr "予約費用"
+
+#: includes/admin/views/html-ph-booking-admin-order-calender.php:31
+msgid "Booking Data"
+msgstr "予約データ"
+
+#: includes/frondend/class-ph-booking-product-details.php:6
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:610
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:754
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:858
+msgid "Booking Details"
+msgstr "予約詳細"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:256
+msgid "Booking has been cancelled. The order details are shown below"
+msgstr "予約はキャンセルされました。ご注文の詳細は以下の通りです。"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:225
+msgid "Booking Notes Label"
+msgstr "ブッキングノートラベル"
+
+#: includes/admin/class-ph-booking-product-manager.php:66
+msgid "Booking Participants"
+msgstr "参加者の予約"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:57
+msgid "Booking Period"
+msgstr "予約期間"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:391
+msgid "Booking Personalization for Admin Calendar"
+msgstr "管理者カレンダーの予約パーソナライズ"
+
+#: includes/admin/class-ph-booking-product-manager.php:72
+msgid "Booking Resources"
+msgstr "予約リソース"
+
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:987
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:10
+msgid "Booking Search"
+msgstr "予約検索"
+
+#. Widget name will appear in UI
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:14
+msgid "Booking Search Availability"
+msgstr "予約検索 空室状況"
+
+#: includes/class-ph-booking-checkout-decorator.php:152
+#: includes/class-ph-booking-checkout-decorator.php:176
+#: includes/class-ph-booking-checkout-decorator.php:592
+#: includes/class-ph-booking-checkout-decorator.php:844
+#: includes/class-ph-booking-checkout-decorator.php:898
+#: includes/class-ph-booking-checkout-decorator.php:913
+#: includes/class-ph-booking-google-calendar.php:420
+#: includes/class-ph-booking-google-calendar.php:948
+#: includes/admin/class-ph-booking-export-bookings.php:577
+#: includes/admin/class-ph-booking-admin-reports-list.php:117
+#: includes/admin/class-ph-booking-admin-reports-list.php:211
+#: includes/admin/class-ph-booking-admin-reports-list.php:262
+#: includes/admin/class-ph-booking-admin-reports-list.php:272
+#: includes/admin/class-ph-booking-admin-reports-list.php:311
+#: includes/admin/class-ph-booking-admin-reports-list.php:396
+#: includes/admin/class-ph-booking-admin-reports-list.php:424
+#: includes/admin/class-ph-booking-admin-order.php:679
+#: includes/admin/class-ph-booking-order-manager.php:332
+#: includes/admin/class-ph-booking-order-manager.php:389
+msgid "Booking Status"
+msgstr "予約状況"
+
+#: includes/func-ph-booking-general-functions.php:10
+msgctxt "Booking status"
+msgid "Cancelled"
+msgstr "キャンセル"
+
+#: includes/func-ph-booking-general-functions.php:9
+msgctxt "Booking status"
+msgid "Paid"
+msgstr "有料"
+
+#: includes/func-ph-booking-general-functions.php:13
+msgctxt "Booking status"
+msgid "Partially Paid"
+msgstr "一部負担金"
+
+#: includes/func-ph-booking-general-functions.php:12
+msgctxt "Booking status"
+msgid "Requires Confirmation"
+msgstr "リクエスト確認"
+
+#: includes/func-ph-booking-general-functions.php:11
+msgctxt "Booking status"
+msgid "Un-paid"
+msgstr "未払い"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:146
+#: includes/admin/views/html-ph-booking-settings-outlook.php:182
+msgid "Booking Status Filter"
+msgstr "予約ステータスフィルタ"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:361
+msgid "Booking Summary text includes End Date and Time"
+msgstr "予約概要のテキストには終了日と時間が含まれています。"
+
+#: includes/admin/class-ph-booking-product-manager.php:48
+#: includes/admin/class-ph-booking-admin-pages.php:17
+msgid "Bookings"
+msgstr "予約"
+
+#. Name of the plugin
+msgid "Bookings and Appointments For WooCommerce Premium"
+msgstr "Bookings and Appointments For WooCommerce Premium"
+
+#. Description of the plugin
+msgid "Bookings and Appointments solution for all types of businesses."
+msgstr "あらゆるタイプのビジネスのための予約とアポイントメントのソリューション。"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:57
+msgid "Bookings are open for the next"
+msgstr "次回の予約受付開始"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:47
+msgid "Bookings are open from"
+msgstr "予約受付開始"
+
+#: includes/emails/class-ph-booking-payment-for-customer.php:45
+msgid "Bookings confirmation email with Payment Link for manually created bookings."
+msgstr ""
+"手動で作成した予約の支払いリンクを含む予約確認メール。\n"
+""
+
+#: includes/admin/class-ph-booking-export-bookings.php:112
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:61
+msgid "Bookings end between"
+msgstr "予約終了時間"
+
+#: includes/emails/class-ph-wc-email-booking-followup.php:38
+msgid "Bookings follow-up emails are sent once the booking has been completed."
+msgstr "予約が完了すると、予約フォローアップメールが送信されます。"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:36
+msgid "Bookings open no later than"
+msgstr "予約受付開始"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:29
+msgid "Bookings open no sooner than"
+msgstr "予約開始日"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:201
+msgid "Bookings Per Night"
+msgstr "1泊あたりの予約数"
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:122
+#: includes/emails/class-ph-wc-email-booking-reminder.php:133
+msgid "Bookings Reminder"
+msgstr "予約リマインダー"
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:39
+msgid "Bookings reminder emails are sent prior to the booking start date & time."
+msgstr "予約のリマインダーメールは、予約開始日時の前に送信されます。"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:35
+msgid "Bookings Reminders"
+msgstr "予約リマインダー"
+
+#: includes/admin/class-ph-booking-export-bookings.php:106
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:44
+msgid "Bookings start between"
+msgstr "予約開始日"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:85
+msgid "Bookings will be closed before the specified time. E.g. - Set this option to 10 mins if you don't want any booking in the last 10 mins."
+msgstr "予約は指定された時間前に終了します。例 - 10分以内に予約を終了させたい場合、このオプションを10分に設定します。"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:284
+msgid "Border"
+msgstr "ボーダー"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:308
+msgid "Border Color"
+msgstr "ボーダー色"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:290
+msgid "Border Colour"
+msgstr "ボーダーカラー"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:329
+msgid "Border Radius"
+msgstr "ボーダーの半径"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:296
+msgid "Border Radius(px)"
+msgstr "ボーダーラディウス(px)"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:293
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:311
+msgid "Border Style"
+msgstr "ボーダースタイル"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:305
+msgid "Border Width"
+msgstr "ボーダーの幅"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:287
+msgid "Border Width(px)"
+msgstr "ボーダー幅(px)"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:239
+msgid "Buffer Time"
+msgstr "バッファ時間"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:243
+msgid "Button Colour"
+msgstr "ボタン色"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:81
+msgid "Button Title:"
+msgstr "ボタンのタイトル:"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:231
+msgid "Buttons"
+msgstr "ボタン"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:430
+msgid "By default Calendar Title have Month followed by Year. Enable this option to display Year first."
+msgstr "デフォルトでは、カレンダーのタイトルは月の次に年が表示されます。このオプションを有効にすると、「年」が最初に表示されます。"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:375
+msgid "By default details in Cart, Order Details and Emails will contain “Booked To”.<br>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Disabling this option will omit the Booking end details and “Booked To” will not be displayed."
+msgstr "デフォルトでは、カート、注文の詳細、および電子メールの詳細には、\"予約先 \"が含まれます。<br>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;このオプションを無効にすると、予約終了の詳細が省略され、「予約先」が表示されなくなります。"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:365
+msgid "By default the summary of Booking details is displayed as “Booking: December 18, 2019 9:00 AM to December 19, 2019 1:00 PM”.<br>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Disabling this option will omit the Booking end details and display as “Booking: December 18, 2019 9:00 AM”."
+msgstr "デフォルトでは、予約詳細の要約は「予約」として表示されます： 2019年12月18日 9:00 AM ～ 2019年12月19日 1:00 PM」と表示されます。<br>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;このオプションを無効にすると、予約終了の詳細が省略され、「予約」と表示されます： 2019年12月18日 9:00 AM」と表示されます。"
+
+#: includes/admin/class-ph-booking-admin-pages.php:68
+#: includes/admin/views/html-calendar-month.php:2
+#: includes/admin/views/html-calendar-day.php:2
+msgid "Calendar"
+msgstr "カレンダー"
+
+#: includes/admin/class-ph-booking-admin-pages.php:133
+msgid "Calendar Design"
+msgstr "カレンダーデザイン"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:565
+msgid "Calendar Design 1"
+msgstr "カレンダーデザイン1"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:713
+msgid "Calendar Design 2"
+msgstr "カレンダーデザイン2"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:836
+msgid "Calendar Design 3"
+msgstr "カレンダーデザイン3"
+
+#: includes/admin/class-ph-booking-admin-pages.php:134
+msgid "Calendar Display"
+msgstr "カレンダー表示"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:308
+msgid "Calendar Display Settings"
+msgstr "カレンダー表示設定"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:861
+msgid "Calendar on click"
+msgstr "クリックでカレンダー"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:60
+msgid "Calendar Range with Blocks of"
+msgstr "ブロックを含むカレンダー範囲"
+
+#: includes/admin/class-ph-booking-order-manager.php:518
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:93
+msgid "Cancel Booking(s)"
+msgstr "予約のキャンセル"
+
+#: class-ph-bookings-translation-support.php:17
+msgid "canceled"
+msgstr "キャンセル"
+
+#: includes/class-ph-booking-checkout-decorator.php:95
+#: includes/admin/class-ph-bookings-calendar-admin.php:350
+#: includes/admin/class-ph-booking-admin-order.php:512
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:50
+#: includes/admin/views/html-ph-booking-settings-outlook.php:54
+msgid "Cancelled"
+msgstr "キャンセル"
+
+#: class-ph-bookings-translation-support.php:25
+#: includes/admin/class-ph-booking-order-manager.php:389
+msgid "cancelled"
+msgstr "キャンセル"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:920
+msgid "Change colors by clicking in the box"
+msgstr "ボックス内をクリックして色を変更"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:616
+msgid "Change the background colors by clicking in the box"
+msgstr "ボックス内をクリックして背景色を変更する"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:760
+msgid "Change the colors by clicking in the box"
+msgstr "ボックス内をクリックして色を変更する"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:65
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:93
+msgid "Charge Per Block"
+msgstr "ブロックごとの料金"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:64
+msgid "Charge Per Participant"
+msgstr "ブロックごとの料金参加者一人当たりの料金"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:17
+msgid "Check this option to eanable assets."
+msgstr "資産を有効にするには、このオプションをチェックする。"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:267
+msgid "Check-in"
+msgstr "チェックイン"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:275
+msgid "Check-out"
+msgstr "チェックアウト"
+
+#: includes/admin/views/html-calendar-month.php:81
+#: includes/admin/views/html-calendar-day.php:28
+msgid "Choose Product"
+msgstr "商品を選ぶ"
+
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:32
+msgid "Choose product"
+msgstr "製品を選ぶ"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:138
+msgid "Choose the Google calendar to which bookings should be synchronized."
+msgstr "予約が同期されるべきGoogleカレンダーを選択します."
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:171
+msgid "Choose the Outlook calendar to which bookings should be synchronized."
+msgstr "選択する Outlook カレンダー 予約は同期する必要があります。."
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:279
+#: includes/emails/class-ph-booking-payment-for-customer.php:266
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:331
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:301
+#: includes/emails/class-ph-wc-email-booking-reminder.php:280
+#: includes/emails/class-ph-wc-email-booking-followup.php:278
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:318
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:236
+msgid "Choose which format of email to send."
+msgstr "送信するメールの形式を選択します。"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:251
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:268
+msgid "Class"
+msgstr "クラス"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:234
+msgid "Class Name"
+msgstr "クラス名"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:362
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:885
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:961
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1042
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:265
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:271
+msgid "Clear"
+msgstr "クリア"
+
+#: includes/class-ph-booking-google-calendar.php:1261
+msgid "Clear the authentication details"
+msgstr "認証の詳細をクリアする"
+
+#: includes/class-ph-booking-google-calendar.php:1227
+msgid "Cleared all google API authentication details"
+msgstr "すべてのgoogle API認証情報を消去"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:83
+#: includes/admin/views/html-ph-booking-settings-outlook.php:83
+msgid "Client ID"
+msgstr "クライアントID"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:93
+#: includes/admin/views/html-ph-booking-settings-outlook.php:93
+msgid "Client Secret"
+msgstr "クライアント・シークレット"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:94
+msgid "Confirm Booking(s)"
+msgstr "予約の確認"
+
+#: class-ph-bookings-translation-support.php:23
+msgid "Confirmed"
+msgstr "確認済み"
+
+#: class-ph-bookings-translation-support.php:24
+msgid "confirmed"
+msgstr "確定"
+
+#: includes/class-ph-booking-google-calendar.php:1254
+msgid "Connect"
+msgstr "接続"
+
+#: includes/class-ph-booking-google-calendar.php:1242
+msgid "Connect Google Calendar"
+msgstr "グーグルカレンダーとの接続"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:117
+msgid "Connection Status"
+msgstr "接続状況"
+
+#: includes/class-ph-booking-google-calendar.php:1270
+msgid "Connection Successfull"
+msgstr "接続成功"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:42
+msgid "Consider each participant as separate booking"
+msgstr "各参加者を個別の予約とみなす"
+
+#: includes/class-ph-booking-cart-decorator.php:419
+msgid "Continue booking"
+msgstr "予約を続ける"
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:27
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:85
+msgid "Cost per block"
+msgstr "ブロックあたりのコスト"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:136
+msgid "Cost per participant"
+msgstr "参加者1人当たりの費用"
+
+#: includes/admin/views/html-ph-booking-admin-order.php:68
+msgid "Create a new  order."
+msgstr "新しい注文を作成する。"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:94
+msgid "Create a new asset"
+msgstr "新しいアセットを作成する"
+
+#: includes/admin/views/html-ph-booking-admin-order.php:62
+msgid "Create Order"
+msgstr "オーダー作成"
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:295
+#: includes/emails/class-ph-wc-email-booking-followup.php:292
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:116
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:231
+msgid "Cron Interval (Minutes)"
+msgstr "クロン間隔（分）"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:5
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:27
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:7
+msgid "Custom date range"
+msgstr "カスタム日付範囲"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:24
+msgid "Custom Home Page"
+msgstr "カスタムホームページ"
+
+#: includes/admin/class-ph-booking-export-bookings.php:137
+#: includes/admin/class-ph-booking-export-bookings.php:632
+msgid "Customer Email"
+msgstr "お客様のEメール"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:400
+msgid "Customer Name"
+msgstr "顧客名"
+
+#: includes/class-ph-booking-google-calendar.php:1593
+msgid "Customer Name: "
+msgstr "顧客名 "
+
+#: includes/admin/class-ph-booking-export-bookings.php:140
+#: includes/admin/class-ph-booking-export-bookings.php:635
+msgid "Customer Phone"
+msgstr "お客様電話番号"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:68
+msgid "Customers will be able to book till 30 days from today if this option is set to 30 days."
+msgstr "このオプションが30日に設定されている場合、お客様は本日から30日後まで予約することができます。"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:87
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:201
+msgid "Customise"
+msgstr "カスタマイズ"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:188
+msgid "Customize Calendar Event Details"
+msgstr "カレンダー・イベントの詳細をカスタマイズする"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:170
+msgid "Customize Calendar Event Title"
+msgstr "カレンダー・イベント・タイトルのカスタマイズ"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:233
+msgid "Customize Event Details"
+msgstr "イベントの詳細をカスタマイズ"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:203
+msgid "Customize Event Title"
+msgstr "イベントタイトルをカスタマイズ"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:339
+msgid "Customize Filter Labels"
+msgstr "フィルター ラベルをカスタマイズして下さい"
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:84
+msgid "Customize iCalendar Event Details"
+msgstr "ICalendarをカスタマイズ イベント詳細"
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:66
+msgid "Customize iCalendar Event Title"
+msgstr "ICalendarをカスタマイズ イベント名"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:142
+msgid "Customize Labels"
+msgstr "ラベルのカスタマイズ"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:225
+msgid "Customize Style"
+msgstr "スタイルをカスタマイズ"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:259
+msgid "Daily Booking Times:"
+msgstr "毎日の予約時間"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:949
+msgid "Date Box on Click"
+msgstr "クリック時の日付ボックス"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:58
+msgid "Date Format"
+msgstr "日付形式"
+
+#: includes/admin/views/html-calendar-month.php:126
+msgctxt "date format"
+msgid "l"
+msgstr "l"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:9
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:31
+msgid "Date range and time"
+msgstr "日付範囲と時間"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:640
+msgid "Dates"
+msgstr "日付"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:645
+msgid "Dates Text"
+msgstr "日付 テキスト"
+
+#: includes/admin/views/html-calendar-month.php:15
+#: includes/admin/views/html-calendar-day.php:14
+msgid "Day"
+msgstr "日"
+
+#: ph-bookings-appointments-woocommerce-premium.php:787
+msgid "day"
+msgstr "日 時"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:70
+#: includes/admin/views/html-ph-booking-product-admin-options.php:185
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:62
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:81
+msgid "Day(s)"
+msgstr "日"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:131
+msgid "Deactivate & Re-Authorize"
+msgstr "無効化と再認証"
+
+#: ph-api-manager/ph_api_manager_bookings.php:499
+msgid "Deactivate and reactivate the Bookings plugin"
+msgstr "Bookings プラグインを無効にして再アクティブ化"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:201
+msgid "Debug log"
+msgstr "デバッグログ"
+
+#: ph-bookings-appointments-woocommerce-premium.php:755
+#: includes/class-ph-booking-checkout-decorator.php:868
+#: includes/addons/ph_bookings_month_picker.php:109
+msgid "Dec"
+msgstr "12月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:741
+#: includes/class-ph-booking-checkout-decorator.php:857
+#: includes/addons/ph_bookings_month_picker.php:95
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:70
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:137
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:76
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:128
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:46
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:85
+msgid "December"
+msgstr "12月"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:134
+msgid "Define availability for each asset."
+msgstr "各資産の可用性を定義する。"
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:45
+msgid "Define global availability rules here. These will reflect in all the bookable products and can be overridden at a product level."
+msgstr "ここでグローバルな予約可能ルールを定義します。これらはすべての予約可能な商品に反映され、商品レベルで上書きすることができます。"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:92
+msgid "Delete Booking(s)"
+msgstr "予約の削除"
+
+#: ph-api-manager/ph_api_manager_bookings.php:496
+msgid "Delete the previous activation of the license key (If any)"
+msgstr "ライセンスキーの以前のアクティベーションを削除(もしあれば)"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:478
+msgid "Direct Booking"
+msgstr "直接予約"
+
+#: includes/class-ph-booking-google-calendar.php:1261
+msgid "Disconnect"
+msgstr "切断"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:183
+#: includes/admin/class-ph-booking-admin-reports-list.php:345
+#: includes/admin/class-ph-booking-admin-reports-list.php:409
+#: includes/admin/class-ph-booking-admin-reports-list.php:437
+#: includes/admin/class-ph-booking-admin-reports-list.php:459
+msgid "Dismiss this notice"
+msgstr "この通知を却下する"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:237
+msgid "Dismiss this notice."
+msgstr "この通知を却下する。"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:74
+msgid "Display Book Now button"
+msgstr "ディスプレイブック 今すぐボタン"
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:38
+msgid "Display Cost"
+msgstr "ディスプレイ・コスト"
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:41
+msgid "Display cost will appear as the product price in the front end. This price is not considered for the dynamic booking cost calculations. If not set, the Base Cost  + the block cost will be the price displayed."
+msgstr "表示価格はフロントエンドの商品価格として表示されます。この価格はダイナミックブッキングのコスト計算には考慮されません。設定されていない場合、基本コスト+ブロックコストが表示価格となります。"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:441
+msgid "Display Search Availability Widget"
+msgstr "ディスプレイ検索可用性ウィジェット"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:17
+msgid "Display Search Widget Visibility"
+msgstr "ディスプレイ検索ウィジェットの可視性"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:4
+msgid "Display Settings"
+msgstr "表示設定"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:293
+msgid "Display Slot End Time"
+msgstr "スロット終了時間の表示"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:237
+msgid "Display Text"
+msgstr "表示テキスト"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:240
+msgid "Display Text Colour"
+msgstr "表示テキスト色"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:78
+msgid "Display View Product button"
+msgstr "表示 製品ボタンを表示"
+
+#: ph-bookings-appointments-woocommerce-premium.php:443
+msgid "Documentation"
+msgstr "ドキュメンテーション"
+
+#: includes/frondend/class-ph-icalendar-extension.php:61
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:4
+msgid "Download .ics File"
+msgstr "ダウンロード .ics ファイル"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:101
+#: includes/admin/class-ph-booking-admin-reports-list.php:125
+#: includes/frondend/class-ph-icalendar-extension.php:284
+msgid "Download iCal File"
+msgstr "ICalファイルのダウンロード"
+
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:298
+msgid "Email Heading"
+msgstr "メールの見出し"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:260
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:263
+#: includes/emails/class-ph-booking-payment-for-customer.php:246
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:311
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:281
+#: includes/emails/class-ph-wc-email-booking-reminder.php:253
+#: includes/emails/class-ph-wc-email-booking-followup.php:251
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:217
+msgid "Email heading"
+msgstr "電子メールの見出し"
+
+#: includes/class-ph-booking-google-calendar.php:1637
+msgid "Email Id: "
+msgstr "メールアドレス: "
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:277
+#: includes/emails/class-ph-booking-payment-for-customer.php:264
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:329
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:299
+#: includes/emails/class-ph-wc-email-booking-reminder.php:278
+#: includes/emails/class-ph-wc-email-booking-followup.php:276
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:316
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:234
+msgid "Email type"
+msgstr "Eメールタイプ"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:338
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:78
+#: includes/admin/views/html-ph-booking-settings-outlook.php:287
+msgid "Enable"
+msgstr "有効にする"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:14
+msgid "Enable Assets"
+msgstr "資産を有効にする"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:216
+msgid "Enable Booking Notes"
+msgstr "予約メモを有効にする"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:71
+msgid "Enable Booking Reminder Emails"
+msgstr "予約リマインダーメールの有効化"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:283
+msgid "Enable Debug Mode"
+msgstr "デバッグモードを有効にする"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:185
+msgid "Enable Follow up Emails"
+msgstr "フォローアップ・メールの有効化"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:74
+msgid "Enable Google Calendar Sync"
+msgstr "Googleカレンダーの同期を有効にする"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:20
+msgid "Enable Participants"
+msgstr "参加者を有効にする"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:12
+msgid "Enable Resources"
+msgstr "リソースを有効にする"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:240
+#: includes/emails/class-ph-booking-payment-for-customer.php:233
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:298
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:268
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:278
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:197
+msgid "Enable this email notification"
+msgstr "このメール通知を有効にする"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:219
+msgid "Enable this option if you need a text area to appear along with the calendar for clients to enter additional information."
+msgstr "顧客が追加情報を入力するために、カレンダーと一緒にテキストエリアを表示する必要がある場合は、このオプションを有効にします。"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:23
+msgid "Enable this option if you want to allow the user to book this product with number of people or materials. For Eg : Adults/Children for hotel room, Chairs for party equipment etc."
+msgstr "このオプションは、ユーザーがこの商品を人数や材料で予約できるようにする場合に有効にしてください。例：ホテルの部屋の大人/子供、パーティー用品の椅子など。"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:47
+msgid "Enable this option if you wish to make resource as a mandatory field for bookings."
+msgstr "リソースを予約の必須項目にしたい場合は、このオプションを有効にしてください。"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:15
+msgid "Enable this option if you wish to provide additional resources for the booking. For Eg: Breakfast in the case of hotels."
+msgstr "予約に追加のリソースを提供したい場合は、このオプションを有効にします。例：ホテルの場合は朝食。"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:205
+msgid "Enable this option only to troubleshoot issues in authentication or calendar syncing"
+msgstr "このオプションは、認証またはカレンダーの同期に関する問題のトラブルシューティングにのみ有効にしてください。"
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:75
+msgid "Enable this to ensure product-specific availability settings take precedence. Global availability rules will only apply if no product-specific rule exists for a given time slot."
+msgstr "これにより、製品固有の可用性設定が優先されるようにします。 特定の時間スロットに製品固有のルールが存在しない場合にのみ、グローバル可用性ルールが適用されます."
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:238
+#: includes/emails/class-ph-booking-payment-for-customer.php:231
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:296
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:266
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:276
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:195
+msgid "Enable/Disable"
+msgstr "有効/無効"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:289
+msgid "Enabling the option to exclude cost calculation for unavailable slots between consecutive days."
+msgstr "連続する日間で利用できないスロットのコスト計算を除外するオプションを有効にする。"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:354
+msgid "Enabling this option will allow clients to see the calendar in their own time zone."
+msgstr "このオプションを有効にすると、クライアントは自分のタイムゾーンでカレンダーを見ることができます。"
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:43
+msgid "Enabling this option will allow you to export the booking events to your iCalendar via .ics file"
+msgstr "このオプションを有効にすると、予約イベントを .ics ファイルを介して iCalendar にエクスポートできます"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:77
+msgid "Enabling this option will allow you to sync booking events to your MS Outlook calendar"
+msgstr "このオプションを有効にすると、MS Outlook カレンダーに予約イベントを同期することができます"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:108
+msgid "Enabling this option will allow your customers to add the booking as an event to their google calendar"
+msgstr "このオプションを有効にすると、顧客は自分のgoogleカレンダーにイベントとして予約を追加することができます。"
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:52
+msgid "Enabling this option will allow your customers to export the booking events to your iCalendar via .ics file from their My Accounts page"
+msgstr "このオプションを有効にすると、顧客はマイアカウントページから.icsファイルを介して、あなたのiCalendarに予約イベントをエクスポートすることができます"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:45
+msgid "Enabling this option will create a separate booking order for each participant"
+msgstr "このオプションを有効にすると、参加者ごとに個別の予約オーダーが作成されます。"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:135
+msgid "Enabling this option will disable all dates in the calendar. Using this option with availability rules, you can enable desired dates for bookings."
+msgstr "このオプションを有効にすると、カレンダーのすべての日付が無効になります。可用性ルールでこのオプションを使用すると、予約のために希望の日付を有効にすることができます。"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:140
+msgid "Enabling this option will select the Minimum Booking Slots automatically as soon as the customer selects the first slot."
+msgstr "このオプションを有効にすると、お客様が最初のスロットを選択すると同時に、最小予約スロットが自動的に選択されます。"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:243
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:853
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:873
+msgid "End Date"
+msgstr "終了日"
+
+#: includes/frondend/html-ph-booking-monthpicker.php:339
+msgid "End Month"
+msgstr "終了月"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:259
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:178
+msgid "End Time"
+msgstr "終了時間"
+
+#: includes/emails/class-ph-wc-email-booking-followup.php:287
+msgid "Enter how many minutes after the booking the follow up email should be sent."
+msgstr "予約後何分後にフォローアップメールを送信するかを入力してください。"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:108
+msgid "Enter how many minutes in advance the reminder email should be sent"
+msgstr "何分前にリマインダーメールを送信するかを入力してください。"
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:289
+msgid "Enter how many minutes in advance the reminder email should be sent."
+msgstr "何分前にリマインダーメールを送信するかを入力してください。"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:246
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:203
+#, php-format
+msgid "Enter recipients (comma separated) for this email. Defaults to %s."
+msgstr "この電子メールの受信者を (カンマ区切りで) 入力します。デフォルトは %s です。"
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:297
+#: includes/emails/class-ph-wc-email-booking-followup.php:294
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:120
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:235
+msgid "Enter the interval, in minutes, at which the cron job should run."
+msgstr "cronジョブが実行される間隔を分単位で入力します。"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:84
+msgid "Enter with your Client id. You can find this under Credentials."
+msgstr "クライアント ID を入力します。認証情報の下にあります。"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:94
+msgid "Enter with your Client Secret. You can find this under Credentials."
+msgstr "クライアントシークレットを入力します。認証情報の下にあります。"
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:48
+msgid "Event Export for Customers"
+msgstr "顧客のためのでき事の輸出"
+
+#: includes/addons/class-ph-bookings-send-email-notifications.php:76
+#: includes/addons/class-ph-bookings-send-follow-up-emails.php:113
+msgid "Every %d minutes"
+msgstr "%d 分ごと"
+
+#: includes/class-ph-booking-google-calendar.php:266
+msgid "Every %d seconds"
+msgstr "%d 秒ごと"
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:11
+msgid "Exact Match (days)"
+msgstr "完全一致（日）"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:436
+msgid "Experimental Feature: Search Availability Widget"
+msgstr "実験的特徴:検索可用性 ウィジェット"
+
+#: includes/admin/class-ph-booking-export-bookings.php:160
+msgid "Export and Download"
+msgstr "エクスポートとダウンロード"
+
+#: includes/admin/class-ph-booking-export-bookings.php:38
+#: includes/admin/class-ph-booking-export-bookings.php:86
+msgid "Export Bookings"
+msgstr "輸出予約"
+
+#: includes/admin/class-ph-booking-export-bookings.php:89
+msgid "Export Bookings To CSV :"
+msgstr "予約のCSVエクスポート："
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:57
+msgid "Export Event Button Text"
+msgstr "輸出でき事ボタン テキスト"
+
+#: ph-bookings-appointments-woocommerce-premium.php:745
+#: includes/class-ph-booking-checkout-decorator.php:859
+#: includes/addons/ph_bookings_month_picker.php:99
+msgid "Feb"
+msgstr "2月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:731
+#: includes/class-ph-booking-checkout-decorator.php:847
+#: includes/addons/ph_bookings_month_picker.php:85
+msgid "February"
+msgstr "2月"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:60
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:127
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:66
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:118
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:36
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:75
+msgid "Febuary"
+msgstr "2月"
+
+#: includes/admin/class-ph-booking-export-bookings.php:122
+msgid "Fields To Include"
+msgstr "含まれるフィールド"
+
+#: includes/admin/views/html-calendar-month.php:105
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:79
+#: includes/admin/views/html-calendar-day.php:52
+msgid "Filter"
+msgstr "フィルター"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:186
+msgid "Filter by Asset Name"
+msgstr "アセット名によるフィルタ"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:105
+msgid "Filter by Day (For Checkin)"
+msgstr "日別フィルター(チェックイン用)"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:138
+msgid "Filter by Day (For Checkout)"
+msgstr "一日フィルター(チェックアウト用)"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:99
+msgid "Filter by Fixed Date"
+msgstr "固定日付によるフィルタ"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:197
+msgid "Filter by Participants"
+msgstr "参加者によるフィルタ"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:163
+msgid "Filter by Time"
+msgstr "時間別フィルター"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:347
+msgid "Filter Display Text"
+msgstr "フィルター表示テキスト"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:344
+msgid "Filters"
+msgstr "フィルター"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:50
+msgid "First Available Date"
+msgstr "最初の利用可能日"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:262
+msgid "First booking starts at :"
+msgstr "最初の予約は："
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:59
+msgid "Fixed Blocks of"
+msgstr "固定ブロック"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:477
+msgid "Flexible Booking"
+msgstr "柔軟な予約"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:222
+msgid "Follow up delay time (Minutes)"
+msgstr "フォローアップ遅延時間（分）"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:180
+msgid "Follow up Email"
+msgstr "フォローアップEメール"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:214
+msgid "Follow up Email Content"
+msgstr "フォローアップ・メールの内容"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:206
+msgid "Follow up Email Subject"
+msgstr "フォローアップメールの件名"
+
+#: includes/emails/class-ph-wc-email-booking-followup.php:285
+msgid "Followup Time"
+msgstr "フォローアップ時間"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:924
+msgid "Font Color"
+msgstr "フォントカラー"
+
+#: includes/admin/class-ph-booking-admin-pages.php:125
+#, php-format
+msgid "For assistance, refer to the %s."
+msgstr "支援に関しては、%s を参照してください."
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:181
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:77
+#: includes/admin/views/html-ph-booking-settings-outlook.php:223
+msgid "For eg; if you want to mention customer’s name in the title then choose [CUSTOMER_NAME] tag."
+msgstr "たとえば、タイトルに顧客の名前を言及したい場合は、[CUSTOMER_NAME]タグを選択します."
+
+#: includes/class-ph-booking-google-calendar.php:1170
+msgid "For more info please visit here: "
+msgstr "詳細はこちらをご覧ください： "
+
+#: includes/addons/ph_bookings_start_of_the_week.php:32
+#: includes/addons/ph_bookings_start_of_the_week.php:41
+#: includes/addons/ph_bookings_start_of_the_week.php:49
+#: includes/addons/ph_bookings_start_of_the_week.php:57
+#: includes/addons/ph_bookings_start_of_the_week.php:65
+#: includes/addons/ph_bookings_start_of_the_week.php:73
+#: includes/addons/ph_bookings_start_of_the_week.php:88
+#: includes/addons/ph_bookings_start_of_the_week.php:95
+#: includes/frondend/html-ph-booking-datepicker.php:574
+#: includes/frondend/class-ph-booking-calendar-strategy.php:862
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:595
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:741
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:903
+msgid "Fr"
+msgstr "Fr"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:67
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:32
+msgid "Frequently asked questions about Google Calendar Sync"
+msgstr "Googleカレンダー同期に関するよくある質問"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:15
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:79
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:146
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:40
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:57
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:110
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:37
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:85
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:137
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:19
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:55
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:94
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:115
+msgid "Friday"
+msgstr "金曜日"
+
+#: includes/admin/class-ph-booking-export-bookings.php:580
+#: includes/admin/class-ph-booking-admin-reports-list.php:118
+#: includes/addons/booking-search-widget/booking-search-widget.php:363
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:889
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:969
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1046
+#: includes/admin/views/html-ph-booking-settings-availability.php:91
+#: includes/admin/views/html-ph-booking-settings-assets.php:156
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:154
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:47
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:64
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:82
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:133
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:355
+msgid "From"
+msgstr "より"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:352
+msgid "From Date"
+msgstr "日付から"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:368
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:371
+msgid "From Time"
+msgstr "時間から"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:108
+msgid "Fully Booked Indicator"
+msgstr "完全予約インジケータ"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:115
+msgid "Fully Booked Message"
+msgstr "完全予約メッセージ"
+
+#: includes/admin/class-ph-booking-admin-pages.php:136
+msgid "Global Assets"
+msgstr "グローバル・アセット"
+
+#: includes/admin/class-ph-booking-admin-pages.php:135
+#: includes/admin/views/html-ph-booking-settings-availability.php:44
+msgid "Global Availability"
+msgstr "グローバル・アベイラビリティ"
+
+#: ph-api-manager/ph_api_manager_bookings.php:493
+msgid "Go to <a href='https://www.pluginhive.com/my-account/api-keys/?utm_source=bookings&utm_medium=plugin_settings' target='_BLANK'>PluginHive > My Account > API Keys</a> Section"
+msgstr "<a href='https://www.pluginhive.com/my-account/api-keys/?utm_source=bookings&utm_medium=plugin_settings' に移動 target='_BLANK'>PluginHive > マイアカウント > APIキー</a> セクション"
+
+#: includes/class-ph-booking-google-calendar.php:1222
+msgid "Google API authentication Failed "
+msgstr "Google API 認証に失敗しました "
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:117
+msgid "Google Calendar for Bookings"
+msgstr "予約のためのGoogleカレンダー"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:58
+msgid "Google Calendar Settings"
+msgstr "グーグルカレンダーの設定"
+
+#: includes/admin/class-ph-booking-admin-pages.php:137
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:61
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:26
+msgid "Google Calendar Sync"
+msgstr "グーグルカレンダー同期"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:104
+msgid "Google calendar sync for customers"
+msgstr "顧客向けGoogleカレンダー同期"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:217
+msgid "Google calendar Two Way Sync"
+msgstr "Googleカレンダー双方向同期"
+
+#: includes/admin/views/html-ph-booking-admin-order.php:19
+msgid "Guest"
+msgstr "ゲスト"
+
+#: includes/emails/class-ph-email-content.php:225
+#: includes/templates/emails/ph-customer-booking-followup.php:38
+#: includes/templates/emails/ph-booking-payment-for-customer-plain.php:36
+#: includes/templates/emails/ph-customer-booking-requires-confirmation.php:37
+#: includes/templates/emails/ph-customer-booking-requires-confirmation-plain.php:36
+#: includes/templates/emails/ph-customer-booking-confirmed-plain.php:35
+#: includes/templates/emails/ph-customer-booking-reminder.php:38
+#: includes/templates/emails/ph-customer-booking-followup-plain.php:35
+#: includes/templates/emails/ph-customer-booking-cancelled.php:36
+#: includes/templates/emails/ph-customer-booking-confirmed.php:42
+#: includes/templates/emails/ph-customer-booking-cancelled-plain.php:36
+#: includes/templates/emails/ph-customer-booking-reminder-plain.php:36
+msgid "Hi"
+msgstr "こんにちは"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:39
+msgid "Hide Asset Details from Cart/Checkout, Order Details and Emails"
+msgstr "カート/チェックアウト、注文詳細、電子メールから資産の詳細を隠す"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:36
+msgid "Hide Assets"
+msgstr "資産を隠す"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:46
+msgid "Hide Clear Search button"
+msgstr "クリア検索ボタンを隠す"
+
+#. %1$s: Order number, %2$s: Customer full name.
+#: includes/templates/emails/ph-booking-payment-for-customer-html.php:41
+msgid "Hii"
+msgstr ""
+"ひぃ\n"
+""
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:23
+msgid "Home Page"
+msgstr "トップページ"
+
+#: ph-bookings-appointments-woocommerce-premium.php:786
+msgid "hour"
+msgstr "営業時間"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:69
+#: includes/admin/views/html-ph-booking-product-admin-options.php:184
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:61
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:80
+msgid "Hour(s)"
+msgstr "時間"
+
+#: ph-api-manager/ph_api_manager_bookings.php:487
+msgid "How to Activate the plugin license?"
+msgstr "プラグインライセンスの有効化方法は?"
+
+#: includes/class-ph-booking-google-calendar.php:1272
+#: includes/admin/class-ph-booking-admin-reports-list.php:450
+msgid "How to fix the error"
+msgstr "エラーの修正方法"
+
+#. Author URI of the plugin
+msgid "https://www.pluginhive.com/"
+msgstr "https://www.pluginhive.com/"
+
+#. URI of the plugin
+msgid "https://www.pluginhive.com/product/woocommerce-booking-and-appointments/"
+msgstr "https://www.pluginhive.com/product/woocommerce-booking-and-appointments/"
+
+#: includes/templates/emails/ph-customer-booking-reminder.php:39
+#, php-format
+msgid "I request you to check the bookings details for your appointment with %s."
+msgstr "%s との予約の詳細を確認してください。"
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:39
+msgid "iCalendar Event Export"
+msgstr "iCalendarイベントエクスポート"
+
+#: includes/admin/class-ph-booking-admin-pages.php:139
+msgid "iCalendar Export"
+msgstr "iCalendarエクスポート"
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:23
+msgid "iCalendar Settings"
+msgstr "iCalendarの設定"
+
+#: ph-api-manager/ph_api_manager_bookings.php:489
+msgid "If you are still facing difficulties, please follow the below steps:"
+msgstr "困難に直面している方は、以下の手順に従ってください"
+
+#: ph-api-manager/ph_api_manager_bookings.php:505
+msgid "If you still facing difficulties, kindly contact <a href='https://www.pluginhive.com/support/?utm_source=bookings&utm_medium=plugin_settings' target='_BLANK'>PluginHive Support</a> with the WordPress Administrator Access, along with the PluginHive Purchase Order Details. We will activate it on your site promptly."
+msgstr "それでも困難に直面している場合は、<a href='https://www.pluginhive.com/support/?utm_source=bookings&utm_medium=plugin_settings' target='_BLANK'>PluginHive Support</a> と WordPress 管理者 Access と、PluginHive Purchase Order Details と共に。 お客様のサイトを速やかに運営します."
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:371
+msgid "Include End Date and Time in Cart, Order Details and Emails"
+msgstr "カート、注文詳細、Eメールに終了日時を含める"
+
+#: includes/admin/class-ph-booking-admin-pages.php:142
+#: includes/admin/views/html-ph-booking-settings-booking-integrations.php:7
+msgid "Integrations"
+msgstr "統合"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:231
+msgid "interval in seconds"
+msgstr "インターバル（秒"
+
+#: includes/admin/class-ph-booking-admin-order.php:123
+msgid "Invalid Order ID."
+msgstr "注文IDが無効です。"
+
+#: ph-bookings-appointments-woocommerce-premium.php:762
+msgid "is not available."
+msgstr "は利用できない。"
+
+#: ph-bookings-appointments-woocommerce-premium.php:744
+#: includes/class-ph-booking-checkout-decorator.php:858
+#: includes/addons/ph_bookings_month_picker.php:98
+msgid "Jan"
+msgstr "1月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:730
+#: includes/class-ph-booking-checkout-decorator.php:846
+#: includes/addons/ph_bookings_month_picker.php:84
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:59
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:126
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:65
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:117
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:35
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:74
+msgid "January"
+msgstr "1月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:750
+#: includes/class-ph-booking-checkout-decorator.php:863
+#: includes/addons/ph_bookings_month_picker.php:104
+msgid "Jul"
+msgstr "7月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:736
+#: includes/class-ph-booking-checkout-decorator.php:852
+#: includes/addons/ph_bookings_month_picker.php:90
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:65
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:132
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:71
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:123
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:41
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:80
+msgid "July"
+msgstr "7月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:749
+#: includes/class-ph-booking-checkout-decorator.php:862
+#: includes/addons/ph_bookings_month_picker.php:103
+msgid "Jun"
+msgstr "6月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:735
+#: includes/class-ph-booking-checkout-decorator.php:851
+#: includes/addons/ph_bookings_month_picker.php:89
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:64
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:131
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:70
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:122
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:40
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:79
+msgid "June"
+msgstr "6月"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:420
+msgid "Kindly choose at least one option and a maximum of three to save the settings."
+msgstr "少なくとも1つ、最大3つのオプションを選択して設定を保存してください。"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:45
+msgid "Label"
+msgstr "ラベル"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:269
+msgid "Last booking starts at :"
+msgstr "最終予約は："
+
+#: includes/admin/views/html-ph-booking-product-admin-resources-matrix-row.php:14
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:28
+msgid "Let customer choose"
+msgstr "顧客に選ばせる"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:451
+msgid "Locate the Search Availability Widget in your theme's widget section and add it to a desired widget area to enable the feature."
+msgstr "検索空室状況を検索 テーマのウィジェットセクションにウィジェットを追加し、目的のウィジェットエリアに追加して機能を有効にします."
+
+#: includes/class-ph-booking-google-calendar.php:1599
+msgid "Location: "
+msgstr "場所は:"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:232
+msgid "Make \"Notes\" Mandatory"
+msgstr "「ノート」を必須に"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:141
+msgid "Make all Assets unavailable by default"
+msgstr "すべてのアセットをデフォルトで利用不可にする"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:132
+msgid "Make all dates/blocks unavailable"
+msgstr "すべての日付/ブロックを使用不可にする"
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:68
+msgid "Make all dates/blocks unavailable by default"
+msgstr "すべての日付/ブロックをデフォルトで利用不可にする"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:250
+msgid "Manually Sync"
+msgstr "手動同期"
+
+#: ph-bookings-appointments-woocommerce-premium.php:746
+#: includes/class-ph-booking-checkout-decorator.php:860
+#: includes/addons/ph_bookings_month_picker.php:100
+msgid "Mar"
+msgstr "3月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:732
+#: includes/class-ph-booking-checkout-decorator.php:848
+#: includes/addons/ph_bookings_month_picker.php:86
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:61
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:128
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:67
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:119
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:37
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:76
+msgid "March"
+msgstr "3月"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:95
+msgid "Mark as Paid"
+msgstr "支払済みとしてマークする"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:96
+msgid "Mark as Un-Paid"
+msgstr "未払いとしてマーク"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:90
+msgid "Max"
+msgstr "マックス"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:78
+msgid "Max Bookings per Block"
+msgstr "1ブロックあたりの最大予約数"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:185
+msgid "Max no of blocks available"
+msgstr "利用可能なブロックの最大数"
+
+#: ph-bookings-appointments-woocommerce-premium.php:702
+msgid "Max no of blocks available to book is %max_block"
+msgstr "予約可能なブロックの最大数は %max_block です。"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:144
+msgid "Maximum Duration"
+msgstr "最長期間"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:65
+msgid "Maximum number of participants allowed in a booking"
+msgstr "予約可能な最大参加者数"
+
+#: ph-bookings-appointments-woocommerce-premium.php:734
+#: ph-bookings-appointments-woocommerce-premium.php:748
+#: includes/class-ph-booking-checkout-decorator.php:850
+#: includes/addons/ph_bookings_month_picker.php:88
+#: includes/addons/ph_bookings_month_picker.php:102
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:63
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:130
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:69
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:121
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:39
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:78
+msgid "May"
+msgstr "5月"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:89
+msgid "Min"
+msgstr "最小"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:129
+msgid "Minimum Duration"
+msgstr "最低期間"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:194
+msgid "Minimum no of blocks required"
+msgstr "最低必要ブロック数"
+
+#: ph-bookings-appointments-woocommerce-premium.php:779
+msgid "Minimum number of %pname required is %min"
+msgstr "必要な%pnameの最小数は%minです。"
+
+#: ph-bookings-appointments-woocommerce-premium.php:517
+#: ph-bookings-appointments-woocommerce-premium.php:620
+msgid "Minimum number of participants required for a booking is (%min)"
+msgstr "予約に必要な最低参加人数は (%min) です。"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:51
+msgid "Minimum number of participants required in a booking"
+msgstr "予約に必要な最低参加人数"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:203
+msgid "Minimum participant"
+msgstr "最少催行人数"
+
+#: ph-bookings-appointments-woocommerce-premium.php:785
+msgid "minute"
+msgstr "ツイート"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:68
+#: includes/admin/views/html-ph-booking-product-admin-options.php:183
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:60
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:79
+msgid "Minutes(s)"
+msgstr "分"
+
+#: includes/addons/ph_bookings_start_of_the_week.php:28
+#: includes/addons/ph_bookings_start_of_the_week.php:37
+#: includes/addons/ph_bookings_start_of_the_week.php:52
+#: includes/addons/ph_bookings_start_of_the_week.php:60
+#: includes/addons/ph_bookings_start_of_the_week.php:68
+#: includes/addons/ph_bookings_start_of_the_week.php:76
+#: includes/addons/ph_bookings_start_of_the_week.php:84
+#: includes/addons/ph_bookings_start_of_the_week.php:91
+#: includes/frondend/html-ph-booking-datepicker.php:570
+#: includes/frondend/class-ph-booking-calendar-strategy.php:858
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:591
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:737
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:899
+msgid "Mo"
+msgstr "モ"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:11
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:75
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:142
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:317
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:36
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:53
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:106
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:33
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:81
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:133
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:15
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:51
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:90
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:111
+msgid "Monday"
+msgstr "月曜日"
+
+#: includes/admin/views/html-calendar-month.php:12
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:620
+#: includes/admin/views/html-calendar-day.php:11
+msgid "Month"
+msgstr "月"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:334
+msgid "Month Picker"
+msgstr "月ピッカー"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:625
+msgid "Month Text"
+msgstr "月のテキスト"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:72
+msgid "Month(s)"
+msgstr "月"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:73
+msgid "MS Outlook Event Sync"
+msgstr "MS Outlook イベント 同期"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:68
+msgid "MS Outlook Settings"
+msgstr "MS Outlookの設定"
+
+#: includes/admin/class-ph-booking-admin-pages.php:138
+msgid "MS Outlook Sync"
+msgstr "MS Outlookの同期"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:24
+msgid "Multiple Choice (Check box)"
+msgstr "複数選択（チェックボックス）"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:32
+msgid "Multiply all costs by number of participants"
+msgstr "すべての費用に参加者数を掛ける"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:271
+#: includes/emails/class-ph-booking-payment-for-customer.php:258
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:323
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:293
+#: includes/emails/class-ph-wc-email-booking-reminder.php:272
+#: includes/emails/class-ph-wc-email-booking-followup.php:270
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:310
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:228
+msgid "N/A"
+msgstr "該当なし"
+
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:220
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:221
+#: includes/templates/emails/ph-admin-booking-waiting-for-approval.php:37
+msgid "New customer order"
+msgstr "新規顧客の注文"
+
+#: includes/templates/emails/ph-admin-booking-waiting-for-approval-plain.php:37
+msgid ""
+"New customer order\n"
+""
+msgstr ""
+"新規のお客様のご注文\n"
+""
+
+#: includes/admin/views/html-ph-booking-admin-order.php:88
+msgid "Next"
+msgstr "次のページ"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources-matrix-row.php:21
+#: includes/admin/views/html-ph-booking-product-admin-resources-matrix-row.php:28
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:157
+#: includes/admin/views/html-ph-booking-product-admin-persons-matrix-row.php:20
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:148
+msgid "No"
+msgstr "いいえ"
+
+#: class-ph-bookings-translation-support.php:19
+msgid "no"
+msgstr "いいえ"
+
+#: includes/admin/class-ph-booking-export-bookings.php:483
+msgid "No Bookings Found."
+msgstr "予約が見つかりません。"
+
+#: includes/admin/class-ph-booking-export-bookings.php:125
+#: includes/admin/class-ph-booking-export-bookings.php:594
+#: includes/admin/class-ph-booking-admin-reports-list.php:120
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:401
+msgid "No of Participants"
+msgstr "参加者数"
+
+#: includes/integrations/outlook/class-ph-bookings-outlook.php:230
+msgid "Not Signed in, First sign in to MS Outlook"
+msgstr "サインインしていない, MS Outlook に最初にサインイン"
+
+#: includes/class-ph-booking-google-calendar.php:173
+msgid "Not Synced, First sync with Google Calendar"
+msgstr "同期せず、Googleカレンダーとの最初の同期"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:124
+msgid "Note :  Please save the participants to be able to create the rules for every participant.<br>You can create a common rule for all participants using “Participant Total Count” or you could create a separate rule for every participant."
+msgstr "注：すべての参加者のルールを作成できるように、参加者を保存してください。<br>「参加者合計数」を使用して、すべての参加者に共通のルールを作成することもできますし、参加者ごとに個別のルールを作成することもできます。"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:275
+msgid "Note : To override these timings for specific days, you can set the Availability Rules under <b>Booking Availability</b>."
+msgstr "注：特定の日にこれらのタイミングをオーバーライドするには、<b>予約の空き状況</b>で空き状況のルールを設定することができます。"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:175
+msgid "Note:  In case of conflicting rules, the top rule gets priority."
+msgstr "注：ルールが競合する場合は、上位のルールが優先される。"
+
+#: ph-bookings-appointments-woocommerce-premium.php:754
+#: includes/class-ph-booking-checkout-decorator.php:867
+#: includes/addons/ph_bookings_month_picker.php:108
+msgid "Nov"
+msgstr "11月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:740
+#: includes/class-ph-booking-checkout-decorator.php:856
+#: includes/addons/ph_bookings_month_picker.php:94
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:69
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:136
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:75
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:127
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:45
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:84
+msgid "November"
+msgstr "11月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:777
+msgid "Number of %pname cannot exceed %pmax"
+msgstr "%pname の数が %pmax を超えることはできません。"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:392
+msgid "Number of Participants"
+msgstr "参加人数"
+
+#: class-ph-bookings-translation-support.php:20
+#: includes/class-ph-booking-checkout-decorator.php:683
+#: includes/addons/class-ph-bookings-send-email-notifications.php:563
+#: includes/emails/class-ph-wc-email-booking-reminder.php:321
+#: includes/emails/class-ph-wc-email-booking-followup.php:312
+msgid "Number of persons"
+msgstr "人数"
+
+#: ph-bookings-appointments-woocommerce-premium.php:753
+#: includes/class-ph-booking-checkout-decorator.php:866
+#: includes/addons/ph_bookings_month_picker.php:107
+msgid "Oct"
+msgstr "10月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:739
+#: includes/class-ph-booking-checkout-decorator.php:855
+#: includes/addons/ph_bookings_month_picker.php:93
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:68
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:135
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:74
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:126
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:44
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:83
+msgid "October"
+msgstr "10月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:68
+msgid "Oops! You tried installing the premium version without deactivating and deleting the basic version. Kindly deactivate and delete Bookings and Appointments Woocommerce Extension and then try again"
+msgstr "おっと！ベーシック版の無効化と削除を行わずにプレミアム版をインストールしようとしました。Bookings and Appointments Woocommerce Extensionを無効にして削除してから、もう一度お試しください。"
+
+#: includes/class-ph-booking-ajax-interface.php:237
+#, php-format
+msgid "Oops!, %s is not available to book "
+msgstr "%s は予約できません"
+
+#: class-ph-bookings-translation-support.php:21
+#: includes/admin/class-ph-booking-export-bookings.php:567
+#: includes/admin/class-ph-booking-admin-reports-list.php:115
+#: includes/emails/class-ph-email-content.php:169
+#: includes/templates/emails/ph-admin-booking-waiting-for-approval.php:45
+#: includes/templates/emails/ph-admin-booking-cancelled.php:43
+msgid "Order"
+msgstr "オーダー"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:398
+msgid "Order ID"
+msgstr "オーダーID"
+
+#: includes/class-ph-booking-google-calendar.php:402
+msgid "Order Item:"
+msgstr "オーダー品："
+
+#: includes/class-ph-booking-google-calendar.php:1868
+msgid "Order Item: #"
+msgstr "オーダー品： #"
+
+#: includes/class-ph-booking-google-calendar.php:1583
+#: includes/class-ph-booking-order-item-handler.php:104
+msgid "Order Placed"
+msgstr "注文"
+
+#: includes/class-ph-booking-google-calendar.php:396
+msgid "Order:"
+msgstr "注文する："
+
+#: includes/class-ph-booking-google-calendar.php:1868
+msgid "Order: #"
+msgstr "注文する： #"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:150
+msgid "Outlook Calendar for Bookings"
+msgstr "予約のためのOutlookカレンダー"
+
+#: includes/class-ph-booking-checkout-decorator.php:93
+#: includes/admin/class-ph-bookings-calendar-admin.php:348
+#: includes/admin/class-ph-booking-admin-order.php:510
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:48
+#: includes/admin/views/html-ph-booking-settings-outlook.php:52
+msgid "Paid"
+msgstr "有料"
+
+#: includes/admin/class-ph-bookings-calendar-admin.php:352
+msgid "Partially Paid"
+msgstr "一部負担金"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:368
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:865
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:941
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1022
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:32
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:49
+#: includes/admin/views/html-ph-booking-product-admin-person-rule-matrix-row.php:6
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:395
+msgid "Participant Count"
+msgstr "参加者数"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:88
+msgid "Participant Label/Type"
+msgstr "参加者ラベル/タイプ"
+
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:6
+msgid "Participant Total Count"
+msgstr "参加者総数"
+
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:9
+msgid "Participant Total Count With Block Count"
+msgstr "参加者総数 ブロック数あり"
+
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:7
+msgid "Participant Total Count With Custom Date"
+msgstr "カスタム日付での参加者総数"
+
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:8
+msgid "Participant Total Count With Week Days"
+msgstr "ウィークデーを含む参加者総数"
+
+#: includes/class-ph-booking-payment-gateway.php:21
+msgid "Pay the full amount after your booking is confirmed. You'll receive a confirmation email with payment details."
+msgstr "予約確認後、全額をお支払いください。 ご入金確認メールが届きます."
+
+#: includes/class-ph-booking-payment-gateway.php:18
+msgid "Payment on Confirmation"
+msgstr "確認書による支払い"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:92
+msgid "Per Participant Cost"
+msgstr "参加者1人当たりの費用"
+
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:45
+msgid "PH Booking Cancelled"
+msgstr "PH予約キャンセル"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:44
+msgid "PH Booking Cancelled For Admin"
+msgstr "PH予約キャンセル"
+
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:48
+msgid "PH Booking Confirmed"
+msgstr "PH予約確定"
+
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:45
+msgid "PH Booking Requires Confirmation"
+msgstr "PH予約には確認が必要です"
+
+#: includes/emails/class-ph-wc-email-booking-followup.php:37
+msgid "PH Bookings Followup"
+msgstr "PH予約フォローアップ"
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:38
+msgid "PH Bookings Reminder"
+msgstr "PH予約リマインダー"
+
+#: includes/emails/class-ph-booking-payment-for-customer.php:44
+msgid "PH Manual Bookings"
+msgstr "PH 手動予約"
+
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:31
+msgid "PH Waiting For Approval For Admin"
+msgstr "PH、管理者の承認待ち"
+
+#: includes/class-ph-booking-google-calendar.php:1636
+msgid "Phone: "
+msgstr "電話 "
+
+#: ph-bookings-appointments-woocommerce-premium.php:764
+msgid "Pick a later end date"
+msgstr "終了日を遅くする"
+
+#: ph-bookings-appointments-woocommerce-premium.php:765
+msgid "Pick a later end time"
+msgstr "終了時間を遅くする"
+
+#: includes/frondend/html-ph-booking-monthpicker.php:352
+msgid "Pick Month(s)"
+msgstr "ピック月"
+
+#: includes/emails/class-ph-email-content.php:167
+#: includes/templates/emails/ph-booking-payment-for-customer-html.php:54
+#: includes/templates/emails/ph-customer-booking-confirmed.php:54
+msgid "Please click below link to proceed with the payment "
+msgstr "以下のリンクをクリックして支払いを進めてください。"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:136
+msgid "Please deactivate the <strong>Availability Search Widget Add-on</strong> to access the features in beta version."
+msgstr "ベータ版の機能にアクセスするには、<strong>Availability Searchウィジェットアドオン</strong>を無効にしてください."
+
+#: includes/class-ph-booking-google-calendar.php:1257
+msgid "Please enter the credentials"
+msgstr "認証情報を入力してください。"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:64
+msgid "Please Note : Default Emails like “New Booking Order Emails, Booking Cancellation Emails and Booking Approval Emails are sent automatically when applicable, no configuration is required for them."
+msgstr "注意：\"新規予約注文メール、予約キャンセルメール、予約承認メール \"のようなデフォルトのメールは、該当する場合、自動的に送信され、それらのための設定は必要ありません。"
+
+#: ph-bookings-appointments-woocommerce-premium.php:767
+msgid "Please pick a booking period"
+msgstr "予約期間をお選びください"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:161
+msgid "Please Pick a Date"
+msgstr "日付を選んでください"
+
+#: ph-bookings-appointments-woocommerce-premium.php:770
+msgid "Please Pick a End Dates."
+msgstr "終了日をお選びください。"
+
+#: includes/frondend/html-ph-booking-monthpicker.php:305
+msgid "Please Pick a Month"
+msgstr "月を選んでください"
+
+#: ph-bookings-appointments-woocommerce-premium.php:776
+msgid "Please pick a month"
+msgstr "月を選んでください"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:177
+msgid "Please Pick a Time"
+msgstr "時間を選んでください"
+
+#: ph-bookings-appointments-woocommerce-premium.php:709
+msgid "Please pick a Time"
+msgstr "時間を選んでください"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:169
+msgid "Please Pick an End Date"
+msgstr "終了日をお選びください"
+
+#: ph-bookings-appointments-woocommerce-premium.php:706
+msgid "Please pick an end date"
+msgstr "終了日をお選びください。"
+
+#: ph-bookings-appointments-woocommerce-premium.php:775
+msgid "Please pick an end month"
+msgstr "終了月をお選びください"
+
+#: ph-bookings-appointments-woocommerce-premium.php:774
+msgid "Please pick the end time"
+msgstr "終了時間を選んでください"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:147
+msgid "Please retain the text in parenthesis() and used with % sign as is."
+msgstr "括弧()内のテキストと%記号はそのままお使いください。"
+
+#: ph-bookings-appointments-woocommerce-premium.php:704
+msgid "Please Select minimum %d blocks."
+msgstr "最小 %d ブロックを選択してください。"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:84
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:198
+msgid "Plugin Default"
+msgstr "プラグインのデフォルト"
+
+#. Author of the plugin
+msgid "PluginHive"
+msgstr "PluginHive"
+
+#: ph-bookings-appointments-woocommerce-premium.php:535
+#: ph-bookings-appointments-woocommerce-premium.php:638
+msgid "pm"
+msgstr "午後"
+
+#: includes/addons/class-ph-bookings-send-email-notifications.php:533
+#: includes/emails/class-ph-email-content.php:250
+#: includes/templates/emails/ph-admin-booking-waiting-for-approval.php:64
+#: includes/templates/emails/ph-admin-booking-cancelled.php:62
+msgid "Price"
+msgstr "価格"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:764
+msgid "Primary Background"
+msgstr "主な背景"
+
+#: includes/addons/class-ph-bookings-send-email-notifications.php:532
+#: includes/admin/class-ph-booking-export-bookings.php:572
+#: includes/admin/class-ph-booking-admin-reports-list.php:116
+#: includes/emails/class-ph-email-content.php:249
+#: includes/templates/emails/ph-admin-booking-waiting-for-approval.php:61
+#: includes/templates/emails/ph-admin-booking-cancelled.php:59
+msgid "Product"
+msgstr "製品"
+
+#: includes/admin/class-ph-booking-export-bookings.php:91
+msgid "Product : "
+msgstr "製品： "
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:26
+msgid "Product Category Page"
+msgstr "製品カテゴリページ"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:399
+msgid "Product Name"
+msgstr "製品名"
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:76
+msgid "Provide Discounts or Special Prices by creating cost rules."
+msgstr "コストルールを作成し、割引や特別価格を提供する。"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:121
+msgid "Provide Discounts or Special Prices for participants by creating participant rules."
+msgstr "参加者規則を作成し、参加者に割引や特別価格を提供する。"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:109
+msgid "Quantity"
+msgstr "数量"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:7
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:29
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:9
+msgid "Range of days"
+msgstr "日数の範囲"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:6
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:28
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:8
+msgid "Range of months"
+msgstr "ヶ月の範囲"
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:90
+#: includes/admin/views/html-ph-booking-settings-assets.php:155
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:153
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:132
+msgid "Range Type"
+msgstr "レンジタイプ"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:97
+msgid "Re-sync google calender"
+msgstr "グーグルカレンダーの再同期"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:64
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:29
+msgid "Read more to know how to "
+msgstr "続きを読む "
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:61
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:26
+msgid "Read more to know how to set up "
+msgstr "続きを読む "
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:67
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:32
+msgid "Read more to know the "
+msgstr "続きを読む "
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:244
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:201
+msgid "Recipient(s)"
+msgstr "受取人"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:103
+msgid "Redirect URI"
+msgstr "リダイレクト URI"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:93
+#, php-format
+msgid "Refer %s for further details."
+msgstr "詳細は %s を参照してください。"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:133
+#: includes/admin/views/html-ph-booking-settings-outlook.php:167
+msgid "Refresh Calendar List"
+msgstr "カレンダーリストをリフレッシュ"
+
+#: includes/class-ph-booking-checkout-decorator.php:97
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:52
+#: includes/admin/views/html-ph-booking-settings-outlook.php:56
+msgid "Refunded"
+msgstr "払い戻し"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:87
+msgid "Remaining Bookings"
+msgstr "残りの予約"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:93
+msgid "Remaining Bookings Text"
+msgstr "予約残数 テキスト"
+
+#: includes/admin/class-ph-booking-admin-pages.php:140
+msgid "Reminder and Follow up Emails"
+msgstr "リマインダーとフォローアップ・メール"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:66
+msgid "Reminder Email"
+msgstr "リマインダーメール"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:100
+msgid "Reminder Email Content"
+msgstr "リマインダーメールの内容"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:92
+msgid "Reminder Email Subject"
+msgstr "リマインダー・メールの件名"
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:287
+msgid "Reminder Time"
+msgstr "リマインダー・タイム"
+
+#: includes/class-ph-booking-payment-gateway.php:20
+msgid "Request Confirmation"
+msgstr "リクエスト確認"
+
+#: includes/class-ph-booking-checkout-decorator.php:96
+#: includes/admin/class-ph-bookings-calendar-admin.php:351
+#: includes/admin/class-ph-booking-admin-order.php:513
+#: includes/admin/views/html-ph-booking-product-admin-options.php:195
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:51
+#: includes/admin/views/html-ph-booking-settings-outlook.php:55
+msgid "Requires Confirmation"
+msgstr "リクエスト確認"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:700
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:822
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:982
+msgid "Reset to Default"
+msgstr "デフォルトにリセット"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:401
+msgid "Reset to default"
+msgstr "デフォルトへのリセット"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:62
+msgid "Resource Cost (Optional)"
+msgstr "リソースコスト（オプション）"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:33
+msgid "Resource Label"
+msgstr "リソースラベル"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:61
+msgid "Resource Name/Label"
+msgstr "リソース名/ラベル"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:44
+msgid "Resource Selection is Mandatory"
+msgstr "リソースの選択は必須"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:21
+msgid "Resource Type"
+msgstr "リソースタイプ"
+
+#: includes/admin/class-ph-booking-product-manager.php:143
+#: includes/frondend/class-ph-booking-calendar-strategy.php:933
+msgid "Resources"
+msgstr "リソース"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:97
+msgid "Restrict bookings to start only on certain days of the week"
+msgstr "特定の曜日にのみ予約が開始されるように制限する。"
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:81
+msgid "Rule Type"
+msgstr "ルールの種類"
+
+#: includes/addons/ph_bookings_start_of_the_week.php:33
+#: includes/addons/ph_bookings_start_of_the_week.php:42
+#: includes/addons/ph_bookings_start_of_the_week.php:50
+#: includes/addons/ph_bookings_start_of_the_week.php:58
+#: includes/addons/ph_bookings_start_of_the_week.php:66
+#: includes/addons/ph_bookings_start_of_the_week.php:74
+#: includes/addons/ph_bookings_start_of_the_week.php:82
+#: includes/addons/ph_bookings_start_of_the_week.php:96
+#: includes/frondend/html-ph-booking-datepicker.php:575
+#: includes/frondend/class-ph-booking-calendar-strategy.php:863
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:596
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:742
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:904
+msgid "Sa"
+msgstr "サ"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:16
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:80
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:147
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:41
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:58
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:111
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:38
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:86
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:138
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:20
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:56
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:95
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:116
+msgid "Saturday"
+msgstr "土曜日"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:294
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:699
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:821
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:981
+msgid "Save Changes"
+msgstr "変更を保存する"
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:114
+#: includes/admin/views/html-ph-booking-settings-assets.php:180
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:210
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:241
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:97
+msgid "Save changes"
+msgstr "変更を保存する"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:248
+msgid "Save Interval"
+msgstr "保存間隔"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:493
+msgid "Save Settings"
+msgstr "設定の保存"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:96
+msgid "Save the Product Settings once you create a New Asset in order to create an Asset Rule."
+msgstr "アセットルールを作成するために、新規アセットを作成したら、商品設定を保存します。"
+
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:16
+msgid "Seach here the available Bookings"
+msgstr "利用可能な予約はこちら"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:361
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:881
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:957
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1038
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:248
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:254
+msgid "Search"
+msgstr "インフォメーション"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:302
+msgid "Search Bar"
+msgstr "検索バー"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:93
+msgid "Search Filters"
+msgstr "フィルターを検索"
+
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:48
+#, php-format
+msgid "Search results for: &ldquo;%1$s to %2$s&rdquo;"
+msgstr "検索結果: “%1$s から %2$s”"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:8
+msgid "Search Widget Title:"
+msgstr "ウィジェットを検索 タイトル:"
+
+#: includes/admin/class-ph-booking-export-bookings.php:93
+msgid "Select a product"
+msgstr "商品を選ぶ"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:365
+#: includes/addons/booking-search-widget/booking-search-widget.php:366
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:891
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:892
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:971
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:972
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1048
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1049
+msgid "Select a time"
+msgstr "時間を選択"
+
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:940
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1021
+msgid "Select an Asset"
+msgstr "アセットを選択"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:367
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:387
+msgid "Select an asset"
+msgstr "アセットを選択"
+
+#: includes/frondend/class-ph-booking-calendar-strategy.php:950
+msgid "Select any"
+msgstr "任意のものを選択する"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:122
+msgid "Select Google Calendar"
+msgstr "Googleカレンダーを選択"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:155
+msgid "Select Outlook Calendar"
+msgstr "Outlookカレンダーを選択"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:202
+msgid "Select Participants"
+msgstr "参加者の選択"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:159
+msgid "Select the booking statuses to sync with your Google calendar. Leave empty to synchronize all booking statuses."
+msgstr "Googleカレンダーと同期するための予約ステータスを選択します。 すべての予約状況を同期させるために空にしておく."
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:195
+msgid "Select the booking statuses to sync with your Outlook calendar. Leave empty to synchronize all booking statuses."
+msgstr "Outlook カレンダーと同期するための予約ステータスを選択します。 すべての予約状況を同期させるために空にしておく."
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:80
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:194
+msgid "Select the Email Template"
+msgstr "メールテンプレートの選択"
+
+#: includes/class-ph-booking-cart-decorator.php:196
+msgid "Selected blocks not available for "
+msgstr "選択されたブロックは "
+
+#: includes/class-ph-booking-cart-decorator.php:344
+msgid "Selected blocks not available."
+msgstr "選択されたブロックは使用できません。"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:95
+msgid "Selected by default"
+msgstr "デフォルトで選択"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:665
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:789
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:959
+msgid "Selected Date"
+msgstr "選択日"
+
+#: includes/admin/views/html-ph-booking-admin-order-calender.php:98
+msgid "Send payment link email to customer."
+msgstr "顧客に支払いリンクの電子メールを送信します。"
+
+#: ph-bookings-appointments-woocommerce-premium.php:752
+#: includes/class-ph-booking-checkout-decorator.php:865
+#: includes/addons/ph_bookings_month_picker.php:106
+msgid "Sep"
+msgstr "9月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:738
+#: includes/class-ph-booking-checkout-decorator.php:854
+#: includes/addons/ph_bookings_month_picker.php:92
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:67
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:134
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:73
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:125
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:43
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:82
+msgid "September"
+msgstr "9月"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:55
+msgid "Set a booking window relative to today"
+msgstr "今日を基準に予約ウィンドウを設定する"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:27
+msgid "Set a fixed booking window"
+msgstr "固定予約枠の設定"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:45
+msgid "Set a relative booking window"
+msgstr "相対予約枠の設定"
+
+#: ph-bookings-appointments-woocommerce-premium.php:795
+#: includes/class-ph-booking-payment-gateway.php:39
+#: includes/admin/class-ph-booking-admin-pages.php:58
+msgid "Settings"
+msgstr "設定"
+
+#: includes/emails/class-ph-email-content.php:303
+msgid "Shipping address"
+msgstr "配送先住所"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:25
+msgid "Shop Page"
+msgstr "ショップページ"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:217
+msgid "Show Products Partially Unavailable Between The Search Interval"
+msgstr "製品展示 検索インターバル間の部分的に利用不可"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:125
+msgid "Sign in to MS Outlook"
+msgstr "MS Outlookにサインイン"
+
+#: ph-bookings-appointments-woocommerce-premium.php:768
+msgid "Since max bookings per block is %d and you have enabled 'each participant as a booking' max participants allowed is %d"
+msgstr "ブロックあたりの最大予約数は %d であり、「各参加者を予約として扱う」を有効にしているため、許可される最大参加者は %d です。"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:23
+msgid "Single Choice (Dropdown)"
+msgstr "単一選択（ドロップダウン）"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:40
+msgid "Sold Out"
+msgstr "売り切れ"
+
+#: includes/class-ph-booking-ajax-interface.php:208
+#, php-format
+msgid "Sorry! %1$s is not available for the selected slot %2$s to %3$s.<br>Please try a different slot or adjust your booking duration."
+msgstr "申し訳ございません。%1$s は選択されたスロット %2$s から %3$s ではご利用いただけません。<br>別のスロットを試すか、予約期間を調整してください"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:235
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:845
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:865
+msgid "Start Date"
+msgstr "開始日"
+
+#: includes/frondend/html-ph-booking-monthpicker.php:318
+#: includes/frondend/html-ph-booking-monthpicker.php:331
+msgid "Start Month"
+msgstr "月を選択"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:251
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:174
+msgid "Start Time"
+msgstr "開始時間"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:262
+msgid "Start Two Way Sync"
+msgstr "双方向同期を開始する"
+
+#: includes/class-ph-booking-google-calendar.php:1268
+msgid "Status"
+msgstr "ステータス"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:223
+msgid "Stop Two Way Sync"
+msgstr "双方向同期を停止する"
+
+#: includes/addons/ph_bookings_start_of_the_week.php:27
+#: includes/addons/ph_bookings_start_of_the_week.php:43
+#: includes/addons/ph_bookings_start_of_the_week.php:51
+#: includes/addons/ph_bookings_start_of_the_week.php:59
+#: includes/addons/ph_bookings_start_of_the_week.php:67
+#: includes/addons/ph_bookings_start_of_the_week.php:75
+#: includes/addons/ph_bookings_start_of_the_week.php:83
+#: includes/addons/ph_bookings_start_of_the_week.php:97
+#: includes/frondend/html-ph-booking-datepicker.php:576
+#: includes/frondend/class-ph-booking-calendar-strategy.php:864
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:597
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:743
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:905
+msgid "Su"
+msgstr "Su"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:252
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:255
+#: includes/emails/class-ph-booking-payment-for-customer.php:237
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:302
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:272
+#: includes/emails/class-ph-wc-email-booking-reminder.php:261
+#: includes/emails/class-ph-wc-email-booking-followup.php:259
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:282
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:209
+msgid "Subject"
+msgstr "テーマ"
+
+#: includes/class-ph-booking-google-calendar.php:1218
+msgid "Successfully authenticated to google API"
+msgstr "google APIへの認証に成功"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:650
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:929
+msgid "Summary"
+msgstr "概要"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:769
+msgid "Summary Box"
+msgstr "サマリーボックス"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:655
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:774
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:934
+msgid "Summary Text"
+msgstr "要約テキスト"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:17
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:81
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:148
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:316
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:35
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:52
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:112
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:39
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:87
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:139
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:21
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:57
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:96
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:117
+msgid "Sunday"
+msgstr "日曜日"
+
+#: ph-bookings-appointments-woocommerce-premium.php:794
+msgid "Support"
+msgstr "サポート"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:426
+msgid "Swap Month & Year Format in Calendar Title"
+msgstr "カレンダータイトルの月と年の書式を入れ替える"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:779
+msgid "Text"
+msgstr "テキスト"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:269
+#: includes/emails/class-ph-booking-payment-for-customer.php:256
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:321
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:291
+#: includes/emails/class-ph-wc-email-booking-reminder.php:270
+#: includes/emails/class-ph-wc-email-booking-followup.php:268
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:308
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:226
+msgid "Text to appear below the main email content."
+msgstr "メール本文の下に表示されるテキスト。"
+
+#: includes/addons/ph_bookings_start_of_the_week.php:31
+#: includes/addons/ph_bookings_start_of_the_week.php:40
+#: includes/addons/ph_bookings_start_of_the_week.php:48
+#: includes/addons/ph_bookings_start_of_the_week.php:56
+#: includes/addons/ph_bookings_start_of_the_week.php:64
+#: includes/addons/ph_bookings_start_of_the_week.php:79
+#: includes/addons/ph_bookings_start_of_the_week.php:87
+#: includes/addons/ph_bookings_start_of_the_week.php:94
+#: includes/frondend/html-ph-booking-datepicker.php:573
+#: includes/frondend/class-ph-booking-calendar-strategy.php:861
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:594
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:740
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:902
+msgid "Th"
+msgstr "Th"
+
+#: includes/templates/emails/ph-customer-booking-followup.php:39
+#, php-format
+msgid "Thank you for booking with %s.<br>Hope you enjoyed our services."
+msgstr "%s にご予約いただきありがとうございます。<br>弊社のサービスをお楽しみいただけましたでしょうか。"
+
+#: includes/emails/class-ph-booking-payment-for-customer.php:47
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:51
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:95
+#: includes/emails/class-ph-email-content.php:159
+msgid "Thank you for booking with us"
+msgstr "ご予約ありがとうございました。"
+
+#: includes/emails/class-ph-wc-email-booking-followup.php:120
+#: includes/emails/class-ph-wc-email-booking-followup.php:131
+msgid "Thanks for Booking with Us..!"
+msgstr "ご予約ありがとうございました！"
+
+#: includes/templates/emails/ph-booking-payment-for-customer-html.php:42
+msgid "Thanks for placing your booking."
+msgstr "ご予約いただきありがとうございます。"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:163
+#: includes/emails/class-ph-booking-payment-for-customer.php:156
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:221
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:191
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:199
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:120
+msgid "Thanks for reading."
+msgstr "読んでくれてありがとう。"
+
+#: includes/emails/class-ph-email-content.php:161
+msgid "Thanks for shopping with us"
+msgstr "お買い物ありがとうございました。"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:47
+msgid "The assets get displayed in this label "
+msgstr "アセットがこのラベルに表示される "
+
+#: includes/templates/emails/ph-admin-booking-cancelled.php:37
+#, php-format
+msgid "The Booking for the order #%s has been cancelled."
+msgstr "注文#%sの予約はキャンセルされました。"
+
+#: includes/templates/emails/ph-admin-booking-cancelled-plain.php:35
+#, php-format
+msgid ""
+"The Booking for the order #%s has been cancelled.\n"
+""
+msgstr "注文 #%s の予約はキャンセルされました。"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:255
+#, php-format
+msgid "The next import is scheduled on <code>%s</code>"
+msgstr "次のインポートは<code>%s</code>に予定されています。"
+
+#: includes/admin/class-ph-booking-order-manager.php:357
+msgid "The order is canceled"
+msgstr "注文はキャンセルされる"
+
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:212
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:213
+msgid "The order is waiting for approval"
+msgstr "注文は承認待ち"
+
+#: includes/class-ph-booking-payment-gateway.php:62
+msgid "The order is waiting for approval from admin"
+msgstr "注文は管理者の承認待ちです。"
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:90
+msgid "The tags/information mentioned in box will be displayed in your iCalendar. You have an option to remove any tags that you do not wish to add to your iCalendar. Similarly, you could add any tags that are missing from the list given below."
+msgstr "箱に記載されているタグ/情報は、iCalendar に表示されます。 iCalendarに追加したくないタグを削除することもできます。 同様に、以下のリストから欠落しているタグを追加できます."
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:242
+msgid ""
+"The tags/information mentioned in box will be displayed in your MS Outlook Calendar.\n"
+"\t\t\t\t\t\tYou have an option to remove any tags that you do not wish to add to your iCalendar.\n"
+"\t\t\t\t\t\tSimilarly, you could add any tags that are missing from the list given below."
+msgstr ""
+"ボックスに記載されているタグ/情報は、MS Outlook カレンダーに表示されます。\n"
+"iCalendarに追加したくないタグを削除することもできます。\n"
+"同様に、以下のリストから欠落しているタグを追加できます."
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:194
+msgid "The tags/information mentioned in box will be synced and displayed in your calendar. You have an option to remove any tags that you do not wish to sync with your calendar. Similarly, you could add any tags that are missing from the list given below.  Please ensure you maintain the html tags for each detail so that the formatting is maintained."
+msgstr "ボックスに記載されているタグ/情報は、カレンダーに同期および表示されます。 カレンダーと同期したくないタグを削除することもできます。 同様に、以下のリストから欠落しているタグを追加できます。 フォーマットが維持されるように、各詳細にhtmlタグを保持してください."
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:145
+msgid "The text given below is displayed by the plugin by default. You can change the text messages as per your preference."
+msgstr "デフォルトでは、以下のテキストが表示されます。お好みに応じてテキストメッセージを変更することができます。"
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:47
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:123
+msgid "There are two ways you can set the availability rules"
+msgstr "可用性ルールを設定する方法は2つあります。"
+
+#: ph-bookings-appointments-woocommerce-premium.php:531
+#: ph-bookings-appointments-woocommerce-premium.php:634
+msgid "There is a maximum of %available_slot place remaining"
+msgstr "最大 %available_slot が残っています。"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:257
+msgid "There is no import scheduled."
+msgstr "輸入の予定はない。"
+
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:46
+msgid "These emails are sent when a booking requires confirmation from admin"
+msgstr "これらのメールは、予約に管理者からの確認が必要な場合に送信されます。"
+
+#: includes/admin/class-ph-booking-admin-pages.php:122
+msgid "These settings are global and apply to all bookable products, but they are optional. To configure specific settings for an individual bookable product, please visit the product’s settings."
+msgstr "これらの設定はグローバルで、すべての書込み可能な製品に適用されますが、オプションです。 個々の予約可能な製品の特定の設定を設定するには、製品の設定をご覧ください."
+
+#. 1: subject
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:254
+#: includes/emails/class-ph-booking-payment-for-customer.php:240
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:305
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:275
+#: includes/emails/class-ph-wc-email-booking-reminder.php:263
+#: includes/emails/class-ph-wc-email-booking-followup.php:261
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:285
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:211
+msgid "This controls the email subject line. Leave blank to use the default subject.<br>Available placeholders: {site_title}, {site_address}, {site_url}, {order_date}, {order_id}, {order_number}, {order_billing_full_name}"
+msgstr "これは電子メールの件名を制御します。デフォルトの件名を使用するには、空白のままにします。<br>使用可能なプレースホルダ: {site_title}、{site_address}、{site_url}、{order_date}、{order_id}、{order_number}、{order_billing_full_name}"
+
+#. 1: heading
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:262
+#: includes/emails/class-ph-booking-payment-for-customer.php:249
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:314
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:284
+#: includes/emails/class-ph-wc-email-booking-reminder.php:255
+#: includes/emails/class-ph-wc-email-booking-followup.php:253
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:301
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:219
+msgid "This controls the main heading contained within the email notification. Leave blank to use the default heading."
+msgstr "これはEメール通知に含まれるメインの見出しをコントロールします。デフォルトの見出しを使用する場合は空白のままにしてください。"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:35
+msgid "This description will be displayed with the Resource selection."
+msgstr "この説明はリソースの選択とともに表示されます。"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:437
+msgid "This feature is currently in development and may not function as expected in all scenarios. Please report any issues you encounter. We are actively working to improve the functionality and reliability of this feature. Please note that this feature is currently not tested with our add-ons."
+msgstr "現在開発中ですが、全てのシナリオで期待どおりの機能が表示されない場合があります。 どんな問題でも報告してください。 この機能の機能性と信頼性の向上に積極的に取り組んでいます。 この機能はアドオンでテストされていません."
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:19
+msgid "This is a one-off cost that is applied to the entire booking."
+msgstr "これは予約全体に適用される一回限りの費用です。"
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:30
+msgid "This is the cost applied to each block booked. for Eg : When booking period is 1 day and cost per block is $10, the total cost for booking 10 days is $100."
+msgstr "例：予約期間が1日で、1ブロックあたりの料金が$10の場合、10日間予約した場合の合計料金は$100となります。"
+
+#: includes/class-ph-booking-payment-gateway.php:43
+msgid "This payment gateway does not need to config"
+msgstr "この決済ゲートウェイは、以下の設定を必要としません。"
+
+#: includes/class-ph-booking-payment-gateway.php:42
+msgid "This payment method is used those orders has booking products and pay later (Need confirmation)"
+msgstr "この支払い方法は、商品を予約し、後払い（確認が必要）する注文に使用されます。"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:63
+msgid "This section allows you to configure Reminder and Follow up Emails for your bookings. Please configure them below :"
+msgstr "このセクションでは、予約のリマインダーとフォローアップメールを設定することができます。以下で設定してください："
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:101
+msgid "This text is displayed below each date or time block For Eg: 10 Left"
+msgstr "このテキストは、各日付または時刻のブロックの下に表示されます。例：左10本"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:123
+msgid "This text is displayed below fully booked date or time slot."
+msgstr "このテキストは、完全予約された日付または時刻のスロットの下に表示されます."
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:61
+msgid "This text will be displayed on the .ics file download button on the customer's My Account Page"
+msgstr "このテキストは、お客様のマイアカウントページにある.icsファイルのダウンロードボタンに表示されます"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:327
+msgid "This will be the first weekday in the calendar."
+msgstr "カレンダーでは最初の平日となる。"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:369
+msgid "This will reset all the settings to default. Click 'Ok' to proceed."
+msgstr "これは、すべての設定をデフォルトにリセットします。 「OK」をクリックして続行します."
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:14
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:78
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:145
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:39
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:56
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:109
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:36
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:84
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:136
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:18
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:54
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:93
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:114
+msgid "Thursday"
+msgstr "木曜日"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:227
+msgid "Time Interval"
+msgstr "時間間隔"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:170
+msgid "Time Interval in Minutes"
+msgstr "マイナスの時間間隔"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:10
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:32
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:14
+msgid "Time Range (all week)"
+msgstr "時間範囲（全週）"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:8
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:30
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:13
+msgid "Time Ranges"
+msgstr "時間範囲"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:348
+msgid "Time Zone Conversion"
+msgstr "タイムゾーン変換"
+
+#: includes/admin/class-ph-booking-export-bookings.php:581
+#: includes/admin/class-ph-booking-admin-reports-list.php:119
+#: includes/addons/booking-search-widget/booking-search-widget.php:364
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:890
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:970
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1047
+#: includes/admin/views/html-ph-booking-settings-availability.php:92
+#: includes/admin/views/html-ph-booking-settings-assets.php:157
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:155
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:54
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:71
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:83
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:134
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:363
+msgid "To"
+msgstr "への"
+
+#: ph-bookings-appointments-woocommerce-premium.php:759
+msgid "to"
+msgstr "への"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:360
+msgid "To Date"
+msgstr "日程について"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:376
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:379
+msgid "To Time"
+msgstr "時間の経過"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:49
+msgid "Today"
+msgstr "今日"
+
+#: includes/class-ph-booking-checkout-decorator.php:441
+#: includes/class-ph-booking-checkout-decorator.php:684
+#: includes/class-ph-booking-google-calendar.php:737
+#: includes/class-ph-booking-google-calendar.php:1649
+#: includes/addons/class-ph-bookings-send-email-notifications.php:562
+#: includes/admin/class-ph-booking-admin-order.php:361
+#: includes/admin/class-ph-booking-order-manager.php:306
+#: includes/admin/class-ph-booking-order-manager.php:607
+#: includes/emails/class-ph-wc-email-booking-reminder.php:320
+#: includes/emails/class-ph-wc-email-booking-followup.php:311
+msgid "Total Number of Participants"
+msgstr "参加者総数"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:53
+msgid "Total number of Participants can not be lesser than this value."
+msgstr "参加者の総数がこの値を下回ることはない。"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:67
+msgid "Total number of Participants will not exceed this value."
+msgstr "参加者の総数がこの値を超えることはない。"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:211
+msgid "Total participant"
+msgstr "参加者合計"
+
+#: ph-bookings-appointments-woocommerce-premium.php:516
+#: ph-bookings-appointments-woocommerce-premium.php:619
+msgid "Total participant (%total) exceeds maximum allowed participant (%max)"
+msgstr "参加者合計 (%total) が最大許容参加者数 (%max) を超えた"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:64
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:29
+msgid "Troubleshoot Google Calendar Sync"
+msgstr "Googleカレンダー同期のトラブルシューティング"
+
+#: includes/addons/ph_bookings_start_of_the_week.php:29
+#: includes/addons/ph_bookings_start_of_the_week.php:38
+#: includes/addons/ph_bookings_start_of_the_week.php:46
+#: includes/addons/ph_bookings_start_of_the_week.php:61
+#: includes/addons/ph_bookings_start_of_the_week.php:69
+#: includes/addons/ph_bookings_start_of_the_week.php:77
+#: includes/addons/ph_bookings_start_of_the_week.php:85
+#: includes/addons/ph_bookings_start_of_the_week.php:92
+#: includes/frondend/html-ph-booking-datepicker.php:571
+#: includes/frondend/class-ph-booking-calendar-strategy.php:859
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:592
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:738
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:900
+msgid "Tu"
+msgstr "Tu"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:12
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:76
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:143
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:37
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:54
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:107
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:34
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:82
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:134
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:16
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:52
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:91
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:112
+msgid "Tuesday"
+msgstr "火曜日"
+
+#: class-ph-bookings-translation-support.php:22
+msgid "un-paid"
+msgstr "未払い"
+
+#: includes/class-ph-booking-checkout-decorator.php:94
+#: includes/class-ph-booking-google-calendar.php:948
+#: includes/admin/class-ph-bookings-calendar-admin.php:349
+#: includes/admin/class-ph-booking-admin-order.php:511
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:49
+#: includes/admin/views/html-ph-booking-settings-outlook.php:53
+msgid "Unpaid"
+msgstr "未払い"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:180
+msgid "Until"
+msgstr "まで"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:83
+msgid "Use assets in following cases:"
+msgstr "次のような場合にアセットを使用する："
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:180
+msgid "Use the following Tags to customize your Google Calendar Event Title."
+msgstr "Googleカレンダーのイベントタイトルをカスタマイズするには、以下のタグを使用してください。"
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:76
+msgid "Use the following Tags to customize your iCalendar Event Title."
+msgstr "次のタグを使用して、iCalendarイベントタイトルをカスタマイズします."
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:220
+msgid "Use the following Tags to customize your MS Outlook Event Title."
+msgstr "次のタグを使用して、MS Outlook イベントのタイトルをカスタマイズします."
+
+#: includes/admin/views/html-ph-booking-admin-order.php:14
+msgid "User"
+msgstr "ユーザー"
+
+#: includes/admin/class-ph-booking-admin-order.php:128
+msgid "User & Order ID combination not found. Please enter the correct details and try again."
+msgstr "ユーザーIDと注文IDの組み合わせが見つかりません。正しい情報を入力してもう一度お試しください。"
+
+#: includes/class-ph-booking-google-calendar.php:1254
+msgid "Validate the credentials with google API"
+msgstr "google APIで認証情報を検証する"
+
+#: ph-bookings-appointments-woocommerce-premium.php:782
+msgid "Value must be greater than or equal to 1"
+msgstr "値は1以上でなければならない"
+
+#: ph-bookings-appointments-woocommerce-premium.php:781
+msgid "Value must be less than or equal to Max Bookings per Block (%d)"
+msgstr "値はブロックごとの最大予約数 (%d) 以下でなければなりません。"
+
+#: ph-api-manager/ph_api_manager_bookings.php:502
+msgid "Verify the API key details again and activate the API Key by clicking Save Changes"
+msgstr "API のキーの詳細を再度確認し、変更を保存をクリックして API キーを有効にします"
+
+#: includes/class-ph-booking-cart-decorator.php:425
+msgid "View cart"
+msgstr "カートを見る"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:178
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:956
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1037
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:83
+msgid "View Product"
+msgstr "製品を見る"
+
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:32
+msgid "Waiting For Approval emails are sent when need requires confirmation for Product."
+msgstr "承認待ちメールは、商品の確認が必要な場合に送信されます。"
+
+#: includes/addons/ph_bookings_start_of_the_week.php:30
+#: includes/addons/ph_bookings_start_of_the_week.php:39
+#: includes/addons/ph_bookings_start_of_the_week.php:47
+#: includes/addons/ph_bookings_start_of_the_week.php:55
+#: includes/addons/ph_bookings_start_of_the_week.php:70
+#: includes/addons/ph_bookings_start_of_the_week.php:78
+#: includes/addons/ph_bookings_start_of_the_week.php:86
+#: includes/addons/ph_bookings_start_of_the_week.php:93
+#: includes/frondend/html-ph-booking-datepicker.php:572
+#: includes/frondend/class-ph-booking-calendar-strategy.php:860
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:593
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:739
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:901
+msgid "We"
+msgstr "We"
+
+#: includes/emails/class-ph-email-content.php:158
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:47
+msgid "We have received your booking"
+msgstr "ご予約を承りました"
+
+#: includes/emails/class-ph-wc-email-booking-followup.php:157
+msgid "We look forward to serving you again.<br><br>With Regards,<br>Admin"
+msgstr "またのご利用をお待ちしております。<br><br>よろしく、<br>管理者"
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:159
+msgid "We look forward to serving you.<br>Regards<br>Admin"
+msgstr "皆様のお越しをお待ちしております。<br>ご挨拶<br>管理者"
+
+#: includes/templates/emails/ph-booking-payment-for-customer-html.php:43
+msgid "We request you to go through the booking details attached in this email"
+msgstr "このメールに添付されている予約の詳細をご確認ください。"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:13
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:77
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:144
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:38
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:55
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:108
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:35
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:83
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:135
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:17
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:53
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:92
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:113
+msgid "Wednesday"
+msgstr "水曜日"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:312
+msgid "Week Starts On"
+msgstr "週明け"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:630
+msgid "Weekdays"
+msgstr "平日"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:635
+msgid "Weekdays Text"
+msgstr "平日テキスト"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:278
+msgid "When enabled, the customer will be added as an attendee for the event in Outlook Calendar, and Outlook will send an email invitation to the customer."
+msgstr "有効な場合、顧客はOutlookカレンダーのイベントの出席者として追加され、Outlookは顧客に電子メールの招待状を送ります."
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:85
+msgid "When Product A is booked, you need product B to be automatically booked for the same time."
+msgstr "商品Aが予約された場合、商品Bも自動的に同じ時間に予約される必要があります。"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:86
+msgid "When you have a staff that handles multiple services. When Service A is booked, other services from the same staff are unavailable to book for the same time."
+msgstr "複数のサービスを担当するスタッフがいる場合。サービスAが予約されている場合、同じスタッフの他のサービスは同時間帯に予約できません。"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:88
+msgid "When you have multiple resource types with different quantities. For Eg : Types of Kayaks to be chosen by the user to book."
+msgstr "数量が異なる複数のリソースタイプがある場合。例：ユーザーが予約するために選択するカヤックの種類。"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:87
+msgid "When you have multiple staff with varying availability or price."
+msgstr "稼働率や価格が異なる複数のスタッフがいる場合。"
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:51
+msgid "Will be displayed as a suffix with Display Cost."
+msgstr "ディスプレイ・コストと一緒にサフィックスとして表示される。"
+
+#: includes/admin/class-ph-booking-admin-pages.php:118
+msgid "WooCommerce Bookings and Appointments"
+msgstr "WooCommerce Bookings and Appointments"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:85
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:199
+msgid "WooCommerce Emails"
+msgstr "WooCommerceメール"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources-matrix-row.php:22
+#: includes/admin/views/html-ph-booking-product-admin-resources-matrix-row.php:29
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:158
+#: includes/admin/views/html-ph-booking-product-admin-persons-matrix-row.php:21
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:149
+msgid "Yes"
+msgstr "はい"
+
+#: class-ph-bookings-translation-support.php:18
+#: includes/class-ph-booking-checkout-decorator.php:481
+#: includes/class-ph-booking-cart-decorator.php:842
+msgid "yes"
+msgstr "はい"
+
+#: includes/templates/emails/ph-admin-booking-waiting-for-approval.php:38
+msgid "You have received an order. The order is waiting for approval. The order is as follows"
+msgstr "注文を受け取りました。注文は承認待ちです。注文内容は以下の通りです。"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:419
+msgid "You'll have the option to personalize your admin calendar, choosing to display essential details like order ID, product name, customer name, and the number of participants."
+msgstr "管理者カレンダーをパーソナライズするオプションがあり、注文ID、商品名、顧客名、参加者数などの重要な詳細を表示するように選択できます。"
+
+#: includes/emails/class-ph-email-content.php:233
+#: includes/templates/emails/ph-customer-booking-cancelled.php:37
+#, php-format
+msgid "Your booking at %s has been marked as %s."
+msgstr "%sでの予約は%sとしてマークされました。"
+
+#: includes/emails/class-ph-email-content.php:127
+#, php-format
+msgid "Your Booking at %s is %s"
+msgstr "%sでのご予約は%sです。"
+
+#: includes/emails/class-ph-email-content.php:230
+#: includes/templates/emails/ph-customer-booking-confirmed.php:43
+#, php-format
+msgid "Your booking at %s is approved."
+msgstr "%sでのご予約が承認されました。"
+
+#: includes/emails/class-ph-email-content.php:160
+#, php-format
+msgid "Your booking at %s is cancelled"
+msgstr "%sでのご予約はキャンセルされました。"
+
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:47
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:48
+msgid "Your booking at {site_title} is cancelled"
+msgstr "{site_title} でのご予約はキャンセルされました。"
+
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:53
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:96
+msgid "Your Booking at {site_title} is confirmed"
+msgstr "{site_title} でのご予約が確定しました。"
+
+#: includes/class-ph-booking-payment-gateway.php:32
+msgid "Your booking has been approved, Thank you."
+msgstr "ご予約が承認されました。"
+
+#: includes/emails/class-ph-booking-payment-for-customer.php:49
+msgid "Your Booking Is Placed Successfully"
+msgstr "ご予約が完了しました"
+
+#: includes/class-ph-booking-payment-gateway.php:34
+msgid "Your booking is waiting for approval"
+msgstr "ご予約は承認待ちです"
+
+#: includes/emails/class-ph-email-content.php:130
+#, php-format
+msgid "Your Booking request at %s is awaiting approval"
+msgstr "%sでの予約リクエストは承認待ちです。"
+
+#: includes/emails/class-ph-email-content.php:227
+#: includes/templates/emails/ph-customer-booking-requires-confirmation.php:38
+#, php-format
+msgid "Your Booking request at %s is awaiting approval."
+msgstr "%sでの予約リクエストは承認待ちです。"
+
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:48
+msgid "Your Booking request at {site_title} is awaiting approval"
+msgstr "{site_title}での予約リクエストは承認待ちです。"

@@ -1,0 +1,3695 @@
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: zh_TW\n"
+"Language-Team: Chinese (Taiwan)\n"
+"Last-Translator: PluginHive\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2025-06-19 11:37+0000\n"
+"POT-Creation-Date: 2020-02-04 07:21+0000\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: Bookings and Appointments For WooCommerce Premium\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Generator: Loco\n"
+"X-Loco-Version: 2.8.0; wp-6.8.1; php-8.3.6\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: includes/templates/emails/ph-booking-payment-for-customer-plain.php:48
+#: includes/templates/emails/ph-customer-booking-confirmed-plain.php:47
+msgid ""
+"\n"
+" Please click below link to proceed with the payment \n"
+""
+msgstr "請點擊下面的連結繼續付款"
+
+#: includes/templates/emails/ph-booking-payment-for-customer-plain.php:37
+msgid ""
+"\n"
+" Thanks for placing your booking."
+msgstr ""
+"感謝您的預訂。\n"
+""
+
+#: includes/templates/emails/ph-booking-payment-for-customer-plain.php:38
+msgid ""
+"\n"
+" We request you to go through the booking details attached in this email. \n"
+""
+msgstr "我們要求您仔細閱讀本電子郵件中所附的預訂詳細資訊。"
+
+#: includes/templates/emails/ph-customer-booking-confirmed-plain.php:37
+#, php-format
+msgid ""
+"\n"
+" Your booking at %s is approved. \n"
+""
+msgstr ""
+"您在 %s 的預訂已獲批准。\n"
+""
+
+#: includes/templates/emails/ph-customer-booking-reminder-plain.php:37
+#, php-format
+msgid ""
+"\n"
+"I request you to check the bookings details for your appointment with %s.\n"
+""
+msgstr ""
+"我請求您檢查與 %s 的預約詳細資訊。\n"
+""
+
+#: includes/templates/emails/ph-customer-booking-followup-plain.php:36
+#, php-format
+msgid ""
+"\n"
+"Thank you for booking with %s.<br>Hope you enjoyed our services.\n"
+""
+msgstr ""
+"感謝您透過 %s 預訂。\n"
+""
+
+#: includes/templates/emails/ph-admin-booking-waiting-for-approval-plain.php:38
+#, php-format
+msgid ""
+"\n"
+"You have received an order #%s. The order is waiting for approval. The order is as follows"
+msgstr ""
+"您已收到訂單#%s。該訂單正在等待批准。順序如下\n"
+""
+
+#: includes/templates/emails/ph-customer-booking-cancelled-plain.php:37
+#, php-format
+msgid ""
+"\n"
+"Your booking at %s has been marked as %s.\n"
+""
+msgstr ""
+"您在 %s 的預訂已被標記為 %s。\n"
+""
+
+#: includes/templates/emails/ph-customer-booking-requires-confirmation-plain.php:37
+#, php-format
+msgid ""
+"\n"
+"Your Booking request at %s is awaiting approval.\n"
+""
+msgstr ""
+"您在 %s 的預訂請求正在等待批准。\n"
+""
+
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:864
+msgid " "
+msgstr "  "
+
+#: includes/class-ph-booking-google-calendar.php:373
+msgid " (Attention: Time is required for this event)"
+msgstr "（注意：此事件需要時間）"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:188
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:83
+msgid " before the booking starts"
+msgstr " 在訂購開始之前"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:408
+msgid "%d Booking staus(s) changed to Paid"
+msgstr "%d 的付款狀況轉為已付款"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:436
+msgid "%d Booking staus(s) changed to Un-Paid"
+msgstr "%d 的付款狀況轉為未付款"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:343
+msgid "%d item(s) Booking Confirmed"
+msgstr "%d 個項目訂購確認"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:236
+msgid "%d item(s) canceled"
+msgstr "%d 項目已取消"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:182
+msgid "%d item(s) deleted"
+msgstr "%d 個項目已取消"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:458
+msgid "%d items(s) Re-synced with Google Calender"
+msgstr "已將 %d 項與Google日曆重新同步"
+
+#: includes/class-ph-booking-cart-decorator.php:417
+#: includes/class-ph-booking-cart-decorator.php:424
+#, php-format
+msgid "%s has been added to your cart."
+msgstr "%s 已添加到您的購物車。"
+
+#: includes/frondend/class-ph-booking-calendar-strategy.php:578
+#, php-format
+msgid "(%s left)"
+msgstr "（還剩 %s）"
+
+#: includes/class-ph-booking-google-calendar.php:350
+msgid "(Attention: Time is required for this event)"
+msgstr "（注意：此事件需要時間）"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:247
+#: includes/admin/views/html-ph-booking-product-admin-options.php:252
+msgid "(s)"
+msgstr "(s)"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:166
+msgid "*Time range can not be used in booking search when timezone conversion is enabled."
+msgstr "* 啟用時區轉換時區時, 無法用於訂閱搜尋 ."
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:54
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:125
+msgid "1. All dates are available by default. Create rules to set the time period when you are not available to take bookings."
+msgstr "1. 默認情況下，所有日期均可用。創建規則以設置您無法接受訂購的時間段。"
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:56
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:127
+msgid "2. Mark all the dates/blocks as unavailable and then set the time period when you are available for bookings."
+msgstr "2. 將所有日期/分段標記為不可用，然後設置可用於訂購的時間段。"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:74
+msgid "<br><span style='float:left;'><i>Fixed Blocks : Customers can book one block at a time.<br>Enable Range : Customers can book multiple blocks by choosing a start and an end.</i></span>"
+msgstr "<br><span style=\"float:left;\"><i>固定塊：客戶可以一次預訂一個街區。可增強範圍：客戶可以通過選擇開始和結束來預訂多個塊。</i></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:28
+msgid "<h4><b>Single Resource</b> - Customers can choose One Resource from a Drop Down containing all the resources. </h4><h4><b>Multiple Resources</b> - Customers can select Multiple Resource while booking.</h4>"
+msgstr "<h4><b>單一資源</b> - 客戶可以從包含所有資源的下拉列表中選擇一種資源。</h4><h4><b> 多項資源</b> - 客戶可以在訂購時選擇多項資源。</h4>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:196
+msgid "<span style='padding-left:2%; font-size:12px;'><i>Check this box if the booking requires admin approval/confirmation.</i></span>"
+msgstr "<span style='padding-left:2%; font-size:12px;'><i>如果預訂需要管理員批准/確認，請剔選此框。</i></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:81
+msgid "<span style='padding-left:2%;'><i>Allow multiple bookings for the same block until the specified number is reached.</i></span>"
+msgstr "<span style='padding-left:2%;'><i>允許同一分段進行多次訂購，直到達到指定數量。</i></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:137
+msgid "<span style='padding-left:2%;'><i>Auto-Select Minimum Booking Slots.</i></span>"
+msgstr "<span style='padding-left:2%;'><i>自動選擇最小訂購位。</i></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:202
+msgid "<span style='padding-left:2%;'><i>Enable this option to offer bookings on a per night basis. For Eg : Accommodations. The customer can choose a check in and check out date.</i></span>"
+msgstr "<span style='padding-left:2%;'><i>啟用此選項可提供以每晚為基礎的訂購。例如：住宿。客戶可以選擇入住和退房日期。</i></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:281
+msgid "<span style='padding-left:2%;'><i>Enabling this option will allow customers to book timeslots across days. For Eg : 9.00 Am , 1st May to 6.00 Pm 2nd May.</i></span>"
+msgstr "<span style='padding-left:2%;'><i>啟用此選項將允許客戶訂購幾天內的時段。例如：5月1日上午9:00至5月2日下午6.00。</i></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:295
+msgid "<span style='padding-left:2%;'><i>Enabling this option will display both the Booking Slot Start Time as well as End Time on the calendar.</i></span>"
+msgstr "<span style='padding-left:2%;'><i>啟用此選項將在日曆上同時顯示“訂購時段開始時間”和“結束時間”。</i></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:109
+msgid "<span style='padding-left:2%;'><i>Enabling this will show the Fully Booked Indicator for bookings slots which is fully booked.</i><span>"
+msgstr "< span 樣式 = 'pading- left : 2%; '><i> 啟用此功能會顯示已訂閱的訂閱槽的全錄指示器。 </i><span >"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:88
+msgid "<span style='padding-left:2%;'><i>Enabling this will show the number of places left for bookings per block.</i><span>"
+msgstr "<span style='padding-left:2%;'><i>啟用此選項將顯示每個分段剩餘的訂購數。</i><span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:209
+msgid "<span style='padding-left:2%;'><i>Hide checkout date on admin calendar and google calendar for per night bookings.</i></span>"
+msgstr "在管理日曆上隱藏結帳日期和每夜預訂的Google日曆。"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:146
+msgid "<span style='padding-left:2%;'><i>Set the maximum period the customer can input. Leave blank for unlimited.</i></span>"
+msgstr "<span style='padding-left:2%;'><i>設置客戶可以輸入的最長時間。留空代表無限制。</i></span>"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:131
+msgid "<span style='padding-left:2%;'><i>Set the minimum booking period the customer can select.</i></span>"
+msgstr "<span style='padding-left:2%;'><i>設置客戶可以選擇的最短訂購期限。</i></span>"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:484
+msgid "<strong>Direct Booking:</strong> Display booking details directly without a calendar for modifications."
+msgstr "< 強 > 直接訂書: < 強 > 直接顯示訂閱細節, 不需要修改行事曆 ."
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:482
+msgid "<strong>Flexible Booking:</strong> Display booking details along with a calendar for editing and modifying."
+msgstr "< 強 > 灵活訂書: </ 強 > 顯示訂閱細節以及編輯和修改的行事曆 ."
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:286
+msgid "Across Days Cost Calculation"
+msgstr "在幾天的成本計算中"
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:108
+#: includes/admin/views/html-ph-booking-settings-assets.php:124
+#: includes/admin/views/html-ph-booking-settings-assets.php:173
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:79
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:87
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:181
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:101
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:108
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:151
+msgid "Add"
+msgstr "新增"
+
+#: includes/class-ph-booking-google-calendar.php:1176
+msgid "Add as an event in google calendar"
+msgstr "在Google日曆中添加為活動"
+
+#: includes/admin/class-ph-booking-admin-pages.php:48
+#: includes/admin/class-ph-booking-admin-pages.php:81
+#: includes/admin/views/html-ph-booking-admin-order-calender.php:24
+#: includes/admin/views/html-ph-booking-admin-order-calender.php:112
+#: includes/admin/views/html-calendar-month.php:2
+#: includes/admin/views/html-ph-booking-admin-order.php:7
+#: includes/admin/views/html-calendar-day.php:2
+msgid "Add Booking"
+msgstr "新增訂購"
+
+#: includes/frondend/class-ph-icalendar-extension.php:283
+msgid "Add Bookings to iCalendar"
+msgstr "新增訂閱到 iCalendar"
+
+#: includes/frondend/class-ph-icalendar-extension.php:107
+#: includes/frondend/class-ph-icalendar-extension.php:254
+msgid "Add bookings to iCalendar"
+msgstr "新增訂閱到 iCalendar"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:274
+msgid "Add Customer as Event Attendee"
+msgstr "新增客戶為事件出席者"
+
+#: includes/admin/class-ph-booking-admin-pages.php:38
+msgid "Add Product"
+msgstr "添加產品"
+
+#: includes/admin/class-ph-booking-admin-pages.php:141
+msgid "Add-Ons"
+msgstr "附加元件"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:268
+#: includes/emails/class-ph-booking-payment-for-customer.php:255
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:320
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:290
+#: includes/emails/class-ph-wc-email-booking-reminder.php:269
+#: includes/emails/class-ph-wc-email-booking-followup.php:267
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:307
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:225
+msgid "Additional content"
+msgstr "附加內容"
+
+#: includes/admin/class-ph-booking-export-bookings.php:143
+#: includes/admin/class-ph-booking-export-bookings.php:638
+msgid "Additional Notes"
+msgstr "補充筆記"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:251
+msgid "After Booking"
+msgstr "訂購後"
+
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:13
+msgid "All"
+msgstr "全部"
+
+#: includes/admin/class-ph-booking-admin-pages.php:28
+#: includes/admin/class-ph-booking-admin-pages.php:80
+msgid "All Bookings"
+msgstr "所有訂購"
+
+#: includes/admin/views/html-calendar-day.php:78
+msgid "All Day"
+msgstr "一整天"
+
+#: includes/admin/views/html-calendar-month.php:92
+#: includes/admin/views/html-calendar-day.php:39
+msgid "All Status"
+msgstr "所有狀態"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:35
+msgid "All the costs will be multiplied by the number of participants"
+msgstr "所有費用將乘以參加者人數"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:176
+msgid "Allow Cancellation"
+msgstr "允許取消"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:75
+msgid "Allow customers to book until"
+msgstr "容許顧客訂購直至"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:341
+msgid "Allow customers to choose a month from a drop down to navigate to that month directly."
+msgstr "允許客戶從下拉選單中選擇一個月份，以直接導航至該月份。"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:100
+msgid "Allow start booking only with selected days"
+msgstr "只允許在選定的日期開始訂購"
+
+#: ph-bookings-appointments-woocommerce-premium.php:534
+#: ph-bookings-appointments-woocommerce-premium.php:637
+msgid "am"
+msgstr "上午"
+
+#: ph-bookings-appointments-woocommerce-premium.php:783
+msgid "and"
+msgstr "和"
+
+#: includes/admin/class-ph-booking-export-bookings.php:128
+#: includes/admin/class-ph-booking-export-bookings.php:131
+msgid "Applicable for bookings made after updating to plugin version 2.3.0"
+msgstr "適用於更新插件2.3.0後進行的預訂"
+
+#: ph-bookings-appointments-woocommerce-premium.php:747
+#: includes/class-ph-booking-checkout-decorator.php:861
+#: includes/addons/ph_bookings_month_picker.php:101
+msgid "Apr"
+msgstr "四月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:733
+#: includes/class-ph-booking-checkout-decorator.php:849
+#: includes/addons/ph_bookings_month_picker.php:87
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:62
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:129
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:68
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:120
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:38
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:77
+msgid "April"
+msgstr "四月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:763
+msgid "are not available."
+msgstr "未能提供。"
+
+#: includes/admin/class-ph-booking-order-manager.php:513
+msgid "Are you sure to cancel booking?"
+msgstr "您是否確定取消訂購？"
+
+#: includes/class-ph-booking-checkout-decorator.php:700
+#: includes/class-ph-booking-checkout-decorator.php:768
+#: includes/class-ph-booking-checkout-decorator.php:823
+#: includes/class-ph-booking-google-calendar.php:694
+#: includes/class-ph-booking-google-calendar.php:872
+#: includes/class-ph-booking-google-calendar.php:876
+#: includes/class-ph-booking-google-calendar.php:1672
+#: includes/class-ph-booking-google-calendar.php:1842
+#: includes/class-ph-booking-cart-decorator.php:820
+#: includes/class-ph-booking-ajax-interface.php:152
+#: includes/class-ph-booking-order-item-handler.php:81
+#: includes/admin/class-ph-booking-export-bookings.php:146
+#: includes/admin/class-ph-booking-export-bookings.php:584
+#: includes/frondend/class-ph-booking-calendar-strategy.php:1066
+#: includes/admin/views/html-ph-booking-settings-assets.php:77
+#: includes/admin/views/html-ph-booking-settings-assets.php:154
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:50
+msgid "Asset"
+msgstr "資產"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:133
+msgid "Asset Availability"
+msgstr "資產可用性"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:384
+msgid "Asset Name"
+msgstr "資產名稱"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:62
+msgid "Assets"
+msgstr "資產"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:80
+msgid "Assets are global resources which can be attached either to a single product or to multiple products. Assets have a quantity and availability attached."
+msgstr "資產是可以附加到單個產品或多個產品的全局資源。資產具有數量和可用性。"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:108
+msgid "Assets Name"
+msgstr "資產名稱"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:63
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:26
+msgid "Assign"
+msgstr "分配"
+
+#: includes/admin/views/html-ph-booking-admin-order.php:74
+msgid "Assign this booking to an existing order with this ID:"
+msgstr "將此訂購分配給具有此ID的現有訂單："
+
+#: ph-bookings-appointments-woocommerce-premium.php:751
+#: includes/class-ph-booking-checkout-decorator.php:864
+#: includes/addons/ph_bookings_month_picker.php:105
+msgid "Aug"
+msgstr "八月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:737
+#: includes/class-ph-booking-checkout-decorator.php:853
+#: includes/addons/ph_bookings_month_picker.php:91
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:66
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:133
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:72
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:124
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:42
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:81
+msgid "August"
+msgstr "八月"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources-matrix-row.php:15
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:93
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:29
+msgid "Automatically assigned"
+msgstr "自動分配"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:119
+msgid "Availability Rules :"
+msgstr "規則可用性:"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:234
+#: includes/emails/class-ph-booking-payment-for-customer.php:227
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:292
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:262
+#: includes/emails/class-ph-wc-email-booking-reminder.php:243
+#: includes/emails/class-ph-wc-email-booking-followup.php:241
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:272
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:191
+#, php-format
+msgid "Available placeholders: %s"
+msgstr "可用佔位符：%s"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:74
+msgid "Avoid last minute bookings"
+msgstr "避免最後一刻預訂"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:63
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:16
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:84
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:135
+msgid "Base Cost"
+msgstr "基本費用"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:91
+msgid "Base cost"
+msgstr "基本費用"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:245
+msgid "Before Booking"
+msgstr "訂購前"
+
+#: includes/emails/class-ph-email-content.php:300
+msgid "Billing address"
+msgstr "帳單地址"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:64
+msgid "Block Cost"
+msgstr "分段費用"
+
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:43
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:60
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:6
+msgid "Block Count"
+msgstr "分段數目"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:279
+msgid "Book Across Days"
+msgstr "在幾天裡預訂"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:162
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:612
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:670
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:756
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:860
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:939
+msgid "Book Now"
+msgstr "立即訂購"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:794
+msgid "Book Now Background"
+msgstr "立即訂購背景"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:153
+msgid "Book Now Button"
+msgstr "立即訂購按鈕"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:675
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:799
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:944
+msgid "Book Now Text"
+msgstr "立即訂購文字"
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:93
+#: includes/admin/views/html-ph-booking-settings-assets.php:158
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:156
+msgid "Bookable"
+msgstr "可供訂購"
+
+#: includes/admin/views/html-ph-booking-admin-order.php:35
+msgid "Bookable Product"
+msgstr "可訂購之產品"
+
+#: includes/admin/class-ph-booking-product-manager.php:110
+msgid "Bookable product"
+msgstr "可訂購之產品"
+
+#: includes/class-ph-booking-cart-decorator.php:762
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:300
+msgid "Booked"
+msgstr "日期"
+
+#: includes/admin/class-ph-booking-export-bookings.php:629
+msgid "Booked By"
+msgstr "預訂"
+
+#: includes/admin/class-ph-booking-export-bookings.php:134
+#: includes/admin/class-ph-booking-admin-reports-list.php:121
+msgid "Booked by"
+msgstr "訂購者"
+
+#: includes/class-ph-booking-google-calendar.php:1635
+msgid "Booked by: "
+msgstr "預訂者："
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:660
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:784
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:954
+msgid "Booked Dates"
+msgstr "已訂購日期"
+
+#: includes/class-ph-booking-checkout-decorator.php:102
+#: includes/class-ph-booking-google-calendar.php:327
+#: includes/class-ph-booking-google-calendar.php:748
+#: includes/class-ph-booking-cart-decorator.php:760
+#: includes/class-ph-booking-email-manager.php:385
+#: includes/admin/class-ph-booking-admin-order.php:461
+#: includes/admin/class-ph-booking-order-manager.php:41
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:284
+msgid "Booked From"
+msgstr "訂購由"
+
+#: includes/admin/class-ph-booking-export-bookings.php:128
+#: includes/admin/class-ph-booking-export-bookings.php:613
+msgid "Booked Participants"
+msgstr "預訂參與者"
+
+#: includes/admin/class-ph-booking-export-bookings.php:131
+#: includes/admin/class-ph-booking-export-bookings.php:623
+msgid "Booked Resources"
+msgstr "預訂資源"
+
+#: includes/class-ph-booking-checkout-decorator.php:103
+#: includes/class-ph-booking-google-calendar.php:328
+#: includes/class-ph-booking-google-calendar.php:749
+#: includes/class-ph-booking-cart-decorator.php:761
+#: includes/class-ph-booking-email-manager.php:386
+#: includes/admin/class-ph-booking-admin-order.php:481
+#: includes/admin/class-ph-booking-order-manager.php:42
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:292
+msgid "Booked To"
+msgstr "訂購至"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:360
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:219
+msgid "Booking"
+msgstr "訂購"
+
+#: includes/admin/views/html-ph-booking-settings-booking-addons.php:8
+msgid "Booking Add-Ons"
+msgstr "訂購附加組件"
+
+#: includes/admin/class-ph-booking-product-manager.php:78
+msgid "Booking Assets"
+msgstr "訂購資產"
+
+#: includes/admin/class-ph-booking-product-manager.php:54
+msgid "Booking Availability"
+msgstr "訂購可提供性"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:473
+msgid "Booking Availability View"
+msgstr "訂書可用性 查看"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:264
+msgid "Booking Cancellation"
+msgstr "取消预订"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:45
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:46
+msgid "Booking cancelled emails are sent when the status of a booking goes to cancelled."
+msgstr "預訂已取消的電子郵件已取消時，將發送已取消的電子郵件。"
+
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:49
+msgid "Booking confirmed emails are sent when the status of a booking goes from requires confirmation to confirmed."
+msgstr "預訂確認的電子郵件是在預訂狀態從需要確認確認的情況下發送的。"
+
+#: includes/admin/class-ph-booking-export-bookings.php:149
+#: includes/admin/class-ph-booking-export-bookings.php:652
+msgid "Booking Cost"
+msgstr "預訂費用"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:227
+msgid "Booking cost"
+msgstr "訂購費用"
+
+#: includes/frondend/class-ph-icalendar-extension.php:335
+msgid "Booking Cost: "
+msgstr "訂房成本 :"
+
+#: includes/class-ph-booking-google-calendar.php:1643
+msgid "Booking cost: "
+msgstr "預訂成本："
+
+#: includes/admin/class-ph-booking-product-manager.php:60
+msgid "Booking Costs"
+msgstr "訂購費用"
+
+#: includes/admin/views/html-ph-booking-admin-order-calender.php:31
+msgid "Booking Data"
+msgstr "訂購資料"
+
+#: includes/frondend/class-ph-booking-product-details.php:6
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:610
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:754
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:858
+msgid "Booking Details"
+msgstr "預訂詳情"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:256
+msgid "Booking has been cancelled. The order details are shown below"
+msgstr "预订已被取消。订单详情如下所示"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:225
+msgid "Booking Notes Label"
+msgstr "訂購須知標籤"
+
+#: includes/admin/class-ph-booking-product-manager.php:66
+msgid "Booking Participants"
+msgstr "訂購人員"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:57
+msgid "Booking Period"
+msgstr "訂購期"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:391
+msgid "Booking Personalization for Admin Calendar"
+msgstr "管理日历的预订个性化"
+
+#: includes/admin/class-ph-booking-product-manager.php:72
+msgid "Booking Resources"
+msgstr "訂購資源"
+
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:987
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:10
+msgid "Booking Search"
+msgstr "訂閱搜尋"
+
+#. Widget name will appear in UI
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:14
+msgid "Booking Search Availability"
+msgstr "訂閱搜尋可用性"
+
+#: includes/class-ph-booking-checkout-decorator.php:152
+#: includes/class-ph-booking-checkout-decorator.php:176
+#: includes/class-ph-booking-checkout-decorator.php:592
+#: includes/class-ph-booking-checkout-decorator.php:844
+#: includes/class-ph-booking-checkout-decorator.php:898
+#: includes/class-ph-booking-checkout-decorator.php:913
+#: includes/class-ph-booking-google-calendar.php:420
+#: includes/class-ph-booking-google-calendar.php:948
+#: includes/admin/class-ph-booking-export-bookings.php:577
+#: includes/admin/class-ph-booking-admin-reports-list.php:117
+#: includes/admin/class-ph-booking-admin-reports-list.php:211
+#: includes/admin/class-ph-booking-admin-reports-list.php:262
+#: includes/admin/class-ph-booking-admin-reports-list.php:272
+#: includes/admin/class-ph-booking-admin-reports-list.php:311
+#: includes/admin/class-ph-booking-admin-reports-list.php:396
+#: includes/admin/class-ph-booking-admin-reports-list.php:424
+#: includes/admin/class-ph-booking-admin-order.php:679
+#: includes/admin/class-ph-booking-order-manager.php:332
+#: includes/admin/class-ph-booking-order-manager.php:389
+msgid "Booking Status"
+msgstr "訂購狀態"
+
+#: includes/func-ph-booking-general-functions.php:10
+msgctxt "Booking status"
+msgid "Cancelled"
+msgstr "取消"
+
+#: includes/func-ph-booking-general-functions.php:9
+msgctxt "Booking status"
+msgid "Paid"
+msgstr "已付款"
+
+#: includes/func-ph-booking-general-functions.php:13
+msgctxt "Booking status"
+msgid "Partially Paid"
+msgstr "部分付款"
+
+#: includes/func-ph-booking-general-functions.php:12
+msgctxt "Booking status"
+msgid "Requires Confirmation"
+msgstr "待確認"
+
+#: includes/func-ph-booking-general-functions.php:11
+msgctxt "Booking status"
+msgid "Un-paid"
+msgstr "未付款"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:146
+#: includes/admin/views/html-ph-booking-settings-outlook.php:182
+msgid "Booking Status Filter"
+msgstr "訂閱狀態過程"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:361
+msgid "Booking Summary text includes End Date and Time"
+msgstr "訂購摘要文本包括結束日期和時間"
+
+#: includes/admin/class-ph-booking-product-manager.php:48
+#: includes/admin/class-ph-booking-admin-pages.php:17
+msgid "Bookings"
+msgstr "訂購"
+
+#. Name of the plugin
+msgid "Bookings and Appointments For WooCommerce Premium"
+msgstr "Bookings and Appointments For WooCommerce Premium"
+
+#. Description of the plugin
+msgid "Bookings and Appointments solution for all types of businesses."
+msgstr "Bookings and Appointments solution for all types of businesses."
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:57
+msgid "Bookings are open for the next"
+msgstr "訂購開放給下一個"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:47
+msgid "Bookings are open from"
+msgstr "訂購從"
+
+#: includes/emails/class-ph-booking-payment-for-customer.php:45
+msgid "Bookings confirmation email with Payment Link for manually created bookings."
+msgstr ""
+"帶有手動建立預訂的付款連結的預訂確認電子郵件。\n"
+""
+
+#: includes/admin/class-ph-booking-export-bookings.php:112
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:61
+msgid "Bookings end between"
+msgstr "訂購結束於"
+
+#: includes/emails/class-ph-wc-email-booking-followup.php:38
+msgid "Bookings follow-up emails are sent once the booking has been completed."
+msgstr "預訂完成後，將發送預訂後續電子郵件。"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:36
+msgid "Bookings open no later than"
+msgstr "訂購不遲於"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:29
+msgid "Bookings open no sooner than"
+msgstr "訂購不得早於"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:201
+msgid "Bookings Per Night"
+msgstr "每晚訂購"
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:122
+#: includes/emails/class-ph-wc-email-booking-reminder.php:133
+msgid "Bookings Reminder"
+msgstr "預訂提醒"
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:39
+msgid "Bookings reminder emails are sent prior to the booking start date & time."
+msgstr "預訂電子郵件是在預訂開始日期和時間之前發送的。"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:35
+msgid "Bookings Reminders"
+msgstr "預訂提醒"
+
+#: includes/admin/class-ph-booking-export-bookings.php:106
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:44
+msgid "Bookings start between"
+msgstr "訂購開始於"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:85
+msgid "Bookings will be closed before the specified time. E.g. - Set this option to 10 mins if you don't want any booking in the last 10 mins."
+msgstr "預訂將在指定時間之前關閉。例如。 - 如果您不希望在最後10分鐘內進行任何訂購，請將此選項設置為10分鐘。"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:284
+msgid "Border"
+msgstr "邊框"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:308
+msgid "Border Color"
+msgstr "邊框顏色"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:290
+msgid "Border Colour"
+msgstr "邊框顏色"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:329
+msgid "Border Radius"
+msgstr "邊框半徑"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:296
+msgid "Border Radius(px)"
+msgstr "邊框半徑( px)"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:293
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:311
+msgid "Border Style"
+msgstr "邊框樣式"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:305
+msgid "Border Width"
+msgstr "邊框寬度"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:287
+msgid "Border Width(px)"
+msgstr "邊框 Width( px)"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:239
+msgid "Buffer Time"
+msgstr "緩衝時間"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:243
+msgid "Button Colour"
+msgstr "按鍵顏色"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:81
+msgid "Button Title:"
+msgstr "按鍵標題 :"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:231
+msgid "Buttons"
+msgstr "按鈕"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:430
+msgid "By default Calendar Title have Month followed by Year. Enable this option to display Year first."
+msgstr "預設情況下，日曆標題為“月”，後面跟著“年”。啟用此選項可先顯示年份。"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:375
+msgid "By default details in Cart, Order Details and Emails will contain “Booked To”.<br>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Disabling this option will omit the Booking end details and “Booked To” will not be displayed."
+msgstr "默認情況下，購物車、訂單詳細信息和電子郵件中的詳細信息將包含“預訂對象”。<br>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;禁用此選項將忽略預訂結束詳細信息，並且不會顯示“預訂到”。"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:365
+msgid "By default the summary of Booking details is displayed as “Booking: December 18, 2019 9:00 AM to December 19, 2019 1:00 PM”.<br>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Disabling this option will omit the Booking end details and display as “Booking: December 18, 2019 9:00 AM”."
+msgstr "默認情況下，訂購詳細摘要顯示為``Booking: December 18, 2019 9:00 AM to December 19, 2019 1:00 PM”.<br>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;禁用此選項將忽略訂講結束的詳細信息，並顯示為“Booking: December 18, 2019 9:00 AM”。"
+
+#: includes/admin/class-ph-booking-admin-pages.php:68
+#: includes/admin/views/html-calendar-month.php:2
+#: includes/admin/views/html-calendar-day.php:2
+msgid "Calendar"
+msgstr "日曆"
+
+#: includes/admin/class-ph-booking-admin-pages.php:133
+msgid "Calendar Design"
+msgstr "月曆設計"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:565
+msgid "Calendar Design 1"
+msgstr "月曆設計1"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:713
+msgid "Calendar Design 2"
+msgstr "月曆設計2"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:836
+msgid "Calendar Design 3"
+msgstr "日历设计 3"
+
+#: includes/admin/class-ph-booking-admin-pages.php:134
+msgid "Calendar Display"
+msgstr "月曆顯示"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:308
+msgid "Calendar Display Settings"
+msgstr "月曆顯示設定"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:861
+msgid "Calendar on click"
+msgstr "單擊日曆"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:60
+msgid "Calendar Range with Blocks of"
+msgstr "日历范围"
+
+#: includes/admin/class-ph-booking-order-manager.php:518
+msgid "Cancel"
+msgstr "取消"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:93
+msgid "Cancel Booking(s)"
+msgstr "取消訂購"
+
+#: class-ph-bookings-translation-support.php:17
+msgid "canceled"
+msgstr "已取消"
+
+#: includes/class-ph-booking-checkout-decorator.php:95
+#: includes/admin/class-ph-bookings-calendar-admin.php:350
+#: includes/admin/class-ph-booking-admin-order.php:512
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:50
+#: includes/admin/views/html-ph-booking-settings-outlook.php:54
+msgid "Cancelled"
+msgstr "已取消"
+
+#: class-ph-bookings-translation-support.php:25
+#: includes/admin/class-ph-booking-order-manager.php:389
+msgid "cancelled"
+msgstr "已取消"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:920
+msgid "Change colors by clicking in the box"
+msgstr "通過單擊框更改顏色"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:616
+msgid "Change the background colors by clicking in the box"
+msgstr "通過點擊框來更改背景顏色"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:760
+msgid "Change the colors by clicking in the box"
+msgstr "通過點擊框中更改顏色"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:65
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:93
+msgid "Charge Per Block"
+msgstr "每分段費用"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:64
+msgid "Charge Per Participant"
+msgstr "每位參加者收費"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:17
+msgid "Check this option to eanable assets."
+msgstr "剔選此選項以啟用資產。"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:267
+msgid "Check-in"
+msgstr "開始日期"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:275
+msgid "Check-out"
+msgstr "完結日期"
+
+#: includes/admin/views/html-calendar-month.php:81
+#: includes/admin/views/html-calendar-day.php:28
+msgid "Choose Product"
+msgstr "選擇產品"
+
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:32
+msgid "Choose product"
+msgstr "選擇產品"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:138
+msgid "Choose the Google calendar to which bookings should be synchronized."
+msgstr "選擇 Google 行事曆中要同步的訂閱 ."
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:171
+msgid "Choose the Outlook calendar to which bookings should be synchronized."
+msgstr "選擇要同步訂閱的 Outlook 行事曆 ."
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:279
+#: includes/emails/class-ph-booking-payment-for-customer.php:266
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:331
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:301
+#: includes/emails/class-ph-wc-email-booking-reminder.php:280
+#: includes/emails/class-ph-wc-email-booking-followup.php:278
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:318
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:236
+msgid "Choose which format of email to send."
+msgstr "選擇要發送的電子郵件格式。"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:251
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:268
+msgid "Class"
+msgstr "類別"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:234
+msgid "Class Name"
+msgstr "類名"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:362
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:885
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:961
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1042
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:265
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:271
+msgid "Clear"
+msgstr "清除"
+
+#: includes/class-ph-booking-google-calendar.php:1261
+msgid "Clear the authentication details"
+msgstr "清除身份驗證詳細信息"
+
+#: includes/class-ph-booking-google-calendar.php:1227
+msgid "Cleared all google API authentication details"
+msgstr "清除了所有Google API身份驗證詳細信息"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:83
+#: includes/admin/views/html-ph-booking-settings-outlook.php:83
+msgid "Client ID"
+msgstr "客戶ID"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:93
+#: includes/admin/views/html-ph-booking-settings-outlook.php:93
+msgid "Client Secret"
+msgstr "客戶密碼"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:94
+msgid "Confirm Booking(s)"
+msgstr "確認訂購"
+
+#: class-ph-bookings-translation-support.php:23
+msgid "Confirmed"
+msgstr "已確認"
+
+#: class-ph-bookings-translation-support.php:24
+msgid "confirmed"
+msgstr "已確認"
+
+#: includes/class-ph-booking-google-calendar.php:1254
+msgid "Connect"
+msgstr "连接"
+
+#: includes/class-ph-booking-google-calendar.php:1242
+msgid "Connect Google Calendar"
+msgstr "连接 Google 日历"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:117
+msgid "Connection Status"
+msgstr "連接狀態"
+
+#: includes/class-ph-booking-google-calendar.php:1270
+msgid "Connection Successfull"
+msgstr "连接成功"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:42
+msgid "Consider each participant as separate booking"
+msgstr "將每個參加者視為單獨的訂購"
+
+#: includes/class-ph-booking-cart-decorator.php:419
+msgid "Continue booking"
+msgstr "繼續訂購"
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:27
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:85
+msgid "Cost per block"
+msgstr "每分段費用"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:136
+msgid "Cost per participant"
+msgstr "每位參加者費用"
+
+#: includes/admin/views/html-ph-booking-admin-order.php:68
+msgid "Create a new  order."
+msgstr "建立一個新 訂單。"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:94
+msgid "Create a new asset"
+msgstr "新增一項新資產"
+
+#: includes/admin/views/html-ph-booking-admin-order.php:62
+msgid "Create Order"
+msgstr "建立訂單"
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:295
+#: includes/emails/class-ph-wc-email-booking-followup.php:292
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:116
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:231
+msgid "Cron Interval (Minutes)"
+msgstr "cron間隔（分鐘）"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:5
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:27
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:7
+msgid "Custom date range"
+msgstr "自定義日期範圍"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:24
+msgid "Custom Home Page"
+msgstr "自訂主頁"
+
+#: includes/admin/class-ph-booking-export-bookings.php:137
+#: includes/admin/class-ph-booking-export-bookings.php:632
+msgid "Customer Email"
+msgstr "客戶郵箱"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:400
+msgid "Customer Name"
+msgstr "顾客姓名"
+
+#: includes/class-ph-booking-google-calendar.php:1593
+msgid "Customer Name: "
+msgstr "顧客姓名："
+
+#: includes/admin/class-ph-booking-export-bookings.php:140
+#: includes/admin/class-ph-booking-export-bookings.php:635
+msgid "Customer Phone"
+msgstr "客戶電話"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:68
+msgid "Customers will be able to book till 30 days from today if this option is set to 30 days."
+msgstr "如果此選項設置為30天，則顧客將可以從今天起預訂30天。"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:87
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:201
+msgid "Customise"
+msgstr "定制"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:188
+msgid "Customize Calendar Event Details"
+msgstr "自訂日曆活動詳情"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:170
+msgid "Customize Calendar Event Title"
+msgstr "自訂日曆活動標題"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:233
+msgid "Customize Event Details"
+msgstr "自訂事件細節"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:203
+msgid "Customize Event Title"
+msgstr "自訂事件標題"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:339
+msgid "Customize Filter Labels"
+msgstr "自訂過程標籤"
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:84
+msgid "Customize iCalendar Event Details"
+msgstr "自訂 iCalendar 事件細節"
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:66
+msgid "Customize iCalendar Event Title"
+msgstr "自訂 iCalendar 事件标题"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:142
+msgid "Customize Labels"
+msgstr "自訂標籤"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:225
+msgid "Customize Style"
+msgstr "自訂樣式"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:259
+msgid "Daily Booking Times:"
+msgstr "每日訂購時間："
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:949
+msgid "Date Box on Click"
+msgstr "單擊日期框"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:58
+msgid "Date Format"
+msgstr "日期格式"
+
+#: includes/admin/views/html-calendar-month.php:126
+msgctxt "date format"
+msgid "l"
+msgstr "l"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:9
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:31
+msgid "Date range and time"
+msgstr "日期範圍和時間"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:640
+msgid "Dates"
+msgstr "日期"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:645
+msgid "Dates Text"
+msgstr "日期文字"
+
+#: includes/admin/views/html-calendar-month.php:15
+#: includes/admin/views/html-calendar-day.php:14
+msgid "Day"
+msgstr "天"
+
+#: ph-bookings-appointments-woocommerce-premium.php:787
+msgid "day"
+msgstr "天"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:70
+#: includes/admin/views/html-ph-booking-product-admin-options.php:185
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:62
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:81
+msgid "Day(s)"
+msgstr "天"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:131
+msgid "Deactivate & Re-Authorize"
+msgstr "取消重新授權( R)"
+
+#: ph-api-manager/ph_api_manager_bookings.php:499
+msgid "Deactivate and reactivate the Bookings plugin"
+msgstr "關閉並重新啟動訂閱外掛程式"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:201
+msgid "Debug log"
+msgstr "除錯記錄"
+
+#: ph-bookings-appointments-woocommerce-premium.php:755
+#: includes/class-ph-booking-checkout-decorator.php:868
+#: includes/addons/ph_bookings_month_picker.php:109
+msgid "Dec"
+msgstr "十二月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:741
+#: includes/class-ph-booking-checkout-decorator.php:857
+#: includes/addons/ph_bookings_month_picker.php:95
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:70
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:137
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:76
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:128
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:46
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:85
+msgid "December"
+msgstr "十二月"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:134
+msgid "Define availability for each asset."
+msgstr "定義每個資產的可用性。"
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:45
+msgid "Define global availability rules here. These will reflect in all the bookable products and can be overridden at a product level."
+msgstr "在此處定義全局可用性規則。這些將反映在所有可供訂購的產品中，並且可以在產品級別被覆蓋。"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:92
+msgid "Delete Booking(s)"
+msgstr "刪除訂購"
+
+#: ph-api-manager/ph_api_manager_bookings.php:496
+msgid "Delete the previous activation of the license key (If any)"
+msgstr "刪除先前啟動的授權金鑰( 如果有)"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:478
+msgid "Direct Booking"
+msgstr "直接訂書"
+
+#: includes/class-ph-booking-google-calendar.php:1261
+msgid "Disconnect"
+msgstr "断开"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:183
+#: includes/admin/class-ph-booking-admin-reports-list.php:345
+#: includes/admin/class-ph-booking-admin-reports-list.php:409
+#: includes/admin/class-ph-booking-admin-reports-list.php:437
+#: includes/admin/class-ph-booking-admin-reports-list.php:459
+msgid "Dismiss this notice"
+msgstr "取消此通知"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:237
+msgid "Dismiss this notice."
+msgstr "取消此通知。"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:74
+msgid "Display Book Now button"
+msgstr "顯示書 現在按鈕"
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:38
+msgid "Display Cost"
+msgstr "顯示費用"
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:41
+msgid "Display cost will appear as the product price in the front end. This price is not considered for the dynamic booking cost calculations. If not set, the Base Cost  + the block cost will be the price displayed."
+msgstr "顯示費用將作為產品價格顯示在前台。動態訂購費用計算中不考慮此價格。如果未設置，則基本費用 + 分段費用將成為顯示的價格。"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:441
+msgid "Display Search Availability Widget"
+msgstr "顯示搜尋可用性元件"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:17
+msgid "Display Search Widget Visibility"
+msgstr "顯示搜尋元件可见度"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:4
+msgid "Display Settings"
+msgstr "顯示設定值"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:293
+msgid "Display Slot End Time"
+msgstr "顯示時段(Slot)結束時間"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:237
+msgid "Display Text"
+msgstr "顯示文字"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:240
+msgid "Display Text Colour"
+msgstr "顯示文字顏色"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:78
+msgid "Display View Product button"
+msgstr "顯示檢視產品按鍵"
+
+#: ph-bookings-appointments-woocommerce-premium.php:443
+msgid "Documentation"
+msgstr "說明文件"
+
+#: includes/frondend/class-ph-icalendar-extension.php:61
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:4
+msgid "Download .ics File"
+msgstr "下載... ics 文件"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:101
+#: includes/admin/class-ph-booking-admin-reports-list.php:125
+#: includes/frondend/class-ph-icalendar-extension.php:284
+msgid "Download iCal File"
+msgstr "下載 iCal 檔案"
+
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:298
+msgid "Email Heading"
+msgstr "電子郵件標題"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:260
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:263
+#: includes/emails/class-ph-booking-payment-for-customer.php:246
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:311
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:281
+#: includes/emails/class-ph-wc-email-booking-reminder.php:253
+#: includes/emails/class-ph-wc-email-booking-followup.php:251
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:217
+msgid "Email heading"
+msgstr "電子郵件標題"
+
+#: includes/class-ph-booking-google-calendar.php:1637
+msgid "Email Id: "
+msgstr "電子郵件ID： "
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:277
+#: includes/emails/class-ph-booking-payment-for-customer.php:264
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:329
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:299
+#: includes/emails/class-ph-wc-email-booking-reminder.php:278
+#: includes/emails/class-ph-wc-email-booking-followup.php:276
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:316
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:234
+msgid "Email type"
+msgstr "電子郵件類型"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:338
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:78
+#: includes/admin/views/html-ph-booking-settings-outlook.php:287
+msgid "Enable"
+msgstr "啟用"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:14
+msgid "Enable Assets"
+msgstr "啟用資產"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:216
+msgid "Enable Booking Notes"
+msgstr "啟用訂購須知"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:71
+msgid "Enable Booking Reminder Emails"
+msgstr "啟用訂購提示電郵"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:283
+msgid "Enable Debug Mode"
+msgstr "開啟除錯模式"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:185
+msgid "Enable Follow up Emails"
+msgstr "啟用跟進電郵"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:74
+msgid "Enable Google Calendar Sync"
+msgstr "啟用Google日曆同步"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:20
+msgid "Enable Participants"
+msgstr "啟用參加者"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:12
+msgid "Enable Resources"
+msgstr "啟用資源"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:240
+#: includes/emails/class-ph-booking-payment-for-customer.php:233
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:298
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:268
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:278
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:197
+msgid "Enable this email notification"
+msgstr "啟用此電子郵件通知"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:219
+msgid "Enable this option if you need a text area to appear along with the calendar for clients to enter additional information."
+msgstr "如果您需要文本區域和日曆一起顯示，以便客戶端輸入額外資訊，請啟用此選項。"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:23
+msgid "Enable this option if you want to allow the user to book this product with number of people or materials. For Eg : Adults/Children for hotel room, Chairs for party equipment etc."
+msgstr "如果您允許用戶訂購多項人數或物品選項的產品，請啟用此選項。例如：成人/兒童用作酒店房間，椅子用作派對設備等。"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:47
+msgid "Enable this option if you wish to make resource as a mandatory field for bookings."
+msgstr "如果您希望將資源作為訂購的必填欄位，請啟用此選項。"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:15
+msgid "Enable this option if you wish to provide additional resources for the booking. For Eg: Breakfast in the case of hotels."
+msgstr "如果您希望為訂購提供其他資源，請啟用此選項。例如：酒店早餐。"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:205
+msgid "Enable this option only to troubleshoot issues in authentication or calendar syncing"
+msgstr "啟用此選項僅用於解決身份驗證或日曆同步中的問題"
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:75
+msgid "Enable this to ensure product-specific availability settings take precedence. Global availability rules will only apply if no product-specific rule exists for a given time slot."
+msgstr "啟用此功能, 以确保产品的可用性設定优先 。 全球可提供性規則只限於特定時段不存在特定產品規則."
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:238
+#: includes/emails/class-ph-booking-payment-for-customer.php:231
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:296
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:266
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:276
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:195
+msgid "Enable/Disable"
+msgstr "啟用/禁用"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:289
+msgid "Enabling the option to exclude cost calculation for unavailable slots between consecutive days."
+msgstr "启用该选项以排除连续几天之间不可用时段的成本计算。"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:354
+msgid "Enabling this option will allow clients to see the calendar in their own time zone."
+msgstr "啟用此選項將允許客戶端在自己的時區中查看日曆。"
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:43
+msgid "Enabling this option will allow you to export the booking events to your iCalendar via .ics file"
+msgstr "啟動此選項可以讓您透過 .ics 檔案將訂閱事件匯出到您的 iCalendar"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:77
+msgid "Enabling this option will allow you to sync booking events to your MS Outlook calendar"
+msgstr "啟用此選項可以讓您同步訂閱事件與您的MS Outlook 行事曆"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:108
+msgid "Enabling this option will allow your customers to add the booking as an event to their google calendar"
+msgstr "啟用此選項將允許您的客戶將訂購作為活動添加到他們的Google日曆中"
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:52
+msgid "Enabling this option will allow your customers to export the booking events to your iCalendar via .ics file from their My Accounts page"
+msgstr "開啟此選項可以讓您的客戶將訂閱事件匯出到您的 iCalendar, 從他們的 My 帳號頁面中匯出 .ics 文件"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:45
+msgid "Enabling this option will create a separate booking order for each participant"
+msgstr "啟用此選項將為每位參加者創建一個單獨的訂單"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:135
+msgid "Enabling this option will disable all dates in the calendar. Using this option with availability rules, you can enable desired dates for bookings."
+msgstr "啟用此選項將禁用日曆中的所有日期。將此選項與規則可用性結合使用，可以啟用期望的訂購日期。"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:140
+msgid "Enabling this option will select the Minimum Booking Slots automatically as soon as the customer selects the first slot."
+msgstr "啟用此選項將在客戶選擇第一個空位後自動選擇“最小訂購空位”。"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:243
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:853
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:873
+msgid "End Date"
+msgstr "結束日期"
+
+#: includes/frondend/html-ph-booking-monthpicker.php:339
+msgid "End Month"
+msgstr "月末"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:259
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:178
+msgid "End Time"
+msgstr "時間結束"
+
+#: includes/emails/class-ph-wc-email-booking-followup.php:287
+msgid "Enter how many minutes after the booking the follow up email should be sent."
+msgstr "輸入預訂後的幾分鐘，應發送後續電子郵件。"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:108
+msgid "Enter how many minutes in advance the reminder email should be sent"
+msgstr "輸入提前多少分鐘發送提示電子郵件"
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:289
+msgid "Enter how many minutes in advance the reminder email should be sent."
+msgstr "提前發送幾分鐘的提醒電子郵件。"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:246
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:203
+#, php-format
+msgid "Enter recipients (comma separated) for this email. Defaults to %s."
+msgstr "件者（以逗號分隔）。預設為 %s。"
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:297
+#: includes/emails/class-ph-wc-email-booking-followup.php:294
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:120
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:235
+msgid "Enter the interval, in minutes, at which the cron job should run."
+msgstr "在幾分鐘內輸入該間隔，該間隔應在該間隔內運行。"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:84
+msgid "Enter with your Client id. You can find this under Credentials."
+msgstr "輸入您的客戶ID。您可以在“憑證”下找到它。"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:94
+msgid "Enter with your Client Secret. You can find this under Credentials."
+msgstr "輸入您的客戶密碼。您可以在“憑證”下找到它。"
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:48
+msgid "Event Export for Customers"
+msgstr "客戶事件匯出"
+
+#: includes/addons/class-ph-bookings-send-email-notifications.php:76
+#: includes/addons/class-ph-bookings-send-follow-up-emails.php:113
+msgid "Every %d minutes"
+msgstr "每 %d 分鐘"
+
+#: includes/class-ph-booking-google-calendar.php:266
+msgid "Every %d seconds"
+msgstr "每 %d 秒"
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:11
+msgid "Exact Match (days)"
+msgstr "完全配對（天）"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:436
+msgid "Experimental Feature: Search Availability Widget"
+msgstr "實驗特性: 搜尋可用性 元件"
+
+#: includes/admin/class-ph-booking-export-bookings.php:160
+msgid "Export and Download"
+msgstr "導出和下載"
+
+#: includes/admin/class-ph-booking-export-bookings.php:38
+#: includes/admin/class-ph-booking-export-bookings.php:86
+msgid "Export Bookings"
+msgstr ""
+"\n"
+"出口预订"
+
+#: includes/admin/class-ph-booking-export-bookings.php:89
+msgid "Export Bookings To CSV :"
+msgstr "出口預訂到CSV："
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:57
+msgid "Export Event Button Text"
+msgstr "匯出事件按鈕文字"
+
+#: ph-bookings-appointments-woocommerce-premium.php:745
+#: includes/class-ph-booking-checkout-decorator.php:859
+#: includes/addons/ph_bookings_month_picker.php:99
+msgid "Feb"
+msgstr "二月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:731
+#: includes/class-ph-booking-checkout-decorator.php:847
+#: includes/addons/ph_bookings_month_picker.php:85
+msgid "February"
+msgstr "二月"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:60
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:127
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:66
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:118
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:36
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:75
+msgid "Febuary"
+msgstr "二月"
+
+#: includes/admin/class-ph-booking-export-bookings.php:122
+msgid "Fields To Include"
+msgstr "要包含的字段"
+
+#: includes/admin/views/html-calendar-month.php:105
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:79
+#: includes/admin/views/html-calendar-day.php:52
+msgid "Filter"
+msgstr "篩選"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:186
+msgid "Filter by Asset Name"
+msgstr "按資產名稱过滤"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:105
+msgid "Filter by Day (For Checkin)"
+msgstr "以 Day 过滤( 要檢查)"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:138
+msgid "Filter by Day (For Checkout)"
+msgstr "逐日过滤( 要取出)"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:99
+msgid "Filter by Fixed Date"
+msgstr "按固定日期过滤"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:197
+msgid "Filter by Participants"
+msgstr "由參與者过滤"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:163
+msgid "Filter by Time"
+msgstr "按時間筛选"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:347
+msgid "Filter Display Text"
+msgstr "過度顯示文字"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:344
+msgid "Filters"
+msgstr "过滤器"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:50
+msgid "First Available Date"
+msgstr "第一個可提供日期"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:262
+msgid "First booking starts at :"
+msgstr "首次訂購開始於："
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:59
+msgid "Fixed Blocks of"
+msgstr "固定分段"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:477
+msgid "Flexible Booking"
+msgstr "軟體訂書"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:222
+msgid "Follow up delay time (Minutes)"
+msgstr "跟进延迟时间（分钟）"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:180
+msgid "Follow up Email"
+msgstr "跟進電郵"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:214
+msgid "Follow up Email Content"
+msgstr "跟進電郵內容"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:206
+msgid "Follow up Email Subject"
+msgstr "跟進電郵主題"
+
+#: includes/emails/class-ph-wc-email-booking-followup.php:285
+msgid "Followup Time"
+msgstr "後續時間"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:924
+msgid "Font Color"
+msgstr "字體顏色"
+
+#: includes/admin/class-ph-booking-admin-pages.php:125
+#, php-format
+msgid "For assistance, refer to the %s."
+msgstr "援助,参见 %s."
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:181
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:77
+#: includes/admin/views/html-ph-booking-settings-outlook.php:223
+msgid "For eg; if you want to mention customer’s name in the title then choose [CUSTOMER_NAME] tag."
+msgstr "請選擇 [CUSTOMER_NAME] 標籤 ."
+
+#: includes/class-ph-booking-google-calendar.php:1170
+msgid "For more info please visit here: "
+msgstr "更多資訊請到訪此處:"
+
+#: includes/addons/ph_bookings_start_of_the_week.php:32
+#: includes/addons/ph_bookings_start_of_the_week.php:41
+#: includes/addons/ph_bookings_start_of_the_week.php:49
+#: includes/addons/ph_bookings_start_of_the_week.php:57
+#: includes/addons/ph_bookings_start_of_the_week.php:65
+#: includes/addons/ph_bookings_start_of_the_week.php:73
+#: includes/addons/ph_bookings_start_of_the_week.php:88
+#: includes/addons/ph_bookings_start_of_the_week.php:95
+#: includes/frondend/html-ph-booking-datepicker.php:574
+#: includes/frondend/class-ph-booking-calendar-strategy.php:862
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:595
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:741
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:903
+msgid "Fr"
+msgstr "週五"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:67
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:32
+msgid "Frequently asked questions about Google Calendar Sync"
+msgstr "關於Google日曆同步的常見問題"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:15
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:79
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:146
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:40
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:57
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:110
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:37
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:85
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:137
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:19
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:55
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:94
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:115
+msgid "Friday"
+msgstr "週五"
+
+#: includes/admin/class-ph-booking-export-bookings.php:580
+#: includes/admin/class-ph-booking-admin-reports-list.php:118
+#: includes/addons/booking-search-widget/booking-search-widget.php:363
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:889
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:969
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1046
+#: includes/admin/views/html-ph-booking-settings-availability.php:91
+#: includes/admin/views/html-ph-booking-settings-assets.php:156
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:154
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:47
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:64
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:82
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:133
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:355
+msgid "From"
+msgstr "由"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:352
+msgid "From Date"
+msgstr "從日期"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:368
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:371
+msgid "From Time"
+msgstr "從時間"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:108
+msgid "Fully Booked Indicator"
+msgstr "完全訂閱的指示器"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:115
+msgid "Fully Booked Message"
+msgstr "已完全訂閱的信件"
+
+#: includes/admin/class-ph-booking-admin-pages.php:136
+msgid "Global Assets"
+msgstr "全局資產"
+
+#: includes/admin/class-ph-booking-admin-pages.php:135
+#: includes/admin/views/html-ph-booking-settings-availability.php:44
+msgid "Global Availability"
+msgstr "全局可用性"
+
+#: ph-api-manager/ph_api_manager_bookings.php:493
+msgid "Go to <a href='https://www.pluginhive.com/my-account/api-keys/?utm_source=bookings&utm_medium=plugin_settings' target='_BLANK'>PluginHive > My Account > API Keys</a> Section"
+msgstr "跳到<a href='https://www.pluginhive.com/my-count/api-keys/? utm_source=bookings&utm_medicle=plugin_sets> 目標='_BLANK'>PluginHive>我的帳號>API金鑰</a> 款次"
+
+#: includes/class-ph-booking-google-calendar.php:1222
+msgid "Google API authentication Failed "
+msgstr "Google API身份驗證失敗 "
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:117
+msgid "Google Calendar for Bookings"
+msgstr "Google 訂閱行事曆"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:58
+msgid "Google Calendar Settings"
+msgstr "Google日曆設定"
+
+#: includes/admin/class-ph-booking-admin-pages.php:137
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:61
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:26
+msgid "Google Calendar Sync"
+msgstr "同步Google日曆"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:104
+msgid "Google calendar sync for customers"
+msgstr "客戶的Google日曆同步"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:217
+msgid "Google calendar Two Way Sync"
+msgstr "Google日曆雙向同步"
+
+#: includes/admin/views/html-ph-booking-admin-order.php:19
+msgid "Guest"
+msgstr "客人"
+
+#: includes/emails/class-ph-email-content.php:225
+#: includes/templates/emails/ph-customer-booking-followup.php:38
+#: includes/templates/emails/ph-booking-payment-for-customer-plain.php:36
+#: includes/templates/emails/ph-customer-booking-requires-confirmation.php:37
+#: includes/templates/emails/ph-customer-booking-requires-confirmation-plain.php:36
+#: includes/templates/emails/ph-customer-booking-confirmed-plain.php:35
+#: includes/templates/emails/ph-customer-booking-reminder.php:38
+#: includes/templates/emails/ph-customer-booking-followup-plain.php:35
+#: includes/templates/emails/ph-customer-booking-cancelled.php:36
+#: includes/templates/emails/ph-customer-booking-confirmed.php:42
+#: includes/templates/emails/ph-customer-booking-cancelled-plain.php:36
+#: includes/templates/emails/ph-customer-booking-reminder-plain.php:36
+msgid "Hi"
+msgstr "您好"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:39
+msgid "Hide Asset Details from Cart/Checkout, Order Details and Emails"
+msgstr "从购物车/结账、订单详情和电子邮件中隐藏资产详情"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:36
+msgid "Hide Assets"
+msgstr "隐藏资产"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:46
+msgid "Hide Clear Search button"
+msgstr "隱藏清除搜尋按鈕"
+
+#. %1$s: Order number, %2$s: Customer full name.
+#: includes/templates/emails/ph-booking-payment-for-customer-html.php:41
+msgid "Hii"
+msgstr ""
+"日井\n"
+""
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:23
+msgid "Home Page"
+msgstr "主頁"
+
+#: ph-bookings-appointments-woocommerce-premium.php:786
+msgid "hour"
+msgstr "小時"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:69
+#: includes/admin/views/html-ph-booking-product-admin-options.php:184
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:61
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:80
+msgid "Hour(s)"
+msgstr "小時"
+
+#: ph-api-manager/ph_api_manager_bookings.php:487
+msgid "How to Activate the plugin license?"
+msgstr "如何啟動外掛程式授權 ?"
+
+#: includes/class-ph-booking-google-calendar.php:1272
+#: includes/admin/class-ph-booking-admin-reports-list.php:450
+msgid "How to fix the error"
+msgstr "如何修复错误"
+
+#. Author URI of the plugin
+msgid "https://www.pluginhive.com/"
+msgstr "https://www.pluginhive.com/"
+
+#. URI of the plugin
+msgid "https://www.pluginhive.com/product/woocommerce-booking-and-appointments/"
+msgstr "https://www"
+
+#: includes/templates/emails/ph-customer-booking-reminder.php:39
+#, php-format
+msgid "I request you to check the bookings details for your appointment with %s."
+msgstr "我请求您查看与 %s 约会的预订详细信息。"
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:39
+msgid "iCalendar Event Export"
+msgstr "iCalendar 事件匯出"
+
+#: includes/admin/class-ph-booking-admin-pages.php:139
+msgid "iCalendar Export"
+msgstr "iCalendar 匯出"
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:23
+msgid "iCalendar Settings"
+msgstr "iCalendar 設定"
+
+#: ph-api-manager/ph_api_manager_bookings.php:489
+msgid "If you are still facing difficulties, please follow the below steps:"
+msgstr "若您仍處於困境, 請遵循以下措施:"
+
+#: ph-api-manager/ph_api_manager_bookings.php:505
+msgid "If you still facing difficulties, kindly contact <a href='https://www.pluginhive.com/support/?utm_source=bookings&utm_medium=plugin_settings' target='_BLANK'>PluginHive Support</a> with the WordPress Administrator Access, along with the PluginHive Purchase Order Details. We will activate it on your site promptly."
+msgstr "如果您仍然面临困難, 請與 WordPress 管理員 Access Access 聯繫<a href='https://www. pluginhive.com/support/?utm_source=bookings&utm_medical=plugin_sets' target='_BLANK'> PluginHive Support</a> , 以及插件Hive 訂购單的細節。 我們會立刻啟動你的網站."
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:371
+msgid "Include End Date and Time in Cart, Order Details and Emails"
+msgstr "在購物車、訂單詳細信息和電子郵件中包含結束日期和時間"
+
+#: includes/admin/class-ph-booking-admin-pages.php:142
+#: includes/admin/views/html-ph-booking-settings-booking-integrations.php:7
+msgid "Integrations"
+msgstr "整合"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:231
+msgid "interval in seconds"
+msgstr "時間間隔（以秒為單位）"
+
+#: includes/admin/class-ph-booking-admin-order.php:123
+msgid "Invalid Order ID."
+msgstr "無效訂單ID。"
+
+#: ph-bookings-appointments-woocommerce-premium.php:762
+msgid "is not available."
+msgstr "未能提供。"
+
+#: ph-bookings-appointments-woocommerce-premium.php:744
+#: includes/class-ph-booking-checkout-decorator.php:858
+#: includes/addons/ph_bookings_month_picker.php:98
+msgid "Jan"
+msgstr "一月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:730
+#: includes/class-ph-booking-checkout-decorator.php:846
+#: includes/addons/ph_bookings_month_picker.php:84
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:59
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:126
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:65
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:117
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:35
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:74
+msgid "January"
+msgstr "一月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:750
+#: includes/class-ph-booking-checkout-decorator.php:863
+#: includes/addons/ph_bookings_month_picker.php:104
+msgid "Jul"
+msgstr "七月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:736
+#: includes/class-ph-booking-checkout-decorator.php:852
+#: includes/addons/ph_bookings_month_picker.php:90
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:65
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:132
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:71
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:123
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:41
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:80
+msgid "July"
+msgstr "七月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:749
+#: includes/class-ph-booking-checkout-decorator.php:862
+#: includes/addons/ph_bookings_month_picker.php:103
+msgid "Jun"
+msgstr "六月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:735
+#: includes/class-ph-booking-checkout-decorator.php:851
+#: includes/addons/ph_bookings_month_picker.php:89
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:64
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:131
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:70
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:122
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:40
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:79
+msgid "June"
+msgstr "六月"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:420
+msgid "Kindly choose at least one option and a maximum of three to save the settings."
+msgstr "请至少选择一个选项，最多三个选项来保存设置。"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:45
+msgid "Label"
+msgstr "標籤"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:269
+msgid "Last booking starts at :"
+msgstr "最後訂購開始於："
+
+#: includes/admin/views/html-ph-booking-product-admin-resources-matrix-row.php:14
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:28
+msgid "Let customer choose"
+msgstr "讓客戶選擇"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:451
+msgid "Locate the Search Availability Widget in your theme's widget section and add it to a desired widget area to enable the feature."
+msgstr "定位搜尋可用性 您主題的元件區域中的元件, 並加入到想要的元件區域以啟動此功能 ."
+
+#: includes/class-ph-booking-google-calendar.php:1599
+msgid "Location: "
+msgstr "地點："
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:232
+msgid "Make \"Notes\" Mandatory"
+msgstr "做「 注」"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:141
+msgid "Make all Assets unavailable by default"
+msgstr "默認情況下所有資產不可用"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:132
+msgid "Make all dates/blocks unavailable"
+msgstr "使所有日期/分段不可用"
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:68
+msgid "Make all dates/blocks unavailable by default"
+msgstr "默認情況下，使所有日期/分段均不可用"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:250
+msgid "Manually Sync"
+msgstr "手動同步"
+
+#: ph-bookings-appointments-woocommerce-premium.php:746
+#: includes/class-ph-booking-checkout-decorator.php:860
+#: includes/addons/ph_bookings_month_picker.php:100
+msgid "Mar"
+msgstr "三月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:732
+#: includes/class-ph-booking-checkout-decorator.php:848
+#: includes/addons/ph_bookings_month_picker.php:86
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:61
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:128
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:67
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:119
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:37
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:76
+msgid "March"
+msgstr "三月"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:95
+msgid "Mark as Paid"
+msgstr "標記為己付款"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:96
+msgid "Mark as Un-Paid"
+msgstr "標記為未付款"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:90
+msgid "Max"
+msgstr "最多"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:78
+msgid "Max Bookings per Block"
+msgstr "每分段的最大訂購數"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:185
+msgid "Max no of blocks available"
+msgstr "最多可用分段"
+
+#: ph-bookings-appointments-woocommerce-premium.php:702
+msgid "Max no of blocks available to book is %max_block"
+msgstr "可預訂的最大區塊數為 %max_block"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:144
+msgid "Maximum Duration"
+msgstr "最長期間"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:65
+msgid "Maximum number of participants allowed in a booking"
+msgstr "訂購允許的最大參加者人數"
+
+#: ph-bookings-appointments-woocommerce-premium.php:734
+#: ph-bookings-appointments-woocommerce-premium.php:748
+#: includes/class-ph-booking-checkout-decorator.php:850
+#: includes/addons/ph_bookings_month_picker.php:88
+#: includes/addons/ph_bookings_month_picker.php:102
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:63
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:130
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:69
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:121
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:39
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:78
+msgid "May"
+msgstr "五月"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:89
+msgid "Min"
+msgstr "最少"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:129
+msgid "Minimum Duration"
+msgstr "最短期間"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:194
+msgid "Minimum no of blocks required"
+msgstr "所需的最少塊數"
+
+#: ph-bookings-appointments-woocommerce-premium.php:779
+msgid "Minimum number of %pname required is %min"
+msgstr "所需的 %pname 的最小數量為 %min"
+
+#: ph-bookings-appointments-woocommerce-premium.php:517
+#: ph-bookings-appointments-woocommerce-premium.php:620
+msgid "Minimum number of participants required for a booking is (%min)"
+msgstr "預訂所需的最少參與者數為 (%min)"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:51
+msgid "Minimum number of participants required in a booking"
+msgstr "訂購所需的最少參加者人數"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:203
+msgid "Minimum participant"
+msgstr "最少參加人數"
+
+#: ph-bookings-appointments-woocommerce-premium.php:785
+msgid "minute"
+msgstr "分鐘"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:68
+#: includes/admin/views/html-ph-booking-product-admin-options.php:183
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:60
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:79
+msgid "Minutes(s)"
+msgstr "分鐘"
+
+#: includes/addons/ph_bookings_start_of_the_week.php:28
+#: includes/addons/ph_bookings_start_of_the_week.php:37
+#: includes/addons/ph_bookings_start_of_the_week.php:52
+#: includes/addons/ph_bookings_start_of_the_week.php:60
+#: includes/addons/ph_bookings_start_of_the_week.php:68
+#: includes/addons/ph_bookings_start_of_the_week.php:76
+#: includes/addons/ph_bookings_start_of_the_week.php:84
+#: includes/addons/ph_bookings_start_of_the_week.php:91
+#: includes/frondend/html-ph-booking-datepicker.php:570
+#: includes/frondend/class-ph-booking-calendar-strategy.php:858
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:591
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:737
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:899
+msgid "Mo"
+msgstr "週一"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:11
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:75
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:142
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:317
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:36
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:53
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:106
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:33
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:81
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:133
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:15
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:51
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:90
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:111
+msgid "Monday"
+msgstr "週一"
+
+#: includes/admin/views/html-calendar-month.php:12
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:620
+#: includes/admin/views/html-calendar-day.php:11
+msgid "Month"
+msgstr "月份"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:334
+msgid "Month Picker"
+msgstr "月份選擇器"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:625
+msgid "Month Text"
+msgstr "月份文字"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:72
+msgid "Month(s)"
+msgstr "月份"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:73
+msgid "MS Outlook Event Sync"
+msgstr "MS 展望事件同步"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:68
+msgid "MS Outlook Settings"
+msgstr "MS 展望設定"
+
+#: includes/admin/class-ph-booking-admin-pages.php:138
+msgid "MS Outlook Sync"
+msgstr "MS 展望同步"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:24
+msgid "Multiple Choice (Check box)"
+msgstr "多項選擇（複選框）"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:32
+msgid "Multiply all costs by number of participants"
+msgstr "將所有費用乘以參加者人數"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:271
+#: includes/emails/class-ph-booking-payment-for-customer.php:258
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:323
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:293
+#: includes/emails/class-ph-wc-email-booking-reminder.php:272
+#: includes/emails/class-ph-wc-email-booking-followup.php:270
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:310
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:228
+msgid "N/A"
+msgstr "N/A。"
+
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:220
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:221
+#: includes/templates/emails/ph-admin-booking-waiting-for-approval.php:37
+msgid "New customer order"
+msgstr "新顧客訂單"
+
+#: includes/templates/emails/ph-admin-booking-waiting-for-approval-plain.php:37
+msgid ""
+"New customer order\n"
+""
+msgstr ""
+"新客戶訂單\n"
+""
+
+#: includes/admin/views/html-ph-booking-admin-order.php:88
+msgid "Next"
+msgstr "下一個"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources-matrix-row.php:21
+#: includes/admin/views/html-ph-booking-product-admin-resources-matrix-row.php:28
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:157
+#: includes/admin/views/html-ph-booking-product-admin-persons-matrix-row.php:20
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:148
+msgid "No"
+msgstr "否"
+
+#: class-ph-bookings-translation-support.php:19
+msgid "no"
+msgstr "否"
+
+#: includes/admin/class-ph-booking-export-bookings.php:483
+msgid "No Bookings Found."
+msgstr "找不到預訂。"
+
+#: includes/admin/class-ph-booking-export-bookings.php:125
+#: includes/admin/class-ph-booking-export-bookings.php:594
+#: includes/admin/class-ph-booking-admin-reports-list.php:120
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:401
+msgid "No of Participants"
+msgstr "人數"
+
+#: includes/integrations/outlook/class-ph-bookings-outlook.php:230
+msgid "Not Signed in, First sign in to MS Outlook"
+msgstr "未簽署到 MS Outlook"
+
+#: includes/class-ph-booking-google-calendar.php:173
+msgid "Not Synced, First sync with Google Calendar"
+msgstr "未同步, 第一次同步與 Google 行事曆"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:124
+msgid "Note :  Please save the participants to be able to create the rules for every participant.<br>You can create a common rule for all participants using “Participant Total Count” or you could create a separate rule for every participant."
+msgstr "注意：請保存參與者，以便能夠為每個參與者創建規則。<br>您可以使用\"參與者總計數\"為所有參與者創建公共規則，也可以為每個參與者創建單獨的規則。"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:275
+msgid "Note : To override these timings for specific days, you can set the Availability Rules under <b>Booking Availability</b>."
+msgstr "注意：要在特定日期覆蓋這些時間，可以在“預訂可用性”下設置“可用性規則”。"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:175
+msgid "Note:  In case of conflicting rules, the top rule gets priority."
+msgstr "注意：如果規則出現衝突，最高規則將獲取優先順序。"
+
+#: ph-bookings-appointments-woocommerce-premium.php:754
+#: includes/class-ph-booking-checkout-decorator.php:867
+#: includes/addons/ph_bookings_month_picker.php:108
+msgid "Nov"
+msgstr "十一月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:740
+#: includes/class-ph-booking-checkout-decorator.php:856
+#: includes/addons/ph_bookings_month_picker.php:94
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:69
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:136
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:75
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:127
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:45
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:84
+msgid "November"
+msgstr "十一月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:777
+msgid "Number of %pname cannot exceed %pmax"
+msgstr "％pname的數量不能超過％pmax"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:392
+msgid "Number of Participants"
+msgstr "参加者"
+
+#: class-ph-bookings-translation-support.php:20
+#: includes/class-ph-booking-checkout-decorator.php:683
+#: includes/addons/class-ph-bookings-send-email-notifications.php:563
+#: includes/emails/class-ph-wc-email-booking-reminder.php:321
+#: includes/emails/class-ph-wc-email-booking-followup.php:312
+msgid "Number of persons"
+msgstr "人數"
+
+#: ph-bookings-appointments-woocommerce-premium.php:753
+#: includes/class-ph-booking-checkout-decorator.php:866
+#: includes/addons/ph_bookings_month_picker.php:107
+msgid "Oct"
+msgstr "十月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:739
+#: includes/class-ph-booking-checkout-decorator.php:855
+#: includes/addons/ph_bookings_month_picker.php:93
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:68
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:135
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:74
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:126
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:44
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:83
+msgid "October"
+msgstr "十月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:68
+msgid "Oops! You tried installing the premium version without deactivating and deleting the basic version. Kindly deactivate and delete Bookings and Appointments Woocommerce Extension and then try again"
+msgstr "哎呀！您試著安裝進階版本而不停用和刪除基本版本。請停用並刪除預訂和約會 WooCommerce 擴展， 然後重試"
+
+#: includes/class-ph-booking-ajax-interface.php:237
+#, php-format
+msgid "Oops!, %s is not available to book "
+msgstr "哎呀！%s 無法預訂"
+
+#: class-ph-bookings-translation-support.php:21
+#: includes/admin/class-ph-booking-export-bookings.php:567
+#: includes/admin/class-ph-booking-admin-reports-list.php:115
+#: includes/emails/class-ph-email-content.php:169
+#: includes/templates/emails/ph-admin-booking-waiting-for-approval.php:45
+#: includes/templates/emails/ph-admin-booking-cancelled.php:43
+msgid "Order"
+msgstr "訂單"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:398
+msgid "Order ID"
+msgstr "订单号"
+
+#: includes/class-ph-booking-google-calendar.php:402
+msgid "Order Item:"
+msgstr "訂單項目："
+
+#: includes/class-ph-booking-google-calendar.php:1868
+msgid "Order Item: #"
+msgstr "訂單項目： #"
+
+#: includes/class-ph-booking-google-calendar.php:1583
+#: includes/class-ph-booking-order-item-handler.php:104
+msgid "Order Placed"
+msgstr "訂單已下"
+
+#: includes/class-ph-booking-google-calendar.php:396
+msgid "Order:"
+msgstr "命令："
+
+#: includes/class-ph-booking-google-calendar.php:1868
+msgid "Order: #"
+msgstr "命令： ＃"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:150
+msgid "Outlook Calendar for Bookings"
+msgstr "訂閱的預覽行事曆"
+
+#: includes/class-ph-booking-checkout-decorator.php:93
+#: includes/admin/class-ph-bookings-calendar-admin.php:348
+#: includes/admin/class-ph-booking-admin-order.php:510
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:48
+#: includes/admin/views/html-ph-booking-settings-outlook.php:52
+msgid "Paid"
+msgstr "已付款"
+
+#: includes/admin/class-ph-bookings-calendar-admin.php:352
+msgid "Partially Paid"
+msgstr "部分付款"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:368
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:865
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:941
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1022
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:32
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:49
+#: includes/admin/views/html-ph-booking-product-admin-person-rule-matrix-row.php:6
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:395
+msgid "Participant Count"
+msgstr "參加人數"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:88
+msgid "Participant Label/Type"
+msgstr "參加者標籤/類型"
+
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:6
+msgid "Participant Total Count"
+msgstr "參加者總數"
+
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:9
+msgid "Participant Total Count With Block Count"
+msgstr "以分段計算的參加者總數"
+
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:7
+msgid "Participant Total Count With Custom Date"
+msgstr "自訂日期的參加者總數"
+
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:8
+msgid "Participant Total Count With Week Days"
+msgstr "以Week Days計算的參加者總數"
+
+#: includes/class-ph-booking-payment-gateway.php:21
+msgid "Pay the full amount after your booking is confirmed. You'll receive a confirmation email with payment details."
+msgstr "您下訂預約後，我們會先進行審核，確認受理預約您會收到繳款通知Email。"
+
+#: includes/class-ph-booking-payment-gateway.php:18
+msgid "Payment on Confirmation"
+msgstr "確認付款"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:92
+msgid "Per Participant Cost"
+msgstr "每位參加者費用"
+
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:45
+msgid "PH Booking Cancelled"
+msgstr "PH預訂取消"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:44
+msgid "PH Booking Cancelled For Admin"
+msgstr "管理員取消 PH 預訂"
+
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:48
+msgid "PH Booking Confirmed"
+msgstr "PH預訂證實"
+
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:45
+msgid "PH Booking Requires Confirmation"
+msgstr "pH預訂需要確認"
+
+#: includes/emails/class-ph-wc-email-booking-followup.php:37
+msgid "PH Bookings Followup"
+msgstr "PH預訂後續行動"
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:38
+msgid "PH Bookings Reminder"
+msgstr "PH預訂提醒"
+
+#: includes/emails/class-ph-booking-payment-for-customer.php:44
+msgid "PH Manual Bookings"
+msgstr ""
+"PH 手動預訂\n"
+""
+
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:31
+msgid "PH Waiting For Approval For Admin"
+msgstr "PH 等待管理員批准"
+
+#: includes/class-ph-booking-google-calendar.php:1636
+msgid "Phone: "
+msgstr "電話："
+
+#: ph-bookings-appointments-woocommerce-premium.php:764
+msgid "Pick a later end date"
+msgstr "請選擇較後完結日期"
+
+#: ph-bookings-appointments-woocommerce-premium.php:765
+msgid "Pick a later end time"
+msgstr "選擇後來的結局"
+
+#: includes/frondend/html-ph-booking-monthpicker.php:352
+msgid "Pick Month(s)"
+msgstr "請選擇月份"
+
+#: includes/emails/class-ph-email-content.php:167
+#: includes/templates/emails/ph-booking-payment-for-customer-html.php:54
+#: includes/templates/emails/ph-customer-booking-confirmed.php:54
+msgid "Please click below link to proceed with the payment "
+msgstr "請點擊下面的鏈接進行付款 "
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:136
+msgid "Please deactivate the <strong>Availability Search Widget Add-on</strong> to access the features in beta version."
+msgstr "請關閉 < strong > Available Search Widget add-on </strong > 以存取β版本中的功能 ."
+
+#: includes/class-ph-booking-google-calendar.php:1257
+msgid "Please enter the credentials"
+msgstr "請輸入憑證"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:64
+msgid "Please Note : Default Emails like “New Booking Order Emails, Booking Cancellation Emails and Booking Approval Emails are sent automatically when applicable, no configuration is required for them."
+msgstr "請注意：默認電子郵件（如“新訂購訂單電子郵件”，“訂購取消電子郵件”和“訂購批准電子郵件”）會在適用時自動發送，無需進行配置。"
+
+#: ph-bookings-appointments-woocommerce-premium.php:767
+msgid "Please pick a booking period"
+msgstr "請選擇日期"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:161
+msgid "Please Pick a Date"
+msgstr "請選擇日期"
+
+#: ph-bookings-appointments-woocommerce-premium.php:770
+msgid "Please Pick a End Dates."
+msgstr "請選擇一個完結日期。"
+
+#: includes/frondend/html-ph-booking-monthpicker.php:305
+msgid "Please Pick a Month"
+msgstr "請選擇一個月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:776
+msgid "Please pick a month"
+msgstr "請選擇一個月"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:177
+msgid "Please Pick a Time"
+msgstr "請選擇時間"
+
+#: ph-bookings-appointments-woocommerce-premium.php:709
+msgid "Please pick a Time"
+msgstr "請選擇時間"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:169
+msgid "Please Pick an End Date"
+msgstr "請選擇完結日期"
+
+#: ph-bookings-appointments-woocommerce-premium.php:706
+msgid "Please pick an end date"
+msgstr "請選擇結束日期"
+
+#: ph-bookings-appointments-woocommerce-premium.php:775
+msgid "Please pick an end month"
+msgstr "請選擇一個完結月份"
+
+#: ph-bookings-appointments-woocommerce-premium.php:774
+msgid "Please pick the end time"
+msgstr "請選擇一個完結時間"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:147
+msgid "Please retain the text in parenthesis() and used with % sign as is."
+msgstr "請保留括弧（）中的文本，並與 % s 一起使用。"
+
+#: ph-bookings-appointments-woocommerce-premium.php:704
+msgid "Please Select minimum %d blocks."
+msgstr "請選擇至少 %d 個區塊。"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:84
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:198
+msgid "Plugin Default"
+msgstr "插件默認"
+
+#. Author of the plugin
+msgid "PluginHive"
+msgstr "PluginHive"
+
+#: ph-bookings-appointments-woocommerce-premium.php:535
+#: ph-bookings-appointments-woocommerce-premium.php:638
+msgid "pm"
+msgstr "晚上"
+
+#: includes/addons/class-ph-bookings-send-email-notifications.php:533
+#: includes/emails/class-ph-email-content.php:250
+#: includes/templates/emails/ph-admin-booking-waiting-for-approval.php:64
+#: includes/templates/emails/ph-admin-booking-cancelled.php:62
+msgid "Price"
+msgstr "費用"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:764
+msgid "Primary Background"
+msgstr "主要背景"
+
+#: includes/addons/class-ph-bookings-send-email-notifications.php:532
+#: includes/admin/class-ph-booking-export-bookings.php:572
+#: includes/admin/class-ph-booking-admin-reports-list.php:116
+#: includes/emails/class-ph-email-content.php:249
+#: includes/templates/emails/ph-admin-booking-waiting-for-approval.php:61
+#: includes/templates/emails/ph-admin-booking-cancelled.php:59
+msgid "Product"
+msgstr "產品"
+
+#: includes/admin/class-ph-booking-export-bookings.php:91
+msgid "Product : "
+msgstr "產品 ： "
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:26
+msgid "Product Category Page"
+msgstr "產品類別"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:399
+msgid "Product Name"
+msgstr "产品名称"
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:76
+msgid "Provide Discounts or Special Prices by creating cost rules."
+msgstr "通過創建成本規則提供折扣或特殊價格。"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:121
+msgid "Provide Discounts or Special Prices for participants by creating participant rules."
+msgstr "通過創建參與者規則為參與者提供折扣或特價。"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:109
+msgid "Quantity"
+msgstr "數量"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:7
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:29
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:9
+msgid "Range of days"
+msgstr "日子範圍"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:6
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:28
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:8
+msgid "Range of months"
+msgstr "月份範圍"
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:90
+#: includes/admin/views/html-ph-booking-settings-assets.php:155
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:153
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:132
+msgid "Range Type"
+msgstr "範圍類型"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:97
+msgid "Re-sync google calender"
+msgstr "重新同步Google日曆"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:64
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:29
+msgid "Read more to know how to "
+msgstr "閱讀更多了解如何"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:61
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:26
+msgid "Read more to know how to set up "
+msgstr "閱讀更多了解如何設置"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:67
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:32
+msgid "Read more to know the "
+msgstr "閱讀更多以了解"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:244
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:201
+msgid "Recipient(s)"
+msgstr "收件者"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:103
+msgid "Redirect URI"
+msgstr "重定向 URI"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:93
+#, php-format
+msgid "Refer %s for further details."
+msgstr "有關更多詳細信息，請參考 %s。"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:133
+#: includes/admin/views/html-ph-booking-settings-outlook.php:167
+msgid "Refresh Calendar List"
+msgstr "刷新行事曆列表"
+
+#: includes/class-ph-booking-checkout-decorator.php:97
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:52
+#: includes/admin/views/html-ph-booking-settings-outlook.php:56
+msgid "Refunded"
+msgstr "退款"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:87
+msgid "Remaining Bookings"
+msgstr "剩餘訂購"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:93
+msgid "Remaining Bookings Text"
+msgstr "剩餘訂購文字"
+
+#: includes/admin/class-ph-booking-admin-pages.php:140
+msgid "Reminder and Follow up Emails"
+msgstr "提示及跟進電郵"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:66
+msgid "Reminder Email"
+msgstr "提示電郵"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:100
+msgid "Reminder Email Content"
+msgstr "提示電郵內容"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:92
+msgid "Reminder Email Subject"
+msgstr "提示電郵主題"
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:287
+msgid "Reminder Time"
+msgstr "提醒時間"
+
+#: includes/class-ph-booking-payment-gateway.php:20
+msgid "Request Confirmation"
+msgstr "待確認"
+
+#: includes/class-ph-booking-checkout-decorator.php:96
+#: includes/admin/class-ph-bookings-calendar-admin.php:351
+#: includes/admin/class-ph-booking-admin-order.php:513
+#: includes/admin/views/html-ph-booking-product-admin-options.php:195
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:51
+#: includes/admin/views/html-ph-booking-settings-outlook.php:55
+msgid "Requires Confirmation"
+msgstr "待確認"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:700
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:822
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:982
+msgid "Reset to Default"
+msgstr "重置為默認"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:401
+msgid "Reset to default"
+msgstr "重置為預設值"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:62
+msgid "Resource Cost (Optional)"
+msgstr "資源費用（選擇性）"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:33
+msgid "Resource Label"
+msgstr "資源標籤"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:61
+msgid "Resource Name/Label"
+msgstr "資源名稱/標籤"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:44
+msgid "Resource Selection is Mandatory"
+msgstr "資源選擇是強制性的"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:21
+msgid "Resource Type"
+msgstr "資源類型"
+
+#: includes/admin/class-ph-booking-product-manager.php:143
+#: includes/frondend/class-ph-booking-calendar-strategy.php:933
+msgid "Resources"
+msgstr "資源"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:97
+msgid "Restrict bookings to start only on certain days of the week"
+msgstr "限制訂購僅在一週的某些天數開始"
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:81
+msgid "Rule Type"
+msgstr "規則類型"
+
+#: includes/addons/ph_bookings_start_of_the_week.php:33
+#: includes/addons/ph_bookings_start_of_the_week.php:42
+#: includes/addons/ph_bookings_start_of_the_week.php:50
+#: includes/addons/ph_bookings_start_of_the_week.php:58
+#: includes/addons/ph_bookings_start_of_the_week.php:66
+#: includes/addons/ph_bookings_start_of_the_week.php:74
+#: includes/addons/ph_bookings_start_of_the_week.php:82
+#: includes/addons/ph_bookings_start_of_the_week.php:96
+#: includes/frondend/html-ph-booking-datepicker.php:575
+#: includes/frondend/class-ph-booking-calendar-strategy.php:863
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:596
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:742
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:904
+msgid "Sa"
+msgstr "週六"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:16
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:80
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:147
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:41
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:58
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:111
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:38
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:86
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:138
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:20
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:56
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:95
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:116
+msgid "Saturday"
+msgstr "週六"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:294
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:699
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:821
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:981
+msgid "Save Changes"
+msgstr "儲存變更"
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:114
+#: includes/admin/views/html-ph-booking-settings-assets.php:180
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:210
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:241
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:97
+msgid "Save changes"
+msgstr "儲存變更"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:248
+msgid "Save Interval"
+msgstr "儲存間隔"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:493
+msgid "Save Settings"
+msgstr "儲存設定"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:96
+msgid "Save the Product Settings once you create a New Asset in order to create an Asset Rule."
+msgstr "創建一項新資產後，請保存產品設定，以創建資產規則。"
+
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:16
+msgid "Seach here the available Bookings"
+msgstr "這裡有可用的訂書"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:361
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:881
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:957
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1038
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:248
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:254
+msgid "Search"
+msgstr "搜尋"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:302
+msgid "Search Bar"
+msgstr "搜尋列"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:93
+msgid "Search Filters"
+msgstr "搜尋過程"
+
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:48
+#, php-format
+msgid "Search results for: &ldquo;%1$s to %2$s&rdquo;"
+msgstr "搜尋結果：“%1$s 到 %2$s”"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:8
+msgid "Search Widget Title:"
+msgstr "搜尋元件 標題 :"
+
+#: includes/admin/class-ph-booking-export-bookings.php:93
+msgid "Select a product"
+msgstr "選擇一個產品"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:365
+#: includes/addons/booking-search-widget/booking-search-widget.php:366
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:891
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:892
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:971
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:972
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1048
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1049
+msgid "Select a time"
+msgstr "選擇時間"
+
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:940
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1021
+msgid "Select an Asset"
+msgstr "選擇資產"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:367
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:387
+msgid "Select an asset"
+msgstr "選擇資產"
+
+#: includes/frondend/class-ph-booking-calendar-strategy.php:950
+msgid "Select any"
+msgstr "選擇任意"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:122
+msgid "Select Google Calendar"
+msgstr "選擇谷歌行事曆"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:155
+msgid "Select Outlook Calendar"
+msgstr "選擇前景行事曆"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:202
+msgid "Select Participants"
+msgstr "選擇參與者"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:159
+msgid "Select the booking statuses to sync with your Google calendar. Leave empty to synchronize all booking statuses."
+msgstr "選擇要與您的 Google 行事曆同步的訂閱狀態 。 留空以同步所有訂閱狀態 ."
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:195
+msgid "Select the booking statuses to sync with your Outlook calendar. Leave empty to synchronize all booking statuses."
+msgstr "選擇要與您的 Outlook 行事曆同步的訂閱狀態 。 留空以同步所有訂閱狀態 ."
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:80
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:194
+msgid "Select the Email Template"
+msgstr "選擇電子郵件模板"
+
+#: includes/class-ph-booking-cart-decorator.php:196
+msgid "Selected blocks not available for "
+msgstr "所選區塊不可用於"
+
+#: includes/class-ph-booking-cart-decorator.php:344
+msgid "Selected blocks not available."
+msgstr "所選擇的分段未能提供。"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:95
+msgid "Selected by default"
+msgstr "默认选中"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:665
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:789
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:959
+msgid "Selected Date"
+msgstr "已選擇日期"
+
+#: includes/admin/views/html-ph-booking-admin-order-calender.php:98
+msgid "Send payment link email to customer."
+msgstr "將付款鏈接電子郵件發送給客戶。"
+
+#: ph-bookings-appointments-woocommerce-premium.php:752
+#: includes/class-ph-booking-checkout-decorator.php:865
+#: includes/addons/ph_bookings_month_picker.php:106
+msgid "Sep"
+msgstr "九月"
+
+#: ph-bookings-appointments-woocommerce-premium.php:738
+#: includes/class-ph-booking-checkout-decorator.php:854
+#: includes/addons/ph_bookings_month_picker.php:92
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:67
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:134
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:73
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:125
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:43
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:82
+msgid "September"
+msgstr "九月"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:55
+msgid "Set a booking window relative to today"
+msgstr "設置相對於今天的訂購窗口"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:27
+msgid "Set a fixed booking window"
+msgstr "設置一個固定訂購窗口"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:45
+msgid "Set a relative booking window"
+msgstr "設置相對預定窗口"
+
+#: ph-bookings-appointments-woocommerce-premium.php:795
+#: includes/class-ph-booking-payment-gateway.php:39
+#: includes/admin/class-ph-booking-admin-pages.php:58
+msgid "Settings"
+msgstr "設定"
+
+#: includes/emails/class-ph-email-content.php:303
+msgid "Shipping address"
+msgstr "運送地址"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:25
+msgid "Shop Page"
+msgstr "商店頁面"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:217
+msgid "Show Products Partially Unavailable Between The Search Interval"
+msgstr "顯示產品 搜尋間距中部分無法存取"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:125
+msgid "Sign in to MS Outlook"
+msgstr "簽署到 MS Outlook"
+
+#: ph-bookings-appointments-woocommerce-premium.php:768
+msgid "Since max bookings per block is %d and you have enabled 'each participant as a booking' max participants allowed is %d"
+msgstr "由於每個分段的最大訂購數目是%d，加上您啟用了「每個參與者視為一個訂購」，因此允許的最大參與者是%d"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:23
+msgid "Single Choice (Dropdown)"
+msgstr "單一選項（下拉式）"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:40
+msgid "Sold Out"
+msgstr "售出"
+
+#: includes/class-ph-booking-ajax-interface.php:208
+#, php-format
+msgid "Sorry! %1$s is not available for the selected slot %2$s to %3$s.<br>Please try a different slot or adjust your booking duration."
+msgstr "抱歉！所選時段 %2$s 至 %3$s 中沒有 %1$s 可用。 <br>請嘗試其他時段或調整您的預訂時間。"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:235
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:845
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:865
+msgid "Start Date"
+msgstr "開始日期"
+
+#: includes/frondend/html-ph-booking-monthpicker.php:318
+#: includes/frondend/html-ph-booking-monthpicker.php:331
+msgid "Start Month"
+msgstr "起始月份"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:251
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:174
+msgid "Start Time"
+msgstr "開始時間"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:262
+msgid "Start Two Way Sync"
+msgstr "開始雙向同步"
+
+#: includes/class-ph-booking-google-calendar.php:1268
+msgid "Status"
+msgstr "地位"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:223
+msgid "Stop Two Way Sync"
+msgstr "停止雙向同步"
+
+#: includes/addons/ph_bookings_start_of_the_week.php:27
+#: includes/addons/ph_bookings_start_of_the_week.php:43
+#: includes/addons/ph_bookings_start_of_the_week.php:51
+#: includes/addons/ph_bookings_start_of_the_week.php:59
+#: includes/addons/ph_bookings_start_of_the_week.php:67
+#: includes/addons/ph_bookings_start_of_the_week.php:75
+#: includes/addons/ph_bookings_start_of_the_week.php:83
+#: includes/addons/ph_bookings_start_of_the_week.php:97
+#: includes/frondend/html-ph-booking-datepicker.php:576
+#: includes/frondend/class-ph-booking-calendar-strategy.php:864
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:597
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:743
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:905
+msgid "Su"
+msgstr "週日"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:252
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:255
+#: includes/emails/class-ph-booking-payment-for-customer.php:237
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:302
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:272
+#: includes/emails/class-ph-wc-email-booking-reminder.php:261
+#: includes/emails/class-ph-wc-email-booking-followup.php:259
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:282
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:209
+msgid "Subject"
+msgstr "主題"
+
+#: includes/class-ph-booking-google-calendar.php:1218
+msgid "Successfully authenticated to google API"
+msgstr "已成功通過Google API的身份驗證"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:650
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:929
+msgid "Summary"
+msgstr "摘要"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:769
+msgid "Summary Box"
+msgstr "摘要框"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:655
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:774
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:934
+msgid "Summary Text"
+msgstr "摘要文字"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:17
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:81
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:148
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:316
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:35
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:52
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:112
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:39
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:87
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:139
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:21
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:57
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:96
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:117
+msgid "Sunday"
+msgstr "週日"
+
+#: ph-bookings-appointments-woocommerce-premium.php:794
+msgid "Support"
+msgstr "支援"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:426
+msgid "Swap Month & Year Format in Calendar Title"
+msgstr "交換日曆標題中的月份和年份格式"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:779
+msgid "Text"
+msgstr "文字"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:269
+#: includes/emails/class-ph-booking-payment-for-customer.php:256
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:321
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:291
+#: includes/emails/class-ph-wc-email-booking-reminder.php:270
+#: includes/emails/class-ph-wc-email-booking-followup.php:268
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:308
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:226
+msgid "Text to appear below the main email content."
+msgstr "文字顯示在主要電子郵件內容下方。"
+
+#: includes/addons/ph_bookings_start_of_the_week.php:31
+#: includes/addons/ph_bookings_start_of_the_week.php:40
+#: includes/addons/ph_bookings_start_of_the_week.php:48
+#: includes/addons/ph_bookings_start_of_the_week.php:56
+#: includes/addons/ph_bookings_start_of_the_week.php:64
+#: includes/addons/ph_bookings_start_of_the_week.php:79
+#: includes/addons/ph_bookings_start_of_the_week.php:87
+#: includes/addons/ph_bookings_start_of_the_week.php:94
+#: includes/frondend/html-ph-booking-datepicker.php:573
+#: includes/frondend/class-ph-booking-calendar-strategy.php:861
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:594
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:740
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:902
+msgid "Th"
+msgstr "週四"
+
+#: includes/templates/emails/ph-customer-booking-followup.php:39
+#, php-format
+msgid "Thank you for booking with %s.<br>Hope you enjoyed our services."
+msgstr "感謝您通過 %s 預訂。<br>希望您喜歡我們的服務。"
+
+#: includes/emails/class-ph-booking-payment-for-customer.php:47
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:51
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:95
+#: includes/emails/class-ph-email-content.php:159
+msgid "Thank you for booking with us"
+msgstr "謝謝您的訂購"
+
+#: includes/emails/class-ph-wc-email-booking-followup.php:120
+#: includes/emails/class-ph-wc-email-booking-followup.php:131
+msgid "Thanks for Booking with Us..!"
+msgstr "感謝您與我們預訂。"
+
+#: includes/templates/emails/ph-booking-payment-for-customer-html.php:42
+msgid "Thanks for placing your booking."
+msgstr "感謝您的預訂。"
+
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:163
+#: includes/emails/class-ph-booking-payment-for-customer.php:156
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:221
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:191
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:199
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:120
+msgid "Thanks for reading."
+msgstr "謝謝閱讀。"
+
+#: includes/emails/class-ph-email-content.php:161
+msgid "Thanks for shopping with us"
+msgstr "謝謝您的訂購"
+
+#: includes/admin/views/html-ph-booking-product-admin-assets.php:47
+msgid "The assets get displayed in this label "
+msgstr "資產顯示在此標籤中 "
+
+#: includes/templates/emails/ph-admin-booking-cancelled.php:37
+#, php-format
+msgid "The Booking for the order #%s has been cancelled."
+msgstr "订单 #%s 的预订已被取消。"
+
+#: includes/templates/emails/ph-admin-booking-cancelled-plain.php:35
+#, php-format
+msgid ""
+"The Booking for the order #%s has been cancelled.\n"
+""
+msgstr ""
+"訂單 #%s 的預訂已被取消。\n"
+""
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:255
+#, php-format
+msgid "The next import is scheduled on <code>%s</code>"
+msgstr "下次導入預定於 <code>%s</code>"
+
+#: includes/admin/class-ph-booking-order-manager.php:357
+msgid "The order is canceled"
+msgstr "訂單已取消"
+
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:212
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:213
+msgid "The order is waiting for approval"
+msgstr "订单正在等待批准"
+
+#: includes/class-ph-booking-payment-gateway.php:62
+msgid "The order is waiting for approval from admin"
+msgstr "訂單正在等待管理員的批准"
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:90
+msgid "The tags/information mentioned in box will be displayed in your iCalendar. You have an option to remove any tags that you do not wish to add to your iCalendar. Similarly, you could add any tags that are missing from the list given below."
+msgstr "框中提及的標籤/ 資訊會顯示在您的 iCalendar 中 。 您可以移除您不想加入的 iCalendar 任何標籤 。 相似的, 您可以加入以下清單中缺少的任何標籤 ."
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:242
+msgid ""
+"The tags/information mentioned in box will be displayed in your MS Outlook Calendar.\n"
+"\t\t\t\t\t\tYou have an option to remove any tags that you do not wish to add to your iCalendar.\n"
+"\t\t\t\t\t\tSimilarly, you could add any tags that are missing from the list given below."
+msgstr ""
+"框中提及的標籤/ 資訊會在您的MS Outlook 行事曆中顯示 。\n"
+"您可以移除您不想加入的 iCalendar 任何標籤 。\n"
+"相似的, 您可以加入以下清單中缺少的任何標籤 ."
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:194
+msgid "The tags/information mentioned in box will be synced and displayed in your calendar. You have an option to remove any tags that you do not wish to sync with your calendar. Similarly, you could add any tags that are missing from the list given below.  Please ensure you maintain the html tags for each detail so that the formatting is maintained."
+msgstr "框中提及的標籤/ 資訊會同步並顯示在您的行事曆中 。 您可以移除您不想與行事曆同步的任何標籤 。 相似的, 您可以加入以下清單中缺少的任何標籤 。 請確保您保持每項細節的 html 標籤, 以便保持格式化 ."
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:145
+msgid "The text given below is displayed by the plugin by default. You can change the text messages as per your preference."
+msgstr "默認情況下，本外掛將顯示以下文本。您可以根據自己的喜好更改訊息。"
+
+#: includes/admin/views/html-ph-booking-settings-availability.php:47
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:123
+msgid "There are two ways you can set the availability rules"
+msgstr "您可以通過兩種方式設置規則可用性"
+
+#: ph-bookings-appointments-woocommerce-premium.php:531
+#: ph-bookings-appointments-woocommerce-premium.php:634
+msgid "There is a maximum of %available_slot place remaining"
+msgstr "最多剩餘 %available_slot 名額"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:257
+msgid "There is no import scheduled."
+msgstr "沒有排定的導入。"
+
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:46
+msgid "These emails are sent when a booking requires confirmation from admin"
+msgstr "當預訂需要管理確認時，這些電子郵件將發送"
+
+#: includes/admin/class-ph-booking-admin-pages.php:122
+msgid "These settings are global and apply to all bookable products, but they are optional. To configure specific settings for an individual bookable product, please visit the product’s settings."
+msgstr "這些設定是全球性的, 适用于所有可訂閱的產品, 但它們是可選擇的 。 要設定可訂閱的產品的具体設定, 請參考產品的設定 ."
+
+#. 1: subject
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:254
+#: includes/emails/class-ph-booking-payment-for-customer.php:240
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:305
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:275
+#: includes/emails/class-ph-wc-email-booking-reminder.php:263
+#: includes/emails/class-ph-wc-email-booking-followup.php:261
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:285
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:211
+msgid "This controls the email subject line. Leave blank to use the default subject.<br>Available placeholders: {site_title}, {site_address}, {site_url}, {order_date}, {order_id}, {order_number}, {order_billing_full_name}"
+msgstr "這控制電子郵件主題行。留空以使用預設主題。<br>可用佔位符：{site_title}、{site_address}、{site_url}、{order_date}、{order_id}、{order_number}、{order_billing_full_name}"
+
+#. 1: heading
+#: includes/emails/class-ph-wc-admin-email-booking-cancelled.php:262
+#: includes/emails/class-ph-booking-payment-for-customer.php:249
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:314
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:284
+#: includes/emails/class-ph-wc-email-booking-reminder.php:255
+#: includes/emails/class-ph-wc-email-booking-followup.php:253
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:301
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:219
+msgid "This controls the main heading contained within the email notification. Leave blank to use the default heading."
+msgstr "這控制了電子郵件通知中包含的主要標題。留空白以使用默認標題。"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources.php:35
+msgid "This description will be displayed with the Resource selection."
+msgstr "此描述將與資源選擇一起顯示。"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:437
+msgid "This feature is currently in development and may not function as expected in all scenarios. Please report any issues you encounter. We are actively working to improve the functionality and reliability of this feature. Please note that this feature is currently not tested with our add-ons."
+msgstr "此功能目前仍在研發之中, 可能無法像所有預期一樣運作 。 遇到任何問題 請報告 我們正积极努力改善此功能和可靠性。 请注意, 目前此功能尚未用我們的加法實驗 ."
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:19
+msgid "This is a one-off cost that is applied to the entire booking."
+msgstr "這是一次性費用，適用於整個訂購。"
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:30
+msgid "This is the cost applied to each block booked. for Eg : When booking period is 1 day and cost per block is $10, the total cost for booking 10 days is $100."
+msgstr "這是應用於每個已訂購分段的費用。例如：當訂購期為1天且每分段費用為$10，預訂10天的總費用為$100。"
+
+#: includes/class-ph-booking-payment-gateway.php:43
+msgid "This payment gateway does not need to config"
+msgstr "此支付網關無需配置"
+
+#: includes/class-ph-booking-payment-gateway.php:42
+msgid "This payment method is used those orders has booking products and pay later (Need confirmation)"
+msgstr "如果訂單中有訂購產品並稍後付款，則使用此付款方式（需要確認）"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:63
+msgid "This section allows you to configure Reminder and Follow up Emails for your bookings. Please configure them below :"
+msgstr "本部分允許您為訂購配置提示和跟進電子郵件。請在下面配置它們："
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:101
+msgid "This text is displayed below each date or time block For Eg: 10 Left"
+msgstr "此文本顯示在每個日期或時間塊下方，例如：剩餘10"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:123
+msgid "This text is displayed below fully booked date or time slot."
+msgstr "此文字顯示在全訂日期或時間區以下 ."
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:61
+msgid "This text will be displayed on the .ics file download button on the customer's My Account Page"
+msgstr "此文字將顯示在客戶的 My 帳號頁面上的 .ics 檔案下載按鈕"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:327
+msgid "This will be the first weekday in the calendar."
+msgstr "這是月曆中每星期的第一日。"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:369
+msgid "This will reset all the settings to default. Click 'Ok' to proceed."
+msgstr "這會重新設定所有設定值以預設 。 點選 Ok 繼續 ."
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:14
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:78
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:145
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:39
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:56
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:109
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:36
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:84
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:136
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:18
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:54
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:93
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:114
+msgid "Thursday"
+msgstr "週四"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:227
+msgid "Time Interval"
+msgstr "時間間隔"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:170
+msgid "Time Interval in Minutes"
+msgstr "分鐘內的時間间隔"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:10
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:32
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:14
+msgid "Time Range (all week)"
+msgstr "時間範圍（整週）"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:8
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:30
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:13
+msgid "Time Ranges"
+msgstr "時間範圍"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:348
+msgid "Time Zone Conversion"
+msgstr "時區轉換"
+
+#: includes/admin/class-ph-booking-export-bookings.php:581
+#: includes/admin/class-ph-booking-admin-reports-list.php:119
+#: includes/addons/booking-search-widget/booking-search-widget.php:364
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:890
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:970
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1047
+#: includes/admin/views/html-ph-booking-settings-availability.php:92
+#: includes/admin/views/html-ph-booking-settings-assets.php:157
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:155
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:54
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:71
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:83
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:134
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:363
+msgid "To"
+msgstr "至"
+
+#: ph-bookings-appointments-woocommerce-premium.php:759
+msgid "to"
+msgstr "至"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:360
+msgid "To Date"
+msgstr "至日期"
+
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:376
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:379
+msgid "To Time"
+msgstr "到時間"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:49
+msgid "Today"
+msgstr "今天"
+
+#: includes/class-ph-booking-checkout-decorator.php:441
+#: includes/class-ph-booking-checkout-decorator.php:684
+#: includes/class-ph-booking-google-calendar.php:737
+#: includes/class-ph-booking-google-calendar.php:1649
+#: includes/addons/class-ph-bookings-send-email-notifications.php:562
+#: includes/admin/class-ph-booking-admin-order.php:361
+#: includes/admin/class-ph-booking-order-manager.php:306
+#: includes/admin/class-ph-booking-order-manager.php:607
+#: includes/emails/class-ph-wc-email-booking-reminder.php:320
+#: includes/emails/class-ph-wc-email-booking-followup.php:311
+msgid "Total Number of Participants"
+msgstr "參與者總數"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:53
+msgid "Total number of Participants can not be lesser than this value."
+msgstr "參加者總數不能小於此值。"
+
+#: includes/admin/views/html-ph-booking-product-admin-persons.php:67
+msgid "Total number of Participants will not exceed this value."
+msgstr "參加者總數不會超過此值。"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:211
+msgid "Total participant"
+msgstr "總人數"
+
+#: ph-bookings-appointments-woocommerce-premium.php:516
+#: ph-bookings-appointments-woocommerce-premium.php:619
+msgid "Total participant (%total) exceeds maximum allowed participant (%max)"
+msgstr "参与者总数 (%total) 超过最大允许参与者 (%max)"
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:64
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:29
+msgid "Troubleshoot Google Calendar Sync"
+msgstr "故障排除Google日曆同步"
+
+#: includes/addons/ph_bookings_start_of_the_week.php:29
+#: includes/addons/ph_bookings_start_of_the_week.php:38
+#: includes/addons/ph_bookings_start_of_the_week.php:46
+#: includes/addons/ph_bookings_start_of_the_week.php:61
+#: includes/addons/ph_bookings_start_of_the_week.php:69
+#: includes/addons/ph_bookings_start_of_the_week.php:77
+#: includes/addons/ph_bookings_start_of_the_week.php:85
+#: includes/addons/ph_bookings_start_of_the_week.php:92
+#: includes/frondend/html-ph-booking-datepicker.php:571
+#: includes/frondend/class-ph-booking-calendar-strategy.php:859
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:592
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:738
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:900
+msgid "Tu"
+msgstr "週二"
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:12
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:76
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:143
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:37
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:54
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:107
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:34
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:82
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:134
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:16
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:52
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:91
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:112
+msgid "Tuesday"
+msgstr "週二"
+
+#: class-ph-bookings-translation-support.php:22
+msgid "un-paid"
+msgstr "未付款"
+
+#: includes/class-ph-booking-checkout-decorator.php:94
+#: includes/class-ph-booking-google-calendar.php:948
+#: includes/admin/class-ph-bookings-calendar-admin.php:349
+#: includes/admin/class-ph-booking-admin-order.php:511
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:49
+#: includes/admin/views/html-ph-booking-settings-outlook.php:53
+msgid "Unpaid"
+msgstr "未付款"
+
+#: includes/admin/views/html-ph-booking-product-admin-options.php:180
+msgid "Until"
+msgstr "直至"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:83
+msgid "Use assets in following cases:"
+msgstr "在以下情況下使用資產："
+
+#: includes/admin/views/html-ph-booking-settings-google-calendar.php:180
+msgid "Use the following Tags to customize your Google Calendar Event Title."
+msgstr "使用以下標籤自定義您的Google日曆事件標題。"
+
+#: includes/admin/views/html-ph-booking-product-admin-icalendar.php:76
+msgid "Use the following Tags to customize your iCalendar Event Title."
+msgstr "使用以下標籤定制您的 iCalendar 事件標題 ."
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:220
+msgid "Use the following Tags to customize your MS Outlook Event Title."
+msgstr "使用以下標籤來自訂您的 MS Outlook 事件標題 ."
+
+#: includes/admin/views/html-ph-booking-admin-order.php:14
+msgid "User"
+msgstr "用戶"
+
+#: includes/admin/class-ph-booking-admin-order.php:128
+msgid "User & Order ID combination not found. Please enter the correct details and try again."
+msgstr "找不到用戶和訂單ID組合，請輸入正確的詳細信息，然後重試"
+
+#: includes/class-ph-booking-google-calendar.php:1254
+msgid "Validate the credentials with google API"
+msgstr "使用Google API驗證憑據"
+
+#: ph-bookings-appointments-woocommerce-premium.php:782
+msgid "Value must be greater than or equal to 1"
+msgstr "價值必須大於或等於1"
+
+#: ph-bookings-appointments-woocommerce-premium.php:781
+msgid "Value must be less than or equal to Max Bookings per Block (%d)"
+msgstr "價值必須小於或等於每個塊最大預訂（%d）"
+
+#: ph-api-manager/ph_api_manager_bookings.php:502
+msgid "Verify the API key details again and activate the API Key by clicking Save Changes"
+msgstr "再次檢查 API 金鑰的細節, 並點擊 保存變更以啟動 API 金鑰"
+
+#: includes/class-ph-booking-cart-decorator.php:425
+msgid "View cart"
+msgstr "瀏覽購物車"
+
+#: includes/addons/booking-search-widget/booking-search-widget.php:178
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:956
+#: includes/addons/booking-search-widget/class-ph-booking-search-widget.php:1037
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:83
+msgid "View Product"
+msgstr "檢視產品"
+
+#: includes/emails/class-ph-wc-admin-email-booking-waiting-for-approval.php:32
+msgid "Waiting For Approval emails are sent when need requires confirmation for Product."
+msgstr "当需要确认产品时，会发送等待批准电子邮件"
+
+#: includes/addons/ph_bookings_start_of_the_week.php:30
+#: includes/addons/ph_bookings_start_of_the_week.php:39
+#: includes/addons/ph_bookings_start_of_the_week.php:47
+#: includes/addons/ph_bookings_start_of_the_week.php:55
+#: includes/addons/ph_bookings_start_of_the_week.php:70
+#: includes/addons/ph_bookings_start_of_the_week.php:78
+#: includes/addons/ph_bookings_start_of_the_week.php:86
+#: includes/addons/ph_bookings_start_of_the_week.php:93
+#: includes/frondend/html-ph-booking-datepicker.php:572
+#: includes/frondend/class-ph-booking-calendar-strategy.php:860
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:593
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:739
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:901
+msgid "We"
+msgstr "週三"
+
+#: includes/emails/class-ph-email-content.php:158
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:47
+msgid "We have received your booking"
+msgstr "我們已收到您的訂購"
+
+#: includes/emails/class-ph-wc-email-booking-followup.php:157
+msgid "We look forward to serving you again.<br><br>With Regards,<br>Admin"
+msgstr "我們期待再次為您服務。<br><br>此致，<br>管理員"
+
+#: includes/emails/class-ph-wc-email-booking-reminder.php:159
+msgid "We look forward to serving you.<br>Regards<br>Admin"
+msgstr "我們期待為您服務。<br>問候<br>管理員"
+
+#: includes/templates/emails/ph-booking-payment-for-customer-html.php:43
+msgid "We request you to go through the booking details attached in this email"
+msgstr ""
+"我們要求您仔細閱讀本電子郵件中所附的預訂詳細信息\n"
+""
+
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:13
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:77
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:144
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:38
+#: includes/admin/views/html-ph-booking-product-admin-partcipant-pricing-rule-matrix-row.php:55
+#: includes/admin/views/html-ph-booking-product-admin-availability.php:108
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:35
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:83
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:135
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:17
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:53
+#: includes/admin/views/html-ph-booking-product-admin-pricing-matrix-row.php:92
+#: includes/addons/booking-search-widget/includes/ph-search-widget-admin-form-html.php:113
+msgid "Wednesday"
+msgstr "週三"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:312
+msgid "Week Starts On"
+msgstr "每週開始在"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:630
+msgid "Weekdays"
+msgstr "平日"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:635
+msgid "Weekdays Text"
+msgstr "平日文字"
+
+#: includes/admin/views/html-ph-booking-settings-outlook.php:278
+msgid "When enabled, the customer will be added as an attendee for the event in Outlook Calendar, and Outlook will send an email invitation to the customer."
+msgstr "啟用後, 客戶會被加入Outlook 曆中, 作為此事件的參加者, Outlook會向客戶發送電子邀請函 ."
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:85
+msgid "When Product A is booked, you need product B to be automatically booked for the same time."
+msgstr "在訂購產品A後，您需要產品B同時被自動訂購。"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:86
+msgid "When you have a staff that handles multiple services. When Service A is booked, other services from the same staff are unavailable to book for the same time."
+msgstr "當您擁有負責多項服務的員工時。訂購服務A後，無法同時訂購同一員工的其他服務。"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:88
+msgid "When you have multiple resource types with different quantities. For Eg : Types of Kayaks to be chosen by the user to book."
+msgstr "當您具有不同數量的多種資源類型時。例如：用戶選擇要訂購的皮划艇類型。"
+
+#: includes/admin/views/html-ph-booking-settings-assets.php:87
+msgid "When you have multiple staff with varying availability or price."
+msgstr "當您有多位員工的可用性或價格各不相同。"
+
+#: includes/admin/views/html-ph-booking-product-admin-pricing.php:51
+msgid "Will be displayed as a suffix with Display Cost."
+msgstr "將顯示展示費用的後綴。"
+
+#: includes/admin/class-ph-booking-admin-pages.php:118
+msgid "WooCommerce Bookings and Appointments"
+msgstr "WooCommerce Bookings and Appointments"
+
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:85
+#: includes/admin/views/html-ph-booking-settings-email-customiser.php:199
+msgid "WooCommerce Emails"
+msgstr "WooCommerce電子郵件"
+
+#: includes/admin/views/html-ph-booking-product-admin-resources-matrix-row.php:22
+#: includes/admin/views/html-ph-booking-product-admin-resources-matrix-row.php:29
+#: includes/admin/views/html-ph-booking-product-admin-availability-matrix-row.php:158
+#: includes/admin/views/html-ph-booking-product-admin-persons-matrix-row.php:21
+#: includes/admin/views/html-ph-booking-settings-assets-availability-matrix-row.php:149
+msgid "Yes"
+msgstr "是"
+
+#: class-ph-bookings-translation-support.php:18
+#: includes/class-ph-booking-checkout-decorator.php:481
+#: includes/class-ph-booking-cart-decorator.php:842
+msgid "yes"
+msgstr "是"
+
+#: includes/templates/emails/ph-admin-booking-waiting-for-approval.php:38
+msgid "You have received an order. The order is waiting for approval. The order is as follows"
+msgstr "您已收到订单。该订单正在等待批准。顺序如下"
+
+#: includes/admin/views/html-ph-booking-settings-display-customiser.php:419
+msgid "You'll have the option to personalize your admin calendar, choosing to display essential details like order ID, product name, customer name, and the number of participants."
+msgstr "您可以选择个性化您的管理日历，选择显示订单 ID、产品名称、客户名称和参与者数量等基本详细信息。"
+
+#: includes/emails/class-ph-email-content.php:233
+#: includes/templates/emails/ph-customer-booking-cancelled.php:37
+#, php-format
+msgid "Your booking at %s has been marked as %s."
+msgstr "您在 %s 的訂購已標示為 %s."
+
+#: includes/emails/class-ph-email-content.php:127
+#, php-format
+msgid "Your Booking at %s is %s"
+msgstr "您在 %s 的訂購為 %s"
+
+#: includes/emails/class-ph-email-content.php:230
+#: includes/templates/emails/ph-customer-booking-confirmed.php:43
+#, php-format
+msgid "Your booking at %s is approved."
+msgstr "您在 %s 的訂購已通過。"
+
+#: includes/emails/class-ph-email-content.php:160
+#, php-format
+msgid "Your booking at %s is cancelled"
+msgstr "您在 %s 的訂購已取消"
+
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:47
+#: includes/emails/class-ph-wc-email-booking-cancelled.php:48
+msgid "Your booking at {site_title} is cancelled"
+msgstr "您在 {site_title} 的预订已取消"
+
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:53
+#: includes/emails/class-ph-wc-email-booking-confirmation.php:96
+msgid "Your Booking at {site_title} is confirmed"
+msgstr "您在 {site_title} 的预订已确认"
+
+#: includes/class-ph-booking-payment-gateway.php:32
+msgid "Your booking has been approved, Thank you."
+msgstr "您的訂購已被確認，謝謝。"
+
+#: includes/emails/class-ph-booking-payment-for-customer.php:49
+msgid "Your Booking Is Placed Successfully"
+msgstr "您的訂購成功完成"
+
+#: includes/class-ph-booking-payment-gateway.php:34
+msgid "Your booking is waiting for approval"
+msgstr "您的訂購正在等待審核"
+
+#: includes/emails/class-ph-email-content.php:130
+#, php-format
+msgid "Your Booking request at %s is awaiting approval"
+msgstr "您在 %s 的預訂請求正在等待批准"
+
+#: includes/emails/class-ph-email-content.php:227
+#: includes/templates/emails/ph-customer-booking-requires-confirmation.php:38
+#, php-format
+msgid "Your Booking request at %s is awaiting approval."
+msgstr "您在 %s 的預訂請求正在等待批准。"
+
+#: includes/emails/class-ph-wc-email-booking-requires-confirmation.php:48
+msgid "Your Booking request at {site_title} is awaiting approval"
+msgstr "您在 {site_title} 的预订请求正在等待批准"

@@ -1,0 +1,138 @@
+.wp-admin.post-type-product.taxonomy-product_brand #addtag .form-field.term-slug-wrap, 
+.wp-admin.post-type-product.taxonomy-product_brand #addtag .form-field.term-parent-wrap, 
+.wp-admin.post-type-product.taxonomy-product_brand #addtag .form-field.term-description-wrap {
+	display: none;
+}
+
+.wp-admin.post-type-product.taxonomy-product_brand #brand_status {
+	width: 50px;
+}
+
+.wp-admin.post-type-product.taxonomy-product_brand #posts {
+	width: 40px;
+}
+
+.wp-admin.edit-product.post-type-product #wpseo-filter,
+.wp-admin.edit-product.post-type-product #wpseo-readability-filter, 
+.wp-admin.edit-product.post-type-product #dropdown_product_type, 
+.wp-admin.edit-product.post-type-product select[name="stock_status"] {
+	display: none;
+}
+
+/* Product Edit Page CSS Start */
+
+.wp-admin.post-type-product.product #elementor-switch-mode,
+.wp-admin.post-type-product.product .handle-order-higher, 
+.wp-admin.post-type-product.product .handle-order-lower,
+.wp-admin.post-type-product.product #yoast-seo-publishbox-section {
+	display: none;
+}
+
+.wp-admin.post-type-product.product #acf_after_title-sortables {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.wp-admin.post-type-product.product #acf_after_title-sortables > div {
+	width: 100%;
+}
+
+.wp-admin.post-type-product.product #acf_after_title-sortables #product_catdiv, 
+.wp-admin.post-type-product.product #acf_after_title-sortables #product_branddiv {
+	width: 49%;
+}
+
+.wp-admin.post-type-product.product .acf-repeater.-table .acf-table {
+	display: block;
+}
+
+.wp-admin.post-type-product.product .acf-repeater.-table .acf-table tbody {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.wp-admin.post-type-product.product .acf-repeater.-table .acf-table tbody tr.acf-row {
+	width: 33.3333%;
+	display: flex;
+}
+
+.wp-admin.post-type-product.product .acf-repeater.-table .acf-table tbody tr.acf-row .acf-row-handle.order {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.wp-admin.post-type-product.product .acf-repeater.-table .acf-table tbody tr.acf-row .acf-row-handle.remove {
+	width: 85px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	grid-gap: 10px;
+}
+
+.wp-admin.post-type-product.product .acf-repeater.-table .acf-table tbody tr.acf-row .acf-row-handle.remove .acf-icon {
+	position: static;
+	margin: 0;
+}
+
+.wp-admin.post-type-product.product .product-data-wrapper.type_box label[for="_virtual"], 
+.wp-admin.post-type-product.product .product-data-wrapper.type_box label[for="_downloadable"],
+.wp-admin.post-type-product.product #woocommerce-product-data .form-field._sale_price_field,
+.wp-admin.post-type-product.product #woocommerce-product-data #general_product_data > .options_group:last-child,
+.wp-admin.post-type-product.product #woocommerce-product-data .product_data_tabs.wc-tabs .inventory_options,
+.wp-admin.post-type-product.product #woocommerce-product-data .product_data_tabs.wc-tabs .shipping_options,
+.wp-admin.post-type-product.product #woocommerce-product-data .product_data_tabs.wc-tabs .linked_product_options, 
+.wp-admin.post-type-product.product #woocommerce-product-data .product_data_tabs.wc-tabs .attribute_options,
+.wp-admin.post-type-product.product #woocommerce-product-data .product_data_tabs.wc-tabs .advanced_options,
+.wp-admin.post-type-product.product #woocommerce-product-data .product_data_tabs.wc-tabs .customfields_options, 
+.wp-admin.post-type-product.product #woocommerce-product-data .product_data_tabs.wc-tabs .marketplace-suggestions_options {
+	display: none !important;
+}
+
+.wp-admin.post-type-product.product .product-data-wrapper.type_box label[for="product-type"] {
+	border: none !important;
+	padding-right: 0 !important;
+	margin-right: 0 !important;
+}
+
+.wp-admin.post-type-product.product #woocommerce-product-data #general_product_data > .options_group {
+	border: none;
+}
+
+.wp-admin.post-type-product.product .acf-repeater.-block .acf-repeater .acf-table {
+	display: block;
+}
+
+.wp-admin.post-type-product.product .acf-repeater.-block .acf-repeater .acf-table tbody {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.wp-admin.post-type-product.product .acf-repeater.-block .acf-repeater .acf-table tbody tr.acf-row {
+	width: 33.3333%;
+	display: flex;
+}
+
+.wp-admin.post-type-product.product .acf-repeater.-block .acf-repeater .acf-table tbody tr.acf-row .acf-row-handle.order {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.wp-admin.post-type-product.product .acf-repeater.-block .acf-repeater .acf-table tbody tr.acf-row .acf-row-handle.remove {
+	width: 85px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	grid-gap: 10px;
+}
+
+.wp-admin.post-type-product.product .acf-repeater.-block .acf-repeater .acf-table tbody tr.acf-row .acf-row-handle.remove .acf-icon {
+	position: static;
+	margin: 0;
+}
+
+/* Product Edit Page CSS End */
